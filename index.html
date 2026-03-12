@@ -264,7 +264,7 @@
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; overflow-x: hidden; max-width: 100%; }
 
     body {
       background: var(--black);
@@ -1177,8 +1177,44 @@
       .nav-links.open { display: flex; }
       .nav-links li a { font-size: 28px; font-family: var(--font-display); letter-spacing: .1em; }
       .nav-links .nav-cta { font-size: 14px; font-family: var(--font-mono); padding: 16px 32px; border: 1px solid var(--red); background: var(--red); color: var(--white); letter-spacing: .14em; text-transform: uppercase; }
+
+      /* ── MOBILE FONT-SIZE FIX: Google Search Console "Text zu klein" (min 12px) */
+      .hero-tag, .pill, .marquee-item, .section-tag, .svc-tag, .pkg-tag,
+      .pkg-sub, .pkg-feat, .process-num, .process-desc, .wc-label,
+      .guarantee-sep, .guarantee-item, .why-f-title, .why-f-desc,
+      .foot-tagline, .foot-legal, .legal-data-key, .legal-data-val,
+      .stat-label, .faq-q, .faq-a-inner, .btn-primary, .btn-secondary, .btn-outline,
+      nav a, .nav-links a, .sticky-cta-text { font-size: 12px !important; min-font-size: 12px; }
+
+      /* Überschriften im Mobile lesbar halten */
+      .svc-title { font-size: 18px !important; }
+      .pkg-name { font-size: 22px !important; }
     }
   </style>
+
+  <!-- VideoObject structured data — fixes Google Search Console warnings:
+       "contentUrl oder embedUrl fehlt", "uploadDate ungültig", "Zeitzone fehlt" -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Polished Media – Professionelles Audio Mastering & 4K Video Produktion",
+    "description": "Polished ist ein professionelles Studio für Audio Mastering, Musik Mastering, Stem Mastering, 4K Video Produktion, Cover Art Design, Webdesign und Fotorestaurierung. Weltweit online verfügbar.",
+    "thumbnailUrl": "https://polished.media/og-image.jpg",
+    "uploadDate": "2024-01-01T00:00:00+01:00",
+    "duration": "PT1M30S",
+    "contentUrl": "https://polished.media/showreel.mp4",
+    "embedUrl": "https://www.youtube.com/embed/polished-studio-reel",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Polished",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://polished.media/logo.png"
+      }
+    }
+  }
+  </script>
 </head>
 
 <body>
