@@ -2874,13 +2874,13 @@ Gesendet via Kontaktformular auf polished.media`;
 /* ================================================================ */
 /* GOOGLE ANALYTICS 4 — Consent-aware loader                       */
 /* ================================================================ */
-const GA_ID = 'G-CP8GKKDKCV';
+const GA_ID = 'G-XXXXXXXXXX'; // ⚠️ Hier deine echte GA4 Mess-ID einsetzen
 const CONSENT_KEY = 'polished_analytics_consent';
 const banner = document.getElementById('cookieBanner');
 
 function loadGA() {
-  // Skip if already loaded
-  if (window.gtag) return;
+  // Skip if already loaded or placeholder ID
+  if (window.gtag || GA_ID === 'G-XXXXXXXXXX') return;
   const s = document.createElement('script');
   s.async = true;
   s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
