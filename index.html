@@ -1565,6 +1565,87 @@ footer { background: #050505; padding: 80px 32px 40px; border-top: 1px solid var
   letter-spacing: 0.05em;
 }
 
+/* === COOKIE BANNER === */
+.cookie-banner {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--bg-elevated);
+  border: 1px solid var(--accent);
+  padding: 28px 32px;
+  z-index: 150;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 40px var(--accent-glow);
+  transform: translateY(120%);
+  transition: transform 0.6s var(--ease-out);
+  display: none;
+}
+.cookie-banner.show { display: block; }
+.cookie-banner.visible { transform: translateY(0); }
+@media (max-width: 640px) {
+  .cookie-banner { bottom: 16px; left: 16px; right: 16px; padding: 24px 20px; }
+}
+.cookie-banner .head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.cookie-banner .head::before {
+  content: '⟁';
+  font-family: var(--display);
+  color: var(--accent);
+  font-size: 20px;
+  font-style: italic;
+}
+.cookie-banner h4 {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+.cookie-banner p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+}
+.cookie-banner p a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.cookie-banner p a:hover { text-decoration: underline; }
+.cookie-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.cookie-btn {
+  padding: 12px 22px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  color: var(--text);
+  transition: all 0.2s;
+  flex: 1;
+  min-width: 140px;
+}
+.cookie-btn:hover { background: var(--bg-card); border-color: var(--text-dim); }
+.cookie-btn.primary {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+}
+.cookie-btn.primary:hover { background: var(--accent-bright); border-color: var(--accent-bright); }
+
 /* === REVEAL ANIMATION === */
 .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
@@ -2358,11 +2439,17 @@ footer a.legal-link { cursor: pointer; }
     <p>Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
     <h3>§ 5 Google Fonts</h3>
     <p>Diese Website nutzt Google Fonts. Die Fonts werden beim Laden von Google-Servern abgerufen. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Details: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
-    <h3>§ 6 Externe Dateiübertragung</h3>
+    <h3>§ 6 Google Analytics 4</h3>
+    <p>Diese Website nutzt Google Analytics 4, einen Webanalysedienst der Google Ireland Limited („Google"), Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics verwendet Cookies und ähnliche Technologien, die eine Analyse der Benutzung der Website ermöglichen.</p>
+    <p>Die Erfassung und Verarbeitung erfolgt nur nach Ihrer ausdrücklichen Einwilligung über unseren Cookie-Consent-Banner. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.</p>
+    <p>Wir haben die IP-Anonymisierung aktiviert. Dadurch wird Ihre IP-Adresse vor der Übertragung gekürzt. Eine Übermittlung an Server in den USA kann erfolgen — Google ist nach dem EU-US Data Privacy Framework zertifiziert.</p>
+    <p>Erfasste Daten: anonymisierte IP, Datum/Uhrzeit des Besuchs, besuchte Seiten, Verweildauer, Klick-Pfade, Browser-/Geräteinformationen, ungefähre Region.</p>
+    <p>Sie können Ihre Einwilligung jederzeit über die Cookie-Einstellungen widerrufen oder ein Browser-Plugin von Google nutzen: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tools.google.com/dlpage/gaoptout</a>. Speicherdauer: standardmäßig 14 Monate, danach automatische Löschung.</p>
+    <h3>§ 7 Externe Dateiübertragung</h3>
     <p>Für große Audio-Dateien empfehlen wir Drittanbieter (WeTransfer, Google Drive, Dropbox). Es gelten die jeweiligen Datenschutzbestimmungen.</p>
-    <h3>§ 7 Social Media</h3>
+    <h3>§ 8 Social Media</h3>
     <p>Wir betreiben Auftritte bei Instagram, TikTok und YouTube. Bei Besuch dieser Seiten gelten die Datenschutzbestimmungen der jeweiligen Anbieter.</p>
-    <h3>§ 8 Ihre Rechte</h3>
+    <h3>§ 9 Ihre Rechte</h3>
     <ul>
       <li>Auskunft (Art. 15 DSGVO)</li>
       <li>Berichtigung (Art. 16 DSGVO)</li>
@@ -2373,7 +2460,7 @@ footer a.legal-link { cursor: pointer; }
     </ul>
     <p>Anfragen an: <a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></p>
     <p>Beschwerderecht beim Landesbeauftragten für Datenschutz Niedersachsen.</p>
-    <h3>§ 9 Datensicherheit</h3>
+    <h3>§ 10 Datensicherheit</h3>
     <p>Wir verwenden SSL/TLS-Verschlüsselung. Die Datenübertragung im Internet kann jedoch Sicherheitslücken aufweisen.</p>
     <div class="legal-footer-note">Stand: Mai 2026</div>
   </div>
@@ -2767,6 +2854,77 @@ Gesendet via Kontaktformular auf polished.media`;
     setTimeout(() => { submitBtn.textContent = 'Anfrage senden →'; submitBtn.disabled = false; }, 8000);
   });
 }
+</script>
+
+<!-- ============ COOKIE CONSENT BANNER ============ -->
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie-Einstellungen" aria-live="polite">
+  <div class="head">
+    <h4>Datenschutz · Analytics</h4>
+  </div>
+  <p>
+    Wir nutzen Google Analytics, um anonymisiert zu verstehen, wie polished.media genutzt wird. Das hilft uns, die Seite zu verbessern. Du kannst frei entscheiden — und deine Wahl später jederzeit ändern. Details in der <a href="#" class="legal-link" data-modal="datenschutz">Datenschutzerklärung</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="cookie-btn" id="cookieDecline" data-track="cookie-decline">Nur Notwendige</button>
+    <button class="cookie-btn primary" id="cookieAccept" data-track="cookie-accept">Akzeptieren</button>
+  </div>
+</div>
+
+<script>
+/* ================================================================ */
+/* GOOGLE ANALYTICS 4 — Consent-aware loader                       */
+/* ================================================================ */
+const GA_ID = 'G-CP8GKKDKCV';
+const CONSENT_KEY = 'polished_analytics_consent';
+const banner = document.getElementById('cookieBanner');
+
+function loadGA() {
+  // Skip if already loaded
+  if (window.gtag) return;
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function() { dataLayer.push(arguments); };
+  gtag('js', new Date());
+  gtag('config', GA_ID, {
+    'anonymize_ip': true,
+    'cookie_flags': 'SameSite=None;Secure',
+    'cookie_expires': 60 * 60 * 24 * 180 // 180 days
+  });
+}
+
+function showBanner() {
+  banner.classList.add('show');
+  requestAnimationFrame(() => {
+    setTimeout(() => banner.classList.add('visible'), 30);
+  });
+}
+
+function hideBanner() {
+  banner.classList.remove('visible');
+  setTimeout(() => banner.classList.remove('show'), 600);
+}
+
+const stored = localStorage.getItem(CONSENT_KEY);
+if (stored === 'granted') {
+  loadGA();
+} else if (stored !== 'denied') {
+  // Show banner after 1.5s delay
+  setTimeout(showBanner, 1500);
+}
+
+document.getElementById('cookieAccept').addEventListener('click', () => {
+  localStorage.setItem(CONSENT_KEY, 'granted');
+  loadGA();
+  hideBanner();
+});
+
+document.getElementById('cookieDecline').addEventListener('click', () => {
+  localStorage.setItem(CONSENT_KEY, 'denied');
+  hideBanner();
+});
 </script>
 
 </body>
