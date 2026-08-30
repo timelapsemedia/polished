@@ -1,0 +1,16 @@
+{
+  "name": "Polished Mastering",
+  "short_name": "Polished",
+  "description": "Metal & Gothic audio mastering studio. Full audio audit before every master.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0a0a'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-style='italic' font-size='36' fill='%23ff6b35' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
