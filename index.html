@@ -84,17 +84,7 @@
     {"@type": "Country", "name": "Switzerland"},
     {"@type": "Place", "name": "Worldwide"}
   ],
-  "employee": {
-    "@type": "Person",
-    "name": "Tim Borchert",
-    "jobTitle": "Mastering Engineer",
-    "image": "https://polished.media/tim-borchert.jpg",
-    "alumniOf": {
-      "@type": "EducationalOrganization",
-      "name": "University of Hamburg",
-      "department": "Systematic Musicology"
-    }
-  },
+  "employee": { "@id": "https://polished.media/#tim-borchert" },
   "knowsAbout": [
     "Audio Mastering",
     "Black Metal Mastering",
@@ -107,9 +97,51 @@
     "Systematic Musicology"
   ],
   "sameAs": [
-    "https://instagram.com/polished.mastering",
+    "https://instagram.com/polishedmetalmastering",
     "https://tiktok.com/@polished.mastering"
   ]
+}
+</script>
+
+<!-- Schema.org: Person (mastering engineer) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://polished.media/#tim-borchert",
+  "name": "Tim Borchert",
+  "jobTitle": "Mastering Engineer",
+  "image": "https://polished.media/tim-borchert.jpg",
+  "worksFor": { "@id": "https://polished.media/#business" },
+  "knowsAbout": [
+    "Audio Mastering",
+    "Black Metal Mastering",
+    "Death Metal Mastering",
+    "Doom Metal Mastering",
+    "Gothic Mastering",
+    "Metalcore Mastering",
+    "Systematic Musicology"
+  ],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "University of Hamburg",
+    "department": "Systematic Musicology"
+  }
+}
+</script>
+
+<!-- Schema.org: WebPage (machine-readable freshness signal) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://polished.media/#webpage",
+  "url": "https://polished.media/",
+  "name": "Metal & Gothic Mastering Studio | Polished",
+  "isPartOf": { "@id": "https://polished.media/#business" },
+  "about": { "@id": "https://polished.media/#business" },
+  "inLanguage": "en",
+  "dateModified": "2026-08-30"
 }
 </script>
 
@@ -145,27 +177,27 @@
   "@type": "FAQPage",
   "mainEntity": [
     {"@type": "Question", "name": "What exactly is the audio audit?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Before every mastering session I run a full technical analysis of your mix — frequency spectrum, dynamics, loudness profile, stereo image, phase coherence, mono compatibility, and a sonic assessment in genre context. You get a written analysis report with concretely identified weaknesses and a documented mastering strategy. The audit is included in every mastering package — you don't pay extra for it."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "An audio audit is a full technical and perceptual analysis of your mix, carried out before any mastering decision is made. Before every mastering session I run this analysis across your track — frequency spectrum, dynamics, loudness profile, stereo image, phase coherence, mono compatibility, and a sonic assessment in genre context, meaning what a competitive Black Metal or Death Metal master needs to sound like versus a Doom or Gothic one. You get a written analysis report with concretely identified weaknesses — for example a resonant frequency buildup, an overly narrow stereo image, or a loudness level that won't translate to streaming platforms — and a documented mastering strategy explaining exactly which moves will be made and why. The audit is included in every mastering package at no extra cost, and it's the reason mastering here starts with data instead of guesswork."}},
     {"@type": "Question", "name": "What does professional audio mastering cost?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Stereo mastering starts at €79 per track. Stem mastering from €129 per track. EP package (up to 5 tracks) for €349. Album (up to 10 tracks) for €799. The audio audit is always included. No subscription, no hidden costs."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Stereo mastering starts at €79 per track, which includes the full audio audit — you're never charged separately for the analysis step. Stem mastering, which gives more precise control by working with grouped stems instead of a single stereo file, starts at €129 per track. For a full release, the EP package covers up to 5 tracks for €349, and the Album package covers up to 10 tracks for €799, both including per-track audits plus a consistency pass across the whole release. There's no subscription, no recurring fee, and no hidden add-on costs — the price you see is the price you pay, and every package already includes unlimited revisions until the master is right."}},
     {"@type": "Question", "name": "How long does mastering take?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Standard delivery: 48–72 hours per track (incl. audio audit). EPs typically 5–7 days. Albums 7–14 days. Rush delivery in 24h available on request. If a release date is critical, tell me upfront and I'll plan accordingly."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Standard delivery for a single track is 48–72 hours, and that already includes the full audio audit — you're not waiting longer because the audit happens first. EPs, which involve consistency-checking across up to 5 tracks, typically take 5–7 days. Full albums, covering up to 10 tracks with a whole-release loudness and tonal consistency pass, typically take 7–14 days. If you need something faster, rush delivery in 24 hours is available on request. If a release date is locked in — a label deadline, a scheduled release — say so upfront and the schedule will be planned around it rather than around a generic queue."}},
     {"@type": "Question", "name": "What's the difference between stereo and stem mastering?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Stereo mastering processes your finished stereo mixdown — one file, one stereo track. Stem mastering works with grouped stems (e.g. drums, bass, vocals, guitars separately) and gives me significantly more control over the final result. The audit also shows you which variant makes more sense for your mix."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Stereo mastering processes your finished stereo mixdown — a single file, a single stereo track, exactly as you bounced it. Stem mastering works differently: instead of one file, you send grouped stems, for example drums, bass, guitars and vocals as separate stereo files, and each group can be treated individually before everything is combined into the final master. That separation gives significantly more control — a guitar wall that's masking the vocals, or a kick that needs more headroom than the rest of the mix, can be addressed directly instead of compromised around. The audio audit will tell you which approach actually makes sense for your specific mix."}},
     {"@type": "Question", "name": "What genres do you master?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Polished is fully specialized in Metal & Gothic: Black Metal, Death Metal, Doom, Gothic and Metalcore/Djent. That focus means every audit and every reference comparison is built around what actually matters in this scene — not a generic template borrowed from pop or hip-hop."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Polished is fully specialized in Metal & Gothic — no pop, no hip-hop, no generic all-genre template. Black Metal mastering means preserving raw, tremolo-picked atmosphere and cold high end without losing low-end control. Death Metal mastering means giving palm-mutes real weight and keeping blast beats readable instead of collapsing into noise. Doom and Gothic mastering means protecting dynamic range and space for slow builds while keeping the low end thick without swallowing the rest of the mix. Metalcore and Djent mastering means precise, controlled low end for syncopated riffs and clarity through breakdowns. That focus means every audio audit and every reference comparison is built specifically around what matters in this scene, not a generic template borrowed from pop or hip-hop production."}},
     {"@type": "Question", "name": "What file formats do you need?",
-     "acceptedAnswer": {"@type": "Answer", "text": "24-bit or 32-bit WAV or AIFF at your session sample rate (44.1, 48, 88.2 or 96 kHz). Please leave 3–6 dB of headroom, no limiter or compressor on the master bus, no loudness maximizing in the mix."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Send 24-bit or 32-bit WAV or AIFF files at your session's original sample rate — 44.1, 48, 88.2 or 96 kHz all work. Leave 3–6 dB of headroom on your mixdown, and avoid putting a limiter or compressor on the master bus before sending, since that removes the dynamic range needed for accurate mastering decisions. The same applies to loudness maximizing in the mix itself — a track that's already been pushed to streaming loudness before mastering limits what the audit and the mastering process can actually improve. If you're unsure whether your mix meets these requirements, send it anyway; the audit will flag anything that needs attention before mastering begins."}},
     {"@type": "Question", "name": "What happens if I'm not happy with the master?",
-     "acceptedAnswer": {"@type": "Answer", "text": "You get unlimited revisions — no extra cost, no time limit, no argument. If a master doesn't fit, say so. I'll listen closely, ask what's off, and rework it."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "You get unlimited revisions on every package — no extra cost, no time limit, no argument about whether a revision is reasonable. If a master doesn't fit, say so specifically: too harsh in the highs, not enough low-end weight for the genre, vocals sitting too far back, whatever it is. I'll listen closely, ask what's off compared to your reference expectations, and rework the master until it matches your vision rather than my interpretation of it. This applies to every package tier equally, from a single €79 track to a full album."}},
     {"@type": "Question", "name": "Is Polished an AI mastering service like LANDR?",
-     "acceptedAnswer": {"@type": "Answer", "text": "No. Every track is mastered personally — and more importantly, every track is individually analyzed first. AI mastering is cheap, but generic — algorithms can't produce an audit, understand a vision, or develop a strategy. Polished is the analytical, personal alternative at a fair price."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "No. Every track sent to Polished is mastered personally, and more importantly, every track is individually analyzed first through the audio audit. AI mastering services are cheap because they're generic: an algorithm can apply loudness and EQ curves, but it can't produce a written audit explaining what's actually wrong with your specific mix, can't understand what you're trying to achieve creatively, and can't develop a mastering strategy tailored to Black Metal, Death Metal, Doom or Gothic conventions specifically. Polished is the analytical, personal alternative to that — data-driven rather than algorithmic, at a fair price."}},
     {"@type": "Question", "name": "Do you also offer mixing?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Polished specializes in mastering — not mixing. That clear specialization is intentional. If the audit shows your mix needs work before mastering, I'll tell you honestly upfront and can recommend a mixing engineer from my network."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Polished specializes in mastering — not mixing — and that specialization is intentional rather than a limitation. Mixing and mastering require different skill sets and different listening approaches, and trying to offer both often means neither is done as well as it could be. If the audio audit reveals that your mix itself needs work before mastering can do its job, that will be communicated honestly upfront, along with a recommendation for a mixing engineer from within my network rather than attempting a mastering fix that won't actually solve the underlying problem."}},
     {"@type": "Question", "name": "Where is the Polished studio located?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Polished is an online mastering studio based in Lower Saxony, Germany (Heart Warrior UG, Kirchlinteln). Audio files are exchanged online via secure transfer services. Clients are served in Germany, Austria, Switzerland and worldwide."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Polished is an online mastering studio based in Lower Saxony, Germany, operating under Heart Warrior UG in Kirchlinteln. There's no physical studio visit involved in the process — audio files are exchanged entirely online through secure transfer services like WeTransfer, Dropbox or Google Drive, and the audit report and final masters are delivered the same way. That remote setup means location isn't a barrier: clients are served across Germany, Austria and Switzerland, as well as internationally, with all communication handled by email or Instagram DM regardless of time zone."}},
     {"@type": "Question", "name": "How does invoicing work?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Proper invoice with VAT statement after every project. Payment by bank transfer, PayPal, or on request. B2B terms available for labels and agencies. Regular clients can arrange framework agreements with preferred pricing."}}
+     "acceptedAnswer": {"@type": "Answer", "text": "Every project is invoiced properly after delivery, with a full VAT statement included as required under German business law. Payment can be made by bank transfer or PayPal, with other arrangements available on request for labels or agencies with specific procurement requirements. B2B terms are available for labels and agencies working across multiple releases, and regular clients — bands or labels sending tracks on an ongoing basis — can arrange a framework agreement with preferred pricing rather than negotiating each project individually."}}
   ]
 }
 </script>
@@ -1956,7 +1988,7 @@ footer a.legal-link { cursor: pointer; }
       <div class="section-eyebrow">The Polished Difference</div>
       <h2 id="audit-heading">Full <em>Audio Audit</em><br>before every master.</h2>
       <p class="section-sub">
-        Other studios start straight with plugins. Polished starts with a scientifically grounded analysis — because what isn't measured can't be deliberately improved. You get a full written analysis report of your mix before a single mastering step happens.
+        <strong>An audio audit is a full technical and perceptual analysis of a mix, carried out before any mastering decision is made.</strong> Other studios start straight with plugins. Polished starts with a scientifically grounded analysis — because what isn't measured can't be deliberately improved. You get a full written analysis report of your mix before a single mastering step happens.
       </p>
 
       <ul class="audit-list">
@@ -2239,47 +2271,47 @@ footer a.legal-link { cursor: pointer; }
     <div class="faq-list">
       <details class="faq-item">
         <summary>What exactly is the audio audit?</summary>
-        <div class="faq-answer">Before every mastering session I run a full technical analysis of your mix — frequency spectrum, dynamics, loudness profile, stereo image, phase coherence, mono compatibility, and a sonic assessment in genre context. You get a written analysis report with concretely identified weaknesses and a documented mastering strategy. The audit is included in every mastering package — you don't pay extra for it.</div>
+        <div class="faq-answer">An audio audit is a full technical and perceptual analysis of your mix, carried out before any mastering decision is made. Before every mastering session I run this analysis across your track — frequency spectrum, dynamics, loudness profile, stereo image, phase coherence, mono compatibility, and a sonic assessment in genre context, meaning what a competitive Black Metal or Death Metal master needs to sound like versus a Doom or Gothic one. You get a written analysis report with concretely identified weaknesses — for example a resonant frequency buildup, an overly narrow stereo image, or a loudness level that won't translate to streaming platforms — and a documented mastering strategy explaining exactly which moves will be made and why. The audit is included in every mastering package at no extra cost, and it's the reason mastering here starts with data instead of guesswork.</div>
       </details>
       <details class="faq-item">
         <summary>What does professional audio mastering cost?</summary>
-        <div class="faq-answer">Stereo mastering starts at €79 per track. Stem mastering from €129 per track. EP package (up to 5 tracks) for €349. Album (up to 10 tracks) for €799. The audio audit is always included. No subscription, no hidden costs.</div>
+        <div class="faq-answer">Stereo mastering starts at €79 per track, which includes the full audio audit — you're never charged separately for the analysis step. Stem mastering, which gives more precise control by working with grouped stems instead of a single stereo file, starts at €129 per track. For a full release, the EP package covers up to 5 tracks for €349, and the Album package covers up to 10 tracks for €799, both including per-track audits plus a consistency pass across the whole release. There's no subscription, no recurring fee, and no hidden add-on costs — the price you see is the price you pay, and every package already includes unlimited revisions until the master is right.</div>
       </details>
       <details class="faq-item">
         <summary>How long does mastering take?</summary>
-        <div class="faq-answer">Standard delivery: 48–72 hours per track (incl. audio audit). EPs typically 5–7 days. Albums 7–14 days. Rush delivery in 24h available on request. If a release date is critical, tell me upfront and I'll plan accordingly.</div>
+        <div class="faq-answer">Standard delivery for a single track is 48–72 hours, and that already includes the full audio audit — you're not waiting longer because the audit happens first. EPs, which involve consistency-checking across up to 5 tracks, typically take 5–7 days. Full albums, covering up to 10 tracks with a whole-release loudness and tonal consistency pass, typically take 7–14 days. If you need something faster, rush delivery in 24 hours is available on request. If a release date is locked in — a label deadline, a scheduled release — say so upfront and the schedule will be planned around it rather than around a generic queue.</div>
       </details>
       <details class="faq-item">
         <summary>What's the difference between stereo and stem mastering?</summary>
-        <div class="faq-answer">Stereo mastering processes your finished stereo mixdown — one file, one stereo track. Stem mastering works with grouped stems (e.g. drums, bass, vocals, guitars separately) and gives me significantly more control over the final result. The audit also shows you which variant makes more sense for your mix.</div>
+        <div class="faq-answer">Stereo mastering processes your finished stereo mixdown — a single file, a single stereo track, exactly as you bounced it. Stem mastering works differently: instead of one file, you send grouped stems, for example drums, bass, guitars and vocals as separate stereo files, and each group can be treated individually before everything is combined into the final master. That separation gives significantly more control — a guitar wall that's masking the vocals, or a kick that needs more headroom than the rest of the mix, can be addressed directly instead of compromised around. The audio audit will tell you which approach actually makes sense for your specific mix.</div>
       </details>
       <details class="faq-item">
         <summary>What genres do you master?</summary>
-        <div class="faq-answer">Polished is fully specialized in Metal & Gothic: Black Metal, Death Metal, Doom, Gothic and Metalcore/Djent. That focus means every audit and every reference comparison is built around what actually matters in this scene — not a generic template borrowed from pop or hip-hop.</div>
+        <div class="faq-answer">Polished is fully specialized in Metal & Gothic — no pop, no hip-hop, no generic all-genre template. Black Metal mastering means preserving raw, tremolo-picked atmosphere and cold high end without losing low-end control. Death Metal mastering means giving palm-mutes real weight and keeping blast beats readable instead of collapsing into noise. Doom and Gothic mastering means protecting dynamic range and space for slow builds while keeping the low end thick without swallowing the rest of the mix. Metalcore and Djent mastering means precise, controlled low end for syncopated riffs and clarity through breakdowns. That focus means every audio audit and every reference comparison is built specifically around what matters in this scene, not a generic template borrowed from pop or hip-hop production.</div>
       </details>
       <details class="faq-item">
         <summary>What file formats do you need?</summary>
-        <div class="faq-answer">24-bit or 32-bit WAV or AIFF at your session sample rate (44.1, 48, 88.2 or 96 kHz). Please leave 3–6 dB of headroom, no limiter or compressor on the master bus, no loudness maximizing in the mix.</div>
+        <div class="faq-answer">Send 24-bit or 32-bit WAV or AIFF files at your session's original sample rate — 44.1, 48, 88.2 or 96 kHz all work. Leave 3–6 dB of headroom on your mixdown, and avoid putting a limiter or compressor on the master bus before sending, since that removes the dynamic range needed for accurate mastering decisions. The same applies to loudness maximizing in the mix itself — a track that's already been pushed to streaming loudness before mastering limits what the audit and the mastering process can actually improve. If you're unsure whether your mix meets these requirements, send it anyway; the audit will flag anything that needs attention before mastering begins.</div>
       </details>
       <details class="faq-item">
         <summary>What happens if I'm not happy with the master?</summary>
-        <div class="faq-answer">You get unlimited revisions — no extra cost, no time limit, no argument. If a master doesn't fit, say so. I'll listen closely, ask what's off, and rework it.</div>
+        <div class="faq-answer">You get unlimited revisions on every package — no extra cost, no time limit, no argument about whether a revision is reasonable. If a master doesn't fit, say so specifically: too harsh in the highs, not enough low-end weight for the genre, vocals sitting too far back, whatever it is. I'll listen closely, ask what's off compared to your reference expectations, and rework the master until it matches your vision rather than my interpretation of it. This applies to every package tier equally, from a single €79 track to a full album.</div>
       </details>
       <details class="faq-item">
         <summary>Is Polished an AI mastering service like LANDR?</summary>
-        <div class="faq-answer">No. Every track is mastered personally — and more importantly, every track is individually analyzed first. AI mastering is cheap, but generic — algorithms can't produce an audit, understand a vision, or develop a strategy. Polished is the analytical, personal alternative at a fair price.</div>
+        <div class="faq-answer">No. Every track sent to Polished is mastered personally, and more importantly, every track is individually analyzed first through the audio audit. AI mastering services are cheap because they're generic: an algorithm can apply loudness and EQ curves, but it can't produce a written audit explaining what's actually wrong with your specific mix, can't understand what you're trying to achieve creatively, and can't develop a mastering strategy tailored to Black Metal, Death Metal, Doom or Gothic conventions specifically. Polished is the analytical, personal alternative to that — data-driven rather than algorithmic, at a fair price.</div>
       </details>
       <details class="faq-item">
         <summary>Do you also offer mixing?</summary>
-        <div class="faq-answer">Polished specializes in mastering — not mixing. That clear specialization is intentional. If the audit shows your mix needs work before mastering, I'll tell you honestly upfront and can recommend a mixing engineer from my network.</div>
+        <div class="faq-answer">Polished specializes in mastering — not mixing — and that specialization is intentional rather than a limitation. Mixing and mastering require different skill sets and different listening approaches, and trying to offer both often means neither is done as well as it could be. If the audio audit reveals that your mix itself needs work before mastering can do its job, that will be communicated honestly upfront, along with a recommendation for a mixing engineer from within my network rather than attempting a mastering fix that won't actually solve the underlying problem.</div>
       </details>
       <details class="faq-item">
         <summary>Where is the Polished studio located?</summary>
-        <div class="faq-answer">Polished is an online mastering studio based in Lower Saxony, Germany (Heart Warrior UG, Kirchlinteln). Audio files are exchanged online via secure transfer services. Clients are served in Germany, Austria, Switzerland and worldwide.</div>
+        <div class="faq-answer">Polished is an online mastering studio based in Lower Saxony, Germany, operating under Heart Warrior UG in Kirchlinteln. There's no physical studio visit involved in the process — audio files are exchanged entirely online through secure transfer services like WeTransfer, Dropbox or Google Drive, and the audit report and final masters are delivered the same way. That remote setup means location isn't a barrier: clients are served across Germany, Austria and Switzerland, as well as internationally, with all communication handled by email or Instagram DM regardless of time zone.</div>
       </details>
       <details class="faq-item">
         <summary>How does invoicing work?</summary>
-        <div class="faq-answer">Proper invoice with VAT statement after every project. Payment by bank transfer, PayPal, or on request. B2B terms available for labels and agencies. Regular clients can arrange framework agreements with preferred pricing.</div>
+        <div class="faq-answer">Every project is invoiced properly after delivery, with a full VAT statement included as required under German business law. Payment can be made by bank transfer or PayPal, with other arrangements available on request for labels or agencies with specific procurement requirements. B2B terms are available for labels and agencies working across multiple releases, and regular clients — bands or labels sending tracks on an ongoing basis — can arrange a framework agreement with preferred pricing rather than negotiating each project individually.</div>
       </details>
     </div>
   </div>
@@ -2303,11 +2335,11 @@ footer a.legal-link { cursor: pointer; }
           </div>
         </a>
 
-        <a href="https://instagram.com/polished.mastering" target="_blank" rel="noopener" class="contact-method magnetic" data-track="contact-instagram">
+        <a href="https://instagram.com/polishedmetalmastering" target="_blank" rel="noopener" class="contact-method magnetic" data-track="contact-instagram">
           <div class="icon" aria-hidden="true">◎</div>
           <div>
             <div class="label">Instagram</div>
-            <div class="value">@polished.mastering</div>
+            <div class="value">@polishedmetalmastering</div>
             <div class="meta">For DMs and quick questions</div>
           </div>
         </a>
@@ -2388,7 +2420,7 @@ footer a.legal-link { cursor: pointer; }
   <div class="final-cta-inner">
     <div class="section-eyebrow" style="justify-content: center; display: inline-flex;">Ready for your master?</div>
     <h2 id="final-cta-heading">Your track. <em>Polished.</em></h2>
-    <p>Send me your mix — the audio audit comes automatically before mastering. You'll know exactly what's going to happen, and why.</p>
+    <p>Send me your mix — the audio audit is always included before mastering, no extra request needed. You'll know exactly what's going to happen, and why.</p>
     <div class="cta-row">
       <a href="#contact" class="cta-btn magnetic" data-track="final-primary"><span>Request Audio Audit →</span></a>
       <a href="#packages" class="cta-btn outline magnetic" data-track="final-secondary"><span>View Packages</span></a>
