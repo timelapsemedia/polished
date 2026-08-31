@@ -1106,6 +1106,22 @@ h2 em { font-style: italic; color: var(--accent); }
   margin-bottom: 28px;
   min-height: 42px;
 }
+.pkg-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-glow);
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  margin-top: -8px;
+}
 .pkg ul { list-style: none; margin-bottom: 32px; flex-grow: 1; }
 .pkg li {
   padding: 10px 0;
@@ -1930,7 +1946,7 @@ footer a.legal-link { cursor: pointer; }
       <div class="hero-tag" role="text">Metal & Gothic Mastering Studio</div>
       <h1 id="hero-heading">
         <span class="strike">Mastered by gut feeling.</span>
-        Mastered by <em>analysis.</em>
+        Metal mastered by <em>analysis.</em>
       </h1>
       <p class="hero-sub">
         Specialized in <strong>Black Metal, Death Metal, Doom and Gothic.</strong> Every project starts with a <strong>full audio audit</strong> — before the first plugin gets touched. Frequency spectrum, dynamics, stereo image, phase, loudness, sonic character. You get a written analysis report and a concrete mastering strategy. <strong>Unlimited revisions.</strong>
@@ -1943,6 +1959,7 @@ footer a.legal-link { cursor: pointer; }
           <span>Packages & Pricing</span>
         </a>
       </div>
+      <div class="scarcity" style="margin-top: -24px; margin-bottom: 40px;">Limited mastering slots per week</div>
       <div class="hero-trust" role="list">
         <div class="trust-item" role="listitem">
           <div class="icon" aria-hidden="true">⟁</div>
@@ -2149,6 +2166,7 @@ footer a.legal-link { cursor: pointer; }
         <div class="pkg-name">/ 01 · Single</div>
         <div class="pkg-price"><span class="currency">€</span>79</div>
         <div class="pkg-tagline">Stereo mastering incl. audio audit</div>
+        <div class="pkg-badge">∞ Unlimited Revisions</div>
         <ul>
           <li><strong>Full audio audit</strong></li>
           <li>Professional stereo mastering</li>
@@ -2164,6 +2182,7 @@ footer a.legal-link { cursor: pointer; }
         <div class="pkg-name">/ 02 · Stem Pro</div>
         <div class="pkg-price"><span class="currency">€</span>129</div>
         <div class="pkg-tagline">Stem mastering — maximum control</div>
+        <div class="pkg-badge">∞ Unlimited Revisions</div>
         <ul>
           <li><strong>Full audio audit</strong></li>
           <li>Stem mastering (up to 6 stems)</li>
@@ -2180,6 +2199,7 @@ footer a.legal-link { cursor: pointer; }
         <div class="pkg-price"><span class="currency">€</span>349</div>
         <div class="pkg-old">instead of €395 · ~12% savings</div>
         <div class="pkg-tagline">Mastering for an EP (up to 5 tracks)</div>
+        <div class="pkg-badge">∞ Unlimited Revisions</div>
         <ul>
           <li><strong>Audit per track</strong></li>
           <li>Stereo mastering for up to 5 tracks</li>
@@ -2196,6 +2216,7 @@ footer a.legal-link { cursor: pointer; }
         <div class="pkg-price"><span class="currency">€</span>799</div>
         <div class="pkg-old">instead of €990 · ~20% savings</div>
         <div class="pkg-tagline">Album mastering (up to 10 tracks)</div>
+        <div class="pkg-badge">∞ Unlimited Revisions</div>
         <ul>
           <li><strong>Audit per track + album audit</strong></li>
           <li>Stereo mastering for up to 10 tracks</li>
@@ -2233,6 +2254,9 @@ footer a.legal-link { cursor: pointer; }
       </blockquote>
       <p style="color: var(--text-dim); font-size: 16px; line-height: 1.7; margin-bottom: 32px;">
         I treat every track like a research subject. Before I decide which EQ move, which compression, which saturation — it gets measured, compared, analyzed. That's not academic, it's efficient: targeted moves instead of plugin roulette. My background in Systematic Musicology at the University of Hamburg isn't a marketing detail — it's an operative tool.
+      </p>
+      <p style="color: var(--text-dim); font-size: 15px; line-height: 1.7; margin-bottom: 32px;">
+        Polished launched in 2024 — new as a studio, but the process isn't: it's the same systematic, audit-first approach from the first project onward, no shortcuts because the business is young.
       </p>
 
       <div class="engineer-credentials">
