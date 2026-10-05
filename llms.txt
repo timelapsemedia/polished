@@ -21,8 +21,16 @@ All prices are final prices including 19% German VAT.
 ## Guides
 - [How loud should metal be mastered?](https://polished.media/metal-mastering-loudness/): streaming loudness targets by platform (Spotify -14 LUFS, Apple Music about -16 LUFS), typical LUFS ranges by metal subgenre, true-peak limits
 
+## German pages (Deutsch)
+- [Metal Mastering online (Startseite)](https://polished.media/de/)
+- [Black Metal Mastering](https://polished.media/de/black-metal-mastering/)
+- [Death Metal Mastering](https://polished.media/de/death-metal-mastering/)
+- [Doom & Gothic Mastering](https://polished.media/de/doom-gothic-mastering/)
+- [Metalcore & Djent Mastering](https://polished.media/de/metalcore-djent-mastering/)
+- [Wie laut sollte Metal gemastert werden?](https://polished.media/de/metal-mastering-lautstaerke/)
+
 ## Service area
-Germany, Austria, Switzerland and worldwide (fully remote/online studio). German-language page: https://polished.media/de/
+Germany, Austria, Switzerland and worldwide (fully remote/online studio).
 
 ## Contact
 - Email: polished.media@gmx.de

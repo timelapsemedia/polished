@@ -36,6 +36,63 @@
     el.addEventListener('click', function () { track('cta_click', { cta_id: el.getAttribute('data-track') }); });
   });
 
+  // Inquiry forms (FormSubmit AJAX -> polished.media@gmx.de)
+  document.querySelectorAll('form[data-formsubmit]').forEach(function (form) {
+    var de = form.getAttribute('data-lang') === 'de';
+    var t = de ? {
+      required: 'Bitte fülle alle Pflichtfelder aus und bestätige die Datenschutzerklärung.',
+      email: 'Bitte gib eine gültige E-Mail-Adresse ein.',
+      sending: 'Wird gesendet …', sent: '✓ Anfrage gesendet', submit: 'Anfrage senden →',
+      ok: function (e) { return '<strong>Danke, deine Anfrage ist angekommen.</strong><br>Tim antwortet persönlich an ' + e + ', meist innerhalb von 24 Stunden.'; },
+      fail: 'Das Senden hat gerade nicht geklappt. Bitte versuch es noch einmal oder schreib direkt an '
+    } : {
+      required: 'Please fill in all required fields and accept the privacy policy.',
+      email: 'Please enter a valid email address.',
+      sending: 'Sending…', sent: '✓ Request sent', submit: 'Send Request →',
+      ok: function (e) { return '<strong>Thanks — your request is in.</strong><br>I\'ll reply personally to ' + e + ', usually within 24 hours.'; },
+      fail: 'Sending didn\'t work just now. Please try again, or email me directly at '
+    };
+    var statusEl = form.querySelector('.form-status');
+    var btn = form.querySelector('button[type="submit"]');
+    function val(name) { var el = form.elements[name]; return el ? el.value.trim() : ''; }
+    function show(cls, htmlText) { statusEl.className = 'form-status show ' + cls; statusEl.innerHTML = htmlText; }
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (val('_honey')) return;
+      var name = val('name'), email = val('email'), message = val('message');
+      var genre = val('genre'), service = val('service'), tracks = val('tracks'), files = val('files');
+      if (!name || !email || !message || !form.elements.consent.checked) { show('error', t.required); return; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { show('error', t.email); return; }
+      var subject = (de ? 'Mastering-Anfrage' : 'Mastering Inquiry') + (service ? ' · ' + service : '') + (genre ? ' · ' + genre : '') + ' — ' + name;
+      var mail = '<a href="mailto:polished.media@gmx.de?subject=' + encodeURIComponent(subject) + '">polished.media@gmx.de</a>.';
+      btn.disabled = true; btn.textContent = t.sending; statusEl.className = 'form-status';
+      fetch('https://formsubmit.co/ajax/polished.media@gmx.de', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          name: name, email: email, genre: genre || '—', service: service || '—', tracks: tracks || '—',
+          files: files || '—', message: message, language: de ? 'Deutsch' : 'English',
+          consent: 'Requester agreed to the privacy policy',
+          _subject: subject, _replyto: email, _template: 'table', _captcha: 'false'
+        })
+      })
+        .then(function (res) { return res.json().then(function (data) { return { ok: res.ok, data: data }; }); })
+        .then(function (r) {
+          if (!r.ok || String(r.data.success) !== 'true') throw new Error(r.data.message || 'failed');
+          track('form_submit', { service: service, genre: genre, lang: de ? 'de' : 'en' });
+          track('generate_lead', { service: service, genre: genre, lang: de ? 'de' : 'en' });
+          form.reset();
+          show('success', t.ok(email.replace(/[<>&"]/g, '')));
+          btn.textContent = t.sent;
+          setTimeout(function () { btn.textContent = t.submit; btn.disabled = false; }, 8000);
+        })
+        .catch(function () {
+          show('error', t.fail + mail);
+          btn.textContent = t.submit; btn.disabled = false;
+        });
+    });
+  });
+
   var stored = null;
   try { stored = localStorage.getItem(CONSENT_KEY); } catch (e) {}
   if (stored === 'granted') { loadGA(); return; }

@@ -20,26 +20,81 @@
   <url>
     <loc>https://polished.media/black-metal-mastering/</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/black-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/black-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/black-metal-mastering/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/black-metal-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/black-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/black-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/black-metal-mastering/"/>
   </url>
 
   <url>
     <loc>https://polished.media/death-metal-mastering/</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/death-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/death-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/death-metal-mastering/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/death-metal-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/death-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/death-metal-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/death-metal-mastering/"/>
   </url>
 
   <url>
     <loc>https://polished.media/doom-gothic-mastering/</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/doom-gothic-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/doom-gothic-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/doom-gothic-mastering/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/doom-gothic-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/doom-gothic-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/doom-gothic-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/doom-gothic-mastering/"/>
   </url>
 
   <url>
     <loc>https://polished.media/metalcore-djent-mastering/</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/metalcore-djent-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/metalcore-djent-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/metalcore-djent-mastering/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/metalcore-djent-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/metalcore-djent-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/metalcore-djent-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/metalcore-djent-mastering/"/>
   </url>
 
   <url>
     <loc>https://polished.media/metal-mastering-loudness/</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/metal-mastering-loudness/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/metal-mastering-lautstaerke/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/metal-mastering-loudness/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/metal-mastering-lautstaerke/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/metal-mastering-loudness/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/metal-mastering-lautstaerke/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/metal-mastering-loudness/"/>
   </url>
 
 </urlset>
