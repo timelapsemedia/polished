@@ -3,16 +3,23 @@
 
 Credentials (first match wins): env GSC_SERVICE_ACCOUNT_JSON_B64 (base64 JSON),
 GSC_SERVICE_ACCOUNT_JSON (raw JSON), GSC_SERVICE_ACCOUNT_FILE (path).
-Needs: pip install google-auth requests
+Installs google-auth + requests automatically if missing.
 
   python3 _tools/gsc.py report [days]   # queries, pages, countries, devices
   python3 _tools/gsc.py inspect          # index status of every sitemap URL
   python3 _tools/gsc.py sitemap          # (re)submit sitemap.xml
 """
-import base64, datetime, json, os, re, sys, urllib.parse
-import requests
-from google.oauth2 import service_account
-from google.auth.transport.requests import Request
+import base64, datetime, json, os, re, subprocess, sys, urllib.parse
+
+try:
+    import requests
+    from google.oauth2 import service_account
+    from google.auth.transport.requests import Request
+except ImportError:  # fresh containers don't ship google-auth
+    subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'google-auth', 'requests'], check=True)
+    import requests
+    from google.oauth2 import service_account
+    from google.auth.transport.requests import Request
 
 SITE = 'sc-domain:polished.media'
 SITEMAP = 'https://polished.media/sitemap.xml'
