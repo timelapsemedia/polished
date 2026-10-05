@@ -1,22 +1,34 @@
 # Polished Mastering
 
-> Metal & Gothic audio mastering studio based in Germany. Every project starts with a full written audio audit before mastering begins.
+> Online audio mastering studio for Metal & Gothic, based in Lower Saxony, Germany. Every project starts with a full written audio audit of the mix before mastering begins. Mastered personally by Tim Borchert (Systematic Musicology, University of Hamburg). No AI mastering.
 
-Polished specializes in mastering for Black Metal, Death Metal, Doom, Gothic and Metalcore/Djent. Every package includes a full audio audit (frequency spectrum, dynamics, stereo image, phase, loudness) and unlimited revisions. No AI mastering — every track is analyzed and mastered personally by Tim Borchert, who holds a degree in Systematic Musicology from the University of Hamburg.
+Polished specializes in mastering for Black Metal, Death Metal, Doom, Gothic and Metalcore/Djent. Every package includes a full audio audit (frequency spectrum, dynamics and loudness, stereo image and phase, sonic assessment against genre references), a documented mastering plan, and unlimited revisions. Delivery: 24-bit WAV, 16-bit AIFF, 320 kbps MP3, plus streaming and Bandcamp versions. Communication in English or German.
 
-## Services
-- Stereo Mastering (single track) — from €79
-- Stem Mastering — from €129
-- EP Mastering (up to 5 tracks) — €349
-- Album Mastering (up to 10 tracks) — €799
+## Services and prices
+- Stereo Mastering, single track: €79 (48–72h)
+- Stem Mastering, single track, up to 6 stems: €129 (48–72h)
+- EP Mastering, up to 5 tracks: €349 (5–7 days)
+- Album Mastering, up to 10 tracks, vinyl master on request: €799 (7–14 days)
+- Rush delivery in 24h on request
+
+## Genre pages
+- [Black Metal Mastering](https://polished.media/black-metal-mastering/): raw, atmospheric, melodic/symphonic and DSBM; harshness, cymbal wash and low-end control
+- [Death Metal Mastering](https://polished.media/death-metal-mastering/): OSDM, technical, brutal/slam, melodic death and deathcore; low-mid weight and blast-beat clarity
+- [Doom & Gothic Mastering](https://polished.media/doom-gothic-mastering/): doom, funeral doom, sludge, gothic metal, gothic rock, darkwave; dynamics and low end
+- [Metalcore & Djent Mastering](https://polished.media/metalcore-djent-mastering/): extended-range low end, breakdowns, clean/screamed vocals
+
+## Guides
+- [How loud should metal be mastered?](https://polished.media/metal-mastering-loudness/): streaming loudness targets by platform (Spotify -14 LUFS, Apple Music about -16 LUFS), typical LUFS ranges by metal subgenre, true-peak limits
 
 ## Service area
-Germany, Austria, Switzerland, worldwide (fully remote/online studio).
+Germany, Austria, Switzerland and worldwide (fully remote/online studio). German-language page: https://polished.media/de/
 
 ## Contact
 - Email: polished.media@gmx.de
 - Instagram: https://instagram.com/polishedmetalmastering
+- Inquiry form: https://polished.media/#contact
 
 ## More
-- Full site & FAQ: https://polished.media/#faq
+- FAQ: https://polished.media/#faq
 - Pricing: https://polished.media/#packages
+- About the engineer: https://polished.media/#engineer

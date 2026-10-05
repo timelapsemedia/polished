@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
     <loc>https://polished.media/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/black-metal-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polished.media/death-metal-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polished.media/doom-gothic-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polished.media/metalcore-djent-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polished.media/metal-mastering-loudness/</loc>
+    <lastmod>2026-10-05</lastmod>
   </url>
 
 </urlset>
