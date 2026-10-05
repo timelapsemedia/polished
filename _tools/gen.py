@@ -146,7 +146,6 @@ def footer(lang='en'):
         <ul>
           <li><a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></li>
           <li><a href="https://instagram.com/polishedmetalmastering" rel="noopener" target="_blank">Instagram</a></li>
-          <li><a href="https://www.tiktok.com/@polished.media" rel="noopener" target="_blank">TikTok</a></li>
           <li><a href="/" hreflang="en" lang="en">English</a></li>
         </ul>
       </div>
@@ -186,7 +185,6 @@ def footer(lang='en'):
         <ul>
           <li><a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></li>
           <li><a href="https://instagram.com/polishedmetalmastering" rel="noopener" target="_blank">Instagram</a></li>
-          <li><a href="https://www.tiktok.com/@polished.media" rel="noopener" target="_blank">TikTok</a></li>
           <li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li>
         </ul>
       </div>
