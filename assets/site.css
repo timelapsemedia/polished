@@ -248,3 +248,13 @@ footer { background: #050505; padding: 64px 0 36px; border-top: 1px solid var(--
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* LANGUAGE SWITCH */
+.lang-switch {
+  display: flex; align-items: center; border: 1px solid var(--border-strong); border-radius: 4px; overflow: hidden;
+  font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; flex-shrink: 0;
+}
+.lang-switch a, .lang-switch span { padding: 6px 9px; color: var(--text-dim); text-decoration: none; line-height: 1; }
+.lang-switch span[aria-current] { background: var(--bg-card); color: var(--text); }
+.lang-switch a:hover { color: var(--accent); }
+@media (max-width: 480px) { .nav-actions { gap: 10px; } .lang-switch a, .lang-switch span { padding: 6px 7px; font-size: 11px; } }
