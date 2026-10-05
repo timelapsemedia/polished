@@ -5,7 +5,7 @@
 Polished specializes in mastering for Black Metal, Death Metal, Doom, Gothic and Metalcore/Djent. Every package includes a full audio audit (frequency spectrum, dynamics and loudness, stereo image and phase, sonic assessment against genre references), a documented mastering plan, and unlimited revisions. Delivery: 24-bit WAV, 16-bit AIFF, 320 kbps MP3, plus streaming and Bandcamp versions. Communication in English or German.
 
 ## Services and prices
-All prices are final prices including 19% German VAT. No upfront payment: projects are invoiced after delivery.
+All prices are final prices including 19% German VAT. No upfront payment required: clients pay on invoice after delivery or up front, their choice.
 - Stereo Mastering, single track: €79 (48–72h)
 - Stem Mastering, single track, up to 6 stems: €129 (48–72h)
 - EP Mastering, up to 5 tracks: €349 (5–7 days; €46 less than 5 singles)
@@ -41,3 +41,9 @@ Germany, Austria, Switzerland and worldwide (fully remote/online studio).
 - FAQ: https://polished.media/#faq
 - Pricing: https://polished.media/#packages
 - About the engineer: https://polished.media/#engineer
+
+## Bundles and label rates
+- Single Series: 3 singles booked together, €73 each, mastered as released over up to 12 months
+- Stem EP: up to 5 tracks from stems, €549 (instead of €645)
+- Label Partner (from 4 releases per year): single €63, stem single €103, EP €279, album €499
+- All prices final, incl. 19% German VAT; payment up front or on invoice after delivery, client's choice
