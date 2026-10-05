@@ -42,6 +42,7 @@ Germany, Austria, Switzerland and worldwide (fully remote/online studio).
 - Inquiry form: https://polished.media/#contact
 
 ## More
+- Full text of all pages (EN + DE): https://polished.media/llms-full.txt
 - FAQ: https://polished.media/#faq
 - Pricing: https://polished.media/#packages
 - About the engineer: https://polished.media/#engineer

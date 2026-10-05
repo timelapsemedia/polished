@@ -666,7 +666,7 @@ de_body = f'''<header class="page-hero">
 </header>
 <section class="content-section" id="audit" aria-labelledby="de-audit">
   <div class="wrap prose-wrap prose">
-    <h2 id="de-audit">Vollständiges <em>Audio-Audit</em> vor jedem Master</h2>
+    <h2 id="de-audit">Professionelles Mastering mit <em>Audio-Audit</em></h2>
     <div class="answer-box"><div class="label">Definition</div><p>Ein Audio-Audit ist eine vollständige technische und klangliche Analyse eines Mixes, die vor jeder Mastering-Entscheidung durchgeführt wird. Du bekommst einen schriftlichen Bericht mit den gefundenen Schwachstellen und einer konkreten Mastering-Strategie.</p></div>
     <ul>
       <li><strong>Frequenzspektrum:</strong> Resonanzen, Maskierung und Abweichungen vom Genre, abgeglichen mit Black-, Death-, Doom- und Gothic-Referenzen.</li>
@@ -710,7 +710,7 @@ de_body = f'''<header class="page-hero">
 </section>
 <section class="content-section alt" aria-labelledby="de-ablauf">
   <div class="wrap prose-wrap prose">
-    <h2 id="de-ablauf">So entsteht <em>dein Master</em></h2>
+    <h2 id="de-ablauf">Song mastern lassen: <em>so läuft es ab</em></h2>
     <ol>
       <li><strong>Premaster schicken:</strong> 24/32-Bit WAV oder AIFF in der Original-Samplerate, 3–6 dB Headroom, kein Limiter auf der Summe, dazu ein oder zwei Referenztracks.</li>
       <li><strong>Audio-Audit:</strong> schriftlicher Bericht mit Schwachstellen und Mastering-Plan.</li>
@@ -794,3 +794,7 @@ nf_body = '''<header class="page-hero">
 write('/404.html', page(path='/404.html', lang='en', title='Page not found | Polished',
       description='This page does not exist.', og_title='Page not found — Polished', body=nf_body, schemas=[],
       robots='noindex, follow', canonical=False))
+
+# ---------------------------------------------------------------- llms-full.txt (AI-readable full text)
+import runpy
+runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'llms_full.py'), run_name='__main__')
