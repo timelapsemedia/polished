@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bing Webmaster Tools helper for polished.media (key: env BING_WEBMASTER_API_KEY).
+"""Bing Webmaster Tools helper for polished.media (key: env BING_WEBMASTER_API_KEY or BING_API_KEY).
 
   python3 _tools/bing.py report              # query stats, traffic, crawl issues, sitemap status
   python3 _tools/bing.py submit [URL ...]    # submit URLs (default: all sitemap URLs) + sitemap
@@ -8,7 +8,7 @@ import json, os, re, sys, urllib.request
 
 SITE = 'https://polished.media/'
 API = 'https://ssl.bing.com/webmaster/api.svc/json/'
-KEY = os.environ.get('BING_WEBMASTER_API_KEY') or sys.exit('Set BING_WEBMASTER_API_KEY.')
+KEY = os.environ.get('BING_WEBMASTER_API_KEY') or os.environ.get('BING_API_KEY') or sys.exit('Set BING_WEBMASTER_API_KEY or BING_API_KEY.')
 
 
 def call(method, params=None, body=None):
