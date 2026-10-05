@@ -113,4 +113,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/mastering-cost/"/>
   </url>
 
+  <url>
+    <loc>https://polished.media/stem-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/stem-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/stem-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/stem-mastering/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/stem-mastering/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/stem-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/stem-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/stem-mastering/"/>
+  </url>
+
 </urlset>

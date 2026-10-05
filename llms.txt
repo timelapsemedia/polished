@@ -19,6 +19,7 @@ All prices are final prices including 19% German VAT. No upfront payment require
 - [Metalcore & Djent Mastering](https://polished.media/metalcore-djent-mastering/): extended-range low end, breakdowns, clean/screamed vocals
 
 ## Guides
+- [Stem mastering guide](https://polished.media/stem-mastering/): stereo vs. stem mastering, when stems are worth it, how to export stems (checklist), prices
 - [How much does mastering cost?](https://polished.media/mastering-cost/): market price ranges from AI mastering to renowned studios, Polished prices for single, EP, album, stems
 - [How loud should metal be mastered?](https://polished.media/metal-mastering-loudness/): streaming loudness targets by platform (Spotify -14 LUFS, Apple Music about -16 LUFS), typical LUFS ranges by metal subgenre, true-peak limits
 
@@ -29,6 +30,7 @@ All prices are final prices including 19% German VAT. No upfront payment require
 - [Doom & Gothic Mastering](https://polished.media/de/doom-gothic-mastering/)
 - [Metalcore & Djent Mastering](https://polished.media/de/metalcore-djent-mastering/)
 - [Was kostet Mastering?](https://polished.media/de/mastering-kosten/)
+- [Stem-Mastering](https://polished.media/de/stem-mastering/)
 - [Wie laut sollte Metal gemastert werden?](https://polished.media/de/metal-mastering-lautstaerke/)
 
 ## Service area

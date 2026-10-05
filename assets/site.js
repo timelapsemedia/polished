@@ -128,3 +128,29 @@
   if (stored === 'granted') loadGA();
   else if (stored !== 'denied') setTimeout(function () { banner.classList.add('show'); }, 1500);
 })();
+
+/* Language hint: German-speaking visitor on an English page -> offer the German version (no auto-redirect) */
+(function () {
+  try {
+    if (document.documentElement.lang !== 'en') return;
+    if (localStorage.getItem('polished_lang_hint') === 'dismissed') return;
+  } catch (e) {}
+  var first = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+  if (first.indexOf('de') !== 0) return;
+  var alt = document.querySelector('link[rel="alternate"][hreflang="de"]');
+  var href = alt ? new URL(alt.href).pathname : '/de/';
+  var bar = document.createElement('div');
+  bar.className = 'lang-hint';
+  bar.setAttribute('lang', 'de');
+  bar.innerHTML = '<span>Diese Seite gibt es auch auf Deutsch.</span><a href="' + href + '" data-track="lang-hint-de">Zur deutschen Seite →</a><button type="button" aria-label="Hinweis schließen">✕</button>';
+  var anchor = document.querySelector('.announce') || document.querySelector('nav');
+  anchor.parentNode.insertBefore(bar, anchor);
+  bar.querySelector('button').addEventListener('click', function () {
+    bar.remove();
+    try { localStorage.setItem('polished_lang_hint', 'dismissed'); } catch (e) {}
+  });
+  bar.querySelector('a').addEventListener('click', function () {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'cta_click', cta_id: 'lang-hint-de' });
+  });
+})();

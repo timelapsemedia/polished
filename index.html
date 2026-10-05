@@ -420,6 +420,11 @@ body::before {
   z-index: 100;
 }
 
+/* Language hint for German-speaking visitors on English pages */
+.lang-hint { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 6px 14px; background: var(--accent); color: #0a0a0a; font-family: var(--mono); font-size: 12px; letter-spacing: 0.03em; padding: 9px 44px 9px 16px; position: relative; z-index: 60; }
+.lang-hint a { color: inherit; font-weight: 700; }
+.lang-hint button { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: 0; color: inherit; font-size: 15px; line-height: 1; padding: 6px; cursor: pointer; }
+
 /* === ANNOUNCEMENT BAR === */
 .announce {
   background: linear-gradient(90deg, #1a1a1a 0%, #0a0a0a 50%, #1a1a1a 100%);
@@ -3031,6 +3036,32 @@ footer a.legal-link { cursor: pointer; }
 </div>
 
 <script>
+/* Language hint: German-speaking visitor on an English page -> offer the German version (no auto-redirect) */
+(function () {
+  try {
+    if (document.documentElement.lang !== 'en') return;
+    if (localStorage.getItem('polished_lang_hint') === 'dismissed') return;
+  } catch (e) {}
+  var first = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+  if (first.indexOf('de') !== 0) return;
+  var alt = document.querySelector('link[rel="alternate"][hreflang="de"]');
+  var href = alt ? new URL(alt.href).pathname : '/de/';
+  var bar = document.createElement('div');
+  bar.className = 'lang-hint';
+  bar.setAttribute('lang', 'de');
+  bar.innerHTML = '<span>Diese Seite gibt es auch auf Deutsch.</span><a href="' + href + '" data-track="lang-hint-de">Zur deutschen Seite →</a><button type="button" aria-label="Hinweis schließen">✕</button>';
+  var anchor = document.querySelector('.announce') || document.querySelector('nav');
+  anchor.parentNode.insertBefore(bar, anchor);
+  bar.querySelector('button').addEventListener('click', function () {
+    bar.remove();
+    try { localStorage.setItem('polished_lang_hint', 'dismissed'); } catch (e) {}
+  });
+  bar.querySelector('a').addEventListener('click', function () {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'cta_click', cta_id: 'lang-hint-de' });
+  });
+})();
+
 /* ================================================================ */
 /* CUSTOM CURSOR (transform-based for smoother, compositor-only motion) */
 /* ================================================================ */

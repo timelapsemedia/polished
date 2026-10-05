@@ -6,7 +6,7 @@ PRICES_DE = '''      <div class="price-grid">
         <div class="price"><div class="name">EP · bis 5 Tracks</div><div class="amount">349<span style="margin-left:4px;">€</span></div><p>46 € gespart gegenüber 5 Singles. Audit pro Track, einheitliche Lautheit über das Release, 5–7 Tage.</p></div>
         <div class="price"><div class="name">Album · bis 10 Tracks</div><div class="amount">629<span style="margin-left:4px;">€</span></div><p>161 € gespart gegenüber 10 Singles. Audit pro Track plus Album-Audit, klangliche Konsistenz, Vinyl-Master auf Anfrage, 7–14 Tage.</p></div>
       </div>
-      <p class="meta-line">Alle Preise sind Endpreise inkl. 19 % USt. <strong>Keine Vorkasse nötig: Zahlung wahlweise auf Rechnung nach Lieferung oder vorab.</strong> Jedes Paket enthält das schriftliche Audio-Audit und unbegrenzte Revisionen. <a href="/de/#preise">Alle Pakete im Überblick</a>.</p>'''
+      <p class="meta-line">Alle Preise sind Endpreise inkl. 19 % USt. <strong>Keine Vorkasse nötig: Zahlung wahlweise auf Rechnung nach Lieferung oder vorab.</strong> Jedes Paket enthält das schriftliche Audio-Audit und unbegrenzte Revisionen. <a href="/de/#preise">Alle Pakete im Überblick</a> · <a href="/de/mastering-kosten/">Preisvergleich</a> · <a href="/de/stem-mastering/">Stereo oder Stems?</a></p>'''
 
 AUDIT_STEPS_DE = '''    <ol>
       <li><strong>Premaster schicken:</strong> 24/32-Bit WAV oder AIFF in der Original-Samplerate, 3–6 dB Headroom, kein Limiter auf der Summe, dazu ein oder zwei Referenztracks.</li>
