@@ -12,6 +12,9 @@ CD_FAQS = [
     ('Was kostet Mastering für eine EP oder ein Album?', 'Bei Polished kostet eine EP mit bis zu 5 Tracks 349 € (46 € günstiger als 5 Singles) und ein Album mit bis zu 10 Tracks 629 € (161 € günstiger als 10 Singles). Beide Pakete enthalten ein Audit pro Track und einen Konsistenz-Durchgang, damit das Release wie aus einem Guss klingt.'),
     ('Was kostet Stem-Mastering?', 'Stem-Mastering ist aufwendiger als Stereo-Mastering, weil mehrere Spurgruppen (z. B. Drums, Bass, Gitarren, Vocals) einzeln bearbeitet werden. Bei Polished kostet es 129 € pro Track mit bis zu 6 Stems, die Stem-EP mit bis zu 5 Tracks 549 €. Wie du Stems richtig exportierst, steht im <a href="/de/stem-mastering/">Ratgeber Stem-Mastering</a>.'),
     ('Was kostet Vinyl-Mastering?', 'Vinyl braucht eine eigene Fassung mit mehr Dynamik, monokompatiblem Bass und kontrollierten Zischlauten. Viele Studios berechnen dafür einen Aufpreis pro Seite oder Track. Bei Polished ist ein Vinyl-Master für Album-Projekte auf Anfrage möglich; sprich es bei der Anfrage an, dann ist es im Angebot enthalten.'),
+    ('Was kosten Mix und Mastering zusammen?', 'Mixing ist deutlich aufwendiger als Mastering und kostet bei Studios grob 100 bis 300 € pro Song, je nach Spurenzahl und Studio. Zusammen mit dem Mastering liegst du für einen Song also meist bei etwa 150 bis 450 €. Polished bietet nur Mastering an (79 € pro Song inkl. USt.); das Audio-Audit zeigt vorher, ob dein Mix bereit fürs Mastering ist.'),
+    ('Sind Revisionen im Preis enthalten?', 'Bei vielen Anbietern sind nur ein oder zwei Korrekturrunden enthalten, weitere kosten extra. Bei Polished sind Revisionen in jedem Paket unbegrenzt und ohne Zeitlimit enthalten.'),
+    ('Lohnt sich KI-Mastering statt eines Engineers?', 'KI-Mastering ist günstig und schnell, wendet aber ein Standard-Profil auf deinen Mix an, ohne zu verstehen, was dein Genre braucht oder was im Mix nicht stimmt. Für Demos kann das reichen. Für ein Release, das neben anderen Veröffentlichungen bestehen soll, lohnt sich ein Engineer, der deinen Mix analysiert und Rückfragen beantwortet.'),
     ('Bietet Polished auch Mixing an?', 'Nein. Polished ist auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass der Mix selbst noch Arbeit braucht, bekommst du einen ehrlichen Hinweis und auf Wunsch eine Empfehlung für einen Mixing-Engineer.'),
 ]
 cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Kosten', f'{BASE}{COST_DE}')], 'Brotkrumen')}
@@ -64,11 +67,35 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
       <li><strong>Revisionen:</strong> Viele Anbieter begrenzen Korrekturrunden oder berechnen sie extra. Bei Polished sind Revisionen unbegrenzt.</li>
       <li><strong>Lieferzeit:</strong> Express-Lieferung kostet bei vielen Studios Aufpreis. Bei Polished ist eine Single in 48–72 Stunden fertig, schneller auf Anfrage.</li>
       <li><strong>Analyse:</strong> Bei Polished ist ein schriftliches Audio-Audit deines Mixes im Preis enthalten. Woanders ist eine Mix-Analyse oft gar nicht Teil der Leistung.</li>
-    </ul>""", alt=True)}
+    </ul>""")}
+{sec('cd-mix', 'Mix und Mastering: <em>was kostet beides?</em>', """    <p>Mixing und Mastering sind zwei verschiedene Arbeitsschritte. Beim <strong>Mixing</strong> werden alle Einzelspuren zu einem Stereo-Mix zusammengefügt: Lautstärkeverhältnisse, EQ, Kompression, Effekte. Beim <strong>Mastering</strong> wird dieser fertige Mix für die Veröffentlichung optimiert: Klangbalance, Lautheit, Formate.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Leistung</th><th>Typischer Preis pro Song</th><th>Hinweis</th></tr></thead>
+        <tbody>
+          <tr><td>Mixing</td><td>etwa 100–300 €</td><td>abhängig von Spurenzahl, Aufwand und Studio</td></tr>
+          <tr><td>Mastering</td><td>etwa 50–150 €</td><td>bei Polished 79 € inkl. USt.</td></tr>
+          <tr><td>Mix + Mastering</td><td>etwa 150–450 €</td><td>bei getrennten Anbietern einzeln buchbar</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026.</p>
+    <p>Polished ist bewusst auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass der Mix selbst noch Arbeit braucht, bekommst du das ehrlich gesagt, statt es im Mastering zu verstecken.</p>""", alt=True)}
+{sec('cd-analog', 'Analog oder digital: <em>Unterschied im Preis</em>', """    <p>Analoges Mastering über Hardware wie Röhren-EQs und Kompressoren ist meist teurer als digitales Mastering, weil Geräte, Wartung und die Arbeit in Echtzeit mehr kosten. Am Markt liegt der Aufpreis häufig bei etwa 30–50 % pro Track.</p>
+    <p>Teurer heißt nicht automatisch besser. Entscheidend ist, dass der Engineer weiß, was dein Mix und dein Genre brauchen. Ein gezielter Eingriff nach einer Analyse bringt mehr als teures Equipment ohne Plan.</p>""")}
+{sec('cd-spartipps', 'So sparst du <em>beim Mastering</em>', """    <ol>
+      <li><strong>Sauberer Mix mit Headroom:</strong> 3–6 dB Luft und kein Limiter auf der Summe. Dann reicht oft Stereo-Mastering statt Stems.</li>
+      <li><strong>Mehrere Songs zusammen buchen:</strong> Bei Polished sparst du mit der EP 46 € gegenüber 5 Singles, mit dem Album 161 € gegenüber 10 Singles, mit der Single-Serie 18 € bei 3 Singles.</li>
+      <li><strong>Stereo statt Stems, wenn möglich:</strong> Stems lohnen sich nur, wenn Elemente im Mix kollidieren. Das <a href="/de/stem-mastering/">Audit klärt das vorab</a>.</li>
+      <li><strong>Referenztracks mitschicken:</strong> Je klarer das Ziel, desto weniger Revisionsschleifen.</li>
+      <li><strong>Release-Termin früh nennen:</strong> So vermeidest du Express-Aufschläge.</li>
+    </ol>""", alt=True)}
+{sec('cd-lohnt', 'Lohnt sich <em>professionelles Mastering?</em>', """    <p>Für ein Release, das auf Spotify, Apple Music oder Bandcamp neben anderen Veröffentlichungen bestehen soll: ja. Ein professioneller Master sorgt dafür, dass dein Song auf Kopfhörern, im Auto und auf dem Handy ausgewogen klingt, die Lautheit zu den Plattformen passt und es nach der Kodierung keine Verzerrungen gibt. Für Demos und Skizzen kann KI-Mastering reichen.</p>
+    <p>Wie laut Metal für Streaming gemastert werden sollte, steht im <a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a>.</p>""")}
 {sec('cd-versteckt', 'Versteckte Kosten <em>vermeiden</em>', """    <p>Achte beim Vergleich darauf, ob der genannte Preis ein <strong>Endpreis inkl. Umsatzsteuer</strong> ist und was er enthält. Typische Aufpreise sind zusätzliche Revisionen, Stems, Vinyl- oder CD-Fassungen, Express-Lieferung und Abo-Gebühren.</p>
     <p>Bei Polished gibt es kein Abo, keine Bearbeitungsgebühr und keine Aufpreise für Revisionen oder Streaming-Exporte. Bezahlt wird nach Wahl vorab oder auf Rechnung nach Lieferung. Spezialisiert ist Polished auf <a href="/de/black-metal-mastering/">Black Metal</a>, <a href="/de/death-metal-mastering/">Death Metal</a>, <a href="/de/doom-gothic-mastering/">Doom &amp; Gothic</a> und <a href="/de/metalcore-djent-mastering/">Metalcore &amp; Djent</a>.</p>
-    <div class="cta-row" style="margin-top: 24px;"><a href="/de/#kontakt" class="cta-btn" data-track="de-cost-cta">Festpreis-Angebot anfragen →</a></div>""")}
-<section class="content-section alt" aria-labelledby="cd-faq">
+    <div class="cta-row" style="margin-top: 24px;"><a href="/de/#kontakt" class="cta-btn" data-track="de-cost-cta">Festpreis-Angebot anfragen →</a></div>""", alt=True)}
+<section class="content-section" aria-labelledby="cd-faq">
   <div class="wrap prose-wrap">
     <h2 id="cd-faq">Mastering-Kosten: <em>FAQ</em></h2>
 {faq_html(CD_FAQS)}
@@ -94,6 +121,8 @@ CE_FAQS = [
     ('How much does professional mastering cost?', 'Professional mastering typically costs roughly €50–150 per track, and €200 or more at well-known studios. Automated AI services are much cheaper but do not analyse your mix individually. At Polished, stereo mastering costs €79 per track incl. 19% VAT, including a written audio audit and unlimited revisions.'),
     ('How much does it cost to master one song?', 'At Polished, one song costs €79 incl. VAT for stereo mastering or €129 from stems, including a written audio audit, streaming and Bandcamp exports, 48–72h delivery and unlimited revisions. Booking three singles together costs €73 per single.'),
     ('How much does EP or album mastering cost?', 'At Polished, an EP of up to 5 tracks costs €349 (€46 less than 5 singles) and an album of up to 10 tracks costs €629 (€161 less than 10 singles), both with a per-track audit and a consistency pass across the release.'),
+    ('How much do mixing and mastering cost together?', 'Mixing takes considerably more work than mastering and usually costs roughly €100–300 per song at studios, depending on track count and studio. Together with mastering, one song typically lands around €150–450. Polished offers mastering only (€79 per song incl. VAT); the audio audit shows beforehand whether your mix is ready for mastering.'),
+    ('Are revisions included in the price?', 'Many providers include one or two revision rounds and charge for more. At Polished, revisions are unlimited and have no time limit in every package.'),
     ('How much does stem mastering cost?', 'Stem mastering costs more than stereo mastering because several track groups (e.g. drums, bass, guitars, vocals) are processed individually. At Polished it is €129 per track with up to 6 stems, and €549 for a Stem EP of up to 5 tracks. How to prepare stems: <a href="/stem-mastering/">stem mastering guide</a>.'),
 ]
 ce_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Mastering Cost', f'{BASE}{COST_EN}')])}
