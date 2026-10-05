@@ -127,7 +127,7 @@ def footer(lang='en'):
       <div class="footer-col">
         <p class="footer-title">Genres</p>
         <ul>
-          {''.join(f'<li><a href="/de/{s}/">{n}</a></li>' for s, n in GENRES)}
+          {''.join(f'<li><a href="/de/{s}/">{n}</a></li>' for s, n in GENRES)}<li><a href="https://codechaos-official.de/mastering/">Psytrance, Psycore &amp; Hitech Mastering</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -165,7 +165,7 @@ def footer(lang='en'):
       <div class="footer-col">
         <p class="footer-title">Genres</p>
         <ul>
-          {''.join(f'<li><a href="/{s}/">{n}</a></li>' for s, n in GENRES)}
+          {''.join(f'<li><a href="/{s}/">{n}</a></li>' for s, n in GENRES)}<li><a href="https://codechaos-official.de/en/mastering/" hreflang="en">Psytrance, Psycore &amp; Hitech Mastering</a></li>
         </ul>
       </div>
       <div class="footer-col">
