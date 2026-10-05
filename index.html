@@ -181,10 +181,10 @@
     "@type": "OfferCatalog",
     "name": "Mastering Services",
     "itemListElement": [
-      {"@type": "Offer", "name": "Stereo Mastering – Single", "url": "https://polished.media/#packages", "price": "79", "priceCurrency": "EUR", "description": "Stereo mastering incl. audio audit for one track"},
-      {"@type": "Offer", "name": "Stem Mastering", "url": "https://polished.media/#packages", "price": "129", "priceCurrency": "EUR", "description": "Stem mastering for maximum sonic control"},
-      {"@type": "Offer", "name": "EP Mastering", "url": "https://polished.media/#packages", "price": "349", "priceCurrency": "EUR", "description": "Mastering for an EP (up to 5 tracks)"},
-      {"@type": "Offer", "name": "Album Mastering", "url": "https://polished.media/#packages", "price": "799", "priceCurrency": "EUR", "description": "Album mastering (up to 10 tracks)"}
+      {"@type": "Offer", "name": "Stereo Mastering – Single", "url": "https://polished.media/#packages", "price": "79", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "79", "priceCurrency": "EUR", "valueAddedTaxIncluded": true}, "description": "Stereo mastering incl. audio audit for one track"},
+      {"@type": "Offer", "name": "Stem Mastering", "url": "https://polished.media/#packages", "price": "129", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "129", "priceCurrency": "EUR", "valueAddedTaxIncluded": true}, "description": "Stem mastering for maximum sonic control"},
+      {"@type": "Offer", "name": "EP Mastering", "url": "https://polished.media/#packages", "price": "349", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "349", "priceCurrency": "EUR", "valueAddedTaxIncluded": true}, "description": "Mastering for an EP (up to 5 tracks)"},
+      {"@type": "Offer", "name": "Album Mastering", "url": "https://polished.media/#packages", "price": "799", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "799", "priceCurrency": "EUR", "valueAddedTaxIncluded": true}, "description": "Album mastering (up to 10 tracks)"}
     ]
   }
 }
@@ -199,7 +199,7 @@
     {"@type": "Question", "name": "What exactly is the audio audit?",
      "acceptedAnswer": {"@type": "Answer", "text": "An audio audit is a full technical and perceptual analysis of your mix, carried out before any mastering decision is made. Before every mastering session I run this analysis across your track — frequency spectrum, dynamics, loudness profile, stereo image, phase coherence, mono compatibility, and a sonic assessment in genre context, meaning what a competitive Black Metal or Death Metal master needs to sound like versus a Doom or Gothic one. You get a written analysis report with concretely identified weaknesses — for example a resonant frequency buildup, an overly narrow stereo image, or a loudness level that won't translate to streaming platforms — and a documented mastering strategy explaining exactly which moves will be made and why. The audit is included in every mastering package at no extra cost, and it's the reason mastering here starts with data instead of guesswork."}},
     {"@type": "Question", "name": "What does professional audio mastering cost?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Stereo mastering starts at €79 per track, which includes the full audio audit — you're never charged separately for the analysis step. Stem mastering, which gives more precise control by working with grouped stems instead of a single stereo file, starts at €129 per track. For a full release, the EP package covers up to 5 tracks for €349, and the Album package covers up to 10 tracks for €799, both including per-track audits plus a consistency pass across the whole release. There's no subscription, no recurring fee, and no hidden add-on costs — the price you see is the price you pay, and every package already includes unlimited revisions until the master is right."}},
+     "acceptedAnswer": {"@type": "Answer", "text": "Stereo mastering starts at €79 per track, which includes the full audio audit — you're never charged separately for the analysis step. Stem mastering, which gives more precise control by working with grouped stems instead of a single stereo file, starts at €129 per track. For a full release, the EP package covers up to 5 tracks for €349, and the Album package covers up to 10 tracks for €799, both including per-track audits plus a consistency pass across the whole release. All prices are final prices including 19% German VAT. There's no subscription, no recurring fee, and no hidden add-on costs — the price you see is the price you pay, and every package already includes unlimited revisions until the master is right."}},
     {"@type": "Question", "name": "How long does mastering take?",
      "acceptedAnswer": {"@type": "Answer", "text": "Standard delivery for a single track is 48–72 hours, and that already includes the full audio audit — you're not waiting longer because the audit happens first. EPs, which involve consistency-checking across up to 5 tracks, typically take 5–7 days. Full albums, covering up to 10 tracks with a whole-release loudness and tonal consistency pass, typically take 7–14 days. If you need something faster, rush delivery in 24 hours is available on request. If a release date is locked in — a label deadline, a scheduled release — say so upfront and the schedule will be planned around it rather than around a generic queue."}},
     {"@type": "Question", "name": "What's the difference between stereo and stem mastering?",
@@ -1117,6 +1117,13 @@ h2 em { font-style: italic; color: var(--accent); }
   margin-bottom: 8px;
 }
 .pkg-price .currency { font-size: 28px; vertical-align: top; margin-right: 2px; }
+.pkg-vat {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
 .pkg-old {
   font-family: var(--mono);
   font-size: 13px;
@@ -2182,13 +2189,14 @@ footer a.legal-link { cursor: pointer; }
     <div class="section-head">
       <div class="section-eyebrow">Packages & Pricing</div>
       <h2 id="packages-heading">Transparent. Fair. <em>No subscription.</em></h2>
-      <p class="section-sub">Flat rates per project. Audio audit included in every package. No hidden costs, no processing fees. Unlimited revisions.</p>
+      <p class="section-sub">Flat rates per project. All prices are final prices including 19% German VAT. Audio audit included in every package. No hidden costs, no processing fees. Unlimited revisions.</p>
     </div>
 
     <div class="packages-grid">
       <article class="pkg">
         <div class="pkg-name">/ 01 · Single</div>
         <div class="pkg-price"><span class="currency">€</span>79</div>
+        <div class="pkg-vat">incl. 19% VAT</div>
         <div class="pkg-tagline">Stereo mastering incl. audio audit</div>
         <div class="pkg-badge">∞ Unlimited Revisions</div>
         <ul>
@@ -2205,6 +2213,7 @@ footer a.legal-link { cursor: pointer; }
       <article class="pkg featured">
         <div class="pkg-name">/ 02 · Stem Pro</div>
         <div class="pkg-price"><span class="currency">€</span>129</div>
+        <div class="pkg-vat">incl. 19% VAT</div>
         <div class="pkg-tagline">Stem mastering — maximum control</div>
         <div class="pkg-badge">∞ Unlimited Revisions</div>
         <ul>
@@ -2221,6 +2230,7 @@ footer a.legal-link { cursor: pointer; }
       <article class="pkg">
         <div class="pkg-name">/ 03 · EP</div>
         <div class="pkg-price"><span class="currency">€</span>349</div>
+        <div class="pkg-vat">incl. 19% VAT</div>
         <div class="pkg-old">instead of €395 · ~12% savings</div>
         <div class="pkg-tagline">Mastering for an EP (up to 5 tracks)</div>
         <div class="pkg-badge">∞ Unlimited Revisions</div>
@@ -2238,6 +2248,7 @@ footer a.legal-link { cursor: pointer; }
       <article class="pkg">
         <div class="pkg-name">/ 04 · Album</div>
         <div class="pkg-price"><span class="currency">€</span>799</div>
+        <div class="pkg-vat">incl. 19% VAT</div>
         <div class="pkg-old">instead of €990 · ~20% savings</div>
         <div class="pkg-tagline">Album mastering (up to 10 tracks)</div>
         <div class="pkg-badge">∞ Unlimited Revisions</div>
@@ -2252,7 +2263,7 @@ footer a.legal-link { cursor: pointer; }
         <a href="#contact" class="pkg-btn magnetic" data-track="pkg-album">Request album →</a>
       </article>
     </div>
-    <p style="margin-top: 32px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.05em; color: var(--text-muted);">Last updated: August 2026</p>
+    <p style="margin-top: 32px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.05em; color: var(--text-muted);">All prices are final prices incl. 19% VAT · Last updated: October 2026</p>
   </div>
 </section>
 
@@ -2293,10 +2304,6 @@ footer a.legal-link { cursor: pointer; }
           <div class="text"><strong>Audit-First Workflow</strong> · <span>Full analysis before every mastering session</span></div>
         </div>
         <div class="cred-row">
-          <div class="icon" aria-hidden="true">♪</div>
-          <div class="text"><strong>Active Producer & DJ</strong> · <span>Hands-on experience in electronic music production</span></div>
-        </div>
-        <div class="cred-row">
           <div class="icon" aria-hidden="true">↻</div>
           <div class="text"><strong>Personal, not algorithmic</strong> · <span>Every track handled by hand</span></div>
         </div>
@@ -2335,7 +2342,7 @@ footer a.legal-link { cursor: pointer; }
       </details>
       <details class="faq-item">
         <summary>What does professional audio mastering cost?</summary>
-        <div class="faq-answer">Stereo mastering starts at €79 per track, which includes the full audio audit — you're never charged separately for the analysis step. Stem mastering, which gives more precise control by working with grouped stems instead of a single stereo file, starts at €129 per track. For a full release, the EP package covers up to 5 tracks for €349, and the Album package covers up to 10 tracks for €799, both including per-track audits plus a consistency pass across the whole release. There's no subscription, no recurring fee, and no hidden add-on costs — the price you see is the price you pay, and every package already includes unlimited revisions until the master is right.</div>
+        <div class="faq-answer">Stereo mastering starts at €79 per track, which includes the full audio audit — you're never charged separately for the analysis step. Stem mastering, which gives more precise control by working with grouped stems instead of a single stereo file, starts at €129 per track. For a full release, the EP package covers up to 5 tracks for €349, and the Album package covers up to 10 tracks for €799, both including per-track audits plus a consistency pass across the whole release. All prices are final prices including 19% German VAT. There's no subscription, no recurring fee, and no hidden add-on costs — the price you see is the price you pay, and every package already includes unlimited revisions until the master is right.</div>
       </details>
       <details class="faq-item">
         <summary>How long does mastering take?</summary>
@@ -2450,10 +2457,10 @@ footer a.legal-link { cursor: pointer; }
               <select id="service" name="service">
                 <option value="">— Select service —</option>
                 <option value="Audio Audit">Audio audit only (consultation)</option>
-                <option value="Stereo Single">Single — Stereo mastering (€79)</option>
-                <option value="Stem Single">Single — Stem mastering (€129)</option>
-                <option value="EP Mastering">EP mastering (€349)</option>
-                <option value="Album Mastering">Album mastering (€799)</option>
+                <option value="Stereo Single">Single — Stereo mastering (€79 incl. VAT)</option>
+                <option value="Stem Single">Single — Stem mastering (€129 incl. VAT)</option>
+                <option value="EP Mastering">EP mastering (€349 incl. VAT)</option>
+                <option value="Album Mastering">Album mastering (€799 incl. VAT)</option>
                 <option value="Unsure">Not sure yet</option>
               </select>
             </div>
@@ -2465,8 +2472,18 @@ footer a.legal-link { cursor: pointer; }
           </div>
 
           <div class="form-group">
+            <label for="files">Link to Files <span style="color: var(--text-muted); font-weight: 400;">(optional)</span></label>
+            <input type="url" id="files" name="files" inputmode="url" placeholder="WeTransfer, Dropbox or Google Drive link to your premaster">
+          </div>
+
+          <div class="form-group">
             <label for="message">Message <span class="required" aria-hidden="true">*</span></label>
-            <textarea id="message" name="message" required placeholder="Tell me briefly about your project: what's the vision? Reference tracks? Planned release date? If you already have premaster files, feel free to send the WeTransfer/Dropbox link after submitting."></textarea>
+            <textarea id="message" name="message" required placeholder="Tell me briefly about your project: what's the vision? Reference tracks? Planned release date?"></textarea>
+          </div>
+
+          <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+            <label for="website">Leave this field empty</label>
+            <input type="text" id="website" name="_honey" tabindex="-1" autocomplete="off">
           </div>
 
           <div class="consent-row">
@@ -2601,6 +2618,7 @@ footer a.legal-link { cursor: pointer; }
     <p>When you visit our website, information is automatically collected (browser, operating system, IP address, etc.). This data cannot be attributed to specific individuals. Legal basis: Art. 6(1)(f) GDPR.</p>
     <h3>§ 3 Contact</h3>
     <p>If you contact us by email or contact form, your details are stored for the purpose of handling your inquiry. Legal basis: Art. 6(1)(f) and (b) GDPR.</p>
+    <p>Messages sent via the contact form are transmitted to us by the form service FormSubmit (Devro LABS, <a href="https://formsubmit.co" target="_blank" rel="noopener">formsubmit.co</a>), which forwards the entered data (name, email, genre, service, number of tracks, file link, message) to our email inbox. Processing by the provider may take place outside the EU. FormSubmit's privacy policy: <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener">formsubmit.co/privacy.pdf</a>. If you prefer not to use the form, you can email us directly.</p>
     <h3>§ 4 Processing of Audio-Related Data</h3>
     <p>As part of our mastering service, you send us audio material. This is processed exclusively to deliver the service:</p>
     <ul>
@@ -2635,7 +2653,7 @@ footer a.legal-link { cursor: pointer; }
     <p>Right to lodge a complaint with the data protection authority of Lower Saxony (Landesbeauftragter für Datenschutz Niedersachsen).</p>
     <h3>§ 10 Data Security</h3>
     <p>We use SSL/TLS encryption. However, data transmission over the internet may have security vulnerabilities.</p>
-    <div class="legal-footer-note">Last updated: August 2026</div>
+    <div class="legal-footer-note">Last updated: October 2026</div>
   </div>
 </div>
 
@@ -2655,7 +2673,7 @@ footer a.legal-link { cursor: pointer; }
     <h3>§ 4 Client Obligations</h3>
     <p>The client provides audio files in the agreed formats and warrants that they hold the necessary rights to the submitted works.</p>
     <h3>§ 5 Remuneration</h3>
-    <p>Prices as per package offers plus statutory VAT. Invoicing after the service has been rendered. Payment term: 14 days net.</p>
+    <p>Prices as per package offers. All stated prices are final prices including statutory VAT (currently 19%). Invoicing after the service has been rendered. Payment term: 14 days net.</p>
     <h3>§ 6 Delivery Times</h3>
     <p>Stated delivery times are non-binding estimates. They begin upon receipt of all materials and order confirmation.</p>
     <h3>§ 7 Revisions</h3>
@@ -2668,7 +2686,7 @@ footer a.legal-link { cursor: pointer; }
     <p>For services, the right of withdrawal expires once Polished has begun performance with the consumer's explicit consent.</p>
     <h3>§ 11 Final Provisions</h3>
     <p>German law applies, excluding the UN Convention on Contracts for the International Sale of Goods (CISG). Place of jurisdiction is, to the extent permitted, the registered seat of Polished.</p>
-    <div class="legal-footer-note">Last updated: August 2026 — Draft version. Legal review required.</div>
+    <div class="legal-footer-note">Last updated: October 2026 — Draft version. Legal review required.</div>
   </div>
 </div>
 
@@ -3023,31 +3041,47 @@ if (form) {
       return;
     }
 
-    const subject = `Mastering Inquiry${service ? ' · ' + service : ''}${genre ? ' · ' + genre : ''}`;
-    const body =
-`Mastering inquiry via polished.media
+    const files = document.getElementById('files').value.trim();
+    const honey = document.getElementById('website').value;
+    if (honey) return; // bot filled the hidden field
 
-— REQUEST DETAILS —
-Name:      ${name}
-Email:     ${email}
-${genre ? 'Genre:     ' + genre + '\n' : ''}${service ? 'Service:   ' + service + '\n' : ''}${tracks ? 'Tracks:    ' + tracks + '\n' : ''}
-— MESSAGE —
-${message}
+    const subject = `Mastering Inquiry${service ? ' · ' + service : ''}${genre ? ' · ' + genre : ''} — ${name}`;
+    const fallbackLink = `<a href="mailto:polished.media@gmx.de?subject=${encodeURIComponent(subject)}" style="color: var(--accent); text-decoration: none;">polished.media@gmx.de</a>`;
 
-— PRIVACY —
-Requester has agreed to the privacy policy.
-Sent via contact form on polished.media`;
-
-    const mailto = `mailto:polished.media@gmx.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailto;
-
-    trackEvent('form_submit', { service, genre });
-
-    status.className = 'form-status show success';
-    status.innerHTML = `<strong>Your email program is about to open.</strong><br>If not, message me directly at <a href="mailto:polished.media@gmx.de" style="color: var(--accent); text-decoration: none;">polished.media@gmx.de</a>.`;
-    submitBtn.textContent = '✓ Request prepared';
     submitBtn.disabled = true;
-    setTimeout(() => { submitBtn.textContent = 'Send Request →'; submitBtn.disabled = false; }, 8000);
+    submitBtn.textContent = 'Sending…';
+    status.className = 'form-status';
+
+    fetch('https://formsubmit.co/ajax/polished.media@gmx.de', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        name, email, genre: genre || '—', service: service || '—', tracks: tracks || '—',
+        files: files || '—', message,
+        consent: 'Requester agreed to the privacy policy',
+        _subject: subject,
+        _replyto: email,
+        _template: 'table',
+        _captcha: 'false'
+      })
+    })
+      .then(res => res.json().then(data => ({ ok: res.ok, data })))
+      .then(({ ok, data }) => {
+        if (!ok || String(data.success) !== 'true') throw new Error(data.message || 'Submission failed');
+        trackEvent('form_submit', { service, genre });
+        trackEvent('generate_lead', { service, genre });
+        form.reset();
+        status.className = 'form-status show success';
+        status.innerHTML = '<strong>Thanks — your request is in.</strong><br>I\'ll reply personally to ' + email.replace(/[<>&"]/g, '') + ', usually within 24 hours.';
+        submitBtn.textContent = '✓ Request sent';
+        setTimeout(() => { submitBtn.textContent = 'Send Request →'; submitBtn.disabled = false; }, 8000);
+      })
+      .catch(() => {
+        status.className = 'form-status show error';
+        status.innerHTML = `Sending didn't work just now. Please try again, or email me directly at ${fallbackLink}.`;
+        submitBtn.textContent = 'Send Request →';
+        submitBtn.disabled = false;
+      });
   });
 }
 </script>
