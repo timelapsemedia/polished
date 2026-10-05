@@ -93,26 +93,38 @@
     });
   });
 
-  var stored = null;
-  try { stored = localStorage.getItem(CONSENT_KEY); } catch (e) {}
-  if (stored === 'granted') { loadGA(); return; }
-  if (stored === 'denied') return;
+  function disableGA() {
+    window['ga-disable-' + GA_ID] = true;
+    document.cookie.split(';').map(function (c) { return c.trim().split('=')[0]; })
+      .filter(function (n) { return n.indexOf('_ga') === 0; })
+      .forEach(function (n) {
+        document.cookie = n + '=; Max-Age=0; path=/';
+        document.cookie = n + '=; Max-Age=0; path=/; domain=.' + location.hostname;
+      });
+  }
 
   var banner = document.createElement('div');
   banner.className = 'cookie-banner';
   banner.setAttribute('role', 'dialog');
   banner.setAttribute('aria-label', de ? 'Cookie-Einstellungen' : 'Cookie settings');
   banner.innerHTML = de
-    ? '<p>Wir nutzen Google Analytics, um anonym zu verstehen, wie polished.media genutzt wird. Du entscheidest frei und kannst deine Wahl jederzeit ändern. Details in der <a href="/#privacy">Datenschutzerklärung</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Nur notwendige</button><button class="cookie-btn primary" data-c="granted">Akzeptieren</button></div>'
-    : '<p>We use Google Analytics to anonymously understand how polished.media is used. You\'re free to choose and can change your choice at any time. Details in the <a href="/#privacy">Privacy Policy</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Necessary Only</button><button class="cookie-btn primary" data-c="granted">Accept</button></div>';
+    ? '<p>Wir nutzen Google Analytics, um anonym zu verstehen, wie polished.media genutzt wird. Du entscheidest frei und kannst deine Wahl jederzeit über „Cookie-Einstellungen“ im Footer ändern. Details in der <a href="/#privacy">Datenschutzerklärung</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Nur notwendige</button><button class="cookie-btn primary" data-c="granted">Akzeptieren</button></div>'
+    : '<p>We use Google Analytics to anonymously understand how polished.media is used. You\'re free to choose and can change your choice any time via "Cookie settings" in the footer. Details in the <a href="/#privacy">Privacy Policy</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Necessary Only</button><button class="cookie-btn primary" data-c="granted">Accept</button></div>';
   document.body.appendChild(banner);
-  setTimeout(function () { banner.classList.add('show'); }, 1500);
   banner.querySelectorAll('[data-c]').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var v = btn.getAttribute('data-c');
       try { localStorage.setItem(CONSENT_KEY, v); } catch (e) {}
-      if (v === 'granted') loadGA();
+      if (v === 'granted') loadGA(); else disableGA();
       banner.classList.remove('show');
     });
   });
+  document.querySelectorAll('.cookie-settings-link').forEach(function (a) {
+    a.addEventListener('click', function (e) { e.preventDefault(); banner.classList.add('show'); });
+  });
+
+  var stored = null;
+  try { stored = localStorage.getItem(CONSENT_KEY); } catch (e) {}
+  if (stored === 'granted') loadGA();
+  else if (stored !== 'denied') setTimeout(function () { banner.classList.add('show'); }, 1500);
 })();

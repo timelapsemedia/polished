@@ -45,10 +45,9 @@
 <meta name="twitter:title" content="Polished Mastering — Metal & Gothic, Audit-First">
 <meta name="twitter:description" content="Full audio audit before every master. From €79.">
 
-<!-- Preconnect / DNS for performance -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<!-- Self-hosted fonts: preload the two faces used above the fold -->
+<link rel="preload" href="/assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Schema.org: LocalBusiness -->
 <script type="application/ld+json">
@@ -221,7 +220,7 @@
     {"@type": "Question", "name": "Can you master for vinyl and Bandcamp?",
      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Bandcamp does not normalize loudness, so the Bandcamp master is the version listeners hear exactly as delivered, and it's planned accordingly. A separate vinyl-ready master is available on request for album projects: vinyl cutting benefits from more dynamic range, controlled sibilance and a mono-compatible low end, which the audit's phase and stereo analysis already checks. Mention the formats you plan to release on when you get in touch, and the deliverables will be set up for each of them."}},
     {"@type": "Question", "name": "How does invoicing work?",
-     "acceptedAnswer": {"@type": "Answer", "text": "Every project is invoiced properly after delivery, with a full VAT statement included as required under German business law. Payment can be made by bank transfer or PayPal, with other arrangements available on request for labels or agencies with specific procurement requirements. B2B terms are available for labels and agencies working across multiple releases, and regular clients — bands or labels sending tracks on an ongoing basis — can arrange a framework agreement with preferred pricing rather than negotiating each project individually."}}
+     "acceptedAnswer": {"@type": "Answer", "text": "There's no upfront payment: every project is invoiced after delivery, with a full VAT statement as required under German business law. Payment can be made by bank transfer or PayPal, with other arrangements available on request for labels or agencies with specific procurement requirements. B2B terms are available for labels and agencies working across multiple releases, and regular clients — bands or labels sending tracks on an ongoing basis — can arrange a framework agreement with preferred pricing rather than negotiating each project individually."}}
   ]
 }
 </script>
@@ -257,11 +256,82 @@
 }
 </script>
 
-<!-- Fonts: preloaded to avoid render-blocking -->
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=JetBrains+Mono:wght@300;400;500;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=JetBrains+Mono:wght@300;400;500;700&family=Manrope:wght@300;400;500;600;700;800&display=swap"></noscript>
 
 <style>
+/* Self-hosted fonts (no requests to Google servers). Variable fonts, latin + latin-ext. */
+/* Fraunces italic latin-ext */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(/assets/fonts/fraunces-italic-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* Fraunces italic latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(/assets/fonts/fraunces-italic-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Fraunces normal latin-ext */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(/assets/fonts/fraunces-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* Fraunces normal latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(/assets/fonts/fraunces-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* JetBrains Mono normal latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(/assets/fonts/jetbrains-mono-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* JetBrains Mono normal latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(/assets/fonts/jetbrains-mono-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Manrope normal latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url(/assets/fonts/manrope-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* Manrope normal latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url(/assets/fonts/manrope-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
   --bg: #0a0a0a;
   --bg-elevated: #111111;
@@ -270,7 +340,7 @@
   --border-strong: #2a2a2a;
   --text: #f5f5f4;
   --text-dim: #a8a29e;
-  --text-muted: #57534e;
+  --text-muted: #8a837d;
   --accent: #ff6b35;
   --accent-bright: #ff854e;
   --accent-glow: rgba(255, 107, 53, 0.15);
@@ -1523,6 +1593,9 @@ h2 em { font-style: italic; color: var(--accent); }
   margin-bottom: 8px;
 }
 .response-time .text { font-size: 15px; line-height: 1.5; color: var(--text); }
+.next-steps { margin: 4px 0 0 18px; font-size: 15px; line-height: 1.55; color: var(--text); }
+.next-steps li { margin-bottom: 6px; padding-left: 4px; }
+.next-steps li::marker { color: var(--accent); font-family: var(--mono); }
 
 .contact-form {
   background: var(--bg-card);
@@ -1953,7 +2026,7 @@ footer a.legal-link { cursor: pointer; }
 <!-- ANNOUNCEMENT -->
 <div class="announce" role="status">
   <span class="pulse" aria-hidden="true"></span>
-  Limited mastering slots per week · Delivery in 48–72h · Inquiries answered within 24h
+  Pay after delivery · Delivery in 48–72h · Replies within 24h · Limited slots per week
 </div>
 
 <!-- NAV -->
@@ -2014,7 +2087,7 @@ footer a.legal-link { cursor: pointer; }
         </div>
         <div class="trust-item" role="listitem">
           <div class="icon" aria-hidden="true">∞</div>
-          <div class="text"><strong>Unlimited revisions</strong>Until your master is exactly right</div>
+          <div class="text"><strong>Unlimited revisions</strong>Pay only after delivery, no upfront risk</div>
         </div>
       </div>
     </div>
@@ -2201,7 +2274,7 @@ footer a.legal-link { cursor: pointer; }
     <div class="section-head">
       <div class="section-eyebrow">Packages & Pricing</div>
       <h2 id="packages-heading">Transparent. Fair. <em>No subscription.</em></h2>
-      <p class="section-sub">Flat rates per project. All prices are final prices including 19% German VAT. Audio audit included in every package. No hidden costs, no processing fees. Unlimited revisions.</p>
+      <p class="section-sub">Flat rates per project, final prices including 19% German VAT. <strong style="color: var(--text);">No upfront payment: you're invoiced after delivery.</strong> Audio audit and unlimited revisions included in every package.</p>
     </div>
 
     <div class="packages-grid">
@@ -2280,7 +2353,7 @@ footer a.legal-link { cursor: pointer; }
 </section>
 
 <!-- ENGINEER -->
-<section class="engineer reveal" id="engineer" aria-labelledby="engineer-heading">
+<section class="engineer reveal" id="engineer" aria-labelledby="engineer-h2">
   <div class="engineer-inner">
     <div class="engineer-portrait">
       <picture><source srcset="/assets/tim-borchert-900.webp" type="image/webp"><img src="/assets/tim-borchert-900.jpg" alt="Portrait of Tim Borchert, mastering engineer at Polished, with headphones in front of the studio console" class="portrait-img" loading="lazy" decoding="async" width="900" height="900"></picture>
@@ -2295,8 +2368,8 @@ footer a.legal-link { cursor: pointer; }
       </div>
     </div>
     <div class="engineer-content">
-      <div class="section-eyebrow">The Engineer</div>
-      <blockquote id="engineer-heading">
+      <h2 class="section-eyebrow" id="engineer-h2">The Engineer · Tim Borchert</h2>
+      <blockquote>
         Mastering isn't a gut feeling.<br>Mastering is <em>applied audio engineering.</em>
       </blockquote>
       <p style="color: var(--text-dim); font-size: 16px; line-height: 1.7; margin-bottom: 32px;">
@@ -2398,7 +2471,7 @@ footer a.legal-link { cursor: pointer; }
       </details>
       <details class="faq-item">
         <summary>How does invoicing work?</summary>
-        <div class="faq-answer">Every project is invoiced properly after delivery, with a full VAT statement included as required under German business law. Payment can be made by bank transfer or PayPal, with other arrangements available on request for labels or agencies with specific procurement requirements. B2B terms are available for labels and agencies working across multiple releases, and regular clients — bands or labels sending tracks on an ongoing basis — can arrange a framework agreement with preferred pricing rather than negotiating each project individually.</div>
+        <div class="faq-answer">There's no upfront payment: every project is invoiced after delivery, with a full VAT statement as required under German business law. Payment can be made by bank transfer or PayPal, with other arrangements available on request for labels or agencies with specific procurement requirements. B2B terms are available for labels and agencies working across multiple releases, and regular clients — bands or labels sending tracks on an ongoing basis — can arrange a framework agreement with preferred pricing rather than negotiating each project individually.</div>
       </details>
     </div>
   </div>
@@ -2433,8 +2506,13 @@ footer a.legal-link { cursor: pointer; }
       </div>
 
       <div class="response-time">
-        <div class="label">Response Time</div>
-        <div class="text">Inquiries are usually answered personally within <strong>24 hours</strong>. Might take a bit longer on weekends.</div>
+        <div class="label">What happens next</div>
+        <ol class="next-steps">
+          <li>Personal reply within <strong>24 hours</strong> with a fixed quote.</li>
+          <li>You send your premaster via WeTransfer, Dropbox or Google Drive.</li>
+          <li>Written audio audit + master, single in <strong>48–72h</strong>.</li>
+          <li>Revisions until it's right. <strong>Invoice only after delivery.</strong></li>
+        </ol>
       </div>
     </div>
 
@@ -2522,7 +2600,7 @@ footer a.legal-link { cursor: pointer; }
       <a href="#contact" class="cta-btn magnetic" data-track="final-primary"><span>Request Audio Audit →</span></a>
       <a href="#packages" class="cta-btn outline magnetic" data-track="final-secondary"><span>View Packages</span></a>
     </div>
-    <div class="scarcity">Inquiries answered within 24h · Limited slots per week</div>
+    <div class="scarcity">Replies within 24h · Pay after delivery · Limited slots per week</div>
   </div>
 </section>
 
@@ -2570,7 +2648,8 @@ footer a.legal-link { cursor: pointer; }
     <div>
       <a href="#" class="legal-link" data-modal="impressum">Legal Notice</a> ·
       <a href="#" class="legal-link" data-modal="datenschutz">Privacy Policy</a> ·
-      <a href="#" class="legal-link" data-modal="agb">Terms</a>
+      <a href="#" class="legal-link" data-modal="agb">Terms</a> ·
+      <a href="#" class="cookie-settings-link">Cookie settings</a>
     </div>
   </div>
 </footer>
@@ -2579,38 +2658,50 @@ footer a.legal-link { cursor: pointer; }
 <div class="modal-overlay" id="modal-impressum" role="dialog" aria-modal="true" aria-labelledby="impressum-title">
   <div class="modal">
     <button class="modal-close" data-close aria-label="Close">✕</button>
-    <div class="modal-eyebrow">Mandatory information pursuant to § 5 TMG (German Telemedia Act)</div>
-    <h2 id="impressum-title">Legal Notice</h2>
-    <h3>Provider</h3>
+    <div class="modal-eyebrow">Impressum · Legal Notice</div>
+    <h2 id="impressum-title">Impressum</h2>
+    <p>Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz). <a href="#impressum-en" style="color: var(--accent);">English version below.</a></p>
+    <h3>Anbieter</h3>
     <div class="legal-table">
-      <div class="label">Company</div><div class="value"><strong>Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)</strong></div>
-      <div class="label">Address</div><div class="value">Wasserstr. 9<br>27308 Kirchlinteln<br>Germany</div>
-      <div class="label">Email</div><div class="value"><a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></div>
+      <div class="label">Unternehmen</div><div class="value"><strong>Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)</strong><br>handelnd unter der Marke Polished / Polished.Media</div>
+      <div class="label">Anschrift</div><div class="value">Wasserstr. 9<br>27308 Kirchlinteln<br>Deutschland</div>
+      <div class="label">E-Mail</div><div class="value"><a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></div>
     </div>
-    <h3>Commercial Register</h3>
+    <h3>Vertretungsberechtigt</h3>
     <div class="legal-table">
-      <div class="label">Register Court</div><div class="value">Local Court Walsrode (Amtsgericht Walsrode)</div>
-      <div class="label">Register Number</div><div class="value">HRB 211843</div>
-      <div class="label">VAT ID</div><div class="value">DE367324699</div>
-      <div class="label">Tax Number</div><div class="value">48/202/14038</div>
+      <div class="label">Geschäftsführer</div><div class="value"><strong>Christoph Junge</strong></div>
     </div>
-    <h3>Authorized Representative</h3>
+    <h3>Register und Steuern</h3>
     <div class="legal-table">
-      <div class="label">Managing Director</div><div class="value"><strong>Christoph Junge</strong>, Managing Shareholder</div>
+      <div class="label">Registergericht</div><div class="value">Amtsgericht Walsrode</div>
+      <div class="label">Registernummer</div><div class="value">HRB 211843</div>
+      <div class="label">USt-IdNr.</div><div class="value">DE367324699</div>
+      <div class="label">Steuernummer</div><div class="value">48/202/14038</div>
     </div>
-    <h3>Responsible for content pursuant to § 18 (2) MStV (German Interstate Media Treaty)</h3>
-    <p>Christoph Junge, Wasserstr. 9, 27308 Kirchlinteln, Germany</p>
-    <h3>Consumer Dispute Resolution</h3>
-    <p>We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p>
-    <h3>Liability for Content</h3>
-    <p>As a service provider, we are responsible for our own content on these pages under general law pursuant to § 7 (1) TMG. Under §§ 8 to 10 TMG, however, we are not obligated as a service provider to monitor transmitted or stored third-party information.</p>
-    <h3>Liability for Links</h3>
-    <p>Our offering contains links to external third-party websites. The respective provider is always responsible for their content. The linked pages were checked for legal violations at the time of linking.</p>
-    <h3>Copyright</h3>
-    <p>Content created by the site operators is subject to German copyright law. Reproduction, editing and use outside the scope of copyright law require written consent.</p>
-    <h3>Scope</h3>
-    <p>This legal notice applies to the domain <strong>polished.media</strong> as well as our social media presences (Instagram, TikTok).</p>
-    <div class="legal-footer-note">Last updated: October 2026</div>
+    <h3>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+    <p>Christoph Junge, Wasserstr. 9, 27308 Kirchlinteln, Deutschland</p>
+    <h3>Verbraucherstreitbeilegung</h3>
+    <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+    <h3>Haftung für Inhalte</h3>
+    <p>Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Für übermittelte oder gespeicherte fremde Informationen gelten die Haftungsregeln der §§ 7 ff. DDG bzw. des Digital Services Act (Verordnung (EU) 2022/2065); eine allgemeine Pflicht zur Überwachung solcher Informationen besteht nicht. Bei Bekanntwerden von Rechtsverletzungen entfernen wir entsprechende Inhalte umgehend.</p>
+    <h3>Haftung für Links</h3>
+    <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Links umgehend.</p>
+    <h3>Urheberrecht</h3>
+    <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung und Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung.</p>
+    <h3>Geltungsbereich</h3>
+    <p>Dieses Impressum gilt für die Domain <strong>polished.media</strong> sowie für unsere Social-Media-Präsenzen (Instagram, TikTok).</p>
+
+    <h2 id="impressum-en" style="margin-top: 56px; font-size: 32px;">Legal Notice (English)</h2>
+    <p>Information pursuant to § 5 DDG (German Digital Services Act).</p>
+    <p><strong>Provider:</strong> Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), trading as Polished / Polished.Media, Wasserstr. 9, 27308 Kirchlinteln, Germany. Email: <a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></p>
+    <p><strong>Managing Director:</strong> Christoph Junge</p>
+    <p><strong>Commercial register:</strong> Local Court Walsrode (Amtsgericht Walsrode), HRB 211843 · VAT ID: DE367324699 · Tax number: 48/202/14038</p>
+    <p><strong>Responsible for content pursuant to § 18 (2) MStV:</strong> Christoph Junge, address as above.</p>
+    <p><strong>Consumer dispute resolution:</strong> We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+    <p><strong>Liability:</strong> We are responsible for our own content under general law. For third-party information, the liability rules of §§ 7 et seq. DDG and the EU Digital Services Act apply; there is no general obligation to monitor such information. We remove unlawful content and links promptly once we become aware of them.</p>
+    <p><strong>Copyright:</strong> Content created by the site operators is subject to German copyright law. Reproduction, editing and use outside the limits of copyright law require written consent.</p>
+    <p><strong>Scope:</strong> This legal notice applies to polished.media and our social media presences (Instagram, TikTok).</p>
+    <div class="legal-footer-note">Stand / Last updated: Oktober 2026</div>
   </div>
 </div>
 
@@ -2618,54 +2709,67 @@ footer a.legal-link { cursor: pointer; }
 <div class="modal-overlay" id="modal-datenschutz" role="dialog" aria-modal="true" aria-labelledby="datenschutz-title">
   <div class="modal">
     <button class="modal-close" data-close aria-label="Close">✕</button>
-    <div class="modal-eyebrow">GDPR-compliant privacy policy</div>
-    <h2 id="datenschutz-title">Privacy Policy</h2>
-    <h3>§ 1 Data Controller</h3>
+    <div class="modal-eyebrow">Datenschutzerklärung · Privacy Policy</div>
+    <h2 id="datenschutz-title">Datenschutz&shy;erklärung</h2>
+    <p><a href="#privacy-en" style="color: var(--accent);">English version below.</a></p>
+    <h3>1. Verantwortlicher</h3>
     <div class="legal-table">
-      <div class="label">Company</div><div class="value"><strong>Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)</strong></div>
-      <div class="label">Address</div><div class="value">Wasserstr. 9, 27308 Kirchlinteln, Germany</div>
-      <div class="label">Email</div><div class="value"><a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></div>
+      <div class="label">Unternehmen</div><div class="value"><strong>Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)</strong>, handelnd als Polished / Polished.Media</div>
+      <div class="label">Anschrift</div><div class="value">Wasserstr. 9, 27308 Kirchlinteln, Deutschland</div>
+      <div class="label">E-Mail</div><div class="value"><a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></div>
     </div>
-    <h3>§ 2 Server Log Files</h3>
-    <p>When you visit our website, information is automatically collected (browser, operating system, IP address, etc.). This data cannot be attributed to specific individuals. Legal basis: Art. 6(1)(f) GDPR.</p>
-    <h3>§ 3 Contact</h3>
-    <p>If you contact us by email or contact form, your details are stored for the purpose of handling your inquiry. Legal basis: Art. 6(1)(f) and (b) GDPR.</p>
-    <p>Messages sent via the contact form are transmitted to us by the form service FormSubmit (Devro LABS, <a href="https://formsubmit.co" target="_blank" rel="noopener">formsubmit.co</a>), which forwards the entered data (name, email, genre, service, number of tracks, file link, message) to our email inbox. Processing by the provider may take place outside the EU. FormSubmit's privacy policy: <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener">formsubmit.co/privacy.pdf</a>. If you prefer not to use the form, you can email us directly.</p>
-    <h3>§ 4 Processing of Audio-Related Data</h3>
-    <p>As part of our mastering service, you send us audio material. This is processed exclusively to deliver the service:</p>
+    <h3>2. Hosting und Server-Logfiles</h3>
+    <p>Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Website verarbeitet GitHub technisch notwendige Verbindungsdaten (insbesondere IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Referrer-URL, Browser und Betriebssystem), um die Seite sicher und stabil auszuliefern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse liegt in einer sicheren und funktionsfähigen Bereitstellung der Website. Eine Übermittlung in die USA ist möglich; sie erfolgt, soweit anwendbar, auf Grundlage des EU-US Data Privacy Framework und/oder von Standardvertragsklauseln (Art. 46 DSGVO). Details: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
+    <h3>3. Schriftarten</h3>
+    <p>Die auf dieser Website verwendeten Schriftarten sind lokal auf unserem Server eingebunden. Beim Laden der Seite findet keine Verbindung zu Servern von Google oder anderen Schriftanbietern statt.</p>
+    <h3>4. Kontaktaufnahme und Anfrageformular</h3>
+    <p>Wenn Sie uns per E-Mail, Instagram-Direktnachricht oder über das Anfrageformular kontaktieren, verarbeiten wir Ihre Angaben (z. B. Name, E-Mail-Adresse, Genre, gewünschte Leistung, Anzahl der Tracks, Link zu Ihren Dateien, Nachricht), um Ihre Anfrage zu bearbeiten und ggf. ein Angebot zu erstellen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) sowie Art. 6 Abs. 1 lit. f DSGVO.</p>
+    <p>Das Anfrageformular nutzt den Dienst FormSubmit (Devro LABS, <a href="https://formsubmit.co" target="_blank" rel="noopener">formsubmit.co</a>), der die eingegebenen Daten an unser E-Mail-Postfach weiterleitet. Dabei kann eine Verarbeitung außerhalb der EU stattfinden. Datenschutzhinweise des Anbieters: <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener">formsubmit.co/privacy.pdf</a>. Wenn Sie das Formular nicht nutzen möchten, schreiben Sie uns direkt per E-Mail.</p>
+    <h3>5. Verarbeitung von Audiodaten</h3>
+    <p>Im Rahmen des Mastering-Auftrags übermitteln Sie uns Audiomaterial. Dieses verarbeiten wir ausschließlich zur Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO):</p>
     <ul>
-      <li>Audio data is hosted on encrypted storage systems</li>
-      <li>No disclosure to third parties without consent</li>
-      <li>Standard retention: 90 days after project completion</li>
-      <li>Immediate deletion available on request at any time</li>
+      <li>Speicherung auf verschlüsselten Speichersystemen</li>
+      <li>keine Weitergabe an Dritte ohne Ihre Zustimmung</li>
+      <li>Standard-Aufbewahrung: 90 Tage nach Projektabschluss, danach Löschung</li>
+      <li>auf Wunsch jederzeit frühere Löschung</li>
     </ul>
-    <p>Legal basis: Art. 6(1)(b) GDPR.</p>
-    <h3>§ 5 Google Fonts</h3>
-    <p>This website uses Google Fonts. Fonts are retrieved from Google's servers when the page loads. Legal basis: Art. 6(1)(f) GDPR. Details: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
-    <h3>§ 6 Google Analytics 4</h3>
-    <p>This website uses Google Analytics 4, a web analytics service provided by Google Ireland Limited ("Google"), Gordon House, Barrow Street, Dublin 4, Ireland. Google Analytics uses cookies and similar technologies that enable analysis of website usage.</p>
-    <p>Collection and processing only occur after your explicit consent via our cookie consent banner. Legal basis: Art. 6(1)(a) GDPR.</p>
-    <p>We have enabled IP anonymization. This shortens your IP address before transmission. Transmission to servers in the USA may occur — Google is certified under the EU-US Data Privacy Framework.</p>
-    <p>Data collected: anonymized IP, date/time of visit, pages visited, time spent, click paths, browser/device information, approximate region.</p>
-    <p>You can withdraw your consent at any time via the cookie settings, or use a browser plugin from Google: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tools.google.com/dlpage/gaoptout</a>. Retention period: 14 months by default, then automatic deletion.</p>
-    <h3>§ 7 External File Transfer</h3>
-    <p>For large audio files we recommend third-party providers (WeTransfer, Google Drive, Dropbox). The respective providers' privacy policies apply.</p>
-    <h3>§ 8 Social Media</h3>
-    <p>We maintain presences on Instagram and TikTok. When visiting these pages, the respective provider's privacy policies apply.</p>
-    <h3>§ 9 Your Rights</h3>
-    <ul>
-      <li>Access (Art. 15 GDPR)</li>
-      <li>Rectification (Art. 16 GDPR)</li>
-      <li>Erasure (Art. 17 GDPR)</li>
-      <li>Restriction (Art. 18 GDPR)</li>
-      <li>Data portability (Art. 20 GDPR)</li>
-      <li>Objection (Art. 21 GDPR)</li>
-    </ul>
-    <p>Requests to: <a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></p>
-    <p>Right to lodge a complaint with the data protection authority of Lower Saxony (Landesbeauftragter für Datenschutz Niedersachsen).</p>
-    <h3>§ 10 Data Security</h3>
-    <p>We use SSL/TLS encryption. However, data transmission over the internet may have security vulnerabilities.</p>
-    <div class="legal-footer-note">Last updated: October 2026</div>
+    <p>Für große Dateien empfehlen wir Filetransfer-Dienste (z. B. WeTransfer, Dropbox, Google Drive). Für deren Nutzung gelten die Datenschutzbestimmungen des jeweiligen Anbieters.</p>
+    <h3>6. Google Analytics 4 (nur mit Einwilligung)</h3>
+    <p>Mit Ihrer Einwilligung nutzen wir Google Analytics 4, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics setzt Cookies und ähnliche Technologien ein, um die Nutzung der Website auszuwerten (z. B. aufgerufene Seiten, Verweildauer, Klickpfade, Geräte- und Browserinformationen, ungefähre Region). IP-Adressen werden von Google Analytics 4 nicht gespeichert.</p>
+    <p>Die Verarbeitung erfolgt nur, wenn Sie im Cookie-Banner auf „Akzeptieren“ klicken. Rechtsgrundlage sind Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG. Eine Übermittlung in die USA ist möglich; sie erfolgt, soweit anwendbar, auf Grundlage des EU-US Data Privacy Framework und/oder von Standardvertragsklauseln. Speicherdauer: 14 Monate, danach automatische Löschung.</p>
+    <p><strong>Widerruf:</strong> Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie im Footer jeder Seite auf „Cookie-Einstellungen“ klicken.</p>
+    <p>Ihre Auswahl im Cookie-Banner speichern wir im lokalen Speicher Ihres Browsers (localStorage), damit das Banner nicht bei jedem Seitenaufruf erneut erscheint. Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG.</p>
+    <h3>7. Social Media</h3>
+    <p>Auf unserer Website verlinken wir auf unsere Profile bei Instagram und TikTok. Es handelt sich um einfache Links; beim bloßen Aufruf unserer Website werden keine Daten an diese Anbieter übertragen. Wenn Sie den Links folgen, gelten die Datenschutzbestimmungen des jeweiligen Anbieters.</p>
+    <h3>8. Ihre Rechte</h3>
+    <p>Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Art. 21). Anfragen richten Sie bitte an <a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a>.</p>
+    <p>Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, z. B. bei der Landesbeauftragten für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover.</p>
+    <h3>9. Speicherdauer</h3>
+    <p>Wir speichern personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist oder gesetzliche Aufbewahrungspflichten (z. B. nach Handels- und Steuerrecht für Rechnungen) bestehen.</p>
+    <h3>10. Datensicherheit</h3>
+    <p>Diese Website nutzt eine SSL/TLS-Verschlüsselung. Eine vollständig sichere Datenübertragung im Internet kann dennoch nicht garantiert werden.</p>
+
+    <h2 id="privacy-en" style="margin-top: 56px; font-size: 32px;">Privacy Policy (English)</h2>
+    <p>This translation is provided for convenience; the German version above prevails.</p>
+    <h3>1. Controller</h3>
+    <p>Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), trading as Polished / Polished.Media, Wasserstr. 9, 27308 Kirchlinteln, Germany, <a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></p>
+    <h3>2. Hosting and server log files</h3>
+    <p>This website is served via GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you visit the site, GitHub processes technically necessary connection data (in particular IP address, date and time, requested page, referrer URL, browser and operating system) to deliver the site securely and reliably. Legal basis: Art. 6(1)(f) GDPR. Transfers to the USA may occur, based where applicable on the EU-US Data Privacy Framework and/or Standard Contractual Clauses (Art. 46 GDPR).</p>
+    <h3>3. Fonts</h3>
+    <p>All fonts are hosted locally. No connection to Google or other font providers is made when the page loads.</p>
+    <h3>4. Contact and inquiry form</h3>
+    <p>When you contact us by email, Instagram DM or the inquiry form, we process your details (e.g. name, email, genre, requested service, number of tracks, file link, message) to handle your inquiry and prepare a quote. Legal basis: Art. 6(1)(b) and (f) GDPR. The form uses FormSubmit (Devro LABS, formsubmit.co), which forwards the data to our inbox; processing may take place outside the EU. You can always email us directly instead.</p>
+    <h3>5. Audio data</h3>
+    <p>Audio material you send us is processed solely to perform the contract (Art. 6(1)(b) GDPR), stored on encrypted systems, not shared with third parties without your consent, and deleted 90 days after project completion or earlier on request. File transfer services you choose (e.g. WeTransfer, Dropbox, Google Drive) are subject to their own privacy policies.</p>
+    <h3>6. Google Analytics 4 (consent only)</h3>
+    <p>With your consent, we use Google Analytics 4 (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland) to analyse website usage via cookies and similar technologies. IP addresses are not stored by Google Analytics 4. Processing only starts after you click "Accept" in the cookie banner. Legal basis: Art. 6(1)(a) GDPR and § 25(1) TDDDG. Transfers to the USA may occur (EU-US Data Privacy Framework and/or Standard Contractual Clauses where applicable). Retention: 14 months. You can withdraw your consent at any time via "Cookie settings" in the footer of every page. Your banner choice is stored in your browser's localStorage (§ 25(2) no. 2 TDDDG).</p>
+    <h3>7. Social media</h3>
+    <p>We link to our Instagram and TikTok profiles. These are plain links; no data is sent to these providers when you merely visit our website.</p>
+    <h3>8. Your rights</h3>
+    <p>You have the right of access, rectification, erasure, restriction, data portability and objection (Art. 15–18, 20, 21 GDPR). Contact: <a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a>. You may also lodge a complaint with a supervisory authority, e.g. the Data Protection Commissioner of Lower Saxony (Landesbeauftragte für den Datenschutz Niedersachsen), Prinzenstraße 5, 30159 Hannover, Germany.</p>
+    <h3>9. Retention and security</h3>
+    <p>We keep personal data only as long as necessary for the respective purpose or required by statutory retention obligations (e.g. invoices). The site uses SSL/TLS encryption.</p>
+    <div class="legal-footer-note">Stand / Last updated: Oktober 2026</div>
   </div>
 </div>
 
@@ -3270,7 +3374,6 @@ function loadGA() {
   window.gtag = function() { dataLayer.push(arguments); };
   gtag('js', new Date());
   gtag('config', GA_ID, {
-    'anonymize_ip': true,
     'cookie_flags': 'SameSite=None;Secure',
     'cookie_expires': 60 * 60 * 24 * 180 // 180 days
   });
@@ -3288,7 +3391,8 @@ function hideBanner() {
   setTimeout(() => banner.classList.remove('show'), 600);
 }
 
-const stored = localStorage.getItem(CONSENT_KEY);
+let stored = null;
+try { stored = localStorage.getItem(CONSENT_KEY); } catch (e) {}
 if (stored === 'granted') {
   loadGA();
 } else if (stored !== 'denied') {
@@ -3302,10 +3406,25 @@ document.getElementById('cookieAccept').addEventListener('click', () => {
   hideBanner();
 });
 
+function disableGA() {
+  window['ga-disable-' + GA_ID] = true;
+  document.cookie.split(';').map(c => c.trim().split('=')[0]).filter(n => n.startsWith('_ga')).forEach(n => {
+    document.cookie = n + '=; Max-Age=0; path=/';
+    document.cookie = n + '=; Max-Age=0; path=/; domain=.' + location.hostname;
+  });
+}
+
 document.getElementById('cookieDecline').addEventListener('click', () => {
   localStorage.setItem(CONSENT_KEY, 'denied');
+  disableGA();
   hideBanner();
 });
+
+// Footer "Cookie settings": reopen the banner so consent can be withdrawn as easily as it was given
+document.querySelectorAll('.cookie-settings-link').forEach(a => a.addEventListener('click', e => {
+  e.preventDefault();
+  showBanner();
+}));
 </script>
 
 </body>
