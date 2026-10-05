@@ -97,4 +97,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/metal-mastering-loudness/"/>
   </url>
 
+  <url>
+    <loc>https://polished.media/mastering-cost/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/mastering-cost/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/mastering-kosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/mastering-cost/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/mastering-kosten/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/mastering-cost/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/mastering-kosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/mastering-cost/"/>
+  </url>
+
 </urlset>
