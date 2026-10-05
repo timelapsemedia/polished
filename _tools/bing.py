@@ -41,7 +41,11 @@ if cmd == 'report':
 elif cmd == 'submit':
     urls = sys.argv[2:] or sitemap_urls()
     call('SubmitUrlBatch', body={'siteUrl': SITE, 'urlList': urls})
-    call('SubmitSiteMap', body={'siteUrl': SITE, 'feedUrl': SITE + 'sitemap.xml'})
-    print('submitted', len(urls), 'URLs + sitemap')
+    print('submitted', len(urls), 'URLs')
+    try:
+        call('SubmitFeed', body={'siteUrl': SITE, 'feedUrl': SITE + 'sitemap.xml'})
+        print('sitemap resubmitted')
+    except Exception as e:  # sitemap resubmission is best-effort
+        print('sitemap resubmit failed:', e)
 else:
     sys.exit(__doc__)
