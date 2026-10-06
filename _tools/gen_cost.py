@@ -30,7 +30,7 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
     <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Stand: Oktober 2026 · Alle Preise Endpreise inkl. 19 % USt.</p>
   </div>
 </header>
-{sec('cd-markt', 'Mastering-Preise <em>im Vergleich</em>', """    <p>Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:</p>
+{sec('cd-markt', 'Mastering-Studio-Preise und Online-Mastering-Preise <em>im Vergleich</em>', """    <p>Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:</p>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Anbieter</th><th>Typischer Preis pro Track</th><th>Was du bekommst</th></tr></thead>
@@ -43,6 +43,7 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
       </table>
     </div>
     <p class="table-note">Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026. Einzelne Anbieter weichen ab.</p>
+    <p>Wie hoch der Mastering-Studio-Preis ausfällt, hängt vor allem von Spezialisierung, enthaltenen Revisionen und Formaten ab. Ein seriöser Mastering-Service nennt den Preis vorab als Festpreis inkl. Umsatzsteuer.</p>
     <p>Der günstigste Weg ist nicht automatisch der billigste: Ein Master, der auf Spotify verzerrt oder neben anderen Releases dünn klingt, kostet dich am Ende mehr als ein sauberer Master.</p>""")}
 <section class="content-section alt" id="preise-polished" aria-labelledby="cd-polished">
   <div class="wrap">
@@ -60,6 +61,14 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
     </div>
   </div>
 </section>
+{sec('cd-projekt', 'Kosten nach Projekt: <em>Song, Album, Vinyl</em>', """    <h3>Song mastern lassen: Kosten</h3>
+    <p>Einen einzelnen Song mastern zu lassen kostet bei spezialisierten Studios meist 50–150 €. Bei Polished liegen die Song-Mastering-Kosten bei 79 € (Stereo) oder 129 € (mit bis zu 6 Stems), bei drei Singles als Single-Serie bei 73 € pro Song, jeweils inkl. 19 % USt. und mit schriftlichem Audio-Audit.</p>
+    <h3>Album- und EP-Mastering: Kosten</h3>
+    <p>Viele Studios rechnen Alben einfach pro Track ab, manche geben einen Paketrabatt. Bei Polished kostet ein Album mit bis zu 10 Tracks 629 € (161 € günstiger als 10 Singles), eine EP mit bis zu 5 Tracks 349 €. Dazu kommt ein Konsistenz-Durchgang, damit Lautheit und Klangbild über alle Songs zusammenpassen.</p>
+    <h3>Vinyl-Mastering: Kosten</h3>
+    <p>Vinyl braucht eine eigene Fassung: mehr Dynamik, monokompatibler Bass, kontrollierte Zischlaute und eine Laufzeit, die zur Plattenseite passt. Viele Studios berechnen dafür einen Aufpreis pro Seite oder Track. Bei Polished ist ein Vinyl-Master für Album-Projekte auf Anfrage möglich und wird im Festpreis-Angebot vorab genannt.</p>
+    <h3>Mastering-Service: Kosten in Deutschland</h3>
+    <p>Ob Online-Service oder Studio vor Ort: Für einen persönlichen Engineer liegen die Mastering-Service-Kosten in Deutschland meist bei 50–150 € pro Track. Online sparst du Anfahrt und Studiozeit. Du schickst die Dateien per Link und bekommst Audit, Master und Revisionen digital. Achte darauf, dass der Preis ein Endpreis inkl. 19 % USt. ist.</p>""")}
 {sec('cd-faktoren', 'Was den Preis <em>beeinflusst</em>', """    <ul>
       <li><strong>Stereo oder Stems:</strong> Stem-Mastering bearbeitet mehrere Spurgruppen einzeln und ist deshalb teurer als ein Stereo-Master.</li>
       <li><strong>Anzahl der Tracks:</strong> EP- und Album-Pakete sind pro Track günstiger und enthalten einen Konsistenz-Durchgang über das ganze Release.</li>
@@ -68,7 +77,7 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
       <li><strong>Lieferzeit:</strong> Express-Lieferung kostet bei vielen Studios Aufpreis. Bei Polished ist eine Single in 48–72 Stunden fertig, schneller auf Anfrage.</li>
       <li><strong>Analyse:</strong> Bei Polished ist ein schriftliches Audio-Audit deines Mixes im Preis enthalten. Woanders ist eine Mix-Analyse oft gar nicht Teil der Leistung.</li>
     </ul>""")}
-{sec('cd-mix', 'Mix und Mastering: <em>was kostet beides?</em>', """    <p>Mixing und Mastering sind zwei verschiedene Arbeitsschritte. Beim <strong>Mixing</strong> werden alle Einzelspuren zu einem Stereo-Mix zusammengefügt: Lautstärkeverhältnisse, EQ, Kompression, Effekte. Beim <strong>Mastering</strong> wird dieser fertige Mix für die Veröffentlichung optimiert: Klangbalance, Lautheit, Formate.</p>
+{sec('cd-mix', 'Mix und Mastering Preise: <em>was kostet beides?</em>', """    <p>Mixing und Mastering sind zwei verschiedene Arbeitsschritte. Beim <strong>Mixing</strong> werden alle Einzelspuren zu einem Stereo-Mix zusammengefügt: Lautstärkeverhältnisse, EQ, Kompression, Effekte. Beim <strong>Mastering</strong> wird dieser fertige Mix für die Veröffentlichung optimiert: Klangbalance, Lautheit, Formate.</p>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Leistung</th><th>Typischer Preis pro Song</th><th>Hinweis</th></tr></thead>
@@ -80,6 +89,7 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
       </table>
     </div>
     <p class="table-note">Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026.</p>
+    <p>Kurz gesagt: Typische Mixing-Mastering-Preise liegen am Markt bei etwa 150–450 € pro Song. Wer einen Song mischen lassen will, sollte die Mixing- und Mastering-Kosten getrennt anfragen und vergleichen.</p>
     <p>Polished ist bewusst auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass der Mix selbst noch Arbeit braucht, bekommst du das ehrlich gesagt, statt es im Mastering zu verstecken.</p>""", alt=True)}
 {sec('cd-analog', 'Analog oder digital: <em>Unterschied im Preis</em>', """    <p>Analoges Mastering über Hardware wie Röhren-EQs und Kompressoren ist meist teurer als digitales Mastering, weil Geräte, Wartung und die Arbeit in Echtzeit mehr kosten. Am Markt liegt der Aufpreis häufig bei etwa 30–50 % pro Track.</p>
     <p>Teurer heißt nicht automatisch besser. Entscheidend ist, dass der Engineer weiß, was dein Mix und dein Genre brauchen. Ein gezielter Eingriff nach einer Analyse bringt mehr als teures Equipment ohne Plan.</p>""")}

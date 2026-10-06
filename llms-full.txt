@@ -49,7 +49,7 @@ Master delivered as 24-bit WAV, 16-bit AIFF and 320kbps MP3. Platform-specific e
 #### Revision & Release
 Not 100% right? Unlimited revisions — no extra cost, no time limit. Then release-ready for every platform.
 Genre Expertise
-### Metal & Gothic — that's the whole focus.
+### Online metal mastering service — Metal & Gothic only.
 Generic mastering templates ruin more tracks than they save. Black Metal needs different treatment than Death Metal, and Doom needs different treatment than Metalcore. The audit shows exactly what your subgenre needs.
 / 01 — Raw · Atmospheric · Lo-fi to Hi-fi
 Black Metal
@@ -237,7 +237,8 @@ Polished ist ein Mastering-Studio aus Deutschland, spezialisiert auf Black Metal
 Audio-Audit anfragen →
 Preise ansehen
 Zahlung auch nach Lieferung · Antwort meist innerhalb von 24 Stunden · Begrenzte Slots pro Woche
-### Professionelles Mastering mit Audio-Audit
+### Audio-Mastering-Studio in Deutschland: professionelles Online-Mastering mit Audit
+Polished ist ein Mastering-Service aus Deutschland, spezialisiert auf Metal und Gothic. Du kannst dein Mastering online machen lassen, komplett digital: Dateien per Link schicken, Audit und Master digital zurückbekommen, egal ob du in Deutschland, Österreich, der Schweiz oder anderswo spielst.
 Definition
 Ein Audio-Audit ist eine vollständige technische und klangliche Analyse eines Mixes, die vor jeder Mastering-Entscheidung durchgeführt wird. Du bekommst einen schriftlichen Bericht mit den gefundenen Schwachstellen und einer konkreten Mastering-Strategie.
 - Frequenzspektrum: Resonanzen, Maskierung und Abweichungen vom Genre, abgeglichen mit Black-, Death-, Doom- und Gothic-Referenzen.
@@ -284,7 +285,7 @@ Label-Partner · ab 4 Releases pro Jahr
 ab 63€
 Single 63 €, Stem-Single 103 €, EP 279 €, Album 499 €. Ein konsistenter Klang über euren Katalog, Vorkasse oder Rechnung pro Release.
 Alle Preise sind Endpreise inkl. 19 % USt. Bezahlung nach Wahl: Vorkasse oder auf Rechnung nach Fertigstellung. Mastering-Preise im Vergleich.
-### Song mastern lassen: so läuft es ab
+### Song oder Album mastern lassen: so läuft es ab
 - Premaster schicken: 24/32-Bit WAV oder AIFF in der Original-Samplerate, 3–6 dB Headroom, kein Limiter auf der Summe, dazu ein oder zwei Referenztracks.
 - Audio-Audit: schriftlicher Bericht mit Schwachstellen und Mastering-Plan.
 - Mastering: gezielte Bearbeitung nach Plan, geprüft auf mehreren Abhörsystemen.
@@ -1083,7 +1084,7 @@ Kurze Antwort: Professionelles Mastering kostet in Deutschland meist zwischen 50
 Festpreis-Angebot anfragen →
 Preise ansehen
 Von Tim Borchert, Mastering Engineer · Stand: Oktober 2026 · Alle Preise Endpreise inkl. 19 % USt.
-### Mastering-Preise im Vergleich
+### Mastering-Studio-Preise und Online-Mastering-Preise im Vergleich
 Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:
 AnbieterTypischer Preis pro TrackWas du bekommst
 KI- / Automatik-Masteringwenige Euro oder MonatsaboAlgorithmus wendet Lautheit und EQ an, keine Analyse deines Mixes, keine Rückfragen
@@ -1091,6 +1092,7 @@ Freelancer-Plattformenetwa 15–60 €Stark schwankende Qualität, oft ohne Spez
 Spezialisierte Mastering-Studiosetwa 50–150 €Persönlicher Engineer, Revisionen, Erfahrung mit deinem Genre
 Renommierte Studiosetwa 100–300 € und mehrBekannte Namen und Räume, oft Aufpreis für Stems, Vinyl und Express
 Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026. Einzelne Anbieter weichen ab.
+Wie hoch der Mastering-Studio-Preis ausfällt, hängt vor allem von Spezialisierung, enthaltenen Revisionen und Formaten ab. Ein seriöser Mastering-Service nennt den Preis vorab als Festpreis inkl. Umsatzsteuer.
 Der günstigste Weg ist nicht automatisch der billigste: Ein Master, der auf Spotify verzerrt oder neben anderen Releases dünn klingt, kostet dich am Ende mehr als ein sauberer Master.
 ### Mastering-Preise bei Polished
 Single · Stereo
@@ -1110,6 +1112,15 @@ Bundle / RatePreisErsparnis
 Single-Serie (3 Singles)73 € pro Single18 € gegenüber 3 Einzel-Singles
 Stem-EP (bis 5 Tracks)549 €96 € gegenüber 5 Stem-Singles
 Label-Partner (ab 4 Releases/Jahr)Single 63 € · Stem-Single 103 € · EP 279 € · Album 499 €feste Partnerpreise
+### Kosten nach Projekt: Song, Album, Vinyl
+#### Song mastern lassen: Kosten
+Einen einzelnen Song mastern zu lassen kostet bei spezialisierten Studios meist 50–150 €. Bei Polished liegen die Song-Mastering-Kosten bei 79 € (Stereo) oder 129 € (mit bis zu 6 Stems), bei drei Singles als Single-Serie bei 73 € pro Song, jeweils inkl. 19 % USt. und mit schriftlichem Audio-Audit.
+#### Album- und EP-Mastering: Kosten
+Viele Studios rechnen Alben einfach pro Track ab, manche geben einen Paketrabatt. Bei Polished kostet ein Album mit bis zu 10 Tracks 629 € (161 € günstiger als 10 Singles), eine EP mit bis zu 5 Tracks 349 €. Dazu kommt ein Konsistenz-Durchgang, damit Lautheit und Klangbild über alle Songs zusammenpassen.
+#### Vinyl-Mastering: Kosten
+Vinyl braucht eine eigene Fassung: mehr Dynamik, monokompatibler Bass, kontrollierte Zischlaute und eine Laufzeit, die zur Plattenseite passt. Viele Studios berechnen dafür einen Aufpreis pro Seite oder Track. Bei Polished ist ein Vinyl-Master für Album-Projekte auf Anfrage möglich und wird im Festpreis-Angebot vorab genannt.
+#### Mastering-Service: Kosten in Deutschland
+Ob Online-Service oder Studio vor Ort: Für einen persönlichen Engineer liegen die Mastering-Service-Kosten in Deutschland meist bei 50–150 € pro Track. Online sparst du Anfahrt und Studiozeit. Du schickst die Dateien per Link und bekommst Audit, Master und Revisionen digital. Achte darauf, dass der Preis ein Endpreis inkl. 19 % USt. ist.
 ### Was den Preis beeinflusst
 - Stereo oder Stems: Stem-Mastering bearbeitet mehrere Spurgruppen einzeln und ist deshalb teurer als ein Stereo-Master.
 - Anzahl der Tracks: EP- und Album-Pakete sind pro Track günstiger und enthalten einen Konsistenz-Durchgang über das ganze Release.
@@ -1117,13 +1128,14 @@ Label-Partner (ab 4 Releases/Jahr)Single 63 € · Stem-Single 103 € · EP 279
 - Revisionen: Viele Anbieter begrenzen Korrekturrunden oder berechnen sie extra. Bei Polished sind Revisionen unbegrenzt.
 - Lieferzeit: Express-Lieferung kostet bei vielen Studios Aufpreis. Bei Polished ist eine Single in 48–72 Stunden fertig, schneller auf Anfrage.
 - Analyse: Bei Polished ist ein schriftliches Audio-Audit deines Mixes im Preis enthalten. Woanders ist eine Mix-Analyse oft gar nicht Teil der Leistung.
-### Mix und Mastering: was kostet beides?
+### Mix und Mastering Preise: was kostet beides?
 Mixing und Mastering sind zwei verschiedene Arbeitsschritte. Beim Mixing werden alle Einzelspuren zu einem Stereo-Mix zusammengefügt: Lautstärkeverhältnisse, EQ, Kompression, Effekte. Beim Mastering wird dieser fertige Mix für die Veröffentlichung optimiert: Klangbalance, Lautheit, Formate.
 LeistungTypischer Preis pro SongHinweis
 Mixingetwa 100–300 €abhängig von Spurenzahl, Aufwand und Studio
 Masteringetwa 50–150 €bei Polished 79 € inkl. USt.
 Mix + Masteringetwa 150–450 €bei getrennten Anbietern einzeln buchbar
 Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026.
+Kurz gesagt: Typische Mixing-Mastering-Preise liegen am Markt bei etwa 150–450 € pro Song. Wer einen Song mischen lassen will, sollte die Mixing- und Mastering-Kosten getrennt anfragen und vergleichen.
 Polished ist bewusst auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass der Mix selbst noch Arbeit braucht, bekommst du das ehrlich gesagt, statt es im Mastering zu verstecken.
 ### Analog oder digital: Unterschied im Preis
 Analoges Mastering über Hardware wie Röhren-EQs und Kompressoren ist meist teurer als digitales Mastering, weil Geräte, Wartung und die Arbeit in Echtzeit mehr kosten. Am Markt liegt der Aufpreis häufig bei etwa 30–50 % pro Track.
@@ -1228,7 +1240,7 @@ Im Metal sind die typischen Fälle für Stems: Kick und Bass streiten sich unter
 - Headroom: Keine Clips; die Summe sollte mit etwa 3–6 dB Luft unter 0 dBFS bleiben.
 - Benennung: zum Beispiel Songtitel_Drums.wav, Songtitel_Bass.wav.
 Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.
-### Was kostet Stem-Mastering?
+### Stem-Mastering Preise: was kostet es?
 PaketPreis inkl. USt.Umfang
 Stem-Single129 €1 Track, bis zu 6 Stems, Audio-Audit, 48–72 Std.
 Stem-EP549 €bis 5 Tracks, 96 € günstiger als 5 Stem-Singles, 5–7 Tage

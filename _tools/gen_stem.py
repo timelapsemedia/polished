@@ -54,7 +54,7 @@ sd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Stem-Mastering'
     <p>Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.</p>
   </div>
 </section>
-{sec('sd-kosten', 'Was kostet <em>Stem-Mastering?</em>', """    <div class="table-wrap">
+{sec('sd-kosten', 'Stem-Mastering Preise: <em>was kostet es?</em>', """    <div class="table-wrap">
       <table>
         <thead><tr><th>Paket</th><th>Preis inkl. USt.</th><th>Umfang</th></tr></thead>
         <tbody>
