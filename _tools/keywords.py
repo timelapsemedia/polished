@@ -7,6 +7,14 @@ Every target keyword has exactly one target page. Two checks:
   python3 _tools/keywords.py track [days]   # Search Console: impressions, clicks, position per keyword,
                                             # this period vs. the period before, which page ranks, plus new
                                             # queries that are not in the map yet (needs GSC credentials, see gsc.py)
+  python3 _tools/keywords.py serplist       # p1 keywords + market to measure in a neutral, non-personalised SERP
+  python3 _tools/keywords.py serpreport     # latest neutral SERP positions vs. the previous measurement
+
+Neutral SERP positions come from a SERP tool with a fixed country (OpenRush inspect_keyword / inspect_serp),
+not from a personal browser, which is biased by location even in incognito. Each weekly measurement is
+appended to _tools/serp_history.csv: date,market,keyword,position,volume,top1,url
+(position = organic rank of polished.media in the top 50, empty if not found; volume = monthly searches or empty;
+top1 = domain at organic position 1; url = ranking polished.media path).
 
 Matching is case/accent-insensitive, hyphens count as spaces. A phrase "matches" text when its words appear
 in order with at most 2 filler words between them ("mastering service kosten in deutschland" matches
@@ -93,7 +101,11 @@ KEYWORDS = [
     ('polished media', '/', 'brand', 2),
     ('polished mastering', '/', 'brand', 2),
 ]
-LANG = {'de': lambda p: p.startswith('/de/')}
+SERP_LOG = os.path.join(ROOT, '_tools', 'serp_history.csv')
+
+
+def market(page):
+    return ('Germany', 'German') if page.startswith('/de/') else ('United States', 'English')
 
 
 def norm(s):
@@ -219,11 +231,39 @@ def track(days):
             print(f"{q:38} {o['imp']:5} {o['clk']:4} {fmt(pos(o))}")
 
 
+def serplist():
+    seen = set()
+    for kw, page, cluster, prio in KEYWORDS:
+        m = market(page)
+        if prio == 1 and cluster != 'brand' and (kw, m) not in seen:
+            seen.add((kw, m))
+            print(f'{m[0]}\t{m[1]}\t{kw}\t{page}')
+
+
+def serpreport():
+    import csv
+    if not os.path.exists(SERP_LOG):
+        sys.exit('no measurements yet: ' + SERP_LOG)
+    rows = list(csv.DictReader(open(SERP_LOG, encoding='utf-8')))
+    dates = sorted({r['date'] for r in rows})
+    last, prev = dates[-1], (dates[-2] if len(dates) > 1 else None)
+    old = {(r['market'], r['keyword']): r for r in rows if r['date'] == prev}
+    print(f'== neutral SERP, {last}' + (f' vs. {prev}' if prev else '') + ' ==')
+    print(f"{'market':14} {'keyword':38} {'pos':>4} {'prev':>4} {'vol':>5}  {'top1':24} url")
+    for r in sorted((r for r in rows if r['date'] == last), key=lambda r: (r['market'], int(r['position'] or 999))):
+        o = old.get((r['market'], r['keyword']), {})
+        print(f"{r['market']:14} {r['keyword']:38} {r['position'] or '-':>4} {o.get('position') or '-':>4} {r['volume'] or '-':>5}  {r['top1']:24} {r.get('url') or ''}")
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'audit'
     if cmd == 'audit':
         sys.exit(1 if audit() else 0)
     elif cmd == 'track':
         track(int(sys.argv[2]) if len(sys.argv) > 2 else 7)
+    elif cmd == 'serplist':
+        serplist()
+    elif cmd == 'serpreport':
+        serpreport()
     else:
         sys.exit(__doc__)
