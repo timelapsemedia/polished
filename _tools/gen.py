@@ -642,7 +642,7 @@ write(LG_PATH, page(path=LG_PATH, lang='en', title=LG_TITLE,
 
 # ---------------------------------------------------------------- GERMAN LANDING PAGE
 DE_PATH = '/de/'
-DE_TITLE = 'Metal Mastering Studio Deutschland – online ab 79 € | Polished'
+DE_TITLE = 'Online Mastering Studio für Metal & Gothic – ab 79 € | Polished'
 DE_FAQS = [
     ('Was kostet Mastering bei Polished?', 'Alle Preise sind Endpreise inklusive 19 % Umsatzsteuer. Stereo-Mastering kostet ab 79 € pro Track, Stem-Mastering ab 129 € pro Track. Das EP-Paket (bis 5 Tracks) kostet 349 €, das Album-Paket (bis 10 Tracks) 629 €, also 161 € weniger als 10 einzelne Singles. In jedem Paket sind das schriftliche Audio-Audit und unbegrenzte Revisionen enthalten. Es gibt kein Abo und keine versteckten Zusatzkosten. Bezahlt wird nach Wahl vorab oder auf Rechnung nach Lieferung. Einen Preisvergleich findest du unter <a href="/de/mastering-kosten/">Was kostet Mastering?</a>'),
     ('Gibt es Label-Raten oder Bundles?', 'Ja. Labels mit Release-Planung (ab 4 Releases pro Jahr) bekommen feste Partnerpreise: 63 € pro Stereo-Single, 103 € pro Stem-Single, 279 € pro EP und 499 € pro Album. Wer mehrere Singles veröffentlicht, bucht die Single-Serie: 3 Singles zu je 73 €, gemastert, wenn sie erscheinen, über bis zu 12 Monate. Die Stem-EP umfasst bis zu 5 Tracks aus Stems für 549 €. Bezahlt wird nach Wahl per Vorkasse oder auf Rechnung nach Fertigstellung. Alle Preise sind Endpreise inklusive 19 % Umsatzsteuer, Audit und unbegrenzte Revisionen sind immer enthalten.'),

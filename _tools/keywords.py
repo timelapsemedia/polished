@@ -91,6 +91,7 @@ KEYWORDS = [
     ('metalcore mastering', '/metalcore-djent-mastering/', 'genre-en', 2),
     ('djent mastering', '/metalcore-djent-mastering/', 'genre-en', 3),
     ('stem mastering', '/stem-mastering/', 'stem-en', 1),
+    ('stem mastering services', '/stem-mastering/', 'stem-en', 2),
     ('mastering cost', '/mastering-cost/', 'price-en', 1),
     ('how much does mastering cost', '/mastering-cost/', 'price-en', 1),
     ('mastering prices', '/mastering-cost/', 'price-en', 2),
@@ -221,7 +222,8 @@ def track(days):
         pc, pp = pos(c), pos(p)
         delta = f'{pp - pc:+6.1f}' if pc and pp else '     '
         top = max((c or e or {'pages': {'': 0}})['pages'].items(), key=lambda i: i[1])[0]
-        warn = ' (≠ target ' + page + ')' if top and top != page and (c or e) else ''
+        targets = {p for k2, p, _, _ in KEYWORDS if norm(k2) == k}
+        warn = ' (≠ target ' + page + ')' if top and top not in targets and (c or e) else ''
         print(f"{kw:38} {c['imp'] if c else 0:5} {c['clk'] if c else 0:4} {fmt(pc)} {fmt(pp)} {delta} {fmt(pos(e))}  {top}{warn}")
     mapped = {norm(k[0]) for k in KEYWORDS}
     new = sorted(((q, o) for q, o in ever.items() if q not in mapped), key=lambda i: -i[1]['imp'])

@@ -145,7 +145,19 @@ se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE
     <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="stem-cta">Request stem mastering →</a></div>
   </div>
 </section>
-<section class="content-section" aria-labelledby="se-faq">
+{sec('se-price', 'Stem mastering service: <em>prices</em>', """    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Package</th><th>Price incl. VAT</th><th>Scope</th></tr></thead>
+        <tbody>
+          <tr><td>Stem single</td><td>€129</td><td>1 track, up to 6 stems, audio audit, 48–72 h</td></tr>
+          <tr><td>Stem EP</td><td>€549</td><td>up to 5 tracks, €96 less than 5 stem singles, 5–7 days</td></tr>
+          <tr><td>Label partner stem single</td><td>€103</td><td>from 4 releases per year</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>All stem mastering services at Polished include the written audio audit, streaming and Bandcamp exports and unlimited revisions. Not sure whether stems are worth it for your mix? Send the stereo mix first and the audit will tell you.</p>
+    <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="stem-price-cta">Request stem mastering →</a></div>""")}
+<section class="content-section alt" aria-labelledby="se-faq">
   <div class="wrap prose-wrap">
     <h2 id="se-faq">Stem mastering <em>FAQ</em></h2>
 {faq_html(SE_FAQS)}

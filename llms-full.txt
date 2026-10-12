@@ -228,7 +228,7 @@ Replies within 24h · Pay after delivery · Limited slots per week
 
 ---
 
-## Metal Mastering Studio Deutschland – online ab 79 € | Polished
+## Online Mastering Studio für Metal & Gothic – ab 79 € | Polished
 URL: https://polished.media/de/
 
 Metal & Gothic Mastering Studio
@@ -1201,6 +1201,13 @@ Typical metal cases for stems: kick and bass fighting below 100 Hz, guitar walls
 - Headroom: no clipping; leave about 3–6 dB below 0 dBFS on the sum.
 - Naming: e.g. SongTitle_Drums.wav, SongTitle_Bass.wav.
 Include the stereo mix as a reference and one or two reference tracks from your subgenre. Pricing compared to other providers: How much does mastering cost?
+Request stem mastering →
+### Stem mastering service: prices
+PackagePrice incl. VATScope
+Stem single€1291 track, up to 6 stems, audio audit, 48–72 h
+Stem EP€549up to 5 tracks, €96 less than 5 stem singles, 5–7 days
+Label partner stem single€103from 4 releases per year
+All stem mastering services at Polished include the written audio audit, streaming and Bandcamp exports and unlimited revisions. Not sure whether stems are worth it for your mix? Send the stereo mix first and the audit will tell you.
 Request stem mastering →
 ### Stem mastering FAQ
 What is stem mastering?
