@@ -102,6 +102,7 @@ SE_FAQS = [
     ('When is stem mastering worth it?', 'Stem mastering is worth it when elements in the mix collide, for example kick and bass in the low end, guitars masking the vocals, or cymbals swallowing the snare during blast beats. For a well-balanced mix, stereo mastering is enough. The Polished audio audit tells you which one suits your mix.'),
     ('How much does stem mastering cost?', 'At Polished, stem mastering costs €129 per track with up to 6 stems, and the Stem EP (up to 5 tracks) costs €549, €96 less than 5 stem singles. All prices include 19% VAT, the written audio audit and unlimited revisions.'),
     ('How many stems do I need?', 'Usually 4 to 6 stems: drums, bass, guitars, vocals, plus keys/synths and FX if needed. More stems are not automatically better; what matters is that related tracks share a group and that all stems together reproduce your mix exactly.'),
+    ('Is stem mastering the same as stem mixing?', 'No. Stem mixing rebuilds the balance of a song from its stems and changes the mix itself. Stem mastering keeps your mix decisions and only uses the stems to fix what a stereo master cannot reach, for example a bass that masks the kick or vocals buried under the guitars. Polished offers stem mastering, not mixing; if the audio audit shows the mix itself needs work, you get an honest note instead of a hidden remix.'),
 ]
 se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE}{STEM_EN}')])}
 <header class="page-hero">
