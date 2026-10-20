@@ -736,7 +736,7 @@ de_body = f'''<header class="page-hero">
 <section class="content-section" id="tim" aria-labelledby="de-tim">
   <div class="wrap prose-wrap prose">
     <h2 id="de-tim">Dein Mastering Engineer: <em>Tim Borchert</em></h2>
-    <p>Tim Borchert studiert Systematische Musikwissenschaft und Medienwissenschaft an der Universität Hamburg und mastert jeden Track bei Polished persönlich. Sein Ansatz: erst messen und vergleichen, dann gezielt bearbeiten, statt Plugin-Roulette. Polished wurde 2024 gegründet und arbeitet vollständig online aus Kirchlinteln in Niedersachsen, für Bands aus Deutschland, Österreich, der Schweiz und international.</p>
+    <p>Tim Borchert studiert Systematische Musikwissenschaft und Medienwissenschaft an der Universität Hamburg und mastert jeden Track bei Polished persönlich. Davor hat er zwei Jahre eine Ausbildung zur Fachkraft für Veranstaltungstechnik gemacht, eine Rockband live abgemischt und eigene Musik auf Labels in Mexiko, Indien und der Türkei veröffentlicht; seine Songs liefen auch auf einem Festival in Australien. Sein Ansatz: erst messen und vergleichen, dann gezielt bearbeiten, statt Plugin-Roulette. Polished wurde 2024 gegründet und arbeitet vollständig online aus Kirchlinteln in Niedersachsen, für Bands aus Deutschland, Österreich, der Schweiz und international.</p>
   </div>
 </section>
 <section class="content-section alt" aria-labelledby="de-faq">
