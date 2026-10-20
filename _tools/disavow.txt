@@ -1,7 +1,9 @@
 # Disavow file for polished.media (upload in Google Search Console: https://search.google.com/search-console/disavow-links)
 # Spam link network found 2026-10-20 via DataForSEO (OpenSEO): every link sits on /all/2290/9.html with the anchor
 # "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service polished.media ... Buy Backlinks Online Cheap".
-# Polished never bought these links. Ahrefs reports ~294 referring domains; add further domains with the same pattern.
+# Polished never bought these links. Ahrefs lists ~716 referring domains, almost all flagged SPAM by Ahrefs itself.
+# NOT UPLOADED: Search Console (2026-10-20) knows only 2 linking sites, bandcamp.com (20 pages) and codechaos-official.de,
+# so Google ignores this network. Upload only if spam domains start showing up in Search Console > Links > Top linking sites.
 domain:fashionclothingnews.com
 domain:bestnz-poker-casinoslot.com
 domain:kernelpanicpodcast.com
