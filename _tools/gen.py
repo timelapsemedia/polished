@@ -340,7 +340,7 @@ def genre_page(g, lang='en'):
 {faq_html(g["faqs"])}
   </div>
 </section>
-<section class="content-section alt" aria-labelledby="related-h">
+{g.get("extra", "")}<section class="content-section alt" aria-labelledby="related-h">
   <div class="wrap">
     <h2 id="related-h">{u['related_h']}</h2>
     <div class="related">
@@ -392,7 +392,17 @@ AUDIT_STEPS = '''    <ol>
     </ol>'''
 
 # ---------------------------------------------------------------- GENRE CONTENT
+BLACK_TOOLS = """<section class="content-section" aria-labelledby="bm-tools">
+  <div class="wrap prose-wrap prose">
+    <h2 id="bm-tools">Recording the album yourself? <em>Tools for bands</em></h2>
+    <p>Tim also builds production tools for metal bands under the label Code Chaos Audio. The <a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit" rel="noopener">Black Metal Drum Kit</a> is a 12&nbsp;€ pack of 47 synthesised drum samples (snares with five velocity levels and round-robins) and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM.</p>
+    <p><a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit" rel="noopener"><img src="/assets/black-metal-drum-kit.jpg" alt="Cover of the Black Metal Drum Kit by Code Chaos Audio" width="900" height="506" loading="lazy" style="max-width:100%;height:auto"></a></p>
+    <p>Programmed drums that are mixed well are easier to master. When the record is done, <a href="/#contact">request an audio audit</a>.</p>
+  </div>
+</section>
+"""
 BLACK = dict(
+    extra=BLACK_TOOLS,
     slug='black-metal-mastering', name='Black Metal Mastering', eyebrow='Genre · Black Metal',
     title='Black Metal Mastering Online – Audit-First | Polished',
     og_title='Black Metal Mastering — Polished',

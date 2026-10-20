@@ -376,6 +376,9 @@ Do you master one-person black metal projects?
 Yes. Solo projects are a big part of the scene and are handled exactly like band releases: same audit, same price, same unlimited revisions. Programmed drums are fine. The audit checks whether triggered or sampled kicks will still read clearly after limiting.
 Can I send stems instead of a stereo mix?
 Yes. Stem mastering (€129 per track, up to 6 stems) is useful in black metal when guitars and cymbals fight in the same range or the kick disappears under the wall. Typical stems are drums, bass, guitars, vocals, keys/synths and FX. The audit tells you whether stems are worth it for your mix.
+### Recording the album yourself? Tools for bands
+Tim also builds production tools for metal bands under the label Code Chaos Audio. The Black Metal Drum Kit is a 12 € pack of 47 synthesised drum samples (snares with five velocity levels and round-robins) and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM.
+Programmed drums that are mixed well are easier to master. When the record is done, request an audio audit.
 ### Other genres
 GenreDeath Metal Mastering
 GenreDoom & Gothic Mastering
