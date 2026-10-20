@@ -180,7 +180,7 @@ lgd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Lautstärke-Gu
     <div class="eyebrow">Guide · Lautstärke</div>
     <h1>Wie laut sollte Metal <em>gemastert werden?</em></h1>
     <p class="lead"><strong>Kurze Antwort: Es gibt keinen einzig richtigen LUFS-Wert für Metal.</strong> Streaming-Dienste spielen alles mit etwa -14 LUFS ab (Apple Music etwa -16 LUFS), zusätzliche Lautheit wird also leiser gedreht. Das richtige Ziel ist der lauteste Pegel, den dein Mix erreicht, bevor Blastbeats, Becken und Low End zusammenbrechen.</p>
-    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Systematische Musikwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026</p>
+    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Student der Systematischen Musikwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026</p>
   </div>
 </header>
 {sec('lgd-what', 'Was LUFS bedeutet <em>und warum es zählt</em>', """    <div class="answer-box"><div class="label">Definition</div><p>LUFS (Loudness Units relative to Full Scale) misst die wahrgenommene Lautheit über die Zeit, gewichtet nach dem menschlichen Gehör. Integrated LUFS ist der Durchschnitt über den ganzen Track. Streaming-Plattformen nutzen diesen Wert, um alle Tracks ähnlich laut abzuspielen.</p></div>
