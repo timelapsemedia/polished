@@ -1,0 +1,24 @@
+# Disavow file for polished.media (upload in Google Search Console: https://search.google.com/search-console/disavow-links)
+# Spam link network found 2026-10-20 via DataForSEO (OpenSEO): every link sits on /all/2290/9.html with the anchor
+# "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service polished.media ... Buy Backlinks Online Cheap".
+# Polished never bought these links. Ahrefs reports ~294 referring domains; add further domains with the same pattern.
+domain:fashionclothingnews.com
+domain:bestnz-poker-casinoslot.com
+domain:kernelpanicpodcast.com
+domain:homesforsaleoldgreenwichct.com
+domain:betwinnermirror.com
+domain:quotesblom.com
+domain:thcradar.com
+domain:techbumppy.com
+domain:bureatag.com
+domain:clifflisting.com
+domain:sahammurah.com
+domain:archive-hu.com
+domain:thedocmag.com
+domain:dupurgeniefr.com
+domain:onvaxs.com
+domain:cvillico.com
+domain:uncledspizza.com
+domain:theforbestimes.com
+domain:betulcrime.com
+domain:ggmap.us.com
