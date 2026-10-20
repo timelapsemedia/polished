@@ -3,6 +3,8 @@
 
   python3 _tools/bing.py report              # query stats, traffic, crawl issues, sitemap status
   python3 _tools/bing.py submit [URL ...]    # submit URLs (default: all sitemap URLs) + sitemap
+  python3 _tools/bing.py volume              # Bing search impressions (≈ search volume) for the p1 keywords
+                                             # from keywords.py serplist, last ~3 months (free, no credits)
 """
 import json, os, re, sys, urllib.request
 
@@ -47,5 +49,18 @@ elif cmd == 'submit':
         print('sitemap resubmitted')
     except Exception as e:  # sitemap resubmission is best-effort
         print('sitemap resubmit failed:', e)
+elif cmd == 'volume':
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import keywords
+    seen = set()
+    print(f"{'market':14} {'keyword':38} {'exact':>6} {'broad':>6}  (Bing impressions, summed over the weeks Bing returns)")
+    for kw, page, cluster, prio in keywords.KEYWORDS:
+        country, _ = keywords.market(page)
+        cc, lang = ('de', 'de-DE') if country == 'Germany' else ('us', 'en-US')
+        if prio != 1 or cluster == 'brand' or (kw, cc) in seen:
+            continue
+        seen.add((kw, cc))
+        rows = call('GetKeywordStats', {'q': kw, 'country': cc, 'language': lang}) or []
+        print(f"{country:14} {kw:38} {sum(r.get('Impressions', 0) for r in rows):6} {sum(r.get('BroadImpressions', 0) for r in rows):6}")
 else:
     sys.exit(__doc__)
