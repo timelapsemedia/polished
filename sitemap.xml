@@ -19,7 +19,7 @@
 
   <url>
     <loc>https://polished.media/black-metal-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/black-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/black-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/black-metal-mastering/"/>
@@ -27,7 +27,7 @@
 
   <url>
     <loc>https://polished.media/de/black-metal-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/black-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/black-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/black-metal-mastering/"/>
@@ -35,7 +35,7 @@
 
   <url>
     <loc>https://polished.media/death-metal-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/death-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/death-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/death-metal-mastering/"/>
@@ -43,7 +43,7 @@
 
   <url>
     <loc>https://polished.media/de/death-metal-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/death-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/death-metal-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/death-metal-mastering/"/>
@@ -51,7 +51,7 @@
 
   <url>
     <loc>https://polished.media/doom-gothic-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/doom-gothic-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/doom-gothic-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/doom-gothic-mastering/"/>
@@ -59,7 +59,7 @@
 
   <url>
     <loc>https://polished.media/de/doom-gothic-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/doom-gothic-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/doom-gothic-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/doom-gothic-mastering/"/>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://polished.media/metalcore-djent-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/metalcore-djent-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/metalcore-djent-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/metalcore-djent-mastering/"/>
@@ -75,7 +75,7 @@
 
   <url>
     <loc>https://polished.media/de/metalcore-djent-mastering/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/metalcore-djent-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/metalcore-djent-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/metalcore-djent-mastering/"/>
@@ -127,6 +127,118 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/stem-mastering/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/stem-mastering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/stem-mastering/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/tools/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/tools/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/tools/gravesaw/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/gravesaw/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/gravesaw/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/gravesaw/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/tools/gravesaw/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/gravesaw/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/gravesaw/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/gravesaw/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/tools/rimehall/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/rimehall/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/rimehall/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/rimehall/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/tools/rimehall/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/rimehall/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/rimehall/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/rimehall/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/tools/kick-bass-scope/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/kick-bass-scope/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/kick-bass-scope/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/kick-bass-scope/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/tools/kick-bass-scope/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/kick-bass-scope/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/kick-bass-scope/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/kick-bass-scope/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/tools/crucible/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/crucible/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/crucible/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/crucible/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/tools/crucible/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/crucible/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/crucible/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/crucible/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/tools/shardstep/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/shardstep/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/shardstep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/shardstep/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/tools/shardstep/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/shardstep/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/shardstep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/shardstep/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/tools/chaos-fm/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/chaos-fm/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/chaos-fm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/chaos-fm/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/tools/chaos-fm/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/tools/chaos-fm/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/tools/chaos-fm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/tools/chaos-fm/"/>
   </url>
 
 </urlset>

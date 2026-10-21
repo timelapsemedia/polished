@@ -83,17 +83,19 @@ def lang_switch(lang, counterpart=None):
 def nav(lang='en', current='', counterpart=None):
     if lang == 'de':
         links = [('/de/#audit', 'Audit'), ('/de/#genres', 'Genres'), ('/de/#preise', 'Preise'),
-                 ('/de/mastering-kosten/', 'Kosten-Vergleich'), ('/de/metal-mastering-lautstaerke/', 'Lautstärke-Guide')]
+                 ('/de/mastering-kosten/', 'Kosten-Vergleich'), ('/de/metal-mastering-lautstaerke/', 'Lautstärke-Guide'),
+                 ('/de/tools/', 'Tools')]
         cta = ('/de/#kontakt', 'Audit anfragen →', 'Anfragen →')
         toggle = 'Menü öffnen'
     else:
         links = [('/#audit', 'Audit'), ('/#genres', 'Genres'), ('/#packages', 'Packages'),
-                 ('/mastering-cost/', 'Cost Guide'), ('/metal-mastering-loudness/', 'Loudness Guide')]
+                 ('/mastering-cost/', 'Cost Guide'), ('/metal-mastering-loudness/', 'Loudness Guide'),
+                 ('/tools/', 'Tools')]
         cta = ('/#contact', 'Request Audit →', 'Audit →')
         toggle = 'Toggle menu'
     lis = []
     for href, label in links:
-        extra = ' aria-current="page"' if href == current else ''
+        extra = ' aria-current="page"' if href == current else (' aria-current="true"' if href.endswith('/tools/') and current.startswith(href) else '')
         if href == '/de/':
             extra += ' hreflang="de" lang="de"'
         if href == '/' and lang == 'de':
@@ -138,6 +140,7 @@ def footer(lang='en'):
           <li><a href="/de/mastering-kosten/">Mastering-Kosten</a></li>
           <li><a href="/de/stem-mastering/">Stem-Mastering</a></li>
           <li><a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a></li>
+          <li><a href="/de/tools/">Tools für Bands</a></li>
           <li><a href="/de/#kontakt">Kontakt</a></li>
         </ul>
       </div>
@@ -178,6 +181,7 @@ def footer(lang='en'):
           <li><a href="/mastering-cost/">Mastering Cost Guide</a></li>
           <li><a href="/stem-mastering/">Stem Mastering Guide</a></li>
           <li><a href="/metal-mastering-loudness/">Loudness Guide</a></li>
+          <li><a href="/tools/">Tools for Bands</a></li>
           <li><a href="/#engineer">About Tim</a></li>
         </ul>
       </div>
@@ -199,8 +203,12 @@ def footer(lang='en'):
 </footer>'''
 
 
-def page(*, path, lang, title, description, og_title, body, schemas, alternates=None, counterpart=None, robots='index, follow, max-snippet:-1, max-image-preview:large', canonical=True):
+OG_DEFAULT = ('/assets/og-image.jpg', 1200, 630, 'Polished — Metal &amp; Gothic Mastering, with mastering engineer Tim Borchert')
+
+
+def page(*, path, lang, title, description, og_title, body, schemas, alternates=None, counterpart=None, robots='index, follow, max-snippet:-1, max-image-preview:large', canonical=True, og_image=None, og_type=None):
     url = f'{BASE}{path}'
+    og_src, og_w, og_h, og_alt = og_image or OG_DEFAULT
     if counterpart and not alternates:
         alternates = [(l, f'{BASE}{p}') for l, p in counterpart.items()] + [('x-default', f'{BASE}{counterpart["en"]}')]
     alt = ''
@@ -223,20 +231,21 @@ def page(*, path, lang, title, description, og_title, body, schemas, alternates=
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<meta property="og:type" content="{"article" if ("loudness" in path or "lautstaerke" in path) else "website"}">
+<meta property="og:type" content="{og_type or ("article" if ("loudness" in path or "lautstaerke" in path) else "website")}">
 <meta property="og:site_name" content="Polished Mastering">
 <meta property="og:locale" content="{og_locale}">
 <meta property="og:title" content="{html.escape(og_title)}">
 <meta property="og:description" content="{html.escape(description)}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{BASE}/assets/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Polished — Metal &amp; Gothic Mastering, with mastering engineer Tim Borchert">
+<meta property="og:image" content="{BASE}{og_src}">
+<meta property="og:image:width" content="{og_w}">
+<meta property="og:image:height" content="{og_h}">
+<meta property="og:image:alt" content="{og_alt}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{html.escape(og_title)}">
 <meta name="twitter:description" content="{html.escape(description)}">
-<meta name="twitter:image" content="{BASE}/assets/og-image.jpg">
+<meta name="twitter:image" content="{BASE}{og_src}">
+<meta name="twitter:image:alt" content="{og_alt}">
 <link rel="preload" href="/assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
@@ -393,16 +402,14 @@ AUDIT_STEPS = '''    <ol>
       <li><strong>Revisions:</strong> unlimited, until it matches what you hear in your head.</li>
     </ol>'''
 
+# ---------------------------------------------------------------- TOOLS FOR BANDS (/tools/, /de/tools/; defines tools_teaser for the genre pages)
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_tools.py'), encoding='utf-8').read())
+
 # ---------------------------------------------------------------- GENRE CONTENT
-BLACK_TOOLS = """<section class="content-section" aria-labelledby="bm-tools">
-  <div class="wrap prose-wrap prose">
-    <h2 id="bm-tools">Recording the album yourself? <em>Tools for bands</em></h2>
-    <p>Tim also builds production tools for metal bands under the label Code Chaos Audio. The <a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit" rel="noopener">Black Metal Drum Kit</a> is a 12&nbsp;€ pack of 47 synthesised drum samples (snares with five velocity levels and round-robins) and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM.</p>
-    <p><a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit" rel="noopener"><img src="/assets/black-metal-drum-kit.jpg" alt="Cover of the Black Metal Drum Kit by Code Chaos Audio" width="900" height="506" loading="lazy" style="max-width:100%;height:auto"></a></p>
-    <p>Programmed drums that are mixed well are easier to master. When the record is done, <a href="/#contact">request an audio audit</a>.</p>
-  </div>
-</section>
-"""
+BLACK_TOOLS = tools_teaser('en', 'bm-tools', 'Recording the album yourself? <em>Tools for bands</em>',
+    'Tim also builds production tools for metal bands under the label Code Chaos Audio. Gravesaw turns guitar and bass DIs into a raw or thick black metal amp sound, Rimehall adds the cold hall and tape grit, and the two packs cover cab IRs and programmed drums. Each plugin page shows how to use it so the mix stays easy to master.',
+    ['gravesaw', 'rimehall', 'kick-bass-scope', 'crucible'], 'When the record is done, <a href="/#contact">request an audio audit</a>.',
+    packs=('black-metal-tone-kit', 'black-metal-drum-kit'))
 BLACK = dict(
     extra=BLACK_TOOLS,
     slug='black-metal-mastering', name='Black Metal Mastering', eyebrow='Genre · Black Metal',
@@ -441,6 +448,9 @@ BLACK = dict(
 )
 
 DEATH = dict(
+    extra=tools_teaser('en', 'dm-tools', 'Low end before the master: <em>tools for bands</em>',
+        'Most death metal mixes live or die in the lowest octave. The free Kick/Bass Scope shows whether kick and bass add up or cancel each other, and Crucible saturates a bass in three separate bands, so the mids grind while the bottom stays clean. Both are made by Tim under the label Code Chaos Audio.',
+        ['kick-bass-scope', 'crucible']),
     slug='death-metal-mastering', name='Death Metal Mastering', eyebrow='Genre · Death Metal',
     title='Death Metal Mastering Online – Audit-First | Polished',
     og_title='Death Metal Mastering — Polished',
@@ -477,6 +487,9 @@ DEATH = dict(
 )
 
 DOOM = dict(
+    extra=tools_teaser('en', 'dg-tools', 'Slow, heavy and wide: <em>tools for bands</em>',
+        'Gravesaw has a Tight control that can stay low for a full doom bottom, plus a Doom Bass Deep preset for the bass DI. Rimehall adds long, dark halls with decays up to 30 seconds and ducks them while the riff plays. Both are made by Tim under the label Code Chaos Audio.',
+        ['gravesaw', 'rimehall', 'kick-bass-scope']),
     slug='doom-gothic-mastering', name='Doom & Gothic Mastering', eyebrow='Genre · Doom · Gothic',
     title='Doom & Gothic Metal Mastering Online | Polished',
     og_title='Doom & Gothic Mastering — Polished',
@@ -513,6 +526,9 @@ DOOM = dict(
 )
 
 CORE = dict(
+    extra=tools_teaser('en', 'mc-tools', 'Breakdowns, drops and synths: <em>tools for bands</em>',
+        'The free Kick/Bass Scope checks the kick and bass relationship that breakdowns depend on. Shardstep adds tempo-synced stutter and tape-stop fills without clicks, and Chaos FM is a quick source of FM synth layers (Windows). All made by Tim under the label Code Chaos Audio.',
+        ['kick-bass-scope', 'shardstep', 'chaos-fm']),
     slug='metalcore-djent-mastering', name='Metalcore & Djent Mastering', eyebrow='Genre · Metalcore · Djent',
     title='Metalcore & Djent Mastering Online | Polished',
     og_title='Metalcore & Djent Mastering — Polished',
