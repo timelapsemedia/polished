@@ -129,4 +129,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/stem-mastering/"/>
   </url>
 
+  <url>
+    <loc>https://polished.media/mastering-for-labels/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/mastering-for-labels/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/mastering-fuer-labels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/mastering-for-labels/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/mastering-fuer-labels/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/mastering-for-labels/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/mastering-fuer-labels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/mastering-for-labels/"/>
+  </url>
+
 </urlset>

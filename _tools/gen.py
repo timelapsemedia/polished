@@ -137,6 +137,7 @@ def footer(lang='en'):
           <li><a href="/de/#preise">Preise</a></li>
           <li><a href="/de/mastering-kosten/">Mastering-Kosten</a></li>
           <li><a href="/de/stem-mastering/">Stem-Mastering</a></li>
+          <li><a href="/de/mastering-fuer-labels/">Mastering für Labels</a></li>
           <li><a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a></li>
           <li><a href="/de/#kontakt">Kontakt</a></li>
         </ul>
@@ -177,6 +178,7 @@ def footer(lang='en'):
           <li><a href="/#packages">Packages &amp; Pricing</a></li>
           <li><a href="/mastering-cost/">Mastering Cost Guide</a></li>
           <li><a href="/stem-mastering/">Stem Mastering Guide</a></li>
+          <li><a href="/mastering-for-labels/">Mastering for Labels</a></li>
           <li><a href="/metal-mastering-loudness/">Loudness Guide</a></li>
           <li><a href="/#engineer">About Tim</a></li>
         </ul>
@@ -268,7 +270,7 @@ PRICES_EN = '''      <div class="price-grid">
         <div class="price"><div class="name">EP · up to 5</div><div class="amount"><span>€</span>349</div><p>Save €46 vs. 5 singles. Audit per track, consistent loudness across the release, 5–7 days.</p></div>
         <div class="price"><div class="name">Album · up to 10</div><div class="amount"><span>€</span>629</div><p>Save €161 vs. 10 singles. Per-track + album audit, tonal consistency, vinyl master on request, 7–14 days.</p></div>
       </div>
-      <p class="meta-line">All prices are final prices incl. 19% VAT. <strong>No upfront payment required: pay on invoice after delivery, or up front if you prefer.</strong> Every package includes the written audio audit and unlimited revisions. <a href="/#packages">Full package details</a> · <a href="/mastering-cost/">Price comparison</a> · <a href="/stem-mastering/">Stereo or stems?</a></p>'''
+      <p class="meta-line">All prices are final prices incl. 19% VAT. <strong>No upfront payment required: pay on invoice after delivery, or up front if you prefer.</strong> Every package includes the written audio audit and unlimited revisions. <a href="/#packages">Full package details</a> · <a href="/mastering-cost/">Price comparison</a> · <a href="/stem-mastering/">Stereo or stems?</a> · <a href="/mastering-for-labels/">Label rates</a></p>'''
 
 
 def service_schema(name, path, desc, audience, lang='en'):
@@ -553,6 +555,7 @@ for g in (BLACK, DEATH, DOOM, CORE):
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_de.py'), encoding='utf-8').read())
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_cost.py'), encoding='utf-8').read())
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_stem.py'), encoding='utf-8').read())
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_label.py'), encoding='utf-8').read())
 
 # ---------------------------------------------------------------- LOUDNESS GUIDE
 LG_PATH = '/metal-mastering-loudness/'
