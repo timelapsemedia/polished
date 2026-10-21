@@ -19,6 +19,10 @@ AUDIT_STEPS_DE = '''    <ol>
 GUIDE_DE = '/de/metal-mastering-lautstaerke/'
 
 BLACK_DE = dict(
+    extra=tools_teaser('de', 'bm-tools', 'Album selbst aufnehmen? <em>Tools für Bands</em>',
+        'Tim baut unter dem Label Code Chaos Audio auch Produktions-Tools für Metal-Bands. Gravesaw macht aus Gitarren- und Bass-DIs einen rohen oder dicken Black-Metal-Amp-Sound, Rimehall bringt die kalte Halle und den Tape-Dreck, und die zwei Pakete liefern Cab-IRs und programmierte Drums. Jede Plugin-Seite zeigt, wie du es so einsetzt, dass der Mix gut masterbar bleibt.',
+        ['gravesaw', 'rimehall', 'kick-bass-scope', 'crucible'], 'Wenn die Platte fertig ist: <a href="/de/#kontakt">Audio-Audit anfragen</a>.',
+        packs=('black-metal-tone-kit', 'black-metal-drum-kit')),
     slug='black-metal-mastering', name='Black Metal Mastering', eyebrow='Genre · Black Metal',
     title='Black Metal Mastering online – mit Audio-Audit | Polished',
     og_title='Black Metal Mastering — Polished',
@@ -55,6 +59,9 @@ BLACK_DE = dict(
 )
 
 DEATH_DE = dict(
+    extra=tools_teaser('de', 'dm-tools', 'Low End vor dem Master: <em>Tools für Bands</em>',
+        'Die meisten Death-Metal-Mixe stehen und fallen mit der tiefsten Oktave. Der kostenlose Kick/Bass Scope zeigt, ob sich Kick und Bass addieren oder auslöschen, und Crucible sättigt einen Bass in drei getrennten Bändern, damit die Mitten beißen und das Fundament sauber bleibt. Beide stammen von Tim, unter dem Label Code Chaos Audio.',
+        ['kick-bass-scope', 'crucible']),
     slug='death-metal-mastering', name='Death Metal Mastering', eyebrow='Genre · Death Metal',
     title='Death Metal Mastering online – mit Audio-Audit | Polished',
     og_title='Death Metal Mastering — Polished',
@@ -91,6 +98,9 @@ DEATH_DE = dict(
 )
 
 DOOM_DE = dict(
+    extra=tools_teaser('de', 'dg-tools', 'Langsam, schwer und weit: <em>Tools für Bands</em>',
+        'Gravesaw hat einen Tight-Regler, der für ein volles Doom-Fundament tief bleiben kann, dazu das Preset Doom Bass Deep für die Bass-DI. Rimehall liefert lange, dunkle Hallräume mit bis zu 30 Sekunden Nachhall und duckt sie, solange das Riff spielt. Beide stammen von Tim, unter dem Label Code Chaos Audio.',
+        ['gravesaw', 'rimehall', 'kick-bass-scope']),
     slug='doom-gothic-mastering', name='Doom & Gothic Mastering', eyebrow='Genre · Doom · Gothic',
     title='Doom & Gothic Metal Mastering online | Polished',
     og_title='Doom & Gothic Mastering — Polished',
@@ -127,6 +137,9 @@ DOOM_DE = dict(
 )
 
 CORE_DE = dict(
+    extra=tools_teaser('de', 'mc-tools', 'Breakdowns, Drops und Synths: <em>Tools für Bands</em>',
+        'Der kostenlose Kick/Bass Scope prüft das Verhältnis von Kick und Bass, von dem Breakdowns leben. Shardstep liefert taktsynchrone Stutter- und Tape-Stop-Fills ohne Klicks, und Chaos FM ist eine schnelle Quelle für FM-Synth-Layer (Windows). Alles von Tim, unter dem Label Code Chaos Audio.',
+        ['kick-bass-scope', 'shardstep', 'chaos-fm']),
     slug='metalcore-djent-mastering', name='Metalcore & Djent Mastering', eyebrow='Genre · Metalcore · Djent',
     title='Metalcore & Djent Mastering online | Polished',
     og_title='Metalcore & Djent Mastering — Polished',

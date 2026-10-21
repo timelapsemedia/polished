@@ -24,6 +24,17 @@ All prices are final prices including 19% German VAT. No upfront payment require
 - [How much does mastering cost?](https://polished.media/mastering-cost/): market price ranges from AI mastering to renowned studios, Polished prices for single, EP, album, stems
 - [How loud should metal be mastered?](https://polished.media/metal-mastering-loudness/): streaming loudness targets by platform (Spotify -14 LUFS, Apple Music about -16 LUFS), typical LUFS ranges by metal subgenre, true-peak limits
 
+## Tools for bands (plugins by Code Chaos Audio)
+Tim Borchert also builds audio plugins under the label Code Chaos Audio. Polished only links to them; they are sold and downloaded on Gumroad (timberwolf688.gumroad.com). No AU versions (Logic Pro not supported); macOS builds are Apple Silicon only and not signed or notarized.
+- [Tools for bands (overview)](https://polished.media/tools/): all plugins with price, platforms, demo audio
+- [Gravesaw](https://polished.media/tools/gravesaw/): black metal amp + cab for guitar and bass DI, 19 built-in cabs, 16 presets; €19, free demo; Windows + macOS (Apple Silicon)
+- [Rimehall](https://polished.media/tools/rimehall/): cold reverb, octave shimmer and tape bus with ducking, 14 presets; €19, free demo; Windows + macOS (Apple Silicon)
+- [Kick/Bass Scope](https://polished.media/tools/kick-bass-scope/): free beat-synced kick and bass oscilloscope with correlation meter (phase check); Windows + macOS (Apple Silicon)
+- [Crucible](https://polished.media/tools/crucible/): 3-band saturation, 5 types per band, oversampling up to 8x; €19, free demo; Windows only
+- [Shardstep](https://polished.media/tools/shardstep/): tempo-synced stutter and glitch for 200-300 BPM, 16-step patterns, MIDI trigger; €15, free demo; Windows + macOS (Apple Silicon)
+- [Chaos FM](https://polished.media/tools/chaos-fm/): 3-operator FM synth with GENERATE button, 12 presets; €19, free demo; Windows only
+- German versions: https://polished.media/de/tools/ (and /de/tools/<plugin>/)
+
 ## German pages (Deutsch)
 - [Metal Mastering online (Startseite)](https://polished.media/de/)
 - [Black Metal Mastering](https://polished.media/de/black-metal-mastering/)
@@ -34,6 +45,7 @@ All prices are final prices including 19% German VAT. No upfront payment require
 - [Stem-Mastering](https://polished.media/de/stem-mastering/)
 - [Mastering für Labels](https://polished.media/de/mastering-fuer-labels/)
 - [Wie laut sollte Metal gemastert werden?](https://polished.media/de/metal-mastering-lautstaerke/)
+- [Tools für Bands (Plugins von Code Chaos Audio)](https://polished.media/de/tools/)
 
 ## Service area
 Germany, Austria, Switzerland and worldwide (fully remote/online studio).

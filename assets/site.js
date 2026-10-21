@@ -154,3 +154,16 @@
     window.dataLayer.push({ event: 'cta_click', cta_id: 'lang-hint-de' });
   });
 })();
+
+/* Tool pages: chapter buttons jump to a position in the demo audio */
+(function () {
+  document.querySelectorAll('.chapter-seek[data-audio]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var a = document.getElementById(btn.getAttribute('data-audio'));
+      if (!a) return;
+      a.currentTime = parseFloat(btn.getAttribute('data-seek')) || 0;
+      var p = a.play();
+      if (p && p.catch) p.catch(function () {});
+    });
+  });
+})();

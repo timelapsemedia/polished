@@ -159,7 +159,7 @@ For independent labels with a release schedule
 - One consistent sound across your catalog✓
 - Prepaid or invoiced per release✓
 Request label rates →
-All prices are final prices incl. 19% VAT · How much does mastering cost? Market comparison · Mastering Kosten & Preise (Deutsch) · Last updated: October 2026
+All prices are final prices incl. 19% VAT · How much does mastering cost? Market comparison · Mastering Kosten & Preise (Deutsch) · Mastering for labels: partner rates explained · Last updated: October 2026
 Tim Borchert
 Mastering Engineer · Producer
 ### The Engineer · Tim Borchert
@@ -378,8 +378,14 @@ Yes. Solo projects are a big part of the scene and are handled exactly like band
 Can I send stems instead of a stereo mix?
 Yes. Stem mastering (€129 per track, up to 6 stems) is useful in black metal when guitars and cymbals fight in the same range or the kick disappears under the wall. Typical stems are drums, bass, guitars, vocals, keys/synths and FX. The audit tells you whether stems are worth it for your mix.
 ### Recording the album yourself? Tools for bands
-Tim also builds production tools for metal bands under the label Code Chaos Audio. The Black Metal Drum Kit is a 12 € pack of 47 synthesised drum samples (snares with five velocity levels and round-robins) and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM.
-Programmed drums that are mixed well are easier to master. When the record is done, request an audio audit.
+Tim also builds production tools for metal bands under the label Code Chaos Audio. Gravesaw turns guitar and bass DIs into a raw or thick black metal amp sound, Rimehall adds the cold hall and tape grit, and the two packs cover cab IRs and programmed drums. Each plugin page shows how to use it so the mix stays easy to master.
+Plugin · €19Gravesaw
+Plugin · €19Rimehall
+Plugin · Free · pay what you wantKick/Bass Scope
+Plugin · €19Crucible
+Pack · €9Black Metal Tone Kit
+Pack · €12Black Metal Drum Kit
+When the record is done, request an audio audit. All tools for bands →
 ### Other genres
 GenreDeath Metal Mastering
 GenreDoom & Gothic Mastering
@@ -452,6 +458,15 @@ Masterst du auch Ein-Personen-Projekte?
 Ja. Soloprojekte sind ein großer Teil der Szene und werden genauso behandelt wie Band-Releases: gleiches Audit, gleicher Preis, gleiche unbegrenzte Revisionen. Programmierte Drums sind kein Problem. Das Audit prüft, ob getriggerte oder gesampelte Kicks nach dem Limiting noch klar durchkommen.
 Kann ich Stems statt eines Stereo-Mixes schicken?
 Ja. Stem-Mastering (129 € pro Track inkl. USt., bis zu 6 Stems) lohnt sich bei Black Metal, wenn Gitarren und Becken im selben Bereich kämpfen oder die Kick unter der Wand verschwindet. Typische Stems sind Drums, Bass, Gitarren, Vocals, Keys/Synths und FX. Das Audit sagt dir, ob Stems für deinen Mix sinnvoll sind.
+### Album selbst aufnehmen? Tools für Bands
+Tim baut unter dem Label Code Chaos Audio auch Produktions-Tools für Metal-Bands. Gravesaw macht aus Gitarren- und Bass-DIs einen rohen oder dicken Black-Metal-Amp-Sound, Rimehall bringt die kalte Halle und den Tape-Dreck, und die zwei Pakete liefern Cab-IRs und programmierte Drums. Jede Plugin-Seite zeigt, wie du es so einsetzt, dass der Mix gut masterbar bleibt.
+Plugin · 19 €Gravesaw
+Plugin · 19 €Rimehall
+Plugin · Gratis · Preis frei wählbarKick/Bass Scope
+Plugin · 19 €Crucible
+Paket · 9 €Black Metal Tone Kit
+Paket · 12 €Black Metal Drum Kit
+Wenn die Platte fertig ist: Audio-Audit anfragen. Alle Tools für Bands →
 ### Weitere Genres
 GenreDeath Metal Mastering
 GenreDoom & Gothic Mastering
@@ -524,6 +539,11 @@ Do you master deathcore and technical death metal too?
 Yes. Deathcore, technical, progressive, brutal, slam and melodic death metal are all covered. Each has different priorities, from articulation in tech death to low-mid weight in slam, and the audit is set against references from your specific subgenre.
 Is stem mastering worth it for death metal?
 Often, yes. When kick, bass and guitars compete in the low end, stem mastering (€129 per track, up to 6 stems) allows each group to be shaped separately before the final master. For a well-balanced mix, stereo mastering at €79 is enough. The audit tells you which one fits.
+### Low end before the master: tools for bands
+Most death metal mixes live or die in the lowest octave. The free Kick/Bass Scope shows whether kick and bass add up or cancel each other, and Crucible saturates a bass in three separate bands, so the mids grind while the bottom stays clean. Both are made by Tim under the label Code Chaos Audio.
+Plugin · Free · pay what you wantKick/Bass Scope
+Plugin · €19Crucible
+All tools for bands →
 ### Other genres
 GenreBlack Metal Mastering
 GenreDoom & Gothic Mastering
@@ -596,6 +616,11 @@ Masterst du auch Deathcore und Technical Death Metal?
 Ja. Deathcore, Technical, Progressive, Brutal, Slam und Melodic Death Metal gehören alle dazu. Jedes Subgenre hat andere Prioritäten, von der Artikulation im Tech Death bis zum Gewicht der unteren Mitten im Slam, und das Audit vergleicht mit Referenzen aus deinem Subgenre.
 Lohnt sich Stem-Mastering bei Death Metal?
 Oft ja. Wenn Kick, Bass und Gitarren im Low End konkurrieren, lassen sich mit Stem-Mastering (129 € pro Track inkl. USt., bis zu 6 Stems) die Gruppen einzeln formen, bevor der finale Master entsteht. Bei einem gut ausbalancierten Mix reicht Stereo-Mastering für 79 €. Das Audit sagt dir, was passt.
+### Low End vor dem Master: Tools für Bands
+Die meisten Death-Metal-Mixe stehen und fallen mit der tiefsten Oktave. Der kostenlose Kick/Bass Scope zeigt, ob sich Kick und Bass addieren oder auslöschen, und Crucible sättigt einen Bass in drei getrennten Bändern, damit die Mitten beißen und das Fundament sauber bleibt. Beide stammen von Tim, unter dem Label Code Chaos Audio.
+Plugin · Gratis · Preis frei wählbarKick/Bass Scope
+Plugin · 19 €Crucible
+Alle Tools für Bands →
 ### Weitere Genres
 GenreBlack Metal Mastering
 GenreDoom & Gothic Mastering
@@ -668,6 +693,12 @@ Do you master gothic rock and darkwave as well as gothic metal?
 Yes. Gothic rock, darkwave, deathrock and gothic metal are all part of the focus. These styles are often bass-driven and atmospheric, so the master keeps the bass line forward and the reverb space deep without clouding the vocals.
 Can you prepare a vinyl master?
 Yes. A vinyl-ready master is available on request for album projects. Vinyl benefits from preserved dynamics, a mono-compatible low end and controlled sibilance, which suits doom and gothic material well. Mention vinyl in your brief so it's planned from the audit onward.
+### Slow, heavy and wide: tools for bands
+Gravesaw has a Tight control that can stay low for a full doom bottom, plus a Doom Bass Deep preset for the bass DI. Rimehall adds long, dark halls with decays up to 30 seconds and ducks them while the riff plays. Both are made by Tim under the label Code Chaos Audio.
+Plugin · €19Gravesaw
+Plugin · €19Rimehall
+Plugin · Free · pay what you wantKick/Bass Scope
+All tools for bands →
 ### Other genres
 GenreBlack Metal Mastering
 GenreDeath Metal Mastering
@@ -740,6 +771,12 @@ Masterst du neben Gothic Metal auch Gothic Rock und Darkwave?
 Ja. Gothic Rock, Darkwave, Deathrock und Gothic Metal gehören alle zum Schwerpunkt. Diese Stile sind oft bassgetrieben und atmosphärisch, deshalb hält der Master die Basslinie vorne und den Hallraum tief, ohne die Vocals zu vernebeln.
 Gibt es auch einen Vinyl-Master?
 Ja. Ein Vinyl-Master ist für Album-Projekte auf Anfrage möglich. Vinyl profitiert von erhaltener Dynamik, einem monokompatiblen Low End und kontrollierten Zischlauten, was gut zu Doom und Gothic passt. Erwähne Vinyl im Briefing, dann wird es ab dem Audit mitgeplant.
+### Langsam, schwer und weit: Tools für Bands
+Gravesaw hat einen Tight-Regler, der für ein volles Doom-Fundament tief bleiben kann, dazu das Preset Doom Bass Deep für die Bass-DI. Rimehall liefert lange, dunkle Hallräume mit bis zu 30 Sekunden Nachhall und duckt sie, solange das Riff spielt. Beide stammen von Tim, unter dem Label Code Chaos Audio.
+Plugin · 19 €Gravesaw
+Plugin · 19 €Rimehall
+Plugin · Gratis · Preis frei wählbarKick/Bass Scope
+Alle Tools für Bands →
 ### Weitere Genres
 GenreBlack Metal Mastering
 GenreDeath Metal Mastering
@@ -812,6 +849,12 @@ Do breakdowns and sub drops get special attention?
 Yes. Breakdowns are often where masters fail: the low end eats the limiter's headroom and the heaviest moment ends up feeling smaller. The audit flags those sections, and the master is checked specifically on breakdowns and drops, not only on the loudest chorus.
 Do you work with programmed drums and amp sims?
 Yes. Programmed drums, amp simulators and in-the-box productions are standard in metalcore and djent and are mastered exactly like tracked material. The audit checks sample-based kicks and snares for clicks or harshness after limiting.
+### Breakdowns, drops and synths: tools for bands
+The free Kick/Bass Scope checks the kick and bass relationship that breakdowns depend on. Shardstep adds tempo-synced stutter and tape-stop fills without clicks, and Chaos FM is a quick source of FM synth layers (Windows). All made by Tim under the label Code Chaos Audio.
+Plugin · Free · pay what you wantKick/Bass Scope
+Plugin · €15Shardstep
+Plugin · €19Chaos FM
+All tools for bands →
 ### Other genres
 GenreBlack Metal Mastering
 GenreDeath Metal Mastering
@@ -884,6 +927,12 @@ Bekommen Breakdowns und Sub-Drops besondere Aufmerksamkeit?
 Ja. Genau an Breakdowns scheitern viele Master: Das Low End frisst den Headroom des Limiters, und der schwerste Moment wirkt am Ende kleiner. Das Audit markiert diese Stellen, und der Master wird gezielt an Breakdowns und Drops geprüft, nicht nur am lautesten Refrain.
 Arbeitest du mit programmierten Drums und Amp-Sims?
 Ja. Programmierte Drums, Amp-Simulationen und reine In-the-Box-Produktionen sind im Metalcore und Djent Standard und werden genauso gemastert wie aufgenommenes Material. Das Audit prüft samplebasierte Kicks und Snares auf Klicks oder Schärfe nach dem Limiting.
+### Breakdowns, Drops und Synths: Tools für Bands
+Der kostenlose Kick/Bass Scope prüft das Verhältnis von Kick und Bass, von dem Breakdowns leben. Shardstep liefert taktsynchrone Stutter- und Tape-Stop-Fills ohne Klicks, und Chaos FM ist eine schnelle Quelle für FM-Synth-Layer (Windows). Alles von Tim, unter dem Label Code Chaos Audio.
+Plugin · Gratis · Preis frei wählbarKick/Bass Scope
+Plugin · 15 €Shardstep
+Plugin · 19 €Chaos FM
+Alle Tools für Bands →
 ### Weitere Genres
 GenreBlack Metal Mastering
 GenreDeath Metal Mastering
@@ -1375,3 +1424,921 @@ Liefert ihr auch Vinyl- und Bandcamp-Master?
 Ja. Jeder Master kommt als 24-Bit-WAV, 16-Bit-AIFF und 320-kbps-MP3 mit Exporten für Spotify, Apple Music und Bandcamp. Ein eigener Vinyl-Master ist bei Album-Projekten auf Anfrage möglich.
 Welche Genres masterst du?
 Black Metal, Death Metal, Doom und Gothic sowie Metalcore und Djent. Polished arbeitet nur mit harter und dunkler Musik; Lautheit und Klang werden an Referenzen aus dem jeweiligen Subgenre gemessen.
+
+---
+
+## Tools for Bands: Plugins for Metal Mixes | Polished
+URL: https://polished.media/tools/
+
+Tools for bands · Code Chaos Audio
+## Tools for bands, built next to the mastering desk.
+Many problems a mastering engineer finds start much earlier: a fizzy amp tone, a reverb that collapses in mono, a kick and bass that cancel each other. Tim Borchert, who masters every track at Polished, also builds audio plugins under the label Code Chaos Audio. Here they are with screenshots, real demo audio and plain system requirements. Everything is sold on Gumroad, and most plugins have a free demo.
+See all plugins →
+Free: Kick/Bass Scope
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+### Where each tool fits
+/ 01
+#### Tone
+Gravesaw turns guitar and bass DIs into a black metal amp and cab sound, with 19 built-in cabs.
+/ 02
+#### Space
+Rimehall adds a cold hall, shimmer and tape, and ducks the reverb while the riff plays.
+/ 03
+#### Low end
+Kick/Bass Scope shows whether kick and bass add up or cancel. Free. Crucible saturates bass and buses in three bands.
+/ 04
+#### Electronic layers
+Shardstep adds tempo-synced stutter and glitch fills, Chaos FM generates FM leads, basses and stabs.
+### All plugins
+#### Gravesaw
+Black metal amp with 19 built-in cabs for guitar and bass DI, from raw buzz to a thick wall.
+€19 · Windows 10/11 · macOS Apple Silicon
+Free demo →
+Buy on Gumroad · €19
+Details & audio →
+#### Rimehall
+Cold hall, octave shimmer and tape grit on one bus, with ducking so fast riffs stay clear.
+€19 · Windows 10/11 · macOS Apple Silicon
+Free demo →
+Buy on Gumroad · €19
+Details & audio →
+#### Kick/Bass Scope
+Free analyzer that lays kick and bass on top of each other and warns you when they cancel.
+Free · pay what you want · Windows 10/11 · macOS Apple Silicon
+Free download →
+Details & audio →
+#### Crucible
+3-band saturation with five types per band, for grinding bass mids while the low end stays solid.
+€19 · Windows 10/11 only
+Free demo →
+Buy on Gumroad · €19
+Details & audio →
+#### Shardstep
+Tempo-synced stutter, tape stop and glitch fills for 200 to 300 BPM, click-free at every slice.
+€15 · Windows 10/11 · macOS Apple Silicon
+Free demo →
+Buy on Gumroad · €15
+Details & audio →
+#### Chaos FM
+3-operator FM synth with a GENERATE button for metallic leads, bass layers and stabs.
+€19 · Windows 10/11 only
+Free demo →
+Buy on Gumroad · €19
+Details & audio →
+### Also for black metal: sample and IR packs
+Not plugins, but from the same workshop and live on Gumroad:
+- Black Metal Tone Kit (€9): 19 synthesised cab IRs (48 and 44.1 kHz) plus REAPER FX chains for guitar and bass. Works with NAM and any IR loader. The cabs inside Gravesaw are these IRs.
+- Black Metal Drum Kit (€12): 47 synthesised drum samples and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM. The drums in the Gravesaw and Rimehall demos come from it.
+### System requirements at a glance
+PluginPriceWindowsmacOSFree demo
+Gravesaw€19YesApple Silicon only, unsignedYes
+Rimehall€19YesApple Silicon only, unsignedYes
+Kick/Bass ScopeFree · pay what you wantYesApple Silicon only, unsigned—
+Crucible€19YesNoYes
+Shardstep€15YesApple Silicon only, unsignedYes
+Chaos FM€19YesNoYes
+No AU versions, so Logic Pro is not supported. The macOS builds are not signed or notarized; macOS blocks them at first and you allow them under System Settings → Privacy & Security. Every plugin was tested with automated checks but has not been tried in every DAW yet. Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tools don't replace a master
+These plugins help you get a mix ready. A release that sounds right on earbuds, in the car and after streaming normalisation still needs a mastering pass with fresh ears. At Polished every master starts with a written audio audit of your mix, from €79 per track incl. VAT, unlimited revisions. Genre pages: black metal, death metal, doom & gothic and metalcore & djent.
+Request an audio audit →
+### Tools for bands: FAQ
+Who makes these plugins?
+Tim Borchert, the mastering engineer behind Polished, builds them under the label Code Chaos Audio. Polished links to them; buying and downloading happens on Gumroad.
+Do the plugins run on a Mac?
+Gravesaw, Rimehall, Shardstep and Kick/Bass Scope run on Apple Silicon Macs as VST3 and Standalone. There are no Intel builds and no AU versions, and the macOS builds are not signed or notarized. Crucible and Chaos FM are Windows only.
+Can I try them before buying?
+Yes. Gravesaw, Rimehall, Shardstep, Crucible and Chaos FM each have a free demo on Gumroad: the full plugin with a short noise burst every 45 seconds. Kick/Bass Scope is free.
+
+---
+
+## Tools für Bands: Plugins für Metal-Mixe | Polished
+URL: https://polished.media/de/tools/
+
+Tools für Bands · Code Chaos Audio
+## Tools für Bands, gebaut neben dem Mastering-Platz.
+Viele Probleme, die beim Mastering auffallen, entstehen viel früher: ein fizziger Amp-Sound, ein Hall, der in Mono zusammenfällt, Kick und Bass, die sich gegenseitig auslöschen. Tim Borchert, der bei Polished jeden Track mastert, baut unter dem Label Code Chaos Audio auch Audio-Plugins. Hier findest du sie mit Screenshots, echter Audio-Demo und klaren Systemangaben. Verkauft wird alles über Gumroad, und für die meisten Plugins gibt es eine Gratis-Demo.
+Alle Plugins ansehen →
+Gratis: Kick/Bass Scope
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+### Wo welches Tool hingehört
+/ 01
+#### Sound
+Gravesaw macht aus Gitarren- und Bass-DIs einen Black-Metal-Amp- und Cab-Sound, mit 19 eingebauten Cabs.
+/ 02
+#### Raum
+Rimehall bringt kalten Hall, Shimmer und Tape und duckt den Hall, solange das Riff spielt.
+/ 03
+#### Low End
+Kick/Bass Scope zeigt, ob sich Kick und Bass addieren oder auslöschen. Gratis. Crucible sättigt Bass und Busse in drei Bändern.
+/ 04
+#### Elektronische Layer
+Shardstep liefert taktsynchrone Stutter- und Glitch-Fills, Chaos FM erzeugt FM-Leads, -Bässe und -Stabs.
+### Alle Plugins
+#### Gravesaw
+Black-Metal-Amp mit 19 eingebauten Cabs für Gitarren- und Bass-DI, von rohem Sägen bis zur dicken Wand.
+19 € · Windows 10/11 · macOS Apple Silicon
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+Details & Audio →
+#### Rimehall
+Kalter Hall, Oktav-Shimmer und Tape-Dreck auf einem Bus, mit Ducking, damit schnelle Riffs klar bleiben.
+19 € · Windows 10/11 · macOS Apple Silicon
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+Details & Audio →
+#### Kick/Bass Scope
+Gratis-Analyzer, der Kick und Bass übereinanderlegt und warnt, wenn sie sich gegenseitig auslöschen.
+Gratis · Preis frei wählbar · Windows 10/11 · macOS Apple Silicon
+Gratis laden →
+Details & Audio →
+#### Crucible
+3-Band-Sättigung mit fünf Typen pro Band: Biss in den Bass-Mitten, während das Fundament sauber bleibt.
+19 € · Nur Windows 10/11
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+Details & Audio →
+#### Shardstep
+Taktsynchroner Stutter, Tape-Stop und Glitch-Fills für 200 bis 300 BPM, klickfrei an jeder Schnittkante.
+15 € · Windows 10/11 · macOS Apple Silicon
+Gratis-Demo →
+Auf Gumroad kaufen · 15 €
+Details & Audio →
+#### Chaos FM
+3-Operator-FM-Synth mit GENERATE-Button für metallische Leads, Synth-Bässe und Stabs.
+19 € · Nur Windows 10/11
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+Details & Audio →
+### Außerdem für Black Metal: Sample- und IR-Pakete
+Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich:
+- Black Metal Tone Kit (9 €): 19 synthetisierte Cab-IRs (48 und 44,1 kHz) plus REAPER-FX-Ketten für Gitarre und Bass. Funktioniert mit NAM und jedem IR-Loader. Die Cabs in Gravesaw sind genau diese IRs.
+- Black Metal Drum Kit (12 €): 47 synthetisierte Drum-Samples und 30 MIDI-Grooves für Blastbeats, Galopp und Doom, von 60 bis 230 BPM. Die Drums in den Demos von Gravesaw und Rimehall stammen daraus.
+### Systemanforderungen auf einen Blick
+PluginPreisWindowsmacOSGratis-Demo
+Gravesaw19 €JaNur Apple Silicon, unsigniertJa
+Rimehall19 €JaNur Apple Silicon, unsigniertJa
+Kick/Bass ScopeGratis · Preis frei wählbarJaNur Apple Silicon, unsigniert—
+Crucible19 €JaNeinJa
+Shardstep15 €JaNur Apple Silicon, unsigniertJa
+Chaos FM19 €JaNeinJa
+Keine AU-Versionen, Logic Pro wird daher nicht unterstützt. Die macOS-Builds sind nicht signiert und nicht notarisiert; macOS blockiert sie zuerst, du gibst sie unter Systemeinstellungen → Datenschutz & Sicherheit frei. Alle Plugins wurden mit automatischen Prüfungen getestet, aber noch nicht in jeder DAW ausprobiert. Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tools ersetzen keinen Master
+Diese Plugins helfen dir, einen Mix fertig zu machen. Ein Release, das auf Earbuds, im Auto und nach der Lautheitsnormalisierung der Streamingdienste stimmt, braucht trotzdem einen Mastering-Durchgang mit frischen Ohren. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, ab 79 € pro Track inkl. USt., unbegrenzte Revisionen. Genre-Seiten: Black Metal, Death Metal, Doom & Gothic und Metalcore & Djent.
+Audio-Audit anfragen →
+### Tools für Bands: FAQ
+Wer entwickelt diese Plugins?
+Tim Borchert, der Mastering Engineer hinter Polished, baut sie unter dem Label Code Chaos Audio. Polished verlinkt sie; Kauf und Download laufen über Gumroad.
+Laufen die Plugins auf dem Mac?
+Gravesaw, Rimehall, Shardstep und Kick/Bass Scope laufen auf Macs mit Apple Silicon als VST3 und Standalone. Es gibt keine Intel-Builds und keine AU-Versionen, und die macOS-Builds sind nicht signiert und nicht notarisiert. Crucible und Chaos FM gibt es nur für Windows.
+Kann ich sie vor dem Kauf testen?
+Ja. Für Gravesaw, Rimehall, Shardstep, Crucible und Chaos FM gibt es auf Gumroad jeweils eine Gratis-Demo: das volle Plugin mit einem kurzen Rauschstoß alle 45 Sekunden. Kick/Bass Scope ist kostenlos.
+
+---
+
+## Gravesaw: Black Metal Amp + Cab Plugin (VST3) | Polished
+URL: https://polished.media/tools/gravesaw/
+
+Tools for bands · Code Chaos Audio
+## Gravesaw: black metal amp and cab for DI guitar and bass
+Gravesaw is a VST3 amp with the cab built in: plug in a guitar or bass DI and choose a voicing between raw buzz and a thick wall. It comes from Code Chaos Audio, the plugin label of Polished mastering engineer Tim Borchert, and it targets problems that show up again and again in black metal premasters: fizz that turns painful once the track gets louder, low end that clouds the tremolo, and noise between the riffs.
+Free demo →
+Buy on Gumroad · €19
+€19 · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Gravesaw with the Carpathian Buzz preset. Gate, Tight and Gain sit before the distortion, the tone stack after it.
+### Hear it: Gravesaw
+Gravesaw demo: one DI riff at 170 BPM, six presets, then a full mix (26 s)
+- DI guitar (dry, as recorded)
+- Gravesaw: Cold Tremolo Lead
+- Gravesaw: Carpathian Buzz
+- Gravesaw: Frozen Wall Thick
+- Gravesaw: Raw Rehearsal Room
+- Gravesaw: Tamed Fizz
+- Gravesaw: Four-Track Demo
+- Full mix: Wall Rhythm L/R double-track + Cold Tremolo Lead + Bass Grind + Black Metal Drum Kit
+Rendered with the plugin. The drums in the last section come from the Black Metal Drum Kit by Code Chaos Audio.
+### Preparing a black metal demo mix with Gravesaw and Rimehall
+This is the order that keeps a home recording easy to master. Everything happens in the mix, before anything goes to a mastering engineer.
+- Record two rhythm takes, not one. Start from the presets Wall Rhythm L and Wall Rhythm R, pan the takes hard left and right, and try the wide L/R cab pair that Gravesaw includes for double-tracked rhythm guitars.
+- Set the gate so the gaps stay silent. The gate sits in front of the amp (from -90 dBFS, which is off, up to -30 dBFS, with hold and hysteresis). Mastering compresses and limits, and any hiss between tremolo bursts comes up with it.
+- Use Tight before you reach for EQ. Tight is a high-pass in front of the distortion, adjustable from 20 to 400 Hz. Less low end into the gain stage means a tighter riff and more room for bass and kick. For a doom bottom, keep it low.
+- Decide on Fizz and the Tamed cabs on small speakers. Fizz shapes the top end above about 4 kHz. Six of the 19 cabs are harshness-tamed versions, for bright pickups and fizzy settings.
+- Run the bass DI through Gravesaw as well. The bass presets (Bass Grind, Bass Clank, Doom Bass Deep) and the three bass cabs give it grind. Low Blend mixes the clean DI low end back under the distortion, so the bottom stays solid.
+- Then add space. Rimehall on the guitar bus puts the riff into a cold hall without burying it. Export the mix with 3 to 6 dB of headroom and no limiter on the master bus.
+### Why double-tracked guitars have to survive mono
+Phones, Bluetooth speakers and many club and festival systems play your song in mono or close to it. Two separate performances panned left and right add up to a louder riff in the middle when they are summed. A single take that was copied, delayed or widened to fake a double can cancel parts of itself in mono, and the guitars suddenly sound thin and hollow.
+A master cannot repair that, because the problem sits inside the mix. That is why the audit at Polished checks the stereo image and phase of every mix before mastering. Recording real double-tracks with matching tones is the cheapest fix there is.
+### At a glance
+DetailGravesaw
+Price€19 on Gumroad, free demo available
+FormatVST3 + Standalone, mono or stereo input
+WindowsWindows 10/11: VST3 + Standalone
+macOSApple Silicon (arm64) only, no Intel build. VST3 + Standalone, not signed or notarized : macOS blocks it at first, allow it under System Settings → Privacy & Security.
+AU / Logic ProNo AU version, so Logic Pro is not supported.
+Copy protectionNo licence server, no login, no online check.
+Cabs19 built in: 10 guitar cabs, 6 harshness-tamed versions, 3 bass cabs. Synthesised from a model in code, not captured from real cabinets. Cab off for your own IR.
+Presets16 factory presets
+Gain stages4x oversampling with anti-aliased clipping
+Latency61 samples (1.4 ms at 44.1 kHz), reported to the DAW
+OutputSafety stage keeps peaks below -0.3 dBFS
+TestingAutomated checks on every preset. Not tried in every DAW yet.
+DemoThe free demo is the complete plugin; it plays a short noise burst every 45 seconds.
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+For rehearsal demos and pre-production, a Gravesaw tone in a rough mix is all you need. When the songs go to Bandcamp, streaming or a label, a separate mastering pass with fresh ears pays off: loudness for each platform, harshness under control, low end checked in mono. Polished starts every master with a written audio audit of your mix, so you know what to fix in the mix first. See black metal mastering.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Gravesaw FAQ
+Does Gravesaw run on a Mac?
+Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized: macOS blocks it at first, and you allow it under System Settings → Privacy & Security.
+Can I use my own impulse responses?
+Yes. Switch the cab off and load your own IR after Gravesaw. The 19 built-in cabs are the synthesised IRs of the Black Metal Tone Kit by Code Chaos Audio.
+Is there a free trial?
+Yes. The Gravesaw demo on Gumroad is the full plugin with all 16 presets; it plays a short noise burst every 45 seconds.
+Does a good amp tone make mastering unnecessary?
+No. Gravesaw shapes the guitar and bass inside your mix. Mastering works on the finished mix: loudness, tonal balance across the whole song, consistency across a release. A good tone makes that job easier, it does not replace it.
+### More tools
+€19Rimehall
+Free · pay what you wantKick/Bass Scope
+€19Crucible
+All tools for bands →
+### Try Gravesaw free.
+The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
+Free demo →
+Buy on Gumroad · €19
+
+---
+
+## Gravesaw: Black-Metal-Amp + Cab als VST3 | Polished
+URL: https://polished.media/de/tools/gravesaw/
+
+Tools für Bands · Code Chaos Audio
+## Gravesaw: Black-Metal-Amp und Cab für DI-Gitarre und Bass
+Gravesaw ist ein VST3-Amp mit eingebautem Cab: Gitarren- oder Bass-DI rein, dann die Färbung zwischen rohem Sägen und dicker Wand wählen. Er stammt von Code Chaos Audio, dem Plugin-Label von Polished-Mastering-Engineer Tim Borchert, und zielt auf Probleme, die in Black-Metal-Premastern immer wieder auftauchen: Fizz, der schmerzt, sobald der Track lauter wird, Bässe, die das Tremolo zumachen, und Rauschen zwischen den Riffs.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+19 € · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Gravesaw mit dem Preset Carpathian Buzz. Gate, Tight und Gain sitzen vor der Verzerrung, die Klangregelung dahinter.
+### Reinhören: Gravesaw
+Gravesaw-Demo: ein DI-Riff bei 170 BPM, sechs Presets, dann ein voller Mix (26 s)
+- DI-Gitarre (trocken, wie aufgenommen)
+- Gravesaw: Cold Tremolo Lead
+- Gravesaw: Carpathian Buzz
+- Gravesaw: Frozen Wall Thick
+- Gravesaw: Raw Rehearsal Room
+- Gravesaw: Tamed Fizz
+- Gravesaw: Four-Track Demo
+- Voller Mix: Wall Rhythm L/R als Doppelspur + Cold Tremolo Lead + Bass Grind + Black Metal Drum Kit
+Mit dem Plugin gerendert. Die Drums im letzten Abschnitt stammen aus dem Black Metal Drum Kit von Code Chaos Audio.
+### Einen Black-Metal-Demo-Mix mit Gravesaw und Rimehall vorbereiten
+In dieser Reihenfolge bleibt eine Heimaufnahme gut masterbar. Alles passiert im Mix, bevor irgendetwas zum Mastering geht.
+- Zwei Rhythmus-Takes aufnehmen, nicht einen. Mit den Presets Wall Rhythm L und Wall Rhythm R starten, die Takes hart links und rechts panen und das breite L/R-Cab-Paar ausprobieren, das Gravesaw für gedoppelte Rhythmusgitarren mitbringt.
+- Das Gate so setzen, dass die Pausen still bleiben. Das Gate sitzt vor dem Amp (von -90 dBFS, also aus, bis -30 dBFS, mit Hold und Hysterese). Beim Mastering wird komprimiert und limitiert, und jedes Rauschen zwischen den Tremolo-Phrasen kommt mit hoch.
+- Erst Tight, dann EQ. Tight ist ein Hochpass vor der Verzerrung, einstellbar von 20 bis 400 Hz. Weniger Bass in die Zerrstufe heißt ein strafferes Riff und mehr Platz für Bass und Kick. Für ein Doom-Fundament bleibt er tief.
+- Fizz und die Tamed-Cabs auf kleinen Lautsprechern entscheiden. Fizz formt die Höhen oberhalb von etwa 4 kHz. Sechs der 19 Cabs sind entschärfte Versionen für helle Tonabnehmer und fizzige Einstellungen.
+- Auch die Bass-DI durch Gravesaw schicken. Die Bass-Presets (Bass Grind, Bass Clank, Doom Bass Deep) und die drei Bass-Cabs geben ihm Biss. Low Blend mischt die saubere Tiefe der DI wieder unter die Verzerrung, damit das Fundament stabil bleibt.
+- Dann Raum dazu. Rimehall auf dem Gitarrenbus setzt das Riff in eine kalte Halle, ohne es zu begraben. Den Mix mit 3 bis 6 dB Headroom und ohne Limiter auf der Summe exportieren.
+### Warum Doppelspuren mono-kompatibel sein müssen
+Handys, Bluetooth-Boxen und viele Club- und Festival-Anlagen spielen deinen Song in Mono oder fast in Mono. Zwei getrennt eingespielte Takes, links und rechts gepannt, ergeben in Mono ein lauteres Riff in der Mitte. Ein einzelner Take, der kopiert, verzögert oder künstlich verbreitert wurde, löscht sich in Mono teilweise selbst aus, und die Gitarren klingen plötzlich dünn und hohl.
+Ein Master kann das nicht reparieren, weil das Problem im Mix sitzt. Deshalb prüft das Audit bei Polished vor jedem Master Stereobild und Phase. Echte Doppelspuren mit passendem Sound sind die günstigste Lösung, die es gibt.
+### Auf einen Blick
+DetailGravesaw
+Preis19 € auf Gumroad, Gratis-Demo verfügbar
+FormatVST3 + Standalone, Mono- oder Stereo-Eingang
+WindowsWindows 10/11: VST3 + Standalone
+macOSNur Apple Silicon (arm64), kein Intel-Build. VST3 + Standalone, nicht signiert und nicht notarisiert : macOS blockiert das Plugin zuerst, freigeben unter Systemeinstellungen → Datenschutz & Sicherheit.
+AU / Logic ProKeine AU-Version, Logic Pro wird daher nicht unterstützt.
+KopierschutzKein Lizenzserver, kein Login, keine Online-Prüfung.
+Cabs19 eingebaut: 10 Gitarren-Cabs, 6 entschärfte Versionen, 3 Bass-Cabs. Im Code aus einem Modell synthetisiert, nicht von echten Boxen abgenommen. Cab abschaltbar für eigene IRs.
+Presets16 Werks-Presets
+Zerrstufen4-fach-Oversampling mit Anti-Aliasing
+Latenz61 Samples (1,4 ms bei 44,1 kHz), wird an die DAW gemeldet
+AusgangSicherheitsstufe hält Spitzen unter -0,3 dBFS
+TestsAutomatische Prüfungen für jedes Preset. Noch nicht in jeder DAW ausprobiert.
+DemoDie Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Für Proberaum-Demos und Vorproduktion reicht ein Gravesaw-Sound im groben Mix völlig. Wenn die Songs auf Bandcamp, zu Streamingdiensten oder zu einem Label gehen, lohnt sich ein eigener Mastering-Durchgang mit frischen Ohren: Lautheit für jede Plattform, Schärfe unter Kontrolle, Low End in Mono geprüft. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, damit du weißt, was du vorher im Mix ändern solltest. Mehr dazu: Black Metal Mastering.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Gravesaw: FAQ
+Läuft Gravesaw auf dem Mac?
+Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert: macOS blockiert ihn zuerst, du gibst ihn unter Systemeinstellungen → Datenschutz & Sicherheit frei.
+Kann ich eigene Impulsantworten nutzen?
+Ja. Das Cab abschalten und die eigene IR hinter Gravesaw laden. Die 19 eingebauten Cabs sind die synthetisierten IRs aus dem Black Metal Tone Kit von Code Chaos Audio.
+Gibt es eine kostenlose Testversion?
+Ja. Die Gravesaw-Demo auf Gumroad ist das volle Plugin mit allen 16 Presets; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Macht ein guter Amp-Sound das Mastering überflüssig?
+Nein. Gravesaw formt Gitarre und Bass innerhalb deines Mixes. Mastering arbeitet am fertigen Mix: Lautheit, Klangbalance über den ganzen Song, Einheitlichkeit über ein Release. Ein guter Sound macht diese Arbeit leichter, ersetzt sie aber nicht.
+### Weitere Tools
+19 €Rimehall
+Gratis · Preis frei wählbarKick/Bass Scope
+19 €Crucible
+Alle Tools für Bands →
+### Gravesaw gratis testen.
+Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+
+---
+
+## Rimehall: Black Metal Reverb & Tape Plugin | Polished
+URL: https://polished.media/tools/rimehall/
+
+Tools for bands · Code Chaos Audio
+## Rimehall: cold reverb, shimmer and tape for black metal
+Rimehall puts a dark hall, an octave shimmer and a tape stage on one bus, and ducks the reverb while the dry signal plays. It is part 2 of the Code Chaos Black Metal Suite by Tim Borchert, who also masters at Polished. Use it on tremolo guitars, keys or vocals to push them into the distance without washing out the riff.
+Free demo →
+Buy on Gumroad · €19
+€19 · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Rimehall with the Frozen Forest preset. The graph shows the estimated decay for lows, mids and highs.
+### Hear it: Rimehall
+Rimehall demo: a dry riff at 170 BPM, six presets, then a full mix (69 s)
+- Dry: synthetic tremolo riff (Black Metal Tone Kit DI + amp + cab IRs)
+- Rimehall: Frozen Forest
+- Rimehall: Moonlit Tremolo Bus
+- Rimehall: Cassette Cathedral
+- Rimehall: Ice Shimmer Choir
+- Rimehall: Grim Rehearsal Tape
+- Rimehall: Northern Void
+- Full mix: guitars through Moonlit Tremolo Bus, bass + Black Metal Drum Kit dry
+The dry riff is synthesised; the demo was rendered with the plugin code itself, no third-party samples.
+### Reverb that still works after mastering
+A limiter lowers the peaks and brings up everything quieter, and reverb tails are quieter than the riff. That is why a mix that sounds perfectly balanced often sounds wetter after mastering. Rimehall has four controls that help you plan for that:
+- Ducking pulls the reverb down by up to 18 dB while the dry signal plays and lets it bloom in the gaps. Blast beats and fast tremolo stay readable, and the hall still fills every pause.
+- Frost sets the character of the hall in one knob: up gives thinner, colder lows and a little more air, down gives a darker and fuller hall. Reverb with a lot of low end eats headroom that the master needs for kick and bass.
+- Width controls the stereo spread of the effect. Check the mix in mono before you export: very wide reverbs can shrink or collapse in mono, and the black metal audit lists that among the most common findings.
+- Hiss in the tape stage is optional. Use it on purpose, because limiting will lift it. You can also choose whether the tape colours only the reverb or the whole bus.
+One more habit that saves a mastering session: export with the full tail. Decays go up to 30 seconds, so leave enough silence at the end of the song and let the mastering engineer handle the fade.
+### Rimehall and stem mastering
+If you send stems, print Rimehall into the stem it belongs to, or give the reverb its own FX stem. Then the reverb level can still be adjusted in mastering without touching the dry guitars. How to export stems correctly is explained in the stem mastering guide.
+### At a glance
+DetailRimehall
+Price€19 on Gumroad, free demo available
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSApple Silicon (arm64) only, no Intel build. VST3 + Standalone, not signed or notarized : macOS blocks it at first, allow it under System Settings → Privacy & Security.
+AU / Logic ProNo AU version, so Logic Pro is not supported.
+Copy protectionNo licence server, no login, no online check.
+Hall8-line feedback delay network, pre-delay up to 250 ms, decay 0.3 to 30 s, damping 1 to 18 kHz
+ShimmerOctave up inside the feedback loop, 0 to 100 %, band-limited before the pitch shift
+Tape / lo-fiWow, flutter, asymmetric saturation, tape tone 2 to 20 kHz, optional hiss
+DuckingUp to 18 dB
+Presets14 factory presets
+LatencyConstant 4 ms, reported to the host
+TestingAutomated checks on every preset, including extreme settings. Not tried in every DAW yet.
+DemoThe free demo is the complete plugin; it plays a short noise burst every 45 seconds.
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+Reverb decisions are mix decisions, and they are hard to judge on the same speakers you tracked on. If you are unsure whether the hall is too big, the written audio audit at Polished tells you before mastering starts, including whether the mix holds up in mono.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Rimehall FAQ
+Does Rimehall run on a Mac?
+Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized, so you allow it once under System Settings → Privacy & Security.
+Is there a free trial?
+Yes. The Rimehall demo on Gumroad is the complete plugin; it plays a short burst of quiet noise every 45 seconds.
+Is Rimehall only for black metal?
+It is built for black metal and dark ambient, and the presets are named that way (Frozen Forest, Cassette Cathedral, Northern Void). The controls themselves work on any bus where you want a dark, long reverb that steps back while the instrument plays.
+### More tools
+€19Gravesaw
+Free · pay what you wantKick/Bass Scope
+€19Crucible
+All tools for bands →
+### Try Rimehall free.
+The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
+Free demo →
+Buy on Gumroad · €19
+
+---
+
+## Rimehall: Black-Metal-Hall & Tape-Plugin | Polished
+URL: https://polished.media/de/tools/rimehall/
+
+Tools für Bands · Code Chaos Audio
+## Rimehall: kalter Hall, Shimmer und Tape für Black Metal
+Rimehall vereint eine dunkle Halle, einen Oktav-Shimmer und eine Tape-Stufe auf einem Bus und duckt den Hall, solange das trockene Signal spielt. Es ist Teil 2 der Code Chaos Black Metal Suite von Tim Borchert, der auch bei Polished mastert. Auf Tremolo-Gitarren, Keys oder Vocals schiebt es Spuren in die Ferne, ohne das Riff zu verwaschen.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+19 € · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Rimehall mit dem Preset Frozen Forest. Die Grafik zeigt die geschätzte Nachhallzeit für Tiefen, Mitten und Höhen.
+### Reinhören: Rimehall
+Rimehall-Demo: ein trockenes Riff bei 170 BPM, sechs Presets, dann ein voller Mix (69 s)
+- Trocken: synthetisches Tremolo-Riff (DI, Amp und Cab-IRs aus dem Black Metal Tone Kit)
+- Rimehall: Frozen Forest
+- Rimehall: Moonlit Tremolo Bus
+- Rimehall: Cassette Cathedral
+- Rimehall: Ice Shimmer Choir
+- Rimehall: Grim Rehearsal Tape
+- Rimehall: Northern Void
+- Voller Mix: Gitarren durch Moonlit Tremolo Bus, Bass und Black Metal Drum Kit trocken
+Das trockene Riff ist synthetisiert; die Demo wurde mit dem Plugin-Code selbst gerendert, ohne fremde Samples.
+### Hall, der auch nach dem Mastering passt
+Ein Limiter senkt die Spitzen und hebt alles Leisere an, und Hallfahnen sind leiser als das Riff. Deshalb klingt ein Mix, der perfekt ausbalanciert wirkt, nach dem Mastering oft halliger. Rimehall hat vier Regler, mit denen du das einplanen kannst:
+- Ducking senkt den Hall um bis zu 18 dB, solange das trockene Signal spielt, und lässt ihn in den Pausen aufblühen. Blastbeats und schnelles Tremolo bleiben lesbar, und der Raum füllt trotzdem jede Lücke.
+- Frost stellt den Charakter der Halle mit einem Regler ein: nach oben dünnere, kältere Tiefen und etwas mehr Luft, nach unten eine dunklere, vollere Halle. Hall mit viel Bassanteil frisst Headroom, den der Master für Kick und Bass braucht.
+- Width regelt die Stereobreite des Effekts. Prüf den Mix vor dem Export in Mono: Sehr breite Hallräume können in Mono schrumpfen oder zusammenfallen, und das Black-Metal-Audit zählt das zu den häufigsten Befunden.
+- Hiss in der Tape-Stufe ist optional. Setz es bewusst ein, denn Limiting hebt es an. Außerdem wählst du, ob das Tape nur den Hall oder den ganzen Bus färbt.
+Noch eine Gewohnheit, die Zeit im Mastering spart: mit vollständiger Hallfahne exportieren. Die Nachhallzeit reicht bis 30 Sekunden, also am Songende genug Stille lassen und den Fade dem Mastering überlassen.
+### Rimehall und Stem-Mastering
+Wenn du Stems schickst, rendere Rimehall in den Stem, zu dem er gehört, oder gib dem Hall einen eigenen FX-Stem. Dann lässt sich der Hallanteil im Mastering noch anpassen, ohne die trockenen Gitarren anzufassen. Wie man Stems richtig exportiert, steht im Stem-Mastering-Ratgeber.
+### Auf einen Blick
+DetailRimehall
+Preis19 € auf Gumroad, Gratis-Demo verfügbar
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSNur Apple Silicon (arm64), kein Intel-Build. VST3 + Standalone, nicht signiert und nicht notarisiert : macOS blockiert das Plugin zuerst, freigeben unter Systemeinstellungen → Datenschutz & Sicherheit.
+AU / Logic ProKeine AU-Version, Logic Pro wird daher nicht unterstützt.
+KopierschutzKein Lizenzserver, kein Login, keine Online-Prüfung.
+HalleFeedback-Delay-Netzwerk mit 8 Leitungen, Pre-Delay bis 250 ms, Nachhall 0,3 bis 30 s, Dämpfung 1 bis 18 kHz
+ShimmerOktave aufwärts in der Rückkopplungsschleife, 0 bis 100 %, vor dem Pitch-Shift bandbegrenzt
+Tape / Lo-FiWow, Flutter, asymmetrische Sättigung, Tape-Ton 2 bis 20 kHz, optionales Rauschen
+DuckingBis 18 dB
+Presets14 Werks-Presets
+LatenzKonstant 4 ms, wird an den Host gemeldet
+TestsAutomatische Prüfungen für jedes Preset, auch mit Extremwerten. Noch nicht in jeder DAW ausprobiert.
+DemoDie Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Hall-Entscheidungen sind Mix-Entscheidungen, und auf denselben Boxen, auf denen du aufgenommen hast, sind sie schwer zu beurteilen. Wenn du unsicher bist, ob die Halle zu groß ist, sagt dir das schriftliche Audio-Audit bei Polished das vor dem Mastering, einschließlich der Frage, ob der Mix in Mono hält.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Rimehall: FAQ
+Läuft Rimehall auf dem Mac?
+Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert, du gibst ihn einmal unter Systemeinstellungen → Datenschutz & Sicherheit frei.
+Gibt es eine kostenlose Testversion?
+Ja. Die Rimehall-Demo auf Gumroad ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen, leisen Rauschstoß.
+Ist Rimehall nur für Black Metal?
+Es ist für Black Metal und Dark Ambient gebaut, und die Presets heißen entsprechend (Frozen Forest, Cassette Cathedral, Northern Void). Die Regler selbst funktionieren auf jedem Bus, auf dem du einen dunklen, langen Hall willst, der zurücktritt, solange das Instrument spielt.
+### Weitere Tools
+19 €Gravesaw
+Gratis · Preis frei wählbarKick/Bass Scope
+19 €Crucible
+Alle Tools für Bands →
+### Rimehall gratis testen.
+Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+
+---
+
+## Kick/Bass Scope: Free Kick & Bass Phase Check | Polished
+URL: https://polished.media/tools/kick-bass-scope/
+
+Tools for bands · Code Chaos Audio
+## Kick/Bass Scope: see whether kick and bass cancel, for free
+Kick/Bass Scope is a free VST3 analyzer that draws your kick and your bass on top of each other, locked to your DAW's beat, and shows whether they add up or cancel each other. Tim Borchert built it under his Code Chaos Audio label for fast electronic music. The problem it shows is the same in a death metal or metalcore mix: two low-end sources fighting over the same moment.
+Free download →
+Free · pay what you want · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+In phase: kick and bass add up where they overlap (correlation +0.32).
+Out of phase: same groove, the correlation drops to -0.32 and the scope warns you.
+### Why kick/bass phase matters before mastering
+Kick and bass share the lowest octave of a metal mix. Where they overlap, their waves either add up or partly cancel, and both cases change what the master can do:
+- Cancelling: the low end loses energy exactly on the beat. Mastering EQ can only raise kick and bass together, which also raises everything that was already fine. The fix belongs in the mix: flip the bass polarity, shift the bass notes or adjust the kick sample. The scope's warning text suggests exactly that.
+- Adding up: the sum gets louder than either part, and in mastering the limiter grabs those moments first. The scope shows the peak of kick, bass and sum per window in dBFS against an adjustable clip line, so you see how much headroom the low end really takes.
+In metal the relationship changes every time the chain changes: a new kick sample, a different bass amp or cab, an extra filter. Check again after each of those, not only once at the start of the mix.
+### Routing in two minutes
+- Put the scope on the bass track.
+- Send the kick to its sidechain input.
+- If your DAW cannot feed a sidechain into an effect, switch Input to Single input: route the kick panned hard left and the bass hard right to one bus and put the scope there.
+- Pick a window of 1/4, 1/2, 1 bar or 2 bars. It follows the host tempo and bar position, and keeps running freely when the transport is stopped.
+Your audio passes through untouched: the output is bit-for-bit identical to the input. That is why there is no audio demo on this page, there is nothing to hear. The two screenshots show what it measures.
+### At a glance
+DetailKick/Bass Scope
+PriceFree on Gumroad, pay what you want
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSApple Silicon (arm64) only, no Intel build. VST3 + Standalone, not signed or notarized : macOS blocks it at first, allow it under System Settings → Privacy & Security.
+AU / Logic ProNo AU version, so Logic Pro is not supported.
+Copy protectionNo licence server, no login, no online check.
+DisplayKick and bass in two colours, optional sum curve, ghost of the previous window, zoom up to +24 dB
+ReadoutsPeak per window in dBFS for kick, bass and sum, overlap time in ms
+Clip lineAdjustable from -12 to 0 dBFS, default -0.3 dBFS
+Correlation-1 to +1, measured where both actually play, with a plain warning when they are out of phase
+Presets13 factory presets (named for psytrance tempos, the windows work at any tempo your DAW sends)
+Audio pathBit-for-bit pass-through, checked in automated tests
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+The scope tells you whether kick and bass work together. It does not tell you how the whole mix translates to earbuds, car speakers and streaming normalisation. That is what the written audio audit at Polished covers, including phase between kick, bass and guitars. See death metal mastering and metalcore and djent mastering.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Kick/Bass Scope FAQ
+Is Kick/Bass Scope really free?
+Yes. It is a pay-what-you-want product on Gumroad; you can enter 0 € and download it.
+Does it run on a Mac?
+Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized, so you allow it once under System Settings → Privacy & Security.
+My DAW cannot route a sidechain into an effect. Can I still use it?
+Yes. Set Input to Single input, pan the kick hard left and the bass hard right on one bus and put the scope on that bus.
+### More tools
+€19Crucible
+€19Gravesaw
+€15Shardstep
+All tools for bands →
+### Get Kick/Bass Scope free.
+Pay what you want, including nothing. The download happens on Gumroad, under Code Chaos Audio.
+Free download →
+
+---
+
+## Kick/Bass Scope: Phase von Kick & Bass prüfen | Polished
+URL: https://polished.media/de/tools/kick-bass-scope/
+
+Tools für Bands · Code Chaos Audio
+## Kick/Bass Scope: sehen, ob sich Kick und Bass auslöschen, gratis
+Kick/Bass Scope ist ein kostenloser VST3-Analyzer, der Kick und Bass übereinander zeichnet, synchron zum Takt deiner DAW, und zeigt, ob sie sich addieren oder gegenseitig auslöschen. Tim Borchert hat ihn unter seinem Label Code Chaos Audio für schnelle elektronische Musik gebaut. Das Problem, das er sichtbar macht, ist in einem Death-Metal- oder Metalcore-Mix dasselbe: zwei Bassquellen, die sich um denselben Moment streiten.
+Gratis laden →
+Gratis · Preis frei wählbar · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Phasengleich: Wo sich Kick und Bass überlappen, addieren sie sich (Korrelation +0,32).
+Gegenphasig: derselbe Groove, die Korrelation fällt auf -0,32 und der Scope warnt.
+### Warum die Phase von Kick und Bass vor dem Mastering zählt
+Kick und Bass teilen sich die tiefste Oktave eines Metal-Mixes. Wo sie sich überlappen, addieren sich ihre Wellen oder löschen sich teilweise aus, und beides verändert, was der Master leisten kann:
+- Auslöschung: Das Low End verliert genau auf dem Schlag Energie. Ein Mastering-EQ kann Kick und Bass nur gemeinsam anheben und hebt damit auch alles an, was schon gepasst hat. Die Lösung gehört in den Mix: Bass-Polarität drehen, Bassnoten verschieben oder das Kick-Sample anpassen. Genau das schlägt auch der Warnhinweis im Scope vor.
+- Addition: Die Summe wird lauter als jeder Teil allein, und im Mastering greift der Limiter genau diese Momente zuerst. Der Scope zeigt pro Fenster die Spitzen von Kick, Bass und Summe in dBFS gegen eine einstellbare Clip-Linie, damit du siehst, wie viel Headroom das Low End wirklich braucht.
+Im Metal ändert sich das Verhältnis mit jeder Änderung der Kette: ein neues Kick-Sample, ein anderer Bass-Amp oder ein anderes Cab, ein zusätzlicher Filter. Prüf nach jeder dieser Änderungen neu, nicht nur einmal zu Beginn des Mixes.
+### Routing in zwei Minuten
+- Den Scope auf die Bassspur legen.
+- Die Kick auf seinen Sidechain-Eingang schicken.
+- Wenn deine DAW keinen Sidechain in einen Effekt führen kann: Input auf Single input stellen, die Kick hart links und den Bass hart rechts auf einen gemeinsamen Bus routen und den Scope dort einsetzen.
+- Ein Fenster von 1/4, 1/2, 1 Takt oder 2 Takten wählen. Es folgt Tempo und Taktposition des Hosts und läuft bei gestopptem Transport frei weiter.
+Dein Audio läuft unverändert durch: Der Ausgang ist Bit für Bit identisch mit dem Eingang. Deshalb gibt es hier keine Audio-Demo, es gibt nichts zu hören. Die beiden Screenshots zeigen, was er misst.
+### Auf einen Blick
+DetailKick/Bass Scope
+PreisGratis auf Gumroad, Preis frei wählbar
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSNur Apple Silicon (arm64), kein Intel-Build. VST3 + Standalone, nicht signiert und nicht notarisiert : macOS blockiert das Plugin zuerst, freigeben unter Systemeinstellungen → Datenschutz & Sicherheit.
+AU / Logic ProKeine AU-Version, Logic Pro wird daher nicht unterstützt.
+KopierschutzKein Lizenzserver, kein Login, keine Online-Prüfung.
+AnzeigeKick und Bass in zwei Farben, optionale Summenkurve, Nachbild des vorigen Fensters, Zoom bis +24 dB
+MesswerteSpitzenwert pro Fenster in dBFS für Kick, Bass und Summe, Überlappungszeit in ms
+Clip-LinieEinstellbar von -12 bis 0 dBFS, Standard -0,3 dBFS
+Korrelation-1 bis +1, gemessen dort, wo beide wirklich spielen, mit klarer Warnung bei Gegenphase
+Presets13 Werks-Presets (nach Psytrance-Tempi benannt, die Fenster funktionieren bei jedem Tempo, das die DAW liefert)
+SignalwegBit-genaues Durchreichen, in automatischen Tests geprüft
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Der Scope sagt dir, ob Kick und Bass zusammenarbeiten. Er sagt dir nicht, wie der ganze Mix auf Earbuds, im Auto und mit der Lautheitsnormalisierung der Streamingdienste funktioniert. Das deckt das schriftliche Audio-Audit bei Polished ab, inklusive der Phase zwischen Kick, Bass und Gitarren. Siehe Death Metal Mastering und Metalcore & Djent Mastering.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Kick/Bass Scope: FAQ
+Ist Kick/Bass Scope wirklich kostenlos?
+Ja. Es ist ein Pay-what-you-want-Produkt auf Gumroad; du kannst 0 € eingeben und es herunterladen.
+Läuft es auf dem Mac?
+Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert, du gibst ihn einmal unter Systemeinstellungen → Datenschutz & Sicherheit frei.
+Meine DAW kann keinen Sidechain in einen Effekt führen. Geht es trotzdem?
+Ja. Input auf Single input stellen, die Kick hart links und den Bass hart rechts auf einen Bus legen und den Scope auf diesem Bus einsetzen.
+### Weitere Tools
+19 €Crucible
+19 €Gravesaw
+15 €Shardstep
+Alle Tools für Bands →
+### Kick/Bass Scope gratis laden.
+Zahl, was du willst, auch nichts. Der Download läuft über Gumroad, unter Code Chaos Audio.
+Gratis laden →
+
+---
+
+## Crucible: 3-Band Saturation Plugin (VST3) | Polished
+URL: https://polished.media/tools/crucible/
+
+Tools for bands · Code Chaos Audio
+## Crucible: 3-band saturation for bass, drums and buses
+Crucible splits your signal into low, mid and high and saturates each band on its own, with five types per band: Hard Clip, Wavefolder, Tube, Diode and Tape. Tim Borchert built it under Code Chaos Audio for psytrance production. The same split solves a classic metal problem: a bass that needs grind in the mids while the lowest octave stays clean and solid.
+Free demo →
+Buy on Gumroad · €19
+€19 · Windows 10/11 only · VST3 + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Crucible with the crossovers at 120 Hz and 4 kHz. Each band has its own saturation type, drive, mix and gain.
+### Hear it: Crucible
+A · Dry: a 190 BPM loop without Crucible (10 s)
+B · Crucible: the same loop with Crucible (10 s)
+The same 190 BPM psy loop without and with Crucible. Both files measure about -16.5 LUFS integrated, so you hear density and tone, not just volume.
+### Split-band saturation for a metal bass
+Distorting a whole bass signal is the quickest way to lose the low end: the lowest notes turn into fuzz, and the mix gets muddy under the guitars. With three bands you can treat each register for what it has to do.
+- Low band: little or no drive. Keep it clean and steady, so kick and bass still work together. Check it with the free Kick/Bass Scope.
+- Mid band: this is where the grind lives that cuts through rhythm guitars on small speakers. Diode or Hard Clip add bite, Tube is rounder.
+- High band: Tape softens string noise and fret clank, more drive brings it forward.
+The two crossovers are adjustable, and every band has its own Drive, Mix, Gain, Mute and Solo. For heavy settings, raise the oversampling (Off, 2x, 4x or 8x) to keep aliasing down.
+### Saturation on the mix bus before mastering?
+Saturation lowers the difference between peaks and average level. Once it is printed into the mix, it cannot be undone in mastering, and an over-squashed premaster leaves the master with less room to work. If you like Crucible on your mix bus, send two versions to mastering: one with it and one without, and say which one you prefer. The audit at Polished flags over-limited and over-saturated premasters before anything is processed.
+### At a glance
+DetailCrucible
+Price€19 on Gumroad, free demo available
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSNo macOS build at the moment.
+Bands3 (Linkwitz-Riley crossover), two adjustable crossover points
+Saturation typesHard Clip, Wavefolder, Tube, Diode, Tape, selectable per band
+Per bandDrive, Mix, Gain, Mute, Solo
+OversamplingOff, 2x, 4x or 8x
+LicenseSingle-user, perpetual
+DemoThe free demo is the complete plugin; it plays a short noise burst every 45 seconds.
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+Crucible helps you shape single instruments and buses. A balanced, loud and consistent release is still the job of a mastering pass. Polished starts every master with a written audio audit, so you know whether the saturation in your mix helps or costs headroom.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Crucible FAQ
+Does Crucible run on a Mac?
+Not at the moment. Crucible is a Windows 10/11 plugin (VST3 and Standalone).
+Is there a free trial?
+Yes. The Crucible demo on Gumroad is the complete plugin with every band, every saturation type and oversampling up to 8x; it plays a short burst of quiet noise every 45 seconds.
+Should I put Crucible on my master bus before sending the mix to mastering?
+Only if it is part of the sound you want. Send a second version without it as well, so the mastering engineer can choose. Saturation that is printed into the mix cannot be removed later.
+### More tools
+Free · pay what you wantKick/Bass Scope
+€19Gravesaw
+€19Chaos FM
+All tools for bands →
+### Try Crucible free.
+The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
+Free demo →
+Buy on Gumroad · €19
+
+---
+
+## Crucible: 3-Band-Sättigung als VST3 | Polished
+URL: https://polished.media/de/tools/crucible/
+
+Tools für Bands · Code Chaos Audio
+## Crucible: 3-Band-Sättigung für Bass, Drums und Busse
+Crucible teilt dein Signal in Tiefen, Mitten und Höhen und sättigt jedes Band für sich, mit fünf Typen pro Band: Hard Clip, Wavefolder, Tube, Diode und Tape. Tim Borchert hat es unter Code Chaos Audio für Psytrance-Produktionen gebaut. Dieselbe Aufteilung löst ein klassisches Metal-Problem: einen Bass, der in den Mitten Biss braucht, während die tiefste Oktave sauber und stabil bleibt.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+19 € · Nur Windows 10/11 · VST3 + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Crucible mit Trennfrequenzen bei 120 Hz und 4 kHz. Jedes Band hat eigenen Sättigungstyp, Drive, Mix und Gain.
+### Reinhören: Crucible
+A · Trocken: ein Loop mit 190 BPM ohne Crucible (10 s)
+B · Crucible: derselbe Loop mit Crucible (10 s)
+Derselbe Psy-Loop mit 190 BPM ohne und mit Crucible. Beide Dateien messen etwa -16,5 LUFS integriert, du hörst also Dichte und Klang, nicht nur Lautstärke.
+### Mehrband-Sättigung für einen Metal-Bass
+Ein komplettes Basssignal zu verzerren ist der schnellste Weg, das Fundament zu verlieren: Die tiefsten Töne werden zu Matsch, und unter den Gitarren wird es dumpf. Mit drei Bändern behandelst du jedes Register nach seiner Aufgabe.
+- Tiefes Band: wenig oder kein Drive. Sauber und stabil halten, damit Kick und Bass weiter zusammenarbeiten. Prüfen kannst du das mit dem kostenlosen Kick/Bass Scope.
+- Mittleres Band: Hier sitzt der Biss, der auf kleinen Lautsprechern durch die Rhythmusgitarren kommt. Diode oder Hard Clip machen ihn bissiger, Tube runder.
+- Hohes Band: Tape glättet Saitengeräusche und Bundklappern, mehr Drive holt sie nach vorn.
+Die beiden Trennfrequenzen sind einstellbar, und jedes Band hat eigene Regler für Drive, Mix, Gain, Mute und Solo. Bei starker Sättigung das Oversampling erhöhen (Aus, 2x, 4x oder 8x), damit Aliasing gering bleibt.
+### Sättigung auf der Summe vor dem Mastering?
+Sättigung verringert den Abstand zwischen Spitzen und Durchschnittspegel. Ist sie einmal in den Mix gerendert, lässt sie sich im Mastering nicht mehr zurücknehmen, und ein zu stark verdichteter Premaster lässt dem Master weniger Spielraum. Wenn dir Crucible auf der Summe gefällt, schick zwei Versionen zum Mastering: eine mit und eine ohne, und sag dazu, welche du bevorzugst. Das Audit bei Polished weist auf überlimitierte und übersättigte Premaster hin, bevor irgendetwas bearbeitet wird.
+### Auf einen Blick
+DetailCrucible
+Preis19 € auf Gumroad, Gratis-Demo verfügbar
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSDerzeit keine macOS-Version.
+Bänder3 (Linkwitz-Riley-Weiche), zwei einstellbare Trennfrequenzen
+SättigungstypenHard Clip, Wavefolder, Tube, Diode, Tape, pro Band wählbar
+Pro BandDrive, Mix, Gain, Mute, Solo
+OversamplingAus, 2x, 4x oder 8x
+LizenzEinzelplatz, unbefristet
+DemoDie Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Crucible hilft dir, einzelne Instrumente und Busse zu formen. Ein ausgewogenes, lautes und einheitliches Release bleibt die Aufgabe eines Mastering-Durchgangs. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit, damit du weißt, ob die Sättigung in deinem Mix hilft oder Headroom kostet.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Crucible: FAQ
+Läuft Crucible auf dem Mac?
+Derzeit nicht. Crucible ist ein Plugin für Windows 10/11 (VST3 und Standalone).
+Gibt es eine kostenlose Testversion?
+Ja. Die Crucible-Demo auf Gumroad ist das komplette Plugin mit allen Bändern, allen Sättigungstypen und Oversampling bis 8x; sie spielt alle 45 Sekunden einen kurzen, leisen Rauschstoß.
+Soll ich Crucible vor dem Mastering auf die Summe legen?
+Nur, wenn es Teil des Sounds ist, den du willst. Schick zusätzlich eine Version ohne, damit beim Mastering gewählt werden kann. Einmal in den Mix gerenderte Sättigung lässt sich später nicht mehr entfernen.
+### Weitere Tools
+Gratis · Preis frei wählbarKick/Bass Scope
+19 €Gravesaw
+19 €Chaos FM
+Alle Tools für Bands →
+### Crucible gratis testen.
+Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+
+---
+
+## Shardstep: Stutter & Glitch Plugin for 200+ BPM | Polished
+URL: https://polished.media/tools/shardstep/
+
+Tools for bands · Code Chaos Audio
+## Shardstep: tempo-synced stutter and glitch for 200+ BPM
+Shardstep chops, repeats, reverses and tape-stops audio in time with your DAW, with a short crossfade on every slice edge so nothing clicks. Tim Borchert's label Code Chaos Audio made it for hitech and psycore at 200 to 300 BPM. For bands it fits industrial and electronic crossover songs, breakdown fills and transitions where a guitar or drum bus should stutter on the grid.
+Free demo →
+Buy on Gumroad · €15
+€15 · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Shardstep at 200 BPM, synced to the host: one bar of 16 steps, each with its own effect.
+### Hear it: Shardstep
+A · Dry: the demo loop without Shardstep (38 s)
+B · Shardstep: the same loop with Shardstep (38 s)
+The same loop without and with Shardstep. The version with Shardstep measures about 0.6 LU louder (integrated), so keep that in mind when you compare.
+### Glitch edits that survive mastering
+At 250 BPM a 1/32 repeat lasts 30 ms and a 1/64 only 15 ms. Cut audio that short without a fade and every slice edge clicks. In the mix those clicks are easy to miss; after mastering, when the limiter has raised everything, they become audible and they eat headroom like extra transients.
+- Slice Fade puts a raised-cosine crossfade from 0.5 to 8 ms on every slice edge and every retrigger. Longer fades are smoother, shorter ones snappier.
+- Untouched when idle: when nothing plays (transport stopped, empty pattern, mix at 0 % or a bar the pattern skips), the audio passes through bit for bit. The rest of the song keeps its sound.
+- Zero latency: repeats replay audio that has already arrived, so the track stays in time with the rest of the mix.
+One practical habit: render or freeze the stutter track before you send stems or a mix to anyone. A pattern that depends on the DAW transport and bar position is easy to change by accident.
+### Using it in a band mix
+Patterns play every bar or only on the last bar of 2, 4 or 8, which is how fills and drops work. Hold a MIDI note to fire an effect by hand (C = 1/8 up to A# = Crush, any octave); a held note overrides the pattern and also works with the transport stopped. Among the 15 factory patterns is one called Bar 8 Breakdown Drop.
+Short repeats of a kick (1/64) are shorter than one cycle of the kick and can sit slightly off centre while they play. The signal returns to your untouched audio as soon as the effect ends.
+### At a glance
+DetailShardstep
+Price€15 on Gumroad, free demo available
+FormatVST3 + Standalone (the Standalone has no transport, so you play the effects with MIDI notes there)
+WindowsWindows 10/11: VST3 + Standalone
+macOSApple Silicon (arm64) only, no Intel build. VST3 + Standalone, not signed or notarized : macOS blocks it at first, allow it under System Settings → Privacy & Security.
+AU / Logic ProNo AU version, so Logic Pro is not supported.
+Copy protectionNo licence server, no login, no online check.
+Pattern16 steps, one bar of sixteenths, synced to host tempo and bar position
+Effects per stepRepeat 1/8, 1/16, 1/32, 1/64, 1/8T, 1/16T, 1/32T, Reverse, Tape Stop, Gate, Crush, Tie
+Repeat Pitch-24 to +12 semitones
+Tape stop, gate, crushTape stop 1/16 to one bar; gate 1/16, 1/32 or 1/64; bitcrush 3 to 16 bit with 1 to 32x downsampling
+Presets15 factory patterns
+TestingAutomated checks on every pattern at 150, 200 and 260 BPM, including tempo ramps and transport stops. Not tried in every DAW yet.
+DemoThe free demo is the complete plugin; it plays a short noise burst every 45 seconds.
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+Effects like these are the moments a mastering engineer listens to twice: drops, stops and fills are where clicks, level jumps and limiter pumping show up first. The written audio audit at Polished lists them with timestamps before the master is made.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Shardstep FAQ
+Does Shardstep run on a Mac?
+Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized, so you allow it once under System Settings → Privacy & Security.
+Is there a free trial?
+Yes. The Shardstep demo on Gumroad is the full plugin with a short noise burst every 45 seconds.
+Does Shardstep work below 200 BPM?
+Yes. The pattern follows whatever tempo your DAW sends; the automated tests also run at 150 BPM. It was designed with very fast tempos in mind, where clicks are the biggest problem.
+### More tools
+€19Chaos FM
+€19Crucible
+Free · pay what you wantKick/Bass Scope
+All tools for bands →
+### Try Shardstep free.
+The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
+Free demo →
+Buy on Gumroad · €15
+
+---
+
+## Shardstep: Stutter & Glitch für 200+ BPM | Polished
+URL: https://polished.media/de/tools/shardstep/
+
+Tools für Bands · Code Chaos Audio
+## Shardstep: taktsynchroner Stutter und Glitch für 200+ BPM
+Shardstep zerhackt, wiederholt, dreht um und stoppt Audio im Takt deiner DAW, mit einer kurzen Überblendung an jeder Schnittkante, damit nichts klickt. Tim Borcherts Label Code Chaos Audio hat es für Hitech und Psycore mit 200 bis 300 BPM gebaut. Für Bands passt es zu Industrial- und Electronic-Crossover-Songs, Breakdown-Fills und Übergängen, in denen ein Gitarren- oder Drumbus im Raster stottern soll.
+Gratis-Demo →
+Auf Gumroad kaufen · 15 €
+15 € · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Shardstep bei 200 BPM, synchron zum Host: ein Takt mit 16 Steps, jeder mit eigenem Effekt.
+### Reinhören: Shardstep
+A · Trocken: der Demo-Loop ohne Shardstep (38 s)
+B · Shardstep: derselbe Loop mit Shardstep (38 s)
+Derselbe Loop ohne und mit Shardstep. Die Version mit Shardstep misst etwa 0,6 LU mehr (integriert), das beim Vergleichen bitte bedenken.
+### Glitch-Edits, die das Mastering überstehen
+Bei 250 BPM dauert eine 1/32-Wiederholung 30 ms und eine 1/64 nur 15 ms. Wer Audio so kurz ohne Fade schneidet, bekommt an jeder Schnittkante einen Klick. Im Mix gehen diese Klicks leicht unter; nach dem Mastering, wenn der Limiter alles angehoben hat, werden sie hörbar und fressen Headroom wie zusätzliche Transienten.
+- Slice Fade legt an jede Schnittkante und jeden Neustart eine Raised-Cosine-Überblendung von 0,5 bis 8 ms. Längere Fades klingen weicher, kürzere knackiger.
+- Unverändert im Leerlauf: Wenn nichts spielt (Transport gestoppt, leeres Pattern, Mix auf 0 % oder ein Takt, den das Pattern auslässt), läuft das Audio Bit für Bit durch. Der Rest des Songs behält seinen Klang.
+- Null Latenz: Wiederholungen spielen Audio ab, das schon angekommen ist, die Spur bleibt also im Timing mit dem restlichen Mix.
+Eine praktische Gewohnheit: Die Stutter-Spur rendern oder einfrieren, bevor du Stems oder einen Mix weitergibst. Ein Pattern, das am Transport und an der Taktposition der DAW hängt, verändert sich leicht aus Versehen.
+### Im Band-Mix einsetzen
+Patterns laufen in jedem Takt oder nur im letzten Takt von 2, 4 oder 8, so entstehen Fills und Drops. Mit einer gehaltenen MIDI-Note löst du einen Effekt von Hand aus (C = 1/8 bis A# = Crush, in jeder Oktave); eine gehaltene Note hat Vorrang vor dem Pattern und funktioniert auch bei gestopptem Transport. Unter den 15 Werks-Patterns ist eines namens Bar 8 Breakdown Drop.
+Kurze Wiederholungen einer Kick (1/64) sind kürzer als eine Schwingung der Kick und können während des Effekts leicht aus der Mitte rutschen. Sobald der Effekt endet, ist wieder dein unbearbeitetes Audio da.
+### Auf einen Blick
+DetailShardstep
+Preis15 € auf Gumroad, Gratis-Demo verfügbar
+FormatVST3 + Standalone (die Standalone-Version hat keinen Transport, dort spielst du die Effekte per MIDI-Note)
+WindowsWindows 10/11: VST3 + Standalone
+macOSNur Apple Silicon (arm64), kein Intel-Build. VST3 + Standalone, nicht signiert und nicht notarisiert : macOS blockiert das Plugin zuerst, freigeben unter Systemeinstellungen → Datenschutz & Sicherheit.
+AU / Logic ProKeine AU-Version, Logic Pro wird daher nicht unterstützt.
+KopierschutzKein Lizenzserver, kein Login, keine Online-Prüfung.
+Pattern16 Steps, ein Takt in Sechzehnteln, synchron zu Tempo und Taktposition des Hosts
+Effekte pro StepRepeat 1/8, 1/16, 1/32, 1/64, 1/8T, 1/16T, 1/32T, Reverse, Tape Stop, Gate, Crush, Tie
+Repeat Pitch-24 bis +12 Halbtöne
+Tape-Stop, Gate, CrushTape-Stop 1/16 bis ein Takt; Gate 1/16, 1/32 oder 1/64; Bitcrush 3 bis 16 Bit mit 1- bis 32-fachem Downsampling
+Presets15 Werks-Patterns
+TestsAutomatische Prüfungen für jedes Pattern bei 150, 200 und 260 BPM, auch mit Tempoänderungen und Transport-Stopps. Noch nicht in jeder DAW ausprobiert.
+DemoDie Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Solche Effekte sind die Stellen, die man sich beim Mastering zweimal anhört: Drops, Stopps und Fills zeigen Klicks, Pegelsprünge und Limiter-Pumpen zuerst. Das schriftliche Audio-Audit bei Polished listet sie mit Zeitangabe auf, bevor der Master entsteht.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Shardstep: FAQ
+Läuft Shardstep auf dem Mac?
+Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert, du gibst ihn einmal unter Systemeinstellungen → Datenschutz & Sicherheit frei.
+Gibt es eine kostenlose Testversion?
+Ja. Die Shardstep-Demo auf Gumroad ist das volle Plugin mit einem kurzen Rauschstoß alle 45 Sekunden.
+Funktioniert Shardstep auch unter 200 BPM?
+Ja. Das Pattern folgt jedem Tempo, das deine DAW liefert; die automatischen Tests laufen auch bei 150 BPM. Gebaut wurde es für sehr schnelle Tempi, bei denen Klicks das größte Problem sind.
+### Weitere Tools
+19 €Chaos FM
+19 €Crucible
+Gratis · Preis frei wählbarKick/Bass Scope
+Alle Tools für Bands →
+### Shardstep gratis testen.
+Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
+Gratis-Demo →
+Auf Gumroad kaufen · 15 €
+
+---
+
+## Chaos FM: 3-Operator FM Synth (VST3, Windows) | Polished
+URL: https://polished.media/tools/chaos-fm/
+
+Tools for bands · Code Chaos Audio
+## Chaos FM: 3-operator FM synth for electronic layers
+Chaos FM is a three-operator FM synth with a GENERATE button that rolls a new, playable patch for the category you pick: lead, bass, acid, stab, pluck or FX. Code Chaos Audio, Tim Borchert's plugin label, built it for hitech and psycore. For bands it is a quick source of metallic leads, synth bass layers and stabs in industrial or electronic crossover songs. Windows only.
+Free demo →
+Buy on Gumroad · €19
+€19 · Windows 10/11 only · VST3 + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Chaos FM with the preset Hitech Scream Lead. Every operator has its own ratio, level and envelope.
+### FM synths in a guitar mix, before mastering
+FM sounds are bright and dense by nature, and in a metal mix they compete with cymbals and guitar fizz for the same upper range. A few habits keep them from becoming the harshest part of the master:
+- Use the filter. Chaos FM has a zero-delay lowpass with envelope amount and drive. Closing it a little takes the edge off before any EQ is needed.
+- Check unison in mono. Up to four unison voices with stereo spread sound wide on headphones; detuned voices can thin out when the mix is summed to mono.
+- Keep synth bass and kick apart. In mono/legato mode with glide, a synth bass can follow the bass guitar. Check its relationship to the kick with the free Kick/Bass Scope.
+- Save what GENERATE gives you. A rolled patch is gone once you roll again. Save it or print the part to audio before the mix goes out.
+### How to hear it first
+There is no separate audio demo on this page. The quickest way to hear Chaos FM in your own song is the free demo on Gumroad: the full synth, with a short noise burst every 45 seconds. It runs on Windows only.
+### At a glance
+DetailChaos FM
+Price€19 on Gumroad, free demo available
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSNo macOS build at the moment.
+Operators3 (carrier + 2 modulators), each with ratio, fine, level and full ADSR
+Algorithms3, feedback on operator C
+FilterZero-delay lowpass with envelope amount and drive
+VoicesUp to 4-voice unison with stereo spread, mono/legato with glide
+Presets12 factory presets plus GENERATE for Lead, Bass, Acid, Stab, Pluck and FX
+DemoThe free demo is the complete plugin; it plays a short noise burst every 45 seconds.
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+Synth layers change the balance of a band mix more than one might expect, especially in the top end. If you are unsure whether they sit right, the written audio audit at Polished checks the frequency balance before the master is made.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Chaos FM FAQ
+Does Chaos FM run on a Mac?
+No. Chaos FM is a Windows 10/11 plugin (VST3 and Standalone).
+Is there a free trial?
+Yes. The Chaos FM demo on Gumroad is the full synth with presets and GENERATE; it plays a short noise burst every 45 seconds.
+What does the GENERATE button do?
+It creates a new patch for the category you pick (Lead, Bass, Acid, Stab, Pluck or FX), built to stay musically usable instead of random noise.
+### More tools
+€15Shardstep
+€19Crucible
+Free · pay what you wantKick/Bass Scope
+All tools for bands →
+### Try Chaos FM free.
+The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
+Free demo →
+Buy on Gumroad · €19
+
+---
+
+## Chaos FM: 3-Operator-FM-Synth (VST3, Windows) | Polished
+URL: https://polished.media/de/tools/chaos-fm/
+
+Tools für Bands · Code Chaos Audio
+## Chaos FM: 3-Operator-FM-Synth für elektronische Layer
+Chaos FM ist ein FM-Synth mit drei Operatoren und einem GENERATE-Button, der für die gewählte Kategorie einen neuen, spielbaren Sound würfelt: Lead, Bass, Acid, Stab, Pluck oder FX. Code Chaos Audio, das Plugin-Label von Tim Borchert, hat ihn für Hitech und Psycore gebaut. Für Bands ist er eine schnelle Quelle für metallische Leads, Synth-Bass-Layer und Stabs in Industrial- oder Electronic-Crossover-Songs. Nur für Windows.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
+19 € · Nur Windows 10/11 · VST3 + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Chaos FM mit dem Preset Hitech Scream Lead. Jeder Operator hat eigene Ratio, eigenen Pegel und eigene Hüllkurve.
+### FM-Synths im Gitarrenmix, vor dem Mastering
+FM-Sounds sind von Natur aus hell und dicht, und im Metal-Mix konkurrieren sie mit Becken und Gitarren-Fizz um denselben oberen Bereich. Ein paar Gewohnheiten verhindern, dass sie zum schärfsten Teil des Masters werden:
+- Den Filter nutzen. Chaos FM hat einen Zero-Delay-Tiefpass mit Hüllkurvenanteil und Drive. Ein wenig zudrehen nimmt die Schärfe, bevor überhaupt ein EQ nötig ist.
+- Unison in Mono prüfen. Bis zu vier Unison-Stimmen mit Stereobreite klingen auf Kopfhörern breit; verstimmte Stimmen können dünn werden, wenn der Mix in Mono summiert wird.
+- Synth-Bass und Kick trennen. Im Mono/Legato-Modus mit Glide kann ein Synth-Bass dem E-Bass folgen. Das Verhältnis zur Kick prüfst du mit dem kostenlosen Kick/Bass Scope.
+- Speichern, was GENERATE liefert. Ein gewürfelter Sound ist weg, sobald du neu würfelst. Speichern oder die Spur als Audio rendern, bevor der Mix rausgeht.
+### So hörst du ihn zuerst
+Auf dieser Seite gibt es keine eigene Audio-Demo. Am schnellsten hörst du Chaos FM in deinem eigenen Song mit der Gratis-Demo auf Gumroad: der volle Synth, mit einem kurzen Rauschstoß alle 45 Sekunden. Er läuft nur unter Windows.
+### Auf einen Blick
+DetailChaos FM
+Preis19 € auf Gumroad, Gratis-Demo verfügbar
+FormatVST3 + Standalone
+WindowsWindows 10/11: VST3 + Standalone
+macOSDerzeit keine macOS-Version.
+Operatoren3 (Träger + 2 Modulatoren), jeweils mit Ratio, Fine, Level und voller ADSR-Hüllkurve
+Algorithmen3, Feedback auf Operator C
+FilterZero-Delay-Tiefpass mit Hüllkurvenanteil und Drive
+StimmenBis zu 4-fach-Unison mit Stereobreite, Mono/Legato mit Glide
+Presets12 Werks-Presets plus GENERATE für Lead, Bass, Acid, Stab, Pluck und FX
+DemoDie Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Synth-Layer verschieben die Balance eines Band-Mixes stärker als gedacht, vor allem in den Höhen. Wenn du unsicher bist, ob sie richtig sitzen, prüft das schriftliche Audio-Audit bei Polished die Frequenzbalance, bevor der Master entsteht.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Chaos FM: FAQ
+Läuft Chaos FM auf dem Mac?
+Nein. Chaos FM ist ein Plugin für Windows 10/11 (VST3 und Standalone).
+Gibt es eine kostenlose Testversion?
+Ja. Die Chaos-FM-Demo auf Gumroad ist der volle Synth mit Presets und GENERATE; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Was macht der GENERATE-Button?
+Er erzeugt einen neuen Sound für die gewählte Kategorie (Lead, Bass, Acid, Stab, Pluck oder FX), so gebaut, dass er musikalisch brauchbar bleibt statt zufälliges Rauschen zu liefern.
+### Weitere Tools
+15 €Shardstep
+19 €Crucible
+Gratis · Preis frei wählbarKick/Bass Scope
+Alle Tools für Bands →
+### Chaos FM gratis testen.
+Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
+Gratis-Demo →
+Auf Gumroad kaufen · 19 €
