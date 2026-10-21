@@ -400,3 +400,11 @@ footer { background: #050505; padding: 64px 0 36px; border-top: 1px solid var(--
 .spec-table td:first-child { white-space: nowrap; width: 1%; }
 @media (max-width: 600px) { .spec-table td:first-child { white-space: normal; } }
 @media (min-width: 861px) and (max-width: 1120px) { .nav-links { gap: 16px; } .nav-links a { font-size: 12px; } }
+.bundle-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr)); }
+.bundle-card h3 { font-size: 24px; }
+.bundle-card .bundle-price { font-family: var(--mono); font-size: 13px; letter-spacing: 0.03em; color: var(--text-dim); }
+.bundle-card .bundle-price strong { color: var(--accent); font-size: 20px; font-weight: 600; }
+.bundle-card .bundle-price s { color: var(--text-muted); }
+.bundle-list { list-style: none; margin: 0; padding: 0; font-size: 15px; color: var(--text-dim); }
+.bundle-list li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--border); }
+.bundle-list li span { font-family: var(--mono); font-size: 12px; color: var(--text-muted); white-space: nowrap; }

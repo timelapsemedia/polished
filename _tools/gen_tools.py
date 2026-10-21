@@ -3,9 +3,11 @@
 #
 # Facts come only from the product data in codechaos-store/products/<slug>/ (product.json, description.html)
 # and, for Crucible, codechaos-seo/crucible.html + products/crucible-demo. Sales always stay on Gumroad
-# (Code Chaos Audio). Live check 2026-10-21: frostfret, hoarfell, black-metal-suite, black-metal-suite-complete
-# returned HTTP 404 on Gumroad, so they are NOT listed here. Add them only once their Gumroad pages are live.
-# Assets: /assets/tools/<slug>-gui.{webp,jpg} (1200 px wide), <slug>-cover.jpg (OG image), demo MP3s.
+# (Code Chaos Audio). Frostfret, Hoarfell and both Black Metal Suite bundles went live on Gumroad on 2026-10-21
+# (frostfret, frostfret-demo, hoarfell, hoarfell-demo, black-metal-suite, black-metal-suite-complete: HTTP 200).
+# Frostfret/Hoarfell facts: products/<slug>/, plugins/<slug>/README.md, build/<slug>/loudness.json + make_demo.py.
+# Assets: /assets/tools/<slug>-gui.{webp,jpg} (1200 px wide), <slug>-cover.jpg (OG image), demo MP3s (128 kbps),
+# <bundle>-card.{webp,jpg} (800x450) and <bundle>-cover.jpg for the bundles.
 
 TOOLS_TODAY = '2026-10-21'
 GUMROAD = 'https://timberwolf688.gumroad.com/l/'
@@ -93,7 +95,7 @@ TOOLS['gravesaw'] = dict(
               (16.941, 'Gravesaw: Four-Track Demo', 'Gravesaw: Four-Track Demo'),
               (19.765, 'Full mix: Wall Rhythm L/R double-track + Cold Tremolo Lead + Bass Grind + Black Metal Drum Kit',
                'Voller Mix: Wall Rhythm L/R als Doppelspur + Cold Tremolo Lead + Bass Grind + Black Metal Drum Kit')],
-    related=['rimehall', 'kick-bass-scope', 'crucible'],
+    related=['rimehall', 'frostfret', 'kick-bass-scope'], bundles=['black-metal-suite', 'black-metal-suite-complete'],
     en=dict(
         title='Gravesaw: Black Metal Amp + Cab Plugin (VST3) | Polished',
         og_title='Gravesaw: black metal amp + cab — Tools for bands',
@@ -188,7 +190,7 @@ TOOLS['rimehall'] = dict(
               (39.24, 'Rimehall: Grim Rehearsal Tape', 'Rimehall: Grim Rehearsal Tape'),
               (47.08, 'Rimehall: Northern Void', 'Rimehall: Northern Void'),
               (54.93, 'Full mix: guitars through Moonlit Tremolo Bus, bass + Black Metal Drum Kit dry', 'Voller Mix: Gitarren durch Moonlit Tremolo Bus, Bass und Black Metal Drum Kit trocken')],
-    related=['gravesaw', 'kick-bass-scope', 'crucible'],
+    related=['gravesaw', 'hoarfell', 'kick-bass-scope'], bundles=['black-metal-suite', 'black-metal-suite-complete'],
     en=dict(
         title='Rimehall: Black Metal Reverb & Tape Plugin | Polished',
         og_title='Rimehall: cold reverb, shimmer & tape — Tools for bands',
@@ -593,7 +595,259 @@ TOOLS['chaos-fm'] = dict(
     ),
 )
 
-TOOL_ORDER = ['gravesaw', 'rimehall', 'kick-bass-scope', 'crucible', 'shardstep', 'chaos-fm']
+TOOLS['frostfret'] = dict(
+    slug='frostfret', name='Frostfret', permalink='frostfret', demo='frostfret-demo', price=29, os='winmac', instrument=True,
+    category='Virtual instrument (modelled guitar and bass)', category_de='Virtuelles Instrument (modellierte Gitarre und Bass)',
+    genres=['black-metal-mastering', 'doom-gothic-mastering'],
+    gui=('frostfret', 1200, 832), cover=(1280, 720),
+    # Timings from plugins/frostfret/tools/make_demo.py (170 BPM: 1 bar = 1.412 s; acoustic switch at 12.6 s; clean/crunch at 11.41 s).
+    audio=[('frostfret-blackmetal.mp3',
+            {'en': 'Black metal: double-tracked tremolo guitars and bass through the built-in amp, 170 BPM, E phrygian (25 s)',
+             'de': 'Black Metal: gedoppelte Tremolo-Gitarren und Bass durch den eingebauten Amp, 170 BPM, E-Phrygisch (25 s)'},
+            [(0.0, 'Intro: tremolo on the open E (Wall of Ice, Double Track)', 'Intro: Tremolo auf dem leeren E (Wall of Ice, Double Track)'),
+             (2.824, 'Riff A: tremolo picking with bass (Bass Pick Grind)', 'Riff A: Tremolo-Picking mit Bass (Bass Pick Grind)'),
+             (11.294, 'Palm-muted gallop', 'Abgedämpfter Galopp (Palm Mute)'),
+             (14.118, 'Riff B, an octave higher', 'Riff B, eine Oktave höher'),
+             (21.176, 'Ringing chord to the end', 'Ausklingender Akkord')]),
+           ('frostfret-acoustic.mp3',
+            {'en': 'Acoustic: a strummed steel-string, then a fingerpicked nylon guitar, 100 BPM (26 s)',
+             'de': 'Akustik: eine geschlagene Westerngitarre, dann eine gezupfte Nylongitarre, 100 BPM (26 s)'},
+            [(0.0, 'Steel Strummer: strummed chords in E minor', 'Steel Strummer: geschlagene Akkorde in e-Moll'),
+             (12.6, 'Nylon Nocturne: fingerpicked in A minor', 'Nylon Nocturne: gezupft in a-Moll')]),
+           ('frostfret-clean-crunch.mp3',
+            {'en': 'Clean and crunch: a clean arpeggio, then a crunch riff, 110 BPM (23 s)',
+             'de': 'Clean und Crunch: ein cleanes Arpeggio, dann ein Crunch-Riff, 110 BPM (23 s)'},
+            [(0.0, 'Clean Neck Arpeggio v1 (version 1 sound; clean is the most synthetic-sounding part)', 'Clean Neck Arpeggio v1 (Klang der Version 1; Clean ist der am deutlichsten synthetische Teil)'),
+             (11.41, 'Cold Crunch Rhythm v1', 'Cold Crunch Rhythm v1')])],
+    chapters=[],
+    related=['gravesaw', 'hoarfell', 'rimehall'], bundles=['black-metal-suite-complete'],
+    en=dict(
+        title='Frostfret: Modelled Guitar VST3 Instrument | Polished',
+        og_title='Frostfret: modelled guitar and bass from MIDI — Tools for bands',
+        description='Frostfret plays guitar and bass from MIDI with modelled strings, no samples. Riff demos without a guitarist, mono-safe doubles, DI out. €29.',
+        card='Modelled guitar and bass you play from MIDI: tremolo, palm mute, double tracking, amp built in or DI out.',
+        h1='Frostfret: <em>a guitar you play from MIDI, for demos and pre-production</em>',
+        lead='<strong>Frostfret is a VST3 instrument that plays electric, steel-string and nylon guitar and electric bass from MIDI, with modelled strings instead of samples.</strong> It belongs to the Code Chaos Black Metal Suite by Tim Borchert, who masters at Polished. It is made for the moment a song exists only in someone\'s head or in a MIDI file: the riff can be heard as a guitar part with tremolo picking, palm mutes and a double-tracked wall before anyone picks up a real guitar.',
+        alt='Frostfret plugin window with the Wall of Ice preset: electric guitar section with type, tuning, pickup, attack and voicing menus and string knobs, performance section with tremolo picking, power chord and palm mute settings and a Double Track switch, amp section with High-Gain amp and cab, output section and a keyboard',
+        caption='Frostfret with the Wall of Ice (Double Track) preset. Strings and pickup on top, playing style in the middle, the built-in amp below.',
+        audio_note='Every note was rendered from MIDI by the plugin code, through Frostfret\'s built-in amp. No external effects, no drums, no recorded guitar anywhere. The black metal clip is mixed to about -13 LUFS, the acoustic clip to about -16 LUFS, the clean/crunch clip to about -14 LUFS.',
+        sections=[
+            ('ff-honest', 'What Frostfret sounds like, <em>honestly</em>', '''    <p>Frostfret is a model. Every note is a simulated string that is picked, rings, beats against itself and decays; there are no recorded guitar notes inside. No synthesised guitar sounds exactly like a recorded one, and Frostfret does not either.</p>
+    <ul>
+      <li><strong>Closest to a recording:</strong> distorted guitars (crunch and high gain) and the steel-string and nylon acoustics. The electric bass is close as well.</li>
+      <li><strong>Most clearly synthetic:</strong> the clean electric guitar. You hear it in the first half of the clean/crunch clip above.</li>
+      <li><strong>Two voicings:</strong> <em>Natural</em> is the current model, <em>Classic (v1)</em> keeps the darker sound of version 1. The Air knob makes strings and mic brighter or softer.</li>
+    </ul>
+    <p>Code Chaos Audio checks every sound type with an automated listening model against real recordings, and the result above is what that check says. Listen to the three clips or load the free demo before you buy.</p>''', False),
+            ('ff-demo', 'A guitar demo <em>without the guitarist</em>', '''    <p>Many songs start with one person who has the riff but not the time, the tone or the guitar player at hand. With Frostfret, the riff becomes a guitar part the band can rehearse to:</p>
+    <ol>
+      <li><strong>Write the part as MIDI.</strong> Hold a note and Frostfret picks it as tremolo in 1/16, 1/16 triplets or 1/32, synced to your DAW tempo, with alternating down- and upstrokes. One key plays a power chord. Tunings go from E standard down to B standard, including Drop D and Drop C.</li>
+      <li><strong>Mark the mutes.</strong> Palm mute follows a velocity zone, the mod wheel or a keyswitch, and it is continuous. Gallops and chugs sound muted without a second track.</li>
+      <li><strong>Send the demo, keep the MIDI.</strong> When the real guitars are recorded later, the MIDI part shows the exact riff and tempo, and the Frostfret track serves as a guide.</li>
+    </ol>
+    <p>For the final record, a real performance through <a href="/tools/gravesaw/">Gravesaw</a> or a real amp usually still sounds better. For writing, pre-production and rough mixes, Frostfret saves the session.</p>''', True),
+            ('ff-mono', 'Double tracking that <em>survives mono</em>', '''    <p>Turn on Double Track and Frostfret plays the same MIDI part as two independent takes, hard left and hard right, each with its own timing and picking. That is how a real rhythm wall is recorded, and it is why the wall holds up when a phone or a club system sums it to mono.</p>
+    <p>Below 160 Hz, Frostfret keeps the output mono (with Double Track up to about 250 Hz), so the low end cannot cancel. Every preset is tested for mono compatibility. In the black metal clip on this page, the two sides correlate at 0.97 below 200 Hz, and folding the whole mix to mono costs 1.7 dB. A copied and delayed single take, the usual shortcut, often loses much more and sounds hollow. A master cannot repair that afterwards, which is why the audit at Polished checks phase and mono before every master.</p>''', False),
+            ('ff-di', 'DI Out into <em>Gravesaw</em>, or the amp built in', '''    <p>Frostfret contains the amp of <a href="/tools/gravesaw/">Gravesaw</a> in four modes (Clean, Crunch, Overdrive, High-Gain) with the same 19 synthesised cabs. For a quick demo that is enough. For a mix you may want more control:</p>
+    <ul>
+      <li><strong>Switch the amp to DI Out.</strong> Frostfret then sends a clean DI signal, and you put Gravesaw or any other amp plugin after it, exactly as with a recorded DI guitar.</li>
+      <li><strong>Print the DI as its own track.</strong> Amp decisions stay open until the mix, and you can re-amp the part without playing the MIDI again.</li>
+      <li><strong>Set the amp gate before it matters.</strong> The noise between riffs gets louder in mastering, so gate it in the mix, not in the master.</li>
+    </ul>
+    <p>Export the finished mix with 3 to 6 dB of headroom and no limiter on the master bus. The <a href="/black-metal-mastering/">black metal mastering</a> page explains what happens after that.</p>''', True),
+        ],
+        specs=[('Price', '€29 on Gumroad, free demo available'),
+               ('Format', 'VST3 instrument + Standalone, played from MIDI'),
+               ('Guitars', 'Electric (bridge and neck humbucker, three single coils, tone pot), steel-string and nylon acoustic with modelled bodies and mic positions (12th fret, soundhole, lower bout), piezo or mic + piezo'),
+               ('Bass', 'Electric bass with finger, pick and light slap, three bass cabs or DI'),
+               ('Tunings', 'E, Eb, D and C standard, Drop D, Drop C, B standard (7-string / 5-string)'),
+               ('Playing', 'Tremolo picking synced to the host (1/16, 1/16 triplet, 1/32), power chords, palm mute, legato, slides, bends, vibrato, harmonics, dead notes, strumming, Humanize, Double Track'),
+               ('Amp', 'Gravesaw amp DSP: Clean, Crunch, Overdrive, High-Gain, 19 synthesised cabs, or DI Out'),
+               ('Sound source', 'Modelled strings and bodies, no samples. Closest to a recording: distorted and acoustic guitars. Most clearly synthetic: clean electric.'),
+               ('Presets', '30: 10 electric, 6 acoustic, 4 brighter variants, 4 version 1 sounds, 6 bass'),
+               ('Stereo', 'Width only from Double Track and the room; mono below 160 Hz'),
+               ('Latency', '61 samples (1.4 ms at 44.1 kHz), reported to the DAW'),
+               ('Testing', 'Automated checks on every preset at 44.1, 48 and 96 kHz (no clicks, no silence, peaks below -0.3 dBFS, mono check). Not tried in every DAW yet.')],
+        master='A Frostfret demo is a sketch of the record. Once real guitars, bass and drums are recorded, the mix decides how the album sounds, and the master decides how it translates to earbuds, car speakers and streaming normalisation. Polished starts every master with a written audio audit of your mix, including phase and mono checks of the guitar wall. See <a href="/black-metal-mastering/">black metal mastering</a>.',
+        faqs=[
+            ('Does Frostfret sound like a real guitar?', 'Close, depending on the sound. Distorted and acoustic guitars come closest to a recording, the clean electric guitar sounds the most synthetic. Frostfret is modelled and uses no samples. Listen to the three demo clips on this page or try the free demo.'),
+            ('Can Frostfret replace the guitarist on our album?', 'For demos, songwriting and pre-production it can stand in. For a release, recorded guitars usually still sound better, and the Frostfret MIDI part then serves as a guide for the real takes.'),
+            ('Can I use my own amp plugin?', 'Yes. Set the amp to DI Out; Frostfret then sends a clean DI signal, and you put Gravesaw or any other amp after it.'),
+            ('Does it run on a Mac?', 'Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized: macOS blocks it at first, and you allow it under System Settings → Privacy &amp; Security.'),
+            ('Is there a free trial?', 'Yes. The Frostfret demo on Gumroad is the full instrument with all 30 presets; it plays a short noise burst every 45 seconds.'),
+        ],
+    ),
+    de=dict(
+        title='Frostfret: modellierte Gitarre als VST3 | Polished',
+        og_title='Frostfret: Gitarre und Bass aus MIDI — Tools für Bands',
+        description='Frostfret spielt Gitarre und Bass aus MIDI, mit modellierten Saiten statt Samples. Riff-Demos ohne Gitarristen, monotaugliche Doppelspur, DI-Out. 29 €.',
+        card='Modellierte Gitarre und Bass, gespielt aus MIDI: Tremolo, Palm Mute, Doppelspur, Amp eingebaut oder DI-Out.',
+        h1='Frostfret: <em>eine Gitarre aus MIDI, für Demos und Vorproduktion</em>',
+        lead='<strong>Frostfret ist ein VST3-Instrument, das E-Gitarre, Westerngitarre, Nylongitarre und E-Bass aus MIDI spielt, mit modellierten Saiten statt Samples.</strong> Es gehört zur Code Chaos Black Metal Suite von Tim Borchert, der bei Polished mastert. Gebaut ist es für den Moment, in dem ein Song nur im Kopf oder als MIDI-Datei existiert: Das Riff wird als Gitarrenspur hörbar, mit Tremolo-Picking, Palm Mutes und gedoppelter Wand, bevor jemand eine echte Gitarre in die Hand nimmt.',
+        alt='Frostfret-Pluginfenster mit dem Preset Wall of Ice: E-Gitarren-Sektion mit Menüs für Typ, Stimmung, Tonabnehmer, Anschlag und Voicing sowie Saiten-Reglern, Performance-Sektion mit Tremolo-Picking, Powerchord, Palm Mute und Double-Track-Schalter, Amp-Sektion mit High-Gain-Amp und Cab, Ausgang und Klaviatur',
+        caption='Frostfret mit dem Preset Wall of Ice (Double Track). Oben Saiten und Tonabnehmer, in der Mitte die Spielweise, unten der eingebaute Amp.',
+        audio_note='Jede Note wurde vom Plugin-Code aus MIDI gerendert, durch den eingebauten Amp von Frostfret. Keine externen Effekte, keine Drums, nirgends eine aufgenommene Gitarre. Der Black-Metal-Clip liegt bei etwa -13 LUFS, der Akustik-Clip bei etwa -16 LUFS, der Clean/Crunch-Clip bei etwa -14 LUFS.',
+        sections=[
+            ('ff-honest', 'Wie Frostfret klingt, <em>ehrlich gesagt</em>', '''    <p>Frostfret ist ein Modell. Jede Note ist eine simulierte Saite, die angeschlagen wird, klingt, mit sich selbst schwebt und ausklingt; aufgenommene Gitarrentöne stecken nicht darin. Keine synthetische Gitarre klingt genau wie eine aufgenommene, auch Frostfret nicht.</p>
+    <ul>
+      <li><strong>Am nächsten an einer Aufnahme:</strong> verzerrte Gitarren (Crunch und High Gain) sowie Western- und Nylongitarre. Auch der E-Bass kommt nah heran.</li>
+      <li><strong>Am deutlichsten synthetisch:</strong> die cleane E-Gitarre. Du hörst das in der ersten Hälfte des Clean/Crunch-Clips oben.</li>
+      <li><strong>Zwei Voicings:</strong> <em>Natural</em> ist das aktuelle Modell, <em>Classic (v1)</em> behält den dunkleren Klang von Version 1. Der Air-Regler macht Saiten und Mikrofon heller oder weicher.</li>
+    </ul>
+    <p>Code Chaos Audio prüft jede Klangart mit einem automatischen Hörmodell gegen echte Aufnahmen, und das Ergebnis oben ist das, was diese Prüfung sagt. Hör dir die drei Clips an oder lade die Gratis-Demo, bevor du kaufst.</p>''', False),
+            ('ff-demo', 'Ein Gitarren-Demo <em>ohne Gitarristen</em>', '''    <p>Viele Songs beginnen bei einer Person, die das Riff hat, aber nicht die Zeit, den Sound oder den Gitarristen griffbereit. Mit Frostfret wird das Riff zu einer Gitarrenspur, zu der die Band proben kann:</p>
+    <ol>
+      <li><strong>Die Spur als MIDI schreiben.</strong> Eine gehaltene Note spielt Frostfret als Tremolo in 1/16, 1/16-Triolen oder 1/32, synchron zum DAW-Tempo, mit abwechselndem Ab- und Aufschlag. Eine Taste spielt einen Powerchord. Die Stimmungen reichen von E-Standard bis B-Standard, inklusive Drop D und Drop C.</li>
+      <li><strong>Die Mutes markieren.</strong> Palm Mute folgt einer Velocity-Zone, dem Modulationsrad oder einem Keyswitch, und zwar stufenlos. Galopp und Chugs klingen abgedämpft, ohne zweite Spur.</li>
+      <li><strong>Demo verschicken, MIDI behalten.</strong> Wenn die echten Gitarren später aufgenommen werden, zeigt die MIDI-Spur genau Riff und Tempo, und die Frostfret-Spur dient als Guide.</li>
+    </ol>
+    <p>Für die fertige Platte klingt eine echte Performance durch <a href="/de/tools/gravesaw/">Gravesaw</a> oder einen echten Amp meist trotzdem besser. Für Songwriting, Vorproduktion und Rohmixe spart Frostfret die Session.</p>''', True),
+            ('ff-mono', 'Doppelspur, die <em>in Mono hält</em>', '''    <p>Mit Double Track spielt Frostfret dieselbe MIDI-Spur als zwei unabhängige Takes, hart links und hart rechts, jeweils mit eigenem Timing und Anschlag. So wird eine echte Rhythmuswand aufgenommen, und deshalb hält die Wand, wenn ein Handy oder eine Club-Anlage sie zu Mono zusammenfasst.</p>
+    <p>Unterhalb von 160 Hz bleibt der Ausgang von Frostfret mono (mit Double Track bis etwa 250 Hz), damit sich das Low End nicht auslöschen kann. Jedes Preset wird auf Monokompatibilität getestet. Im Black-Metal-Clip auf dieser Seite korrelieren die beiden Seiten unter 200 Hz mit 0,97, und der ganze Mix verliert in Mono 1,7 dB. Ein kopierter und verzögerter Einzeltake, die übliche Abkürzung, verliert oft deutlich mehr und klingt hohl. Ein Master kann das nachträglich nicht reparieren, deshalb prüft das Audit bei Polished vor jedem Master Phase und Mono.</p>''', False),
+            ('ff-di', 'DI-Out in <em>Gravesaw</em>, oder der eingebaute Amp', '''    <p>Frostfret enthält den Amp von <a href="/de/tools/gravesaw/">Gravesaw</a> in vier Modi (Clean, Crunch, Overdrive, High-Gain) mit denselben 19 synthetisierten Cabs. Für ein schnelles Demo reicht das. Für einen Mix willst du vielleicht mehr Kontrolle:</p>
+    <ul>
+      <li><strong>Den Amp auf DI Out stellen.</strong> Frostfret gibt dann ein sauberes DI-Signal aus, und du setzt Gravesaw oder ein anderes Amp-Plugin dahinter, genau wie bei einer aufgenommenen DI-Gitarre.</li>
+      <li><strong>Die DI als eigene Spur rendern.</strong> Amp-Entscheidungen bleiben bis zum Mix offen, und du kannst die Spur reampen, ohne das MIDI neu abzuspielen.</li>
+      <li><strong>Das Amp-Gate rechtzeitig setzen.</strong> Das Rauschen zwischen den Riffs wird im Mastering lauter, also im Mix gaten, nicht im Master.</li>
+    </ul>
+    <p>Den fertigen Mix mit 3 bis 6 dB Headroom und ohne Limiter auf der Summe exportieren. Was danach passiert, steht auf der Seite <a href="/de/black-metal-mastering/">Black Metal Mastering</a>.</p>''', True),
+        ],
+        specs=[('Preis', '29 € auf Gumroad, Gratis-Demo verfügbar'),
+               ('Format', 'VST3-Instrument + Standalone, gespielt über MIDI'),
+               ('Gitarren', 'E-Gitarre (Humbucker Steg und Hals, drei Single Coils, Tonpoti), Western- und Nylongitarre mit modellierten Korpussen und Mikrofonpositionen (12. Bund, Schallloch, unterer Bug), Piezo oder Mikrofon + Piezo'),
+               ('Bass', 'E-Bass mit Finger, Plektrum und leichtem Slap, drei Bass-Cabs oder DI'),
+               ('Stimmungen', 'E-, Eb-, D- und C-Standard, Drop D, Drop C, B-Standard (7-Saiter / 5-Saiter)'),
+               ('Spielweisen', 'Tremolo-Picking synchron zum Host (1/16, 1/16-Triole, 1/32), Powerchords, Palm Mute, Legato, Slides, Bendings, Vibrato, Flageoletts, Dead Notes, Strumming, Humanize, Double Track'),
+               ('Amp', 'Amp-DSP von Gravesaw: Clean, Crunch, Overdrive, High-Gain, 19 synthetisierte Cabs, oder DI Out'),
+               ('Klangquelle', 'Modellierte Saiten und Korpusse, keine Samples. Am nächsten an einer Aufnahme: verzerrte und akustische Gitarren. Am deutlichsten synthetisch: cleane E-Gitarre.'),
+               ('Presets', '30: 10 E-Gitarre, 6 Akustik, 4 hellere Varianten, 4 Sounds aus Version 1, 6 Bass'),
+               ('Stereo', 'Breite nur durch Double Track und Raum; unter 160 Hz mono'),
+               ('Latenz', '61 Samples (1,4 ms bei 44,1 kHz), wird an die DAW gemeldet'),
+               ('Tests', 'Automatische Prüfungen für jedes Preset bei 44,1, 48 und 96 kHz (keine Klicks, keine Stille, Spitzen unter -0,3 dBFS, Monoprüfung). Noch nicht in jeder DAW ausprobiert.')],
+        master='Ein Frostfret-Demo ist eine Skizze der Platte. Sind echte Gitarren, Bass und Drums aufgenommen, entscheidet der Mix, wie das Album klingt, und der Master, wie es auf Earbuds, im Auto und nach der Lautheitsnormalisierung der Streamingdienste ankommt. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, inklusive Phasen- und Monoprüfung der Gitarrenwand. Mehr dazu: <a href="/de/black-metal-mastering/">Black Metal Mastering</a>.',
+        faqs=[
+            ('Klingt Frostfret wie eine echte Gitarre?', 'Je nach Sound nah dran. Verzerrte und akustische Gitarren kommen einer Aufnahme am nächsten, die cleane E-Gitarre klingt am deutlichsten synthetisch. Frostfret ist modelliert und nutzt keine Samples. Hör dir die drei Demo-Clips auf dieser Seite an oder teste die Gratis-Demo.'),
+            ('Kann Frostfret den Gitarristen auf unserem Album ersetzen?', 'Für Demos, Songwriting und Vorproduktion kann es einspringen. Für ein Release klingen aufgenommene Gitarren meist noch besser, und die MIDI-Spur aus Frostfret dient dann als Guide für die echten Takes.'),
+            ('Kann ich mein eigenes Amp-Plugin nutzen?', 'Ja. Den Amp auf DI Out stellen; Frostfret gibt dann ein sauberes DI-Signal aus, und du setzt Gravesaw oder einen anderen Amp dahinter.'),
+            ('Läuft Frostfret auf dem Mac?', 'Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert: macOS blockiert ihn zuerst, du gibst ihn unter Systemeinstellungen → Datenschutz &amp; Sicherheit frei.'),
+            ('Gibt es eine kostenlose Testversion?', 'Ja. Die Frostfret-Demo auf Gumroad ist das volle Instrument mit allen 30 Presets; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.'),
+        ],
+    ),
+)
+
+TOOLS['hoarfell'] = dict(
+    slug='hoarfell', name='Hoarfell', permalink='hoarfell', demo='hoarfell-demo', price=17, os='winmac', instrument=True,
+    category='Virtual instrument (modelled drums, bass and atmosphere)', category_de='Virtuelles Instrument (modellierte Drums, Bass und Atmosphäre)',
+    genres=['black-metal-mastering', 'doom-gothic-mastering'],
+    gui=('hoarfell', 1200, 832), cover=(1280, 720),
+    # Timings from plugins/hoarfell/tools/make_demo.py (150 BPM: 1 bar = 1.6 s; 180 BPM: 1 bar = 1.333 s).
+    audio=[('hoarfell-suite.mp3',
+            {'en': 'Hoarfell alone: choir and bell intro, a mid-tempo groove, then a blast, 150 BPM, E phrygian (29 s)',
+             'de': 'Hoarfell allein: Intro mit Chor und Glocke, ein Groove im mittleren Tempo, dann ein Blast, 150 BPM, E-Phrygisch (29 s)'},
+            [(0.0, 'Intro: Choir Ah - Frozen Hall and Cold Bell, a tom swell at the end', 'Intro: Choir Ah - Frozen Hall und Cold Bell, am Ende ein Tom-Anstieg'),
+             (6.4, 'Groove: Studio Kit, Bass Finger Amp, Winter Strings Pad', 'Groove: Studio Kit, Bass Finger Amp, Winter Strings Pad'),
+             (19.2, 'Blast: Raw Blast Kit, Bass Tremolo Gallop, Choir Oh - Monastery', 'Blast: Raw Blast Kit, Bass Tremolo Gallop, Choir Oh - Monastery')]),
+           ('hoarfell-blackmetal.mp3',
+            {'en': 'Full black metal mix: Hoarfell drums, bass and choir with double-tracked Frostfret guitars, 180 BPM (37 s)',
+             'de': 'Voller Black-Metal-Mix: Drums, Bass und Chor aus Hoarfell mit gedoppelten Frostfret-Gitarren, 180 BPM (37 s)'},
+            [(0.0, 'Intro: tremolo guitar on E with the choir, snare build-up', 'Intro: Tremolo-Gitarre auf E mit Chor, Snare-Aufbau'),
+             (2.667, 'Riff A over a blast (Raw Blast Kit)', 'Riff A über einem Blast (Raw Blast Kit)'),
+             (13.333, 'Half-time with a palm-muted gallop', 'Halftime mit abgedämpftem Galopp'),
+             (18.667, 'Riff B, an octave higher, over a blast', 'Riff B, eine Oktave höher, über einem Blast'),
+             (29.333, 'Outro: one ringing chord', 'Outro: ein ausklingender Akkord')])],
+    chapters=[],
+    related=['frostfret', 'rimehall', 'kick-bass-scope'], bundles=['black-metal-suite-complete'],
+    en=dict(
+        title='Hoarfell: Modelled Drums, Bass & Choir VST3 | Polished',
+        og_title='Hoarfell: drums, bass and choir pad from MIDI — Tools for bands',
+        description='Hoarfell plays drums, bass and a choir pad from MIDI, modelled with no samples. GM drum map, blast-ready at 250 BPM, for demos and pre-production. €17.',
+        card='Modelled drums on the GM map, bass and a choir pad from MIDI, made for blast beats in demos and pre-production.',
+        h1='Hoarfell: <em>drums, bass and a choir pad for demos and pre-production</em>',
+        lead='<strong>Hoarfell is a VST3 instrument with three engines: a drum kit on the General MIDI map that keeps up with blast beats, a modelled electric bass, and a choir, organ, strings, bell and keys section with a long hall.</strong> Like its sister plugin Frostfret it is modelled, with no samples inside, and it comes from Tim Borchert, who masters at Polished. It is the quickest way to turn a riff and a drum MIDI file into a song the whole band can hear.',
+        alt='Hoarfell plugin window with the Studio Kit preset: drum kit knobs for Tune, Decay, Kick Click, Snare Snap, Velocity Layers, Round Robin, Lo-Fi, Cymbals and Room, the General MIDI drum mapping, output section and a keyboard',
+        caption='Hoarfell on the drum engine with the Studio Kit preset. The mapping panel lists the General MIDI notes.',
+        audio_note='Rendered from MIDI by the plugin code, no external effects. In the full mix the guitars come from Frostfret through its built-in amp, and the choir sits low, as a pad behind the guitars.',
+        sections=[
+            ('hf-preprod', 'Drums for demos and <em>pre-production</em>', '''    <p>Hoarfell reads the General MIDI drum map: kick on 36, snare on 38, hats on 42, 44 and 46, toms, two crashes, two rides, bell and china. A groove programmed in any DAW, played on an e-kit or taken from the 30 MIDI grooves of the <a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit?utm_source=polished&amp;utm_medium=tools&amp;utm_campaign=hoarfell&amp;utm_content=en" rel="noopener" data-track="tools-black-metal-drum-kit-hoarfell">Black Metal Drum Kit</a> plays right away.</p>
+    <ul>
+      <li><strong>One engine per instance.</strong> Drums, bass and atmosphere each get their own track. That keeps the demo mixable and gives you clean stems if you want to send <a href="/stem-mastering/">stems to mastering</a>.</li>
+      <li><strong>Close mics, overheads and room</strong> per kit, with each drum placed in the overhead pair. Six kits from studio to lo-fi rehearsal tape.</li>
+      <li><strong>Keep the tempo map.</strong> When the real drums are recorded later, the drummer can play to the same tempo and arrangement the band rehearsed with.</li>
+    </ul>
+    <p>Hoarfell is built for writing, demos and pre-production. For a release, recorded drums or a dedicated drum production are usually the better choice, and that is how the plugin is meant: as the drummer who is always available while the songs take shape.</p>''', False),
+            ('hf-blast', 'Built for <em>blast beats</em>', '''    <p>Fast sixteenths are where many drum plugins start to click or smear. In Hoarfell a re-triggered drum fades its previous hit over 3 ms, so 250 BPM sixteenths stay click-free in the automated tests. Round Robin varies every hit, and velocity changes contact time and brightness, so a blast does not sound like the same sample fired 16 times per bar.</p>
+    <p>One thing to set in the mix, not in the master: the <strong>Cymbals</strong> control balances crashes, rides, china and bell against kick, snare, toms and hats. A cymbal wash that covers the guitars is one of the most common findings in black metal premasters, and mastering EQ cannot lower the cymbals without dulling everything else.</p>''', True),
+            ('hf-choir', 'The choir belongs <em>behind the mix</em>', '''    <p>The atmosphere engine has a modelled choir of up to eight singers per note, each with its own voice, pitch, vibrato and entry. It sings vowels only (Ah, Oh, Uh), no words. On sustained chords, Ah and Oh come close to a recorded choir; the low Uh drone less so. Use it as a pad behind guitars and drums, not as a lead choir.</p>
+    <p>Long pads and halls fill every gap in a mix, and a limiter in mastering brings quiet parts up. If the choir already sounds present in the rough mix, it will sound louder after mastering. Keep it a little lower than feels right, as in the full mix above, and check the song in mono: below 160 Hz, Hoarfell keeps its output mono so the low end cannot cancel. The section also has a drawbar organ, a strings pad, a cold bell, celesta and lo-fi keys.</p>''', False),
+        ],
+        specs=[('Price', '€17 on Gumroad, free demo available'),
+               ('Format', 'VST3 instrument + Standalone, one engine (Drums, Bass or Atmos / Keys) per instance'),
+               ('Drums', 'General MIDI map: kick, two snares, rim, six toms, closed / pedal / open hat with choke, two crashes, two rides, bell, china'),
+               ('Kits and mics', '6 kits from studio to lo-fi rehearsal; close mics, overhead pair, room, lo-fi control'),
+               ('Blast speed', '250 BPM sixteenths click-free in the automated tests'),
+               ('Bass', 'Modelled electric bass, finger, pick or light slap, tremolo picking synced to the host, Gravesaw amp DSP with three bass cabs, or DI'),
+               ('Atmos / Keys', 'Choir (Ah, Oh, Uh, up to 8 singers per note, vowels only), drawbar organ, strings pad, cold bell, celesta, lo-fi keys, long hall'),
+               ('Sound source', 'Modelled, no samples. Drum hits are shaped after averaged measurements of real drums; no recorded audio is stored.'),
+               ('Presets', '20: 6 drum kits, 6 bass, 8 atmos'),
+               ('Latency', '61 samples (1.4 ms at 44.1 kHz), reported to the DAW'),
+               ('Testing', 'Automated checks on every preset at 44.1, 48 and 96 kHz, including a 250 BPM blast and a mono check. Not tried in every DAW yet.')],
+        master='Hoarfell gives a demo drums, bass and atmosphere in one evening. When the album is recorded and mixed, the master decides how it holds up on earbuds, in the car and after streaming normalisation. Polished starts every master with a written audio audit of your mix, including cymbal harshness, low end and mono. See <a href="/black-metal-mastering/">black metal mastering</a> and <a href="/doom-gothic-mastering/">doom &amp; gothic mastering</a>.',
+        faqs=[
+            ('Can I use my own drum MIDI with Hoarfell?', 'Yes. Hoarfell uses the General MIDI drum map, so grooves from your DAW, an e-kit or the Black Metal Drum Kit play without remapping.'),
+            ('Does Hoarfell replace a drummer or a drum library for the album?', 'It is made for demos and pre-production. For a release, recorded drums or a dedicated drum production usually remain the better choice.'),
+            ('Can the choir sing lyrics?', 'No. It sings the vowels Ah, Oh and Uh, so it works as a choir pad behind the mix, not as a lead choir.'),
+            ('Do I need Frostfret as well?', 'No. Hoarfell runs on its own. The guitars are in Frostfret; both together are part of the Black Metal Suite Complete bundle.'),
+            ('Does it run on a Mac?', 'Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized, so you allow it once under System Settings → Privacy &amp; Security.'),
+            ('Is there a free trial?', 'Yes. The Hoarfell demo on Gumroad is the full instrument with all 20 presets; it plays a short noise burst every 45 seconds.'),
+        ],
+    ),
+    de=dict(
+        title='Hoarfell: Drums, Bass & Chor als VST3 | Polished',
+        og_title='Hoarfell: Drums, Bass und Chor-Pad aus MIDI — Tools für Bands',
+        description='Hoarfell spielt Drums, Bass und ein Chor-Pad aus MIDI, modelliert ohne Samples. GM-Drum-Map, Blasts bis 250 BPM, für Demos und Vorproduktion. 17 €.',
+        card='Modellierte Drums auf der GM-Map, Bass und ein Chor-Pad aus MIDI, gebaut für Blastbeats in Demos und Vorproduktion.',
+        h1='Hoarfell: <em>Drums, Bass und ein Chor-Pad für Demos und Vorproduktion</em>',
+        lead='<strong>Hoarfell ist ein VST3-Instrument mit drei Engines: ein Drumkit auf der General-MIDI-Belegung, das bei Blastbeats mithält, ein modellierter E-Bass und eine Sektion mit Chor, Orgel, Streichern, Glocke und Keys samt langer Halle.</strong> Wie das Schwester-Plugin Frostfret ist es modelliert, ohne Samples, und stammt von Tim Borchert, der bei Polished mastert. Es ist der schnellste Weg, aus einem Riff und einer Drum-MIDI-Datei einen Song zu machen, den die ganze Band hören kann.',
+        alt='Hoarfell-Pluginfenster mit dem Preset Studio Kit: Drumkit-Regler für Tune, Decay, Kick Click, Snare Snap, Velocity Layers, Round Robin, Lo-Fi, Cymbals und Room, die General-MIDI-Belegung, Ausgangssektion und Klaviatur',
+        caption='Hoarfell auf der Drum-Engine mit dem Preset Studio Kit. Das Mapping-Feld listet die General-MIDI-Noten.',
+        audio_note='Vom Plugin-Code aus MIDI gerendert, keine externen Effekte. Im vollen Mix stammen die Gitarren aus Frostfret mit dessen eingebautem Amp, und der Chor liegt leise als Pad hinter den Gitarren.',
+        sections=[
+            ('hf-preprod', 'Drums für Demos und <em>Vorproduktion</em>', '''    <p>Hoarfell liest die General-MIDI-Drum-Belegung: Kick auf 36, Snare auf 38, Hi-Hats auf 42, 44 und 46, Toms, zwei Crashes, zwei Rides, Glocke und China. Ein Groove, in einer beliebigen DAW programmiert, auf einem E-Drum eingespielt oder aus den 30 MIDI-Grooves des <a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit?utm_source=polished&amp;utm_medium=tools&amp;utm_campaign=hoarfell&amp;utm_content=de" rel="noopener" data-track="tools-black-metal-drum-kit-hoarfell">Black Metal Drum Kit</a>, spielt sofort.</p>
+    <ul>
+      <li><strong>Eine Engine pro Instanz.</strong> Drums, Bass und Atmosphäre bekommen je eine eigene Spur. So bleibt das Demo mischbar, und du hast saubere Stems, falls du <a href="/de/stem-mastering/">Stems zum Mastering</a> schicken willst.</li>
+      <li><strong>Close-Mics, Overheads und Raum</strong> pro Kit, jede Trommel mit eigenem Platz im Overhead-Paar. Sechs Kits vom Studio bis zum Lo-Fi-Probenmitschnitt.</li>
+      <li><strong>Die Tempo-Map behalten.</strong> Wenn später echte Drums aufgenommen werden, spielt der Drummer zu demselben Tempo und Arrangement, mit dem die Band geprobt hat.</li>
+    </ul>
+    <p>Hoarfell ist für Songwriting, Demos und Vorproduktion gebaut. Für ein Release sind aufgenommene Drums oder eine eigene Drum-Produktion meist die bessere Wahl, und so ist das Plugin gedacht: als Drummer, der immer Zeit hat, solange die Songs entstehen.</p>''', False),
+            ('hf-blast', 'Gebaut für <em>Blastbeats</em>', '''    <p>Bei schnellen Sechzehnteln fangen viele Drum-Plugins an zu klicken oder zu verschmieren. In Hoarfell blendet eine erneut angeschlagene Trommel ihren vorherigen Schlag über 3 ms aus, deshalb bleiben Sechzehntel bei 250 BPM in den automatischen Tests klickfrei. Round Robin variiert jeden Schlag, und die Velocity ändert Kontaktzeit und Helligkeit, damit ein Blast nicht wie dasselbe Sample klingt, das 16-mal pro Takt abgefeuert wird.</p>
+    <p>Eine Sache gehört in den Mix, nicht in den Master: Der Regler <strong>Cymbals</strong> stellt Crashes, Rides, China und Glocke gegen Kick, Snare, Toms und Hi-Hats ein. Ein Becken-Teppich, der die Gitarren zudeckt, gehört zu den häufigsten Befunden in Black-Metal-Premastern, und Mastering-EQ kann die Becken nicht absenken, ohne alles andere mit abzudunkeln.</p>''', True),
+            ('hf-choir', 'Der Chor gehört <em>hinter den Mix</em>', '''    <p>Die Atmosphären-Engine hat einen modellierten Chor mit bis zu acht Stimmen pro Note, jede mit eigener Stimme, Tonhöhe, Vibrato und eigenem Einsatz. Er singt nur Vokale (Ah, Oh, Uh), keine Worte. Auf gehaltenen Akkorden kommen Ah und Oh einem aufgenommenen Chor nahe, der tiefe Uh-Drone weniger. Setz ihn als Pad hinter Gitarren und Drums ein, nicht als Lead-Chor.</p>
+    <p>Lange Pads und Hallräume füllen jede Lücke im Mix, und ein Limiter im Mastering hebt leise Anteile an. Wenn der Chor im Rohmix schon präsent klingt, klingt er nach dem Mastering lauter. Lass ihn etwas leiser, als es sich richtig anfühlt, wie im vollen Mix oben, und prüf den Song in Mono: Unter 160 Hz bleibt der Ausgang von Hoarfell mono, damit sich das Low End nicht auslöschen kann. Dazu gibt es Zugriegelorgel, Streicher-Pad, kalte Glocke, Celesta und Lo-Fi-Keys.</p>''', False),
+        ],
+        specs=[('Preis', '17 € auf Gumroad, Gratis-Demo verfügbar'),
+               ('Format', 'VST3-Instrument + Standalone, eine Engine (Drums, Bass oder Atmos / Keys) pro Instanz'),
+               ('Drums', 'General-MIDI-Belegung: Kick, zwei Snares, Rim, sechs Toms, geschlossene / Pedal- / offene Hi-Hat mit Choke, zwei Crashes, zwei Rides, Glocke, China'),
+               ('Kits und Mikrofone', '6 Kits vom Studio bis zum Lo-Fi-Probenraum; Close-Mics, Overhead-Paar, Raum, Lo-Fi-Regler'),
+               ('Blast-Tempo', 'Sechzehntel bei 250 BPM in den automatischen Tests klickfrei'),
+               ('Bass', 'Modellierter E-Bass, Finger, Plektrum oder leichter Slap, Tremolo-Picking synchron zum Host, Amp-DSP von Gravesaw mit drei Bass-Cabs, oder DI'),
+               ('Atmos / Keys', 'Chor (Ah, Oh, Uh, bis zu 8 Stimmen pro Note, nur Vokale), Zugriegelorgel, Streicher-Pad, kalte Glocke, Celesta, Lo-Fi-Keys, lange Halle'),
+               ('Klangquelle', 'Modelliert, keine Samples. Die Drum-Schläge sind nach gemittelten Messungen echter Trommeln geformt; es ist keine Aufnahme gespeichert.'),
+               ('Presets', '20: 6 Drumkits, 6 Bass, 8 Atmos'),
+               ('Latenz', '61 Samples (1,4 ms bei 44,1 kHz), wird an die DAW gemeldet'),
+               ('Tests', 'Automatische Prüfungen für jedes Preset bei 44,1, 48 und 96 kHz, inklusive Blast bei 250 BPM und Monoprüfung. Noch nicht in jeder DAW ausprobiert.')],
+        master='Hoarfell gibt einem Demo an einem Abend Drums, Bass und Atmosphäre. Wenn das Album aufgenommen und gemischt ist, entscheidet der Master, wie es auf Earbuds, im Auto und nach der Lautheitsnormalisierung der Streamingdienste besteht. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, inklusive Beckenschärfe, Low End und Mono. Mehr dazu: <a href="/de/black-metal-mastering/">Black Metal Mastering</a> und <a href="/de/doom-gothic-mastering/">Doom &amp; Gothic Mastering</a>.',
+        faqs=[
+            ('Kann ich eigene Drum-MIDI-Dateien mit Hoarfell nutzen?', 'Ja. Hoarfell nutzt die General-MIDI-Drum-Belegung, Grooves aus deiner DAW, von einem E-Drum oder aus dem Black Metal Drum Kit spielen also ohne Umbelegen.'),
+            ('Ersetzt Hoarfell einen Drummer oder eine Drum-Library fürs Album?', 'Es ist für Demos und Vorproduktion gemacht. Für ein Release bleiben aufgenommene Drums oder eine eigene Drum-Produktion meist die bessere Wahl.'),
+            ('Kann der Chor Texte singen?', 'Nein. Er singt die Vokale Ah, Oh und Uh und funktioniert daher als Chor-Pad hinter dem Mix, nicht als Lead-Chor.'),
+            ('Brauche ich zusätzlich Frostfret?', 'Nein. Hoarfell läuft für sich allein. Die Gitarren stecken in Frostfret; beide zusammen sind Teil des Bundles Black Metal Suite Complete.'),
+            ('Läuft Hoarfell auf dem Mac?', 'Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert, du gibst ihn einmal unter Systemeinstellungen → Datenschutz &amp; Sicherheit frei.'),
+            ('Gibt es eine kostenlose Testversion?', 'Ja. Die Hoarfell-Demo auf Gumroad ist das volle Instrument mit allen 20 Presets; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.'),
+        ],
+    ),
+)
+
+TOOL_ORDER = ['gravesaw', 'rimehall', 'frostfret', 'hoarfell', 'kick-bass-scope', 'crucible', 'shardstep', 'chaos-fm']
 
 # Packs (not plugins) that are live on Gumroad and fit the black metal pages.
 PACKS = [
@@ -604,6 +858,34 @@ PACKS = [
          en='47 synthesised drum samples and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM. The drums in the Gravesaw and Rimehall demos come from it.',
          de='47 synthetisierte Drum-Samples und 30 MIDI-Grooves für Blastbeats, Galopp und Doom, von 60 bis 230 BPM. Die Drums in den Demos von Gravesaw und Rimehall stammen daraus.'),
 ]
+PACK = {p['slug']: p for p in PACKS}
+
+# Bundles live on Gumroad since 2026-10-21 (products/black-metal-suite*/product.json). 'single' = sum of the parts.
+BUNDLES = [
+    dict(slug='black-metal-suite', name='Black Metal Suite Essentials', price=39,
+         items=['gravesaw', 'rimehall', 'black-metal-tone-kit', 'black-metal-drum-kit'],
+         en='Amp, reverb, cab IRs and drum samples with MIDI: the mixing side of a black metal record.',
+         de='Amp, Hall, Cab-IRs und Drum-Samples mit MIDI: die Mix-Seite einer Black-Metal-Platte.'),
+    dict(slug='black-metal-suite-complete', name='Black Metal Suite Complete', price=69,
+         items=['frostfret', 'hoarfell', 'gravesaw', 'rimehall', 'black-metal-tone-kit', 'black-metal-drum-kit'],
+         en='Everything in Essentials plus the two instruments: write, demo and mix a song without a sample library.',
+         de='Alles aus Essentials plus die zwei Instrumente: einen Song schreiben, als Demo hören und mischen, ohne Sample-Library.'),
+]
+BUNDLE = {b['slug']: b for b in BUNDLES}
+
+
+def item_name(s):
+    return TOOLS[s]['name'] if s in TOOLS else PACK[s]['name']
+
+
+def item_price(s):
+    return TOOLS[s]['price'] if s in TOOLS else PACK[s]['price']
+
+
+for _b in BUNDLES:
+    _b['single'] = sum(item_price(s) for s in _b['items'])
+    _b['save'] = _b['single'] - _b['price']
+assert (BUNDLE['black-metal-suite']['single'], BUNDLE['black-metal-suite-complete']['single']) == (59, 105)
 
 
 # ---------------------------------------------------------------- HTML helpers
@@ -627,6 +909,80 @@ def cta_buttons(t, lang, where):
 
 def os_line(t, lang):
     return TT[lang]['winmac'] if t['os'] == 'winmac' else TT[lang]['win']
+
+
+def format_line(t, lang):
+    if t.get('instrument'):
+        return 'VST3 instrument + Standalone' if lang == 'en' else 'VST3-Instrument + Standalone'
+    return 'VST3 + Standalone'
+
+
+def bundle_offer(b):
+    return {"@type": "Offer", "price": f'{b["price"]}.00', "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock", "url": f'{GUMROAD}{b["slug"]}', "seller": {"@id": CCA["@id"]}}
+
+
+def bundle_schema(b, lang, path):
+    names = ', '.join(item_name(s) for s in b['items'])
+    desc = (f'{b["en"]} Contains {names}. {eur(b["price"], "en")} instead of {eur(b["single"], "en")} bought separately.'
+            if lang == 'en' else
+            f'{b["de"]} Enthält {names}. {eur(b["price"], "de")} statt {eur(b["single"], "de")} einzeln.')
+    return {"@context": "https://schema.org", "@type": "Product", "@id": f'{BASE}{path}#{b["slug"]}',
+            "name": f'Code Chaos {b["name"]}', "description": desc, "url": f'{BASE}{path}#bundles',
+            "image": f'{BASE}/assets/tools/{b["slug"]}-cover.jpg', "brand": {"@type": "Brand", "name": "Code Chaos Audio"},
+            "offers": bundle_offer(b)}
+
+
+def bundle_card(b, lang):
+    def label(s):
+        return f'<a href="{tool_path(s, lang)}">{item_name(s)}</a>' if s in TOOLS else item_name(s)
+    lis = '\n'.join(f'            <li>{label(s)} <span>{eur(item_price(s), lang)}</span></li>' for s in b['items'])
+    alt = f'Cover of the {b["name"]} bundle' if lang == 'en' else f'Cover des Bundles {b["name"]}'
+    price = (f'<strong>{eur(b["price"], lang)}</strong> instead of <s>{eur(b["single"], lang)}</s> · you save {eur(b["save"], lang)}'
+             if lang == 'en' else
+             f'<strong>{eur(b["price"], lang)}</strong> statt <s>{eur(b["single"], lang)}</s> · du sparst {eur(b["save"], lang)}')
+    btn = 'Buy the bundle on Gumroad' if lang == 'en' else 'Bundle auf Gumroad kaufen'
+    return f'''      <article class="tool-card bundle-card" id="{b["slug"]}">
+        <div class="tool-card-img"><picture><source srcset="/assets/tools/{b["slug"]}-card.webp" type="image/webp"><img src="/assets/tools/{b["slug"]}-card.jpg" alt="{html.escape(alt)}" width="800" height="450" loading="lazy" decoding="async"></picture></div>
+        <h3>{b["name"]}</h3>
+        <p>{b[lang]}</p>
+        <p class="bundle-price">{price}</p>
+        <ul class="bundle-list">
+{lis}
+        </ul>
+        <div class="cta-row">
+          <a href="{gum(b["slug"], b["slug"], lang)}" class="cta-btn" rel="noopener" data-track="tools-{b["slug"]}-buy-hub">{btn} · {eur(b["price"], lang)}</a>
+        </div>
+      </article>'''
+
+
+def bundle_note(t, lang):
+    """Short bundle hint on the black metal tool pages."""
+    bs = [BUNDLE[s] for s in t.get('bundles', [])]
+    if not bs:
+        return ''
+    sid = f'{t["slug"][:2]}-bundle'
+    hub = TT[lang]['hub_path'] + '#bundles'
+    lis = []
+    for b in bs:
+        parts = ', '.join(item_name(s) for s in b['items'])
+        link = f'<a href="{gum(b["slug"], t["slug"], lang)}" rel="noopener" data-track="tools-{b["slug"]}-{t["slug"]}">{b["name"]}</a>'
+        if lang == 'en':
+            lis.append(f'      <li><strong>{link}</strong>: {eur(b["price"], lang)} instead of {eur(b["single"], lang)} (save {eur(b["save"], lang)}). Contains {parts}.</li>')
+        else:
+            lis.append(f'      <li><strong>{link}</strong>: {eur(b["price"], lang)} statt {eur(b["single"], lang)} (du sparst {eur(b["save"], lang)}). Enthält {parts}.</li>')
+    if lang == 'en':
+        h = f'Cheaper in <em>a bundle</em>'
+        p = (f'{t["name"]} is part of the Code Chaos Black Metal Suite. ' +
+             ('It is included in both bundles:' if len(bs) > 1 else 'It is included in the Complete bundle:'))
+        more = f'<a href="{hub}">Compare the bundles</a>. Bought separately, {t["name"]} costs {eur(t["price"], lang)}.'
+    else:
+        h = f'Günstiger im <em>Bundle</em>'
+        p = (f'{t["name"]} gehört zur Code Chaos Black Metal Suite. ' +
+             ('Es steckt in beiden Bundles:' if len(bs) > 1 else 'Es steckt im Complete-Bundle:'))
+        more = f'<a href="{hub}">Bundles vergleichen</a>. Einzeln kostet {t["name"]} {eur(t["price"], lang)}.'
+    inner = f'    <p>{p}</p>\n    <ul>\n' + '\n'.join(lis) + f'\n    </ul>\n    <p>{more}</p>'
+    return sec(sid, h, inner)
 
 
 def price_line(t, lang):
@@ -673,19 +1029,23 @@ def audio_block(t, lang):
     if not t['audio']:
         return ''
     u = TT[lang]
+    def chapter_list(aid, chs):
+        lis = '\n'.join(f'      <li><button type="button" class="chapter-seek" data-audio="{aid}" data-seek="{s}">{mmss(s)}</button> {en if lang == "en" else de}</li>'
+                        for s, en, de in chs)
+        return f'\n    <ol class="chapters">\n{lis}\n    </ol>'
+
     players = []
-    for i, (f, labels) in enumerate(t['audio']):
+    for i, entry in enumerate(t['audio']):
+        f, labels = entry[0], entry[1]
         aid = f'{t["slug"]}-audio-{i}'
-        players.append(f'''    <div class="audio-demo">
+        player = f'''    <div class="audio-demo">
       <p class="audio-label" id="{aid}-label">{labels[lang]}</p>
       <audio id="{aid}" controls preload="metadata" aria-labelledby="{aid}-label" src="/assets/tools/{f}"></audio>
-    </div>''')
-    chapters = ''
-    if t['chapters']:
-        aid = f'{t["slug"]}-audio-0'
-        lis = '\n'.join(f'      <li><button type="button" class="chapter-seek" data-audio="{aid}" data-seek="{s}">{mmss(s)}</button> {en if lang == "en" else de}</li>'
-                        for s, en, de in t['chapters'])
-        chapters = f'\n    <ol class="chapters">\n{lis}\n    </ol>'
+    </div>'''
+        if len(entry) > 2 and entry[2]:          # chapters for this player
+            player += chapter_list(aid, entry[2])
+        players.append(player)
+    chapters = chapter_list(f'{t["slug"]}-audio-0', t['chapters']) if t['chapters'] else ''
     note = f'\n    <p class="audio-note">{t[lang]["audio_note"]}</p>' if t[lang]['audio_note'] else ''
     return sec(f'{t["slug"][:2]}-listen', f'{u["listen"]}: <em>{t["name"]}</em>', '\n'.join(players) + chapters + note, alt=True)
 
@@ -719,6 +1079,9 @@ def tool_page(t, lang):
             ('Pay what you want, including nothing. The download happens on Gumroad, under Code Chaos Audio.' if lang == 'en'
              else 'Zahl, was du willst, auch nichts. Der Download läuft über Gumroad, unter Code Chaos Audio.')
     master_inner = f'    <p>{L["master"]}</p>\n    <p>{prices} {master_link}.</p>'
+    # keep the alternating section backgrounds when the bundle hint adds a section
+    faq_alt, rel_alt = (' alt', '') if t.get('bundles') else ('', ' alt')
+    bundle_block = ('\n' + bundle_note(t, lang)) if t.get('bundles') else ''
     body = f'''{breadcrumb_html(crumbs, 'Brotkrumen' if lang == 'de' else 'Breadcrumb')}
 <header class="page-hero">
   <div class="wrap">
@@ -728,7 +1091,7 @@ def tool_page(t, lang):
     <div class="cta-row">
       {cta_buttons(t, lang, "hero")}
     </div>
-    <p class="meta-line">{price_line(t, lang)} · {os_line(t, lang)} · VST3 + Standalone<br>{u["made"]}</p>
+    <p class="meta-line">{price_line(t, lang)} · {os_line(t, lang)} · {format_line(t, lang)}<br>{u["made"]}</p>
   </div>
 </header>
 <section class="content-section tool-shots" aria-label="{u["shot"]}">
@@ -739,14 +1102,14 @@ def tool_page(t, lang):
 {audio_block(t, lang)}
 {sections}
 {sec(f"{slug[:2]}-specs", u["specs"], specs_table(t, lang))}
-{sec(f"{slug[:2]}-master", u["master_h"], master_inner, alt=True)}
-<section class="content-section" aria-labelledby="{slug[:2]}-faq">
+{sec(f"{slug[:2]}-master", u["master_h"], master_inner, alt=True)}{bundle_block}
+<section class="content-section{faq_alt}" aria-labelledby="{slug[:2]}-faq">
   <div class="wrap prose-wrap">
     <h2 id="{slug[:2]}-faq">{u["faq"].format(name=t["name"])}</h2>
 {faq_html(L["faqs"])}
   </div>
 </section>
-<section class="content-section alt" aria-labelledby="{slug[:2]}-rel">
+<section class="content-section{rel_alt}" aria-labelledby="{slug[:2]}-rel">
   <div class="wrap">
     <h2 id="{slug[:2]}-rel">{u["related"]}</h2>
     <div class="related">
@@ -781,17 +1144,21 @@ HUB = {
     'en': dict(
         title='Tools for Bands: Plugins for Metal Mixes | Polished',
         og_title='Tools for bands — Polished',
-        description='Plugins from the mastering desk: Gravesaw amp, Rimehall reverb, the free Kick/Bass Scope and more by Code Chaos Audio. Real demos, honest system notes.',
+        description='Plugins from the mastering desk: Gravesaw amp, Rimehall reverb, Frostfret guitar, Hoarfell drums, a free phase scope and two bundles. Real demo audio.',
         h1='Tools for bands, <em>built next to the mastering desk.</em>',
         lead='<strong>Many problems a mastering engineer finds start much earlier: a fizzy amp tone, a reverb that collapses in mono, a kick and bass that cancel each other.</strong> Tim Borchert, who masters every track at Polished, also builds audio plugins under the label Code Chaos Audio. Here they are with screenshots, real demo audio and plain system requirements. Everything is sold on Gumroad, and most plugins have a free demo.',
         workflow_h='Where each tool <em>fits</em>',
-        workflow=[('Tone', 'Gravesaw turns guitar and bass DIs into a black metal amp and cab sound, with 19 built-in cabs.'),
+        workflow=[('Writing and demos', 'Frostfret plays guitar and bass from MIDI, Hoarfell plays drums, bass and a choir pad. Both are modelled, with no samples, and made for demos and pre-production.'),
+                  ('Tone', 'Gravesaw turns guitar and bass DIs into a black metal amp and cab sound, with 19 built-in cabs.'),
                   ('Space', 'Rimehall adds a cold hall, shimmer and tape, and ducks the reverb while the riff plays.'),
-                  ('Low end', 'Kick/Bass Scope shows whether kick and bass add up or cancel. Free. Crucible saturates bass and buses in three bands.'),
+                  ('Low end', 'Kick/Bass Scope shows whether kick and bass add up or cancel. It is free.'),
+                  ('Saturation', 'Crucible saturates bass, drums and buses in three bands with five saturation types per band.'),
                   ('Electronic layers', 'Shardstep adds tempo-synced stutter and glitch fills, Chaos FM generates FM leads, basses and stabs.')],
         grid_h='All <em>plugins</em>',
         packs_h='Also for black metal: <em>sample and IR packs</em>',
-        packs_p='Not plugins, but from the same workshop and live on Gumroad:',
+        packs_p='Not plugins, but from the same workshop and live on Gumroad. Both packs are also included in both bundles above.',
+        bundles_h='Black Metal Suite: <em>two bundles</em>',
+        bundles_p='The black metal tools are also sold together as the Code Chaos Black Metal Suite, in two sizes. Every plugin inside runs on Windows 10/11 and on Apple Silicon Macs (unsigned, no AU). Buying happens on Gumroad.',
         sys_h='System requirements <em>at a glance</em>',
         sys_cols=('Plugin', 'Price', 'Windows', 'macOS', 'Free demo'),
         yes='Yes', no='No', mac_yes='Apple Silicon only, unsigned', mac_no='No',
@@ -799,23 +1166,29 @@ HUB = {
         master_h='Tools don\'t replace <em>a master</em>',
         master_p='These plugins help you get a mix ready. A release that sounds right on earbuds, in the car and after streaming normalisation still needs a mastering pass with fresh ears. At Polished every master starts with a written audio audit of your mix, from €79 per track incl. VAT, unlimited revisions.',
         faqs=[('Who makes these plugins?', 'Tim Borchert, the mastering engineer behind Polished, builds them under the label Code Chaos Audio. Polished links to them; buying and downloading happens on Gumroad.'),
-              ('Do the plugins run on a Mac?', 'Gravesaw, Rimehall, Shardstep and Kick/Bass Scope run on Apple Silicon Macs as VST3 and Standalone. There are no Intel builds and no AU versions, and the macOS builds are not signed or notarized. Crucible and Chaos FM are Windows only.'),
-              ('Can I try them before buying?', 'Yes. Gravesaw, Rimehall, Shardstep, Crucible and Chaos FM each have a free demo on Gumroad: the full plugin with a short noise burst every 45 seconds. Kick/Bass Scope is free.')],
+              ('Do the plugins run on a Mac?', 'Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep and Kick/Bass Scope run on Apple Silicon Macs as VST3 and Standalone. There are no Intel builds and no AU versions, and the macOS builds are not signed or notarized. Crucible and Chaos FM are Windows only.'),
+              ('Can I try them before buying?', 'Yes. Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep, Crucible and Chaos FM each have a free demo on Gumroad: the full plugin with a short noise burst every 45 seconds. Kick/Bass Scope is free.'),
+              ('Do Frostfret and Hoarfell sound like real recordings?', 'They are modelled, with no samples. Distorted and acoustic guitars come closest to a recording, the clean electric guitar sounds the most synthetic. The drums are made for demos and pre-production, and the choir sings vowels only, as a pad behind the mix. Each page has demo audio to judge for yourself.'),
+              ('Is there a bundle?', 'Yes, two. Black Metal Suite Essentials (Gravesaw, Rimehall, Tone Kit, Drum Kit) costs €39 instead of €59. Black Metal Suite Complete adds Frostfret and Hoarfell and costs €69 instead of €105.')],
     ),
     'de': dict(
         title='Tools für Bands: Plugins für Metal-Mixe | Polished',
         og_title='Tools für Bands — Polished',
-        description='Plugins vom Mastering-Platz: Gravesaw-Amp, Rimehall-Hall, der kostenlose Kick/Bass Scope und mehr von Code Chaos Audio. Echte Demos, ehrliche Systemangaben.',
+        description='Plugins vom Mastering-Platz: Gravesaw-Amp, Rimehall-Hall, Frostfret-Gitarre, Hoarfell-Drums, ein Gratis-Phasen-Scope und zwei Bundles. Echte Audio-Demos.',
         h1='Tools für Bands, <em>gebaut neben dem Mastering-Platz.</em>',
         lead='<strong>Viele Probleme, die beim Mastering auffallen, entstehen viel früher: ein fizziger Amp-Sound, ein Hall, der in Mono zusammenfällt, Kick und Bass, die sich gegenseitig auslöschen.</strong> Tim Borchert, der bei Polished jeden Track mastert, baut unter dem Label Code Chaos Audio auch Audio-Plugins. Hier findest du sie mit Screenshots, echter Audio-Demo und klaren Systemangaben. Verkauft wird alles über Gumroad, und für die meisten Plugins gibt es eine Gratis-Demo.',
         workflow_h='Wo welches Tool <em>hingehört</em>',
-        workflow=[('Sound', 'Gravesaw macht aus Gitarren- und Bass-DIs einen Black-Metal-Amp- und Cab-Sound, mit 19 eingebauten Cabs.'),
+        workflow=[('Songwriting und Demos', 'Frostfret spielt Gitarre und Bass aus MIDI, Hoarfell spielt Drums, Bass und ein Chor-Pad. Beide sind modelliert, ohne Samples, und für Demos und Vorproduktion gemacht.'),
+                  ('Sound', 'Gravesaw macht aus Gitarren- und Bass-DIs einen Black-Metal-Amp- und Cab-Sound, mit 19 eingebauten Cabs.'),
                   ('Raum', 'Rimehall bringt kalten Hall, Shimmer und Tape und duckt den Hall, solange das Riff spielt.'),
-                  ('Low End', 'Kick/Bass Scope zeigt, ob sich Kick und Bass addieren oder auslöschen. Gratis. Crucible sättigt Bass und Busse in drei Bändern.'),
+                  ('Low End', 'Kick/Bass Scope zeigt, ob sich Kick und Bass addieren oder auslöschen. Er ist kostenlos.'),
+                  ('Sättigung', 'Crucible sättigt Bass, Drums und Busse in drei Bändern, mit fünf Sättigungstypen pro Band.'),
                   ('Elektronische Layer', 'Shardstep liefert taktsynchrone Stutter- und Glitch-Fills, Chaos FM erzeugt FM-Leads, -Bässe und -Stabs.')],
         grid_h='Alle <em>Plugins</em>',
         packs_h='Außerdem für Black Metal: <em>Sample- und IR-Pakete</em>',
-        packs_p='Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich:',
+        packs_p='Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich. Beide Pakete stecken auch in beiden Bundles oben.',
+        bundles_h='Black Metal Suite: <em>zwei Bundles</em>',
+        bundles_p='Die Black-Metal-Tools gibt es auch zusammen als Code Chaos Black Metal Suite, in zwei Größen. Jedes enthaltene Plugin läuft unter Windows 10/11 und auf Macs mit Apple Silicon (unsigniert, kein AU). Gekauft wird über Gumroad.',
         sys_h='Systemanforderungen <em>auf einen Blick</em>',
         sys_cols=('Plugin', 'Preis', 'Windows', 'macOS', 'Gratis-Demo'),
         yes='Ja', no='Nein', mac_yes='Nur Apple Silicon, unsigniert', mac_no='Nein',
@@ -823,8 +1196,10 @@ HUB = {
         master_h='Tools ersetzen <em>keinen Master</em>',
         master_p='Diese Plugins helfen dir, einen Mix fertig zu machen. Ein Release, das auf Earbuds, im Auto und nach der Lautheitsnormalisierung der Streamingdienste stimmt, braucht trotzdem einen Mastering-Durchgang mit frischen Ohren. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, ab 79 € pro Track inkl. USt., unbegrenzte Revisionen.',
         faqs=[('Wer entwickelt diese Plugins?', 'Tim Borchert, der Mastering Engineer hinter Polished, baut sie unter dem Label Code Chaos Audio. Polished verlinkt sie; Kauf und Download laufen über Gumroad.'),
-              ('Laufen die Plugins auf dem Mac?', 'Gravesaw, Rimehall, Shardstep und Kick/Bass Scope laufen auf Macs mit Apple Silicon als VST3 und Standalone. Es gibt keine Intel-Builds und keine AU-Versionen, und die macOS-Builds sind nicht signiert und nicht notarisiert. Crucible und Chaos FM gibt es nur für Windows.'),
-              ('Kann ich sie vor dem Kauf testen?', 'Ja. Für Gravesaw, Rimehall, Shardstep, Crucible und Chaos FM gibt es auf Gumroad jeweils eine Gratis-Demo: das volle Plugin mit einem kurzen Rauschstoß alle 45 Sekunden. Kick/Bass Scope ist kostenlos.')],
+              ('Laufen die Plugins auf dem Mac?', 'Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep und Kick/Bass Scope laufen auf Macs mit Apple Silicon als VST3 und Standalone. Es gibt keine Intel-Builds und keine AU-Versionen, und die macOS-Builds sind nicht signiert und nicht notarisiert. Crucible und Chaos FM gibt es nur für Windows.'),
+              ('Kann ich sie vor dem Kauf testen?', 'Ja. Für Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep, Crucible und Chaos FM gibt es auf Gumroad jeweils eine Gratis-Demo: das volle Plugin mit einem kurzen Rauschstoß alle 45 Sekunden. Kick/Bass Scope ist kostenlos.'),
+              ('Klingen Frostfret und Hoarfell wie echte Aufnahmen?', 'Sie sind modelliert, ohne Samples. Verzerrte und akustische Gitarren kommen einer Aufnahme am nächsten, die cleane E-Gitarre klingt am deutlichsten synthetisch. Die Drums sind für Demos und Vorproduktion gemacht, und der Chor singt nur Vokale, als Pad hinter dem Mix. Jede Seite hat Audio-Demos zum Selbstprüfen.'),
+              ('Gibt es ein Bundle?', 'Ja, zwei. Black Metal Suite Essentials (Gravesaw, Rimehall, Tone Kit, Drum Kit) kostet 39 € statt 59 €. Black Metal Suite Complete enthält zusätzlich Frostfret und Hoarfell und kostet 69 € statt 105 €.')],
     ),
 }
 
@@ -852,6 +1227,25 @@ def hub_page(lang):
     home = '/de/' if lang == 'de' else '/'
     crumbs = [(u['home'], f'{BASE}{home}'), (u['hub'], f'{BASE}{path}')]
     cards_html = '\n'.join(tool_card(TOOLS[s], lang) for s in TOOL_ORDER)
+    bundles_html = '\n'.join(bundle_card(b, lang) for b in BUNDLES)
+    # ninth tile, so the 3-column plugin grid has no empty cell: points to the bundle section
+    lo = min(b['price'] for b in BUNDLES)
+    if lang == 'en':
+        bt = ('Black Metal Suite bundles', 'Gravesaw, Rimehall, Frostfret, Hoarfell and the two black metal packs, bundled in two sizes.',
+              f'From {eur(lo, lang)} · save up to {eur(max(b["save"] for b in BUNDLES), lang)}', 'Compare the bundles')
+    else:
+        bt = ('Black-Metal-Suite-Bundles', 'Gravesaw, Rimehall, Frostfret, Hoarfell und die zwei Black-Metal-Pakete, gebündelt in zwei Größen.',
+              f'Ab {eur(lo, lang)} · bis zu {eur(max(b["save"] for b in BUNDLES), lang)} gespart', 'Bundles vergleichen')
+    cards_html += f'''
+      <article class="tool-card">
+        <div class="tool-card-img"><picture><source srcset="/assets/tools/black-metal-suite-complete-card.webp" type="image/webp"><img src="/assets/tools/black-metal-suite-complete-card.jpg" alt="{html.escape(bt[0])}" width="800" height="450" loading="lazy" decoding="async"></picture></div>
+        <h3><a href="#bundles">{bt[0]}</a></h3>
+        <p>{bt[1]}</p>
+        <p class="tool-meta">{bt[2]}</p>
+        <div class="cta-row">
+          <a href="#bundles" class="cta-btn outline">{bt[3]} →</a>
+        </div>
+      </article>'''
     flow = cards(H['workflow'])
     packs = '\n'.join(f'      <li><strong><a href="{gum(p["slug"], p["slug"], lang)}" rel="noopener" data-track="tools-{p["slug"]}-hub">{p["name"]}</a></strong> ({eur(p["price"], lang)}): {p[lang]}</li>' for p in PACKS)
     rows = []
@@ -902,7 +1296,21 @@ def hub_page(lang):
     </div>
   </div>
 </section>
-{sec("tl-packs", H["packs_h"], packs_inner)}
+<section class="content-section" id="bundles" aria-labelledby="tl-bundles">
+  <div class="wrap">
+    <div class="prose-wrap prose">
+    <h2 id="tl-bundles">{H["bundles_h"]}</h2>
+    <p>{H["bundles_p"]}</p>
+    </div>
+    <div class="tool-grid bundle-grid">
+{bundles_html}
+    </div>
+    <div class="prose-wrap prose" style="margin-top: 48px;">
+    <h3 id="tl-packs">{H["packs_h"]}</h3>
+{packs_inner}
+    </div>
+  </div>
+</section>
 {sec("tl-sys", H["sys_h"], table, alt=True)}
 {sec("tl-master", H["master_h"], master_inner)}
 <section class="content-section alt" aria-labelledby="tl-faq">
@@ -919,19 +1327,26 @@ def hub_page(lang):
                "url": f"{BASE}{path}", "name": H['title'], "inLanguage": lang,
                "isPartOf": {"@id": f"{BASE}/#website"}, "mainEntity": {"@id": f"{BASE}{path}#plugins"},
                "primaryImageOfPage": f'{BASE}/assets/tools/gravesaw-cover.jpg', "dateModified": TOOLS_TODAY}
-    schemas = [webpage, breadcrumb_schema(crumbs), itemlist, faq_schema(H['faqs'])]
+    schemas = [webpage, breadcrumb_schema(crumbs), itemlist] + [bundle_schema(b, lang, path) for b in BUNDLES] + [faq_schema(H['faqs'])]
     og_alt = 'Gravesaw by Code Chaos Audio' if lang == 'en' else 'Gravesaw von Code Chaos Audio'
     return page(path=path, lang=lang, title=H['title'], description=H['description'], og_title=H['og_title'],
                 body=body, schemas=schemas, counterpart={'en': '/tools/', 'de': '/de/tools/'},
                 og_image=('/assets/tools/gravesaw-cover.jpg', 1280, 720, og_alt))
 
 
-def tools_teaser(lang, sid, heading, intro, slugs, outro='', packs=()):
+def tools_teaser(lang, sid, heading, intro, slugs, outro='', packs=(), bundles=False):
     """Short 'tools for bands' block for the genre pages (internal links to the plugin pages)."""
-    links = [f'        <a href="{tool_path(s, lang)}"><span>Plugin · {price_line(TOOLS[s], lang)}</span>{TOOLS[s]["name"]}</a>' for s in slugs]
+    def kind(t):
+        if t.get('instrument'):
+            return 'Instrument'
+        return 'Plugin'
+    links = [f'        <a href="{tool_path(s, lang)}"><span>{kind(TOOLS[s])} · {price_line(TOOLS[s], lang)}</span>{TOOLS[s]["name"]}</a>' for s in slugs]
     for ps in packs:
         p = next(x for x in PACKS if x['slug'] == ps)
         links.append(f'        <a href="{gum(p["slug"], p["slug"], lang)}" rel="noopener" data-track="tools-{p["slug"]}-{sid}"><span>{"Pack" if lang == "en" else "Paket"} · {eur(p["price"], lang)}</span>{p["name"]}</a>')
+    if bundles:
+        lo = min(b['price'] for b in BUNDLES)
+        links.append(f'        <a href="{TT[lang]["hub_path"]}#bundles"><span>Bundle · {"from" if lang == "en" else "ab"} {eur(lo, lang)}</span>Black Metal Suite</a>')
     hub = TT[lang]['hub_path']
     more = 'All tools for bands' if lang == 'en' else 'Alle Tools für Bands'
     return f'''<section class="content-section" aria-labelledby="{sid}">

@@ -378,13 +378,16 @@ Yes. Solo projects are a big part of the scene and are handled exactly like band
 Can I send stems instead of a stereo mix?
 Yes. Stem mastering (€129 per track, up to 6 stems) is useful in black metal when guitars and cymbals fight in the same range or the kick disappears under the wall. Typical stems are drums, bass, guitars, vocals, keys/synths and FX. The audit tells you whether stems are worth it for your mix.
 ### Recording the album yourself? Tools for bands
-Tim also builds production tools for metal bands under the label Code Chaos Audio. Gravesaw turns guitar and bass DIs into a raw or thick black metal amp sound, Rimehall adds the cold hall and tape grit, and the two packs cover cab IRs and programmed drums. Each plugin page shows how to use it so the mix stays easy to master.
+Tim also builds production tools for metal bands under the label Code Chaos Audio. Gravesaw turns guitar and bass DIs into a raw or thick black metal amp sound, and Rimehall adds the cold hall and tape grit. For writing and demos, Frostfret plays guitar and bass from MIDI and Hoarfell plays blast-ready drums, bass and a choir pad; both are modelled, with no samples. The two packs cover cab IRs and programmed drums, and everything comes together in the Black Metal Suite bundles. Each page shows how to use the tool so the mix stays easy to master.
 Plugin · €19Gravesaw
 Plugin · €19Rimehall
+Instrument · €29Frostfret
+Instrument · €17Hoarfell
 Plugin · Free · pay what you wantKick/Bass Scope
 Plugin · €19Crucible
 Pack · €9Black Metal Tone Kit
 Pack · €12Black Metal Drum Kit
+Bundle · from €39Black Metal Suite
 When the record is done, request an audio audit. All tools for bands →
 ### Other genres
 GenreDeath Metal Mastering
@@ -459,13 +462,16 @@ Ja. Soloprojekte sind ein großer Teil der Szene und werden genauso behandelt wi
 Kann ich Stems statt eines Stereo-Mixes schicken?
 Ja. Stem-Mastering (129 € pro Track inkl. USt., bis zu 6 Stems) lohnt sich bei Black Metal, wenn Gitarren und Becken im selben Bereich kämpfen oder die Kick unter der Wand verschwindet. Typische Stems sind Drums, Bass, Gitarren, Vocals, Keys/Synths und FX. Das Audit sagt dir, ob Stems für deinen Mix sinnvoll sind.
 ### Album selbst aufnehmen? Tools für Bands
-Tim baut unter dem Label Code Chaos Audio auch Produktions-Tools für Metal-Bands. Gravesaw macht aus Gitarren- und Bass-DIs einen rohen oder dicken Black-Metal-Amp-Sound, Rimehall bringt die kalte Halle und den Tape-Dreck, und die zwei Pakete liefern Cab-IRs und programmierte Drums. Jede Plugin-Seite zeigt, wie du es so einsetzt, dass der Mix gut masterbar bleibt.
+Tim baut unter dem Label Code Chaos Audio auch Produktions-Tools für Metal-Bands. Gravesaw macht aus Gitarren- und Bass-DIs einen rohen oder dicken Black-Metal-Amp-Sound, und Rimehall bringt die kalte Halle und den Tape-Dreck. Für Songwriting und Demos spielt Frostfret Gitarre und Bass aus MIDI, Hoarfell blast-taugliche Drums, Bass und ein Chor-Pad; beide sind modelliert, ohne Samples. Die zwei Pakete liefern Cab-IRs und programmierte Drums, und alles zusammen gibt es in den Black-Metal-Suite-Bundles. Jede Seite zeigt, wie du das Tool so einsetzt, dass der Mix gut masterbar bleibt.
 Plugin · 19 €Gravesaw
 Plugin · 19 €Rimehall
+Instrument · 29 €Frostfret
+Instrument · 17 €Hoarfell
 Plugin · Gratis · Preis frei wählbarKick/Bass Scope
 Plugin · 19 €Crucible
 Paket · 9 €Black Metal Tone Kit
 Paket · 12 €Black Metal Drum Kit
+Bundle · ab 39 €Black Metal Suite
 Wenn die Platte fertig ist: Audio-Audit anfragen. Alle Tools für Bands →
 ### Weitere Genres
 GenreDeath Metal Mastering
@@ -694,10 +700,13 @@ Yes. Gothic rock, darkwave, deathrock and gothic metal are all part of the focus
 Can you prepare a vinyl master?
 Yes. A vinyl-ready master is available on request for album projects. Vinyl benefits from preserved dynamics, a mono-compatible low end and controlled sibilance, which suits doom and gothic material well. Mention vinyl in your brief so it's planned from the audit onward.
 ### Slow, heavy and wide: tools for bands
-Gravesaw has a Tight control that can stay low for a full doom bottom, plus a Doom Bass Deep preset for the bass DI. Rimehall adds long, dark halls with decays up to 30 seconds and ducks them while the riff plays. Both are made by Tim under the label Code Chaos Audio.
+Gravesaw has a Tight control that can stay low for a full doom bottom, plus a Doom Bass Deep preset for the bass DI. Rimehall adds long, dark halls with decays up to 30 seconds and ducks them while the riff plays. For demos, Frostfret plays guitar and bass from MIDI in tunings down to B standard, and Hoarfell adds drums, a cathedral organ, a strings pad and a choir pad to sit behind the mix. All of them are made by Tim under the label Code Chaos Audio.
 Plugin · €19Gravesaw
 Plugin · €19Rimehall
+Instrument · €29Frostfret
+Instrument · €17Hoarfell
 Plugin · Free · pay what you wantKick/Bass Scope
+Bundle · from €39Black Metal Suite
 All tools for bands →
 ### Other genres
 GenreBlack Metal Mastering
@@ -772,10 +781,13 @@ Ja. Gothic Rock, Darkwave, Deathrock und Gothic Metal gehören alle zum Schwerpu
 Gibt es auch einen Vinyl-Master?
 Ja. Ein Vinyl-Master ist für Album-Projekte auf Anfrage möglich. Vinyl profitiert von erhaltener Dynamik, einem monokompatiblen Low End und kontrollierten Zischlauten, was gut zu Doom und Gothic passt. Erwähne Vinyl im Briefing, dann wird es ab dem Audit mitgeplant.
 ### Langsam, schwer und weit: Tools für Bands
-Gravesaw hat einen Tight-Regler, der für ein volles Doom-Fundament tief bleiben kann, dazu das Preset Doom Bass Deep für die Bass-DI. Rimehall liefert lange, dunkle Hallräume mit bis zu 30 Sekunden Nachhall und duckt sie, solange das Riff spielt. Beide stammen von Tim, unter dem Label Code Chaos Audio.
+Gravesaw hat einen Tight-Regler, der für ein volles Doom-Fundament tief bleiben kann, dazu das Preset Doom Bass Deep für die Bass-DI. Rimehall liefert lange, dunkle Hallräume mit bis zu 30 Sekunden Nachhall und duckt sie, solange das Riff spielt. Für Demos spielt Frostfret Gitarre und Bass aus MIDI, in Stimmungen bis hinunter zu B-Standard, und Hoarfell ergänzt Drums, Kirchenorgel, Streicher-Pad und ein Chor-Pad, das hinter dem Mix sitzt. Alle stammen von Tim, unter dem Label Code Chaos Audio.
 Plugin · 19 €Gravesaw
 Plugin · 19 €Rimehall
+Instrument · 29 €Frostfret
+Instrument · 17 €Hoarfell
 Plugin · Gratis · Preis frei wählbarKick/Bass Scope
+Bundle · ab 39 €Black Metal Suite
 Alle Tools für Bands →
 ### Weitere Genres
 GenreBlack Metal Mastering
@@ -1334,15 +1346,21 @@ Free: Kick/Bass Scope
 Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
 ### Where each tool fits
 / 01
+#### Writing and demos
+Frostfret plays guitar and bass from MIDI, Hoarfell plays drums, bass and a choir pad. Both are modelled, with no samples, and made for demos and pre-production.
+/ 02
 #### Tone
 Gravesaw turns guitar and bass DIs into a black metal amp and cab sound, with 19 built-in cabs.
-/ 02
+/ 03
 #### Space
 Rimehall adds a cold hall, shimmer and tape, and ducks the reverb while the riff plays.
-/ 03
-#### Low end
-Kick/Bass Scope shows whether kick and bass add up or cancel. Free. Crucible saturates bass and buses in three bands.
 / 04
+#### Low end
+Kick/Bass Scope shows whether kick and bass add up or cancel. It is free.
+/ 05
+#### Saturation
+Crucible saturates bass, drums and buses in three bands with five saturation types per band.
+/ 06
 #### Electronic layers
 Shardstep adds tempo-synced stutter and glitch fills, Chaos FM generates FM leads, basses and stabs.
 ### All plugins
@@ -1357,6 +1375,18 @@ Cold hall, octave shimmer and tape grit on one bus, with ducking so fast riffs s
 €19 · Windows 10/11 · macOS Apple Silicon
 Free demo →
 Buy on Gumroad · €19
+Details & audio →
+#### Frostfret
+Modelled guitar and bass you play from MIDI: tremolo, palm mute, double tracking, amp built in or DI out.
+€29 · Windows 10/11 · macOS Apple Silicon
+Free demo →
+Buy on Gumroad · €29
+Details & audio →
+#### Hoarfell
+Modelled drums on the GM map, bass and a choir pad from MIDI, made for blast beats in demos and pre-production.
+€17 · Windows 10/11 · macOS Apple Silicon
+Free demo →
+Buy on Gumroad · €17
 Details & audio →
 #### Kick/Bass Scope
 Free analyzer that lays kick and bass on top of each other and warns you when they cancel.
@@ -1381,14 +1411,40 @@ Details & audio →
 Free demo →
 Buy on Gumroad · €19
 Details & audio →
-### Also for black metal: sample and IR packs
-Not plugins, but from the same workshop and live on Gumroad:
+#### Black Metal Suite bundles
+Gravesaw, Rimehall, Frostfret, Hoarfell and the two black metal packs, bundled in two sizes.
+From €39 · save up to €36
+Compare the bundles →
+### Black Metal Suite: two bundles
+The black metal tools are also sold together as the Code Chaos Black Metal Suite, in two sizes. Every plugin inside runs on Windows 10/11 and on Apple Silicon Macs (unsigned, no AU). Buying happens on Gumroad.
+#### Black Metal Suite Essentials
+Amp, reverb, cab IRs and drum samples with MIDI: the mixing side of a black metal record.
+€39 instead of €59 · you save €20
+- Gravesaw €19
+- Rimehall €19
+- Black Metal Tone Kit €9
+- Black Metal Drum Kit €12
+Buy the bundle on Gumroad · €39
+#### Black Metal Suite Complete
+Everything in Essentials plus the two instruments: write, demo and mix a song without a sample library.
+€69 instead of €105 · you save €36
+- Frostfret €29
+- Hoarfell €17
+- Gravesaw €19
+- Rimehall €19
+- Black Metal Tone Kit €9
+- Black Metal Drum Kit €12
+Buy the bundle on Gumroad · €69
+#### Also for black metal: sample and IR packs
+Not plugins, but from the same workshop and live on Gumroad. Both packs are also included in both bundles above.
 - Black Metal Tone Kit (€9): 19 synthesised cab IRs (48 and 44.1 kHz) plus REAPER FX chains for guitar and bass. Works with NAM and any IR loader. The cabs inside Gravesaw are these IRs.
 - Black Metal Drum Kit (€12): 47 synthesised drum samples and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM. The drums in the Gravesaw and Rimehall demos come from it.
 ### System requirements at a glance
 PluginPriceWindowsmacOSFree demo
 Gravesaw€19YesApple Silicon only, unsignedYes
 Rimehall€19YesApple Silicon only, unsignedYes
+Frostfret€29YesApple Silicon only, unsignedYes
+Hoarfell€17YesApple Silicon only, unsignedYes
 Kick/Bass ScopeFree · pay what you wantYesApple Silicon only, unsigned—
 Crucible€19YesNoYes
 Shardstep€15YesApple Silicon only, unsignedYes
@@ -1401,9 +1457,13 @@ Request an audio audit →
 Who makes these plugins?
 Tim Borchert, the mastering engineer behind Polished, builds them under the label Code Chaos Audio. Polished links to them; buying and downloading happens on Gumroad.
 Do the plugins run on a Mac?
-Gravesaw, Rimehall, Shardstep and Kick/Bass Scope run on Apple Silicon Macs as VST3 and Standalone. There are no Intel builds and no AU versions, and the macOS builds are not signed or notarized. Crucible and Chaos FM are Windows only.
+Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep and Kick/Bass Scope run on Apple Silicon Macs as VST3 and Standalone. There are no Intel builds and no AU versions, and the macOS builds are not signed or notarized. Crucible and Chaos FM are Windows only.
 Can I try them before buying?
-Yes. Gravesaw, Rimehall, Shardstep, Crucible and Chaos FM each have a free demo on Gumroad: the full plugin with a short noise burst every 45 seconds. Kick/Bass Scope is free.
+Yes. Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep, Crucible and Chaos FM each have a free demo on Gumroad: the full plugin with a short noise burst every 45 seconds. Kick/Bass Scope is free.
+Do Frostfret and Hoarfell sound like real recordings?
+They are modelled, with no samples. Distorted and acoustic guitars come closest to a recording, the clean electric guitar sounds the most synthetic. The drums are made for demos and pre-production, and the choir sings vowels only, as a pad behind the mix. Each page has demo audio to judge for yourself.
+Is there a bundle?
+Yes, two. Black Metal Suite Essentials (Gravesaw, Rimehall, Tone Kit, Drum Kit) costs €39 instead of €59. Black Metal Suite Complete adds Frostfret and Hoarfell and costs €69 instead of €105.
 
 ---
 
@@ -1418,15 +1478,21 @@ Gratis: Kick/Bass Scope
 Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
 ### Wo welches Tool hingehört
 / 01
+#### Songwriting und Demos
+Frostfret spielt Gitarre und Bass aus MIDI, Hoarfell spielt Drums, Bass und ein Chor-Pad. Beide sind modelliert, ohne Samples, und für Demos und Vorproduktion gemacht.
+/ 02
 #### Sound
 Gravesaw macht aus Gitarren- und Bass-DIs einen Black-Metal-Amp- und Cab-Sound, mit 19 eingebauten Cabs.
-/ 02
+/ 03
 #### Raum
 Rimehall bringt kalten Hall, Shimmer und Tape und duckt den Hall, solange das Riff spielt.
-/ 03
-#### Low End
-Kick/Bass Scope zeigt, ob sich Kick und Bass addieren oder auslöschen. Gratis. Crucible sättigt Bass und Busse in drei Bändern.
 / 04
+#### Low End
+Kick/Bass Scope zeigt, ob sich Kick und Bass addieren oder auslöschen. Er ist kostenlos.
+/ 05
+#### Sättigung
+Crucible sättigt Bass, Drums und Busse in drei Bändern, mit fünf Sättigungstypen pro Band.
+/ 06
 #### Elektronische Layer
 Shardstep liefert taktsynchrone Stutter- und Glitch-Fills, Chaos FM erzeugt FM-Leads, -Bässe und -Stabs.
 ### Alle Plugins
@@ -1441,6 +1507,18 @@ Kalter Hall, Oktav-Shimmer und Tape-Dreck auf einem Bus, mit Ducking, damit schn
 19 € · Windows 10/11 · macOS Apple Silicon
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
+Details & Audio →
+#### Frostfret
+Modellierte Gitarre und Bass, gespielt aus MIDI: Tremolo, Palm Mute, Doppelspur, Amp eingebaut oder DI-Out.
+29 € · Windows 10/11 · macOS Apple Silicon
+Gratis-Demo →
+Auf Gumroad kaufen · 29 €
+Details & Audio →
+#### Hoarfell
+Modellierte Drums auf der GM-Map, Bass und ein Chor-Pad aus MIDI, gebaut für Blastbeats in Demos und Vorproduktion.
+17 € · Windows 10/11 · macOS Apple Silicon
+Gratis-Demo →
+Auf Gumroad kaufen · 17 €
 Details & Audio →
 #### Kick/Bass Scope
 Gratis-Analyzer, der Kick und Bass übereinanderlegt und warnt, wenn sie sich gegenseitig auslöschen.
@@ -1465,14 +1543,40 @@ Details & Audio →
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
 Details & Audio →
-### Außerdem für Black Metal: Sample- und IR-Pakete
-Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich:
+#### Black-Metal-Suite-Bundles
+Gravesaw, Rimehall, Frostfret, Hoarfell und die zwei Black-Metal-Pakete, gebündelt in zwei Größen.
+Ab 39 € · bis zu 36 € gespart
+Bundles vergleichen →
+### Black Metal Suite: zwei Bundles
+Die Black-Metal-Tools gibt es auch zusammen als Code Chaos Black Metal Suite, in zwei Größen. Jedes enthaltene Plugin läuft unter Windows 10/11 und auf Macs mit Apple Silicon (unsigniert, kein AU). Gekauft wird über Gumroad.
+#### Black Metal Suite Essentials
+Amp, Hall, Cab-IRs und Drum-Samples mit MIDI: die Mix-Seite einer Black-Metal-Platte.
+39 € statt 59 € · du sparst 20 €
+- Gravesaw 19 €
+- Rimehall 19 €
+- Black Metal Tone Kit 9 €
+- Black Metal Drum Kit 12 €
+Bundle auf Gumroad kaufen · 39 €
+#### Black Metal Suite Complete
+Alles aus Essentials plus die zwei Instrumente: einen Song schreiben, als Demo hören und mischen, ohne Sample-Library.
+69 € statt 105 € · du sparst 36 €
+- Frostfret 29 €
+- Hoarfell 17 €
+- Gravesaw 19 €
+- Rimehall 19 €
+- Black Metal Tone Kit 9 €
+- Black Metal Drum Kit 12 €
+Bundle auf Gumroad kaufen · 69 €
+#### Außerdem für Black Metal: Sample- und IR-Pakete
+Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich. Beide Pakete stecken auch in beiden Bundles oben.
 - Black Metal Tone Kit (9 €): 19 synthetisierte Cab-IRs (48 und 44,1 kHz) plus REAPER-FX-Ketten für Gitarre und Bass. Funktioniert mit NAM und jedem IR-Loader. Die Cabs in Gravesaw sind genau diese IRs.
 - Black Metal Drum Kit (12 €): 47 synthetisierte Drum-Samples und 30 MIDI-Grooves für Blastbeats, Galopp und Doom, von 60 bis 230 BPM. Die Drums in den Demos von Gravesaw und Rimehall stammen daraus.
 ### Systemanforderungen auf einen Blick
 PluginPreisWindowsmacOSGratis-Demo
 Gravesaw19 €JaNur Apple Silicon, unsigniertJa
 Rimehall19 €JaNur Apple Silicon, unsigniertJa
+Frostfret29 €JaNur Apple Silicon, unsigniertJa
+Hoarfell17 €JaNur Apple Silicon, unsigniertJa
 Kick/Bass ScopeGratis · Preis frei wählbarJaNur Apple Silicon, unsigniert—
 Crucible19 €JaNeinJa
 Shardstep15 €JaNur Apple Silicon, unsigniertJa
@@ -1485,9 +1589,13 @@ Audio-Audit anfragen →
 Wer entwickelt diese Plugins?
 Tim Borchert, der Mastering Engineer hinter Polished, baut sie unter dem Label Code Chaos Audio. Polished verlinkt sie; Kauf und Download laufen über Gumroad.
 Laufen die Plugins auf dem Mac?
-Gravesaw, Rimehall, Shardstep und Kick/Bass Scope laufen auf Macs mit Apple Silicon als VST3 und Standalone. Es gibt keine Intel-Builds und keine AU-Versionen, und die macOS-Builds sind nicht signiert und nicht notarisiert. Crucible und Chaos FM gibt es nur für Windows.
+Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep und Kick/Bass Scope laufen auf Macs mit Apple Silicon als VST3 und Standalone. Es gibt keine Intel-Builds und keine AU-Versionen, und die macOS-Builds sind nicht signiert und nicht notarisiert. Crucible und Chaos FM gibt es nur für Windows.
 Kann ich sie vor dem Kauf testen?
-Ja. Für Gravesaw, Rimehall, Shardstep, Crucible und Chaos FM gibt es auf Gumroad jeweils eine Gratis-Demo: das volle Plugin mit einem kurzen Rauschstoß alle 45 Sekunden. Kick/Bass Scope ist kostenlos.
+Ja. Für Gravesaw, Rimehall, Frostfret, Hoarfell, Shardstep, Crucible und Chaos FM gibt es auf Gumroad jeweils eine Gratis-Demo: das volle Plugin mit einem kurzen Rauschstoß alle 45 Sekunden. Kick/Bass Scope ist kostenlos.
+Klingen Frostfret und Hoarfell wie echte Aufnahmen?
+Sie sind modelliert, ohne Samples. Verzerrte und akustische Gitarren kommen einer Aufnahme am nächsten, die cleane E-Gitarre klingt am deutlichsten synthetisch. Die Drums sind für Demos und Vorproduktion gemacht, und der Chor singt nur Vokale, als Pad hinter dem Mix. Jede Seite hat Audio-Demos zum Selbstprüfen.
+Gibt es ein Bundle?
+Ja, zwei. Black Metal Suite Essentials (Gravesaw, Rimehall, Tone Kit, Drum Kit) kostet 39 € statt 59 €. Black Metal Suite Complete enthält zusätzlich Frostfret und Hoarfell und kostet 69 € statt 105 €.
 
 ---
 
@@ -1543,6 +1651,11 @@ Checkout, payment and any applicable taxes are handled by Gumroad. Polished only
 ### Tool, mix or master?
 For rehearsal demos and pre-production, a Gravesaw tone in a rough mix is all you need. When the songs go to Bandcamp, streaming or a label, a separate mastering pass with fresh ears pays off: loudness for each platform, harshness under control, low end checked in mono. Polished starts every master with a written audio audit of your mix, so you know what to fix in the mix first. See black metal mastering.
 Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Cheaper in a bundle
+Gravesaw is part of the Code Chaos Black Metal Suite. It is included in both bundles:
+- Black Metal Suite Essentials : €39 instead of €59 (save €20). Contains Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+- Black Metal Suite Complete : €69 instead of €105 (save €36). Contains Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Compare the bundles. Bought separately, Gravesaw costs €19.
 ### Gravesaw FAQ
 Does Gravesaw run on a Mac?
 Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized: macOS blocks it at first, and you allow it under System Settings → Privacy & Security.
@@ -1554,8 +1667,8 @@ Does a good amp tone make mastering unnecessary?
 No. Gravesaw shapes the guitar and bass inside your mix. Mastering works on the finished mix: loudness, tonal balance across the whole song, consistency across a release. A good tone makes that job easier, it does not replace it.
 ### More tools
 €19Rimehall
+€29Frostfret
 Free · pay what you wantKick/Bass Scope
-€19Crucible
 All tools for bands →
 ### Try Gravesaw free.
 The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
@@ -1616,6 +1729,11 @@ Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gum
 ### Tool, Mix oder Master?
 Für Proberaum-Demos und Vorproduktion reicht ein Gravesaw-Sound im groben Mix völlig. Wenn die Songs auf Bandcamp, zu Streamingdiensten oder zu einem Label gehen, lohnt sich ein eigener Mastering-Durchgang mit frischen Ohren: Lautheit für jede Plattform, Schärfe unter Kontrolle, Low End in Mono geprüft. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, damit du weißt, was du vorher im Mix ändern solltest. Mehr dazu: Black Metal Mastering.
 Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Günstiger im Bundle
+Gravesaw gehört zur Code Chaos Black Metal Suite. Es steckt in beiden Bundles:
+- Black Metal Suite Essentials : 39 € statt 59 € (du sparst 20 €). Enthält Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+- Black Metal Suite Complete : 69 € statt 105 € (du sparst 36 €). Enthält Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Bundles vergleichen. Einzeln kostet Gravesaw 19 €.
 ### Gravesaw: FAQ
 Läuft Gravesaw auf dem Mac?
 Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert: macOS blockiert ihn zuerst, du gibst ihn unter Systemeinstellungen → Datenschutz & Sicherheit frei.
@@ -1627,8 +1745,8 @@ Macht ein guter Amp-Sound das Mastering überflüssig?
 Nein. Gravesaw formt Gitarre und Bass innerhalb deines Mixes. Mastering arbeitet am fertigen Mix: Lautheit, Klangbalance über den ganzen Song, Einheitlichkeit über ein Release. Ein guter Sound macht diese Arbeit leichter, ersetzt sie aber nicht.
 ### Weitere Tools
 19 €Rimehall
+29 €Frostfret
 Gratis · Preis frei wählbarKick/Bass Scope
-19 €Crucible
 Alle Tools für Bands →
 ### Gravesaw gratis testen.
 Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
@@ -1688,6 +1806,11 @@ Checkout, payment and any applicable taxes are handled by Gumroad. Polished only
 ### Tool, mix or master?
 Reverb decisions are mix decisions, and they are hard to judge on the same speakers you tracked on. If you are unsure whether the hall is too big, the written audio audit at Polished tells you before mastering starts, including whether the mix holds up in mono.
 Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Cheaper in a bundle
+Rimehall is part of the Code Chaos Black Metal Suite. It is included in both bundles:
+- Black Metal Suite Essentials : €39 instead of €59 (save €20). Contains Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+- Black Metal Suite Complete : €69 instead of €105 (save €36). Contains Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Compare the bundles. Bought separately, Rimehall costs €19.
 ### Rimehall FAQ
 Does Rimehall run on a Mac?
 Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized, so you allow it once under System Settings → Privacy & Security.
@@ -1697,8 +1820,8 @@ Is Rimehall only for black metal?
 It is built for black metal and dark ambient, and the presets are named that way (Frozen Forest, Cassette Cathedral, Northern Void). The controls themselves work on any bus where you want a dark, long reverb that steps back while the instrument plays.
 ### More tools
 €19Gravesaw
+€17Hoarfell
 Free · pay what you wantKick/Bass Scope
-€19Crucible
 All tools for bands →
 ### Try Rimehall free.
 The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
@@ -1758,6 +1881,11 @@ Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gum
 ### Tool, Mix oder Master?
 Hall-Entscheidungen sind Mix-Entscheidungen, und auf denselben Boxen, auf denen du aufgenommen hast, sind sie schwer zu beurteilen. Wenn du unsicher bist, ob die Halle zu groß ist, sagt dir das schriftliche Audio-Audit bei Polished das vor dem Mastering, einschließlich der Frage, ob der Mix in Mono hält.
 Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Günstiger im Bundle
+Rimehall gehört zur Code Chaos Black Metal Suite. Es steckt in beiden Bundles:
+- Black Metal Suite Essentials : 39 € statt 59 € (du sparst 20 €). Enthält Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+- Black Metal Suite Complete : 69 € statt 105 € (du sparst 36 €). Enthält Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Bundles vergleichen. Einzeln kostet Rimehall 19 €.
 ### Rimehall: FAQ
 Läuft Rimehall auf dem Mac?
 Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert, du gibst ihn einmal unter Systemeinstellungen → Datenschutz & Sicherheit frei.
@@ -1767,13 +1895,377 @@ Ist Rimehall nur für Black Metal?
 Es ist für Black Metal und Dark Ambient gebaut, und die Presets heißen entsprechend (Frozen Forest, Cassette Cathedral, Northern Void). Die Regler selbst funktionieren auf jedem Bus, auf dem du einen dunklen, langen Hall willst, der zurücktritt, solange das Instrument spielt.
 ### Weitere Tools
 19 €Gravesaw
+17 €Hoarfell
 Gratis · Preis frei wählbarKick/Bass Scope
-19 €Crucible
 Alle Tools für Bands →
 ### Rimehall gratis testen.
 Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
+
+---
+
+## Frostfret: Modelled Guitar VST3 Instrument | Polished
+URL: https://polished.media/tools/frostfret/
+
+Tools for bands · Code Chaos Audio
+## Frostfret: a guitar you play from MIDI, for demos and pre-production
+Frostfret is a VST3 instrument that plays electric, steel-string and nylon guitar and electric bass from MIDI, with modelled strings instead of samples. It belongs to the Code Chaos Black Metal Suite by Tim Borchert, who masters at Polished. It is made for the moment a song exists only in someone's head or in a MIDI file: the riff can be heard as a guitar part with tremolo picking, palm mutes and a double-tracked wall before anyone picks up a real guitar.
+Free demo →
+Buy on Gumroad · €29
+€29 · Windows 10/11 · macOS Apple Silicon · VST3 instrument + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Frostfret with the Wall of Ice (Double Track) preset. Strings and pickup on top, playing style in the middle, the built-in amp below.
+### Hear it: Frostfret
+Black metal: double-tracked tremolo guitars and bass through the built-in amp, 170 BPM, E phrygian (25 s)
+- Intro: tremolo on the open E (Wall of Ice, Double Track)
+- Riff A: tremolo picking with bass (Bass Pick Grind)
+- Palm-muted gallop
+- Riff B, an octave higher
+- Ringing chord to the end
+Acoustic: a strummed steel-string, then a fingerpicked nylon guitar, 100 BPM (26 s)
+- Steel Strummer: strummed chords in E minor
+- Nylon Nocturne: fingerpicked in A minor
+Clean and crunch: a clean arpeggio, then a crunch riff, 110 BPM (23 s)
+- Clean Neck Arpeggio v1 (version 1 sound; clean is the most synthetic-sounding part)
+- Cold Crunch Rhythm v1
+Every note was rendered from MIDI by the plugin code, through Frostfret's built-in amp. No external effects, no drums, no recorded guitar anywhere. The black metal clip is mixed to about -13 LUFS, the acoustic clip to about -16 LUFS, the clean/crunch clip to about -14 LUFS.
+### What Frostfret sounds like, honestly
+Frostfret is a model. Every note is a simulated string that is picked, rings, beats against itself and decays; there are no recorded guitar notes inside. No synthesised guitar sounds exactly like a recorded one, and Frostfret does not either.
+- Closest to a recording: distorted guitars (crunch and high gain) and the steel-string and nylon acoustics. The electric bass is close as well.
+- Most clearly synthetic: the clean electric guitar. You hear it in the first half of the clean/crunch clip above.
+- Two voicings: Natural is the current model, Classic (v1) keeps the darker sound of version 1. The Air knob makes strings and mic brighter or softer.
+Code Chaos Audio checks every sound type with an automated listening model against real recordings, and the result above is what that check says. Listen to the three clips or load the free demo before you buy.
+### A guitar demo without the guitarist
+Many songs start with one person who has the riff but not the time, the tone or the guitar player at hand. With Frostfret, the riff becomes a guitar part the band can rehearse to:
+- Write the part as MIDI. Hold a note and Frostfret picks it as tremolo in 1/16, 1/16 triplets or 1/32, synced to your DAW tempo, with alternating down- and upstrokes. One key plays a power chord. Tunings go from E standard down to B standard, including Drop D and Drop C.
+- Mark the mutes. Palm mute follows a velocity zone, the mod wheel or a keyswitch, and it is continuous. Gallops and chugs sound muted without a second track.
+- Send the demo, keep the MIDI. When the real guitars are recorded later, the MIDI part shows the exact riff and tempo, and the Frostfret track serves as a guide.
+For the final record, a real performance through Gravesaw or a real amp usually still sounds better. For writing, pre-production and rough mixes, Frostfret saves the session.
+### Double tracking that survives mono
+Turn on Double Track and Frostfret plays the same MIDI part as two independent takes, hard left and hard right, each with its own timing and picking. That is how a real rhythm wall is recorded, and it is why the wall holds up when a phone or a club system sums it to mono.
+Below 160 Hz, Frostfret keeps the output mono (with Double Track up to about 250 Hz), so the low end cannot cancel. Every preset is tested for mono compatibility. In the black metal clip on this page, the two sides correlate at 0.97 below 200 Hz, and folding the whole mix to mono costs 1.7 dB. A copied and delayed single take, the usual shortcut, often loses much more and sounds hollow. A master cannot repair that afterwards, which is why the audit at Polished checks phase and mono before every master.
+### DI Out into Gravesaw, or the amp built in
+Frostfret contains the amp of Gravesaw in four modes (Clean, Crunch, Overdrive, High-Gain) with the same 19 synthesised cabs. For a quick demo that is enough. For a mix you may want more control:
+- Switch the amp to DI Out. Frostfret then sends a clean DI signal, and you put Gravesaw or any other amp plugin after it, exactly as with a recorded DI guitar.
+- Print the DI as its own track. Amp decisions stay open until the mix, and you can re-amp the part without playing the MIDI again.
+- Set the amp gate before it matters. The noise between riffs gets louder in mastering, so gate it in the mix, not in the master.
+Export the finished mix with 3 to 6 dB of headroom and no limiter on the master bus. The black metal mastering page explains what happens after that.
+### At a glance
+DetailFrostfret
+Price€29 on Gumroad, free demo available
+FormatVST3 instrument + Standalone, played from MIDI
+WindowsWindows 10/11: VST3 + Standalone
+macOSApple Silicon (arm64) only, no Intel build. VST3 + Standalone, not signed or notarized : macOS blocks it at first, allow it under System Settings → Privacy & Security.
+AU / Logic ProNo AU version, so Logic Pro is not supported.
+Copy protectionNo licence server, no login, no online check.
+GuitarsElectric (bridge and neck humbucker, three single coils, tone pot), steel-string and nylon acoustic with modelled bodies and mic positions (12th fret, soundhole, lower bout), piezo or mic + piezo
+BassElectric bass with finger, pick and light slap, three bass cabs or DI
+TuningsE, Eb, D and C standard, Drop D, Drop C, B standard (7-string / 5-string)
+PlayingTremolo picking synced to the host (1/16, 1/16 triplet, 1/32), power chords, palm mute, legato, slides, bends, vibrato, harmonics, dead notes, strumming, Humanize, Double Track
+AmpGravesaw amp DSP: Clean, Crunch, Overdrive, High-Gain, 19 synthesised cabs, or DI Out
+Sound sourceModelled strings and bodies, no samples. Closest to a recording: distorted and acoustic guitars. Most clearly synthetic: clean electric.
+Presets30: 10 electric, 6 acoustic, 4 brighter variants, 4 version 1 sounds, 6 bass
+StereoWidth only from Double Track and the room; mono below 160 Hz
+Latency61 samples (1.4 ms at 44.1 kHz), reported to the DAW
+TestingAutomated checks on every preset at 44.1, 48 and 96 kHz (no clicks, no silence, peaks below -0.3 dBFS, mono check). Not tried in every DAW yet.
+DemoThe free demo is the complete plugin; it plays a short noise burst every 45 seconds.
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+A Frostfret demo is a sketch of the record. Once real guitars, bass and drums are recorded, the mix decides how the album sounds, and the master decides how it translates to earbuds, car speakers and streaming normalisation. Polished starts every master with a written audio audit of your mix, including phase and mono checks of the guitar wall. See black metal mastering.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Cheaper in a bundle
+Frostfret is part of the Code Chaos Black Metal Suite. It is included in the Complete bundle:
+- Black Metal Suite Complete : €69 instead of €105 (save €36). Contains Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Compare the bundles. Bought separately, Frostfret costs €29.
+### Frostfret FAQ
+Does Frostfret sound like a real guitar?
+Close, depending on the sound. Distorted and acoustic guitars come closest to a recording, the clean electric guitar sounds the most synthetic. Frostfret is modelled and uses no samples. Listen to the three demo clips on this page or try the free demo.
+Can Frostfret replace the guitarist on our album?
+For demos, songwriting and pre-production it can stand in. For a release, recorded guitars usually still sound better, and the Frostfret MIDI part then serves as a guide for the real takes.
+Can I use my own amp plugin?
+Yes. Set the amp to DI Out; Frostfret then sends a clean DI signal, and you put Gravesaw or any other amp after it.
+Does it run on a Mac?
+Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized: macOS blocks it at first, and you allow it under System Settings → Privacy & Security.
+Is there a free trial?
+Yes. The Frostfret demo on Gumroad is the full instrument with all 30 presets; it plays a short noise burst every 45 seconds.
+### More tools
+€19Gravesaw
+€17Hoarfell
+€19Rimehall
+All tools for bands →
+### Try Frostfret free.
+The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
+Free demo →
+Buy on Gumroad · €29
+
+---
+
+## Frostfret: modellierte Gitarre als VST3 | Polished
+URL: https://polished.media/de/tools/frostfret/
+
+Tools für Bands · Code Chaos Audio
+## Frostfret: eine Gitarre aus MIDI, für Demos und Vorproduktion
+Frostfret ist ein VST3-Instrument, das E-Gitarre, Westerngitarre, Nylongitarre und E-Bass aus MIDI spielt, mit modellierten Saiten statt Samples. Es gehört zur Code Chaos Black Metal Suite von Tim Borchert, der bei Polished mastert. Gebaut ist es für den Moment, in dem ein Song nur im Kopf oder als MIDI-Datei existiert: Das Riff wird als Gitarrenspur hörbar, mit Tremolo-Picking, Palm Mutes und gedoppelter Wand, bevor jemand eine echte Gitarre in die Hand nimmt.
+Gratis-Demo →
+Auf Gumroad kaufen · 29 €
+29 € · Windows 10/11 · macOS Apple Silicon · VST3-Instrument + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Frostfret mit dem Preset Wall of Ice (Double Track). Oben Saiten und Tonabnehmer, in der Mitte die Spielweise, unten der eingebaute Amp.
+### Reinhören: Frostfret
+Black Metal: gedoppelte Tremolo-Gitarren und Bass durch den eingebauten Amp, 170 BPM, E-Phrygisch (25 s)
+- Intro: Tremolo auf dem leeren E (Wall of Ice, Double Track)
+- Riff A: Tremolo-Picking mit Bass (Bass Pick Grind)
+- Abgedämpfter Galopp (Palm Mute)
+- Riff B, eine Oktave höher
+- Ausklingender Akkord
+Akustik: eine geschlagene Westerngitarre, dann eine gezupfte Nylongitarre, 100 BPM (26 s)
+- Steel Strummer: geschlagene Akkorde in e-Moll
+- Nylon Nocturne: gezupft in a-Moll
+Clean und Crunch: ein cleanes Arpeggio, dann ein Crunch-Riff, 110 BPM (23 s)
+- Clean Neck Arpeggio v1 (Klang der Version 1; Clean ist der am deutlichsten synthetische Teil)
+- Cold Crunch Rhythm v1
+Jede Note wurde vom Plugin-Code aus MIDI gerendert, durch den eingebauten Amp von Frostfret. Keine externen Effekte, keine Drums, nirgends eine aufgenommene Gitarre. Der Black-Metal-Clip liegt bei etwa -13 LUFS, der Akustik-Clip bei etwa -16 LUFS, der Clean/Crunch-Clip bei etwa -14 LUFS.
+### Wie Frostfret klingt, ehrlich gesagt
+Frostfret ist ein Modell. Jede Note ist eine simulierte Saite, die angeschlagen wird, klingt, mit sich selbst schwebt und ausklingt; aufgenommene Gitarrentöne stecken nicht darin. Keine synthetische Gitarre klingt genau wie eine aufgenommene, auch Frostfret nicht.
+- Am nächsten an einer Aufnahme: verzerrte Gitarren (Crunch und High Gain) sowie Western- und Nylongitarre. Auch der E-Bass kommt nah heran.
+- Am deutlichsten synthetisch: die cleane E-Gitarre. Du hörst das in der ersten Hälfte des Clean/Crunch-Clips oben.
+- Zwei Voicings: Natural ist das aktuelle Modell, Classic (v1) behält den dunkleren Klang von Version 1. Der Air-Regler macht Saiten und Mikrofon heller oder weicher.
+Code Chaos Audio prüft jede Klangart mit einem automatischen Hörmodell gegen echte Aufnahmen, und das Ergebnis oben ist das, was diese Prüfung sagt. Hör dir die drei Clips an oder lade die Gratis-Demo, bevor du kaufst.
+### Ein Gitarren-Demo ohne Gitarristen
+Viele Songs beginnen bei einer Person, die das Riff hat, aber nicht die Zeit, den Sound oder den Gitarristen griffbereit. Mit Frostfret wird das Riff zu einer Gitarrenspur, zu der die Band proben kann:
+- Die Spur als MIDI schreiben. Eine gehaltene Note spielt Frostfret als Tremolo in 1/16, 1/16-Triolen oder 1/32, synchron zum DAW-Tempo, mit abwechselndem Ab- und Aufschlag. Eine Taste spielt einen Powerchord. Die Stimmungen reichen von E-Standard bis B-Standard, inklusive Drop D und Drop C.
+- Die Mutes markieren. Palm Mute folgt einer Velocity-Zone, dem Modulationsrad oder einem Keyswitch, und zwar stufenlos. Galopp und Chugs klingen abgedämpft, ohne zweite Spur.
+- Demo verschicken, MIDI behalten. Wenn die echten Gitarren später aufgenommen werden, zeigt die MIDI-Spur genau Riff und Tempo, und die Frostfret-Spur dient als Guide.
+Für die fertige Platte klingt eine echte Performance durch Gravesaw oder einen echten Amp meist trotzdem besser. Für Songwriting, Vorproduktion und Rohmixe spart Frostfret die Session.
+### Doppelspur, die in Mono hält
+Mit Double Track spielt Frostfret dieselbe MIDI-Spur als zwei unabhängige Takes, hart links und hart rechts, jeweils mit eigenem Timing und Anschlag. So wird eine echte Rhythmuswand aufgenommen, und deshalb hält die Wand, wenn ein Handy oder eine Club-Anlage sie zu Mono zusammenfasst.
+Unterhalb von 160 Hz bleibt der Ausgang von Frostfret mono (mit Double Track bis etwa 250 Hz), damit sich das Low End nicht auslöschen kann. Jedes Preset wird auf Monokompatibilität getestet. Im Black-Metal-Clip auf dieser Seite korrelieren die beiden Seiten unter 200 Hz mit 0,97, und der ganze Mix verliert in Mono 1,7 dB. Ein kopierter und verzögerter Einzeltake, die übliche Abkürzung, verliert oft deutlich mehr und klingt hohl. Ein Master kann das nachträglich nicht reparieren, deshalb prüft das Audit bei Polished vor jedem Master Phase und Mono.
+### DI-Out in Gravesaw, oder der eingebaute Amp
+Frostfret enthält den Amp von Gravesaw in vier Modi (Clean, Crunch, Overdrive, High-Gain) mit denselben 19 synthetisierten Cabs. Für ein schnelles Demo reicht das. Für einen Mix willst du vielleicht mehr Kontrolle:
+- Den Amp auf DI Out stellen. Frostfret gibt dann ein sauberes DI-Signal aus, und du setzt Gravesaw oder ein anderes Amp-Plugin dahinter, genau wie bei einer aufgenommenen DI-Gitarre.
+- Die DI als eigene Spur rendern. Amp-Entscheidungen bleiben bis zum Mix offen, und du kannst die Spur reampen, ohne das MIDI neu abzuspielen.
+- Das Amp-Gate rechtzeitig setzen. Das Rauschen zwischen den Riffs wird im Mastering lauter, also im Mix gaten, nicht im Master.
+Den fertigen Mix mit 3 bis 6 dB Headroom und ohne Limiter auf der Summe exportieren. Was danach passiert, steht auf der Seite Black Metal Mastering.
+### Auf einen Blick
+DetailFrostfret
+Preis29 € auf Gumroad, Gratis-Demo verfügbar
+FormatVST3-Instrument + Standalone, gespielt über MIDI
+WindowsWindows 10/11: VST3 + Standalone
+macOSNur Apple Silicon (arm64), kein Intel-Build. VST3 + Standalone, nicht signiert und nicht notarisiert : macOS blockiert das Plugin zuerst, freigeben unter Systemeinstellungen → Datenschutz & Sicherheit.
+AU / Logic ProKeine AU-Version, Logic Pro wird daher nicht unterstützt.
+KopierschutzKein Lizenzserver, kein Login, keine Online-Prüfung.
+GitarrenE-Gitarre (Humbucker Steg und Hals, drei Single Coils, Tonpoti), Western- und Nylongitarre mit modellierten Korpussen und Mikrofonpositionen (12. Bund, Schallloch, unterer Bug), Piezo oder Mikrofon + Piezo
+BassE-Bass mit Finger, Plektrum und leichtem Slap, drei Bass-Cabs oder DI
+StimmungenE-, Eb-, D- und C-Standard, Drop D, Drop C, B-Standard (7-Saiter / 5-Saiter)
+SpielweisenTremolo-Picking synchron zum Host (1/16, 1/16-Triole, 1/32), Powerchords, Palm Mute, Legato, Slides, Bendings, Vibrato, Flageoletts, Dead Notes, Strumming, Humanize, Double Track
+AmpAmp-DSP von Gravesaw: Clean, Crunch, Overdrive, High-Gain, 19 synthetisierte Cabs, oder DI Out
+KlangquelleModellierte Saiten und Korpusse, keine Samples. Am nächsten an einer Aufnahme: verzerrte und akustische Gitarren. Am deutlichsten synthetisch: cleane E-Gitarre.
+Presets30: 10 E-Gitarre, 6 Akustik, 4 hellere Varianten, 4 Sounds aus Version 1, 6 Bass
+StereoBreite nur durch Double Track und Raum; unter 160 Hz mono
+Latenz61 Samples (1,4 ms bei 44,1 kHz), wird an die DAW gemeldet
+TestsAutomatische Prüfungen für jedes Preset bei 44,1, 48 und 96 kHz (keine Klicks, keine Stille, Spitzen unter -0,3 dBFS, Monoprüfung). Noch nicht in jeder DAW ausprobiert.
+DemoDie Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Ein Frostfret-Demo ist eine Skizze der Platte. Sind echte Gitarren, Bass und Drums aufgenommen, entscheidet der Mix, wie das Album klingt, und der Master, wie es auf Earbuds, im Auto und nach der Lautheitsnormalisierung der Streamingdienste ankommt. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, inklusive Phasen- und Monoprüfung der Gitarrenwand. Mehr dazu: Black Metal Mastering.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Günstiger im Bundle
+Frostfret gehört zur Code Chaos Black Metal Suite. Es steckt im Complete-Bundle:
+- Black Metal Suite Complete : 69 € statt 105 € (du sparst 36 €). Enthält Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Bundles vergleichen. Einzeln kostet Frostfret 29 €.
+### Frostfret: FAQ
+Klingt Frostfret wie eine echte Gitarre?
+Je nach Sound nah dran. Verzerrte und akustische Gitarren kommen einer Aufnahme am nächsten, die cleane E-Gitarre klingt am deutlichsten synthetisch. Frostfret ist modelliert und nutzt keine Samples. Hör dir die drei Demo-Clips auf dieser Seite an oder teste die Gratis-Demo.
+Kann Frostfret den Gitarristen auf unserem Album ersetzen?
+Für Demos, Songwriting und Vorproduktion kann es einspringen. Für ein Release klingen aufgenommene Gitarren meist noch besser, und die MIDI-Spur aus Frostfret dient dann als Guide für die echten Takes.
+Kann ich mein eigenes Amp-Plugin nutzen?
+Ja. Den Amp auf DI Out stellen; Frostfret gibt dann ein sauberes DI-Signal aus, und du setzt Gravesaw oder einen anderen Amp dahinter.
+Läuft Frostfret auf dem Mac?
+Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert: macOS blockiert ihn zuerst, du gibst ihn unter Systemeinstellungen → Datenschutz & Sicherheit frei.
+Gibt es eine kostenlose Testversion?
+Ja. Die Frostfret-Demo auf Gumroad ist das volle Instrument mit allen 30 Presets; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+### Weitere Tools
+19 €Gravesaw
+17 €Hoarfell
+19 €Rimehall
+Alle Tools für Bands →
+### Frostfret gratis testen.
+Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
+Gratis-Demo →
+Auf Gumroad kaufen · 29 €
+
+---
+
+## Hoarfell: Modelled Drums, Bass & Choir VST3 | Polished
+URL: https://polished.media/tools/hoarfell/
+
+Tools for bands · Code Chaos Audio
+## Hoarfell: drums, bass and a choir pad for demos and pre-production
+Hoarfell is a VST3 instrument with three engines: a drum kit on the General MIDI map that keeps up with blast beats, a modelled electric bass, and a choir, organ, strings, bell and keys section with a long hall. Like its sister plugin Frostfret it is modelled, with no samples inside, and it comes from Tim Borchert, who masters at Polished. It is the quickest way to turn a riff and a drum MIDI file into a song the whole band can hear.
+Free demo →
+Buy on Gumroad · €17
+€17 · Windows 10/11 · macOS Apple Silicon · VST3 instrument + Standalone
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Hoarfell on the drum engine with the Studio Kit preset. The mapping panel lists the General MIDI notes.
+### Hear it: Hoarfell
+Hoarfell alone: choir and bell intro, a mid-tempo groove, then a blast, 150 BPM, E phrygian (29 s)
+- Intro: Choir Ah - Frozen Hall and Cold Bell, a tom swell at the end
+- Groove: Studio Kit, Bass Finger Amp, Winter Strings Pad
+- Blast: Raw Blast Kit, Bass Tremolo Gallop, Choir Oh - Monastery
+Full black metal mix: Hoarfell drums, bass and choir with double-tracked Frostfret guitars, 180 BPM (37 s)
+- Intro: tremolo guitar on E with the choir, snare build-up
+- Riff A over a blast (Raw Blast Kit)
+- Half-time with a palm-muted gallop
+- Riff B, an octave higher, over a blast
+- Outro: one ringing chord
+Rendered from MIDI by the plugin code, no external effects. In the full mix the guitars come from Frostfret through its built-in amp, and the choir sits low, as a pad behind the guitars.
+### Drums for demos and pre-production
+Hoarfell reads the General MIDI drum map: kick on 36, snare on 38, hats on 42, 44 and 46, toms, two crashes, two rides, bell and china. A groove programmed in any DAW, played on an e-kit or taken from the 30 MIDI grooves of the Black Metal Drum Kit plays right away.
+- One engine per instance. Drums, bass and atmosphere each get their own track. That keeps the demo mixable and gives you clean stems if you want to send stems to mastering.
+- Close mics, overheads and room per kit, with each drum placed in the overhead pair. Six kits from studio to lo-fi rehearsal tape.
+- Keep the tempo map. When the real drums are recorded later, the drummer can play to the same tempo and arrangement the band rehearsed with.
+Hoarfell is built for writing, demos and pre-production. For a release, recorded drums or a dedicated drum production are usually the better choice, and that is how the plugin is meant: as the drummer who is always available while the songs take shape.
+### Built for blast beats
+Fast sixteenths are where many drum plugins start to click or smear. In Hoarfell a re-triggered drum fades its previous hit over 3 ms, so 250 BPM sixteenths stay click-free in the automated tests. Round Robin varies every hit, and velocity changes contact time and brightness, so a blast does not sound like the same sample fired 16 times per bar.
+One thing to set in the mix, not in the master: the Cymbals control balances crashes, rides, china and bell against kick, snare, toms and hats. A cymbal wash that covers the guitars is one of the most common findings in black metal premasters, and mastering EQ cannot lower the cymbals without dulling everything else.
+### The choir belongs behind the mix
+The atmosphere engine has a modelled choir of up to eight singers per note, each with its own voice, pitch, vibrato and entry. It sings vowels only (Ah, Oh, Uh), no words. On sustained chords, Ah and Oh come close to a recorded choir; the low Uh drone less so. Use it as a pad behind guitars and drums, not as a lead choir.
+Long pads and halls fill every gap in a mix, and a limiter in mastering brings quiet parts up. If the choir already sounds present in the rough mix, it will sound louder after mastering. Keep it a little lower than feels right, as in the full mix above, and check the song in mono: below 160 Hz, Hoarfell keeps its output mono so the low end cannot cancel. The section also has a drawbar organ, a strings pad, a cold bell, celesta and lo-fi keys.
+### At a glance
+DetailHoarfell
+Price€17 on Gumroad, free demo available
+FormatVST3 instrument + Standalone, one engine (Drums, Bass or Atmos / Keys) per instance
+WindowsWindows 10/11: VST3 + Standalone
+macOSApple Silicon (arm64) only, no Intel build. VST3 + Standalone, not signed or notarized : macOS blocks it at first, allow it under System Settings → Privacy & Security.
+AU / Logic ProNo AU version, so Logic Pro is not supported.
+Copy protectionNo licence server, no login, no online check.
+DrumsGeneral MIDI map: kick, two snares, rim, six toms, closed / pedal / open hat with choke, two crashes, two rides, bell, china
+Kits and mics6 kits from studio to lo-fi rehearsal; close mics, overhead pair, room, lo-fi control
+Blast speed250 BPM sixteenths click-free in the automated tests
+BassModelled electric bass, finger, pick or light slap, tremolo picking synced to the host, Gravesaw amp DSP with three bass cabs, or DI
+Atmos / KeysChoir (Ah, Oh, Uh, up to 8 singers per note, vowels only), drawbar organ, strings pad, cold bell, celesta, lo-fi keys, long hall
+Sound sourceModelled, no samples. Drum hits are shaped after averaged measurements of real drums; no recorded audio is stored.
+Presets20: 6 drum kits, 6 bass, 8 atmos
+Latency61 samples (1.4 ms at 44.1 kHz), reported to the DAW
+TestingAutomated checks on every preset at 44.1, 48 and 96 kHz, including a 250 BPM blast and a mono check. Not tried in every DAW yet.
+DemoThe free demo is the complete plugin; it plays a short noise burst every 45 seconds.
+Checkout, payment and any applicable taxes are handled by Gumroad. Polished only links to it.
+### Tool, mix or master?
+Hoarfell gives a demo drums, bass and atmosphere in one evening. When the album is recorded and mixed, the master decides how it holds up on earbuds, in the car and after streaming normalisation. Polished starts every master with a written audio audit of your mix, including cymbal harshness, low end and mono. See black metal mastering and doom & gothic mastering.
+Mastering at Polished starts at €79 per track, all prices incl. 19% VAT, pay after delivery if you like. Request an audio audit.
+### Cheaper in a bundle
+Hoarfell is part of the Code Chaos Black Metal Suite. It is included in the Complete bundle:
+- Black Metal Suite Complete : €69 instead of €105 (save €36). Contains Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Compare the bundles. Bought separately, Hoarfell costs €17.
+### Hoarfell FAQ
+Can I use my own drum MIDI with Hoarfell?
+Yes. Hoarfell uses the General MIDI drum map, so grooves from your DAW, an e-kit or the Black Metal Drum Kit play without remapping.
+Does Hoarfell replace a drummer or a drum library for the album?
+It is made for demos and pre-production. For a release, recorded drums or a dedicated drum production usually remain the better choice.
+Can the choir sing lyrics?
+No. It sings the vowels Ah, Oh and Uh, so it works as a choir pad behind the mix, not as a lead choir.
+Do I need Frostfret as well?
+No. Hoarfell runs on its own. The guitars are in Frostfret; both together are part of the Black Metal Suite Complete bundle.
+Does it run on a Mac?
+Yes, on Apple Silicon Macs (arm64) as VST3 and Standalone. There is no Intel build and no AU version, so Logic Pro is not supported. The macOS build is not signed or notarized, so you allow it once under System Settings → Privacy & Security.
+Is there a free trial?
+Yes. The Hoarfell demo on Gumroad is the full instrument with all 20 presets; it plays a short noise burst every 45 seconds.
+### More tools
+€29Frostfret
+€19Rimehall
+Free · pay what you wantKick/Bass Scope
+All tools for bands →
+### Try Hoarfell free.
+The free demo is the complete plugin; it plays a short noise burst every 45 seconds. Buying and downloading happens on Gumroad, under Code Chaos Audio.
+Free demo →
+Buy on Gumroad · €17
+
+---
+
+## Hoarfell: Drums, Bass & Chor als VST3 | Polished
+URL: https://polished.media/de/tools/hoarfell/
+
+Tools für Bands · Code Chaos Audio
+## Hoarfell: Drums, Bass und ein Chor-Pad für Demos und Vorproduktion
+Hoarfell ist ein VST3-Instrument mit drei Engines: ein Drumkit auf der General-MIDI-Belegung, das bei Blastbeats mithält, ein modellierter E-Bass und eine Sektion mit Chor, Orgel, Streichern, Glocke und Keys samt langer Halle. Wie das Schwester-Plugin Frostfret ist es modelliert, ohne Samples, und stammt von Tim Borchert, der bei Polished mastert. Es ist der schnellste Weg, aus einem Riff und einer Drum-MIDI-Datei einen Song zu machen, den die ganze Band hören kann.
+Gratis-Demo →
+Auf Gumroad kaufen · 17 €
+17 € · Windows 10/11 · macOS Apple Silicon · VST3-Instrument + Standalone
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Hoarfell auf der Drum-Engine mit dem Preset Studio Kit. Das Mapping-Feld listet die General-MIDI-Noten.
+### Reinhören: Hoarfell
+Hoarfell allein: Intro mit Chor und Glocke, ein Groove im mittleren Tempo, dann ein Blast, 150 BPM, E-Phrygisch (29 s)
+- Intro: Choir Ah - Frozen Hall und Cold Bell, am Ende ein Tom-Anstieg
+- Groove: Studio Kit, Bass Finger Amp, Winter Strings Pad
+- Blast: Raw Blast Kit, Bass Tremolo Gallop, Choir Oh - Monastery
+Voller Black-Metal-Mix: Drums, Bass und Chor aus Hoarfell mit gedoppelten Frostfret-Gitarren, 180 BPM (37 s)
+- Intro: Tremolo-Gitarre auf E mit Chor, Snare-Aufbau
+- Riff A über einem Blast (Raw Blast Kit)
+- Halftime mit abgedämpftem Galopp
+- Riff B, eine Oktave höher, über einem Blast
+- Outro: ein ausklingender Akkord
+Vom Plugin-Code aus MIDI gerendert, keine externen Effekte. Im vollen Mix stammen die Gitarren aus Frostfret mit dessen eingebautem Amp, und der Chor liegt leise als Pad hinter den Gitarren.
+### Drums für Demos und Vorproduktion
+Hoarfell liest die General-MIDI-Drum-Belegung: Kick auf 36, Snare auf 38, Hi-Hats auf 42, 44 und 46, Toms, zwei Crashes, zwei Rides, Glocke und China. Ein Groove, in einer beliebigen DAW programmiert, auf einem E-Drum eingespielt oder aus den 30 MIDI-Grooves des Black Metal Drum Kit, spielt sofort.
+- Eine Engine pro Instanz. Drums, Bass und Atmosphäre bekommen je eine eigene Spur. So bleibt das Demo mischbar, und du hast saubere Stems, falls du Stems zum Mastering schicken willst.
+- Close-Mics, Overheads und Raum pro Kit, jede Trommel mit eigenem Platz im Overhead-Paar. Sechs Kits vom Studio bis zum Lo-Fi-Probenmitschnitt.
+- Die Tempo-Map behalten. Wenn später echte Drums aufgenommen werden, spielt der Drummer zu demselben Tempo und Arrangement, mit dem die Band geprobt hat.
+Hoarfell ist für Songwriting, Demos und Vorproduktion gebaut. Für ein Release sind aufgenommene Drums oder eine eigene Drum-Produktion meist die bessere Wahl, und so ist das Plugin gedacht: als Drummer, der immer Zeit hat, solange die Songs entstehen.
+### Gebaut für Blastbeats
+Bei schnellen Sechzehnteln fangen viele Drum-Plugins an zu klicken oder zu verschmieren. In Hoarfell blendet eine erneut angeschlagene Trommel ihren vorherigen Schlag über 3 ms aus, deshalb bleiben Sechzehntel bei 250 BPM in den automatischen Tests klickfrei. Round Robin variiert jeden Schlag, und die Velocity ändert Kontaktzeit und Helligkeit, damit ein Blast nicht wie dasselbe Sample klingt, das 16-mal pro Takt abgefeuert wird.
+Eine Sache gehört in den Mix, nicht in den Master: Der Regler Cymbals stellt Crashes, Rides, China und Glocke gegen Kick, Snare, Toms und Hi-Hats ein. Ein Becken-Teppich, der die Gitarren zudeckt, gehört zu den häufigsten Befunden in Black-Metal-Premastern, und Mastering-EQ kann die Becken nicht absenken, ohne alles andere mit abzudunkeln.
+### Der Chor gehört hinter den Mix
+Die Atmosphären-Engine hat einen modellierten Chor mit bis zu acht Stimmen pro Note, jede mit eigener Stimme, Tonhöhe, Vibrato und eigenem Einsatz. Er singt nur Vokale (Ah, Oh, Uh), keine Worte. Auf gehaltenen Akkorden kommen Ah und Oh einem aufgenommenen Chor nahe, der tiefe Uh-Drone weniger. Setz ihn als Pad hinter Gitarren und Drums ein, nicht als Lead-Chor.
+Lange Pads und Hallräume füllen jede Lücke im Mix, und ein Limiter im Mastering hebt leise Anteile an. Wenn der Chor im Rohmix schon präsent klingt, klingt er nach dem Mastering lauter. Lass ihn etwas leiser, als es sich richtig anfühlt, wie im vollen Mix oben, und prüf den Song in Mono: Unter 160 Hz bleibt der Ausgang von Hoarfell mono, damit sich das Low End nicht auslöschen kann. Dazu gibt es Zugriegelorgel, Streicher-Pad, kalte Glocke, Celesta und Lo-Fi-Keys.
+### Auf einen Blick
+DetailHoarfell
+Preis17 € auf Gumroad, Gratis-Demo verfügbar
+FormatVST3-Instrument + Standalone, eine Engine (Drums, Bass oder Atmos / Keys) pro Instanz
+WindowsWindows 10/11: VST3 + Standalone
+macOSNur Apple Silicon (arm64), kein Intel-Build. VST3 + Standalone, nicht signiert und nicht notarisiert : macOS blockiert das Plugin zuerst, freigeben unter Systemeinstellungen → Datenschutz & Sicherheit.
+AU / Logic ProKeine AU-Version, Logic Pro wird daher nicht unterstützt.
+KopierschutzKein Lizenzserver, kein Login, keine Online-Prüfung.
+DrumsGeneral-MIDI-Belegung: Kick, zwei Snares, Rim, sechs Toms, geschlossene / Pedal- / offene Hi-Hat mit Choke, zwei Crashes, zwei Rides, Glocke, China
+Kits und Mikrofone6 Kits vom Studio bis zum Lo-Fi-Probenraum; Close-Mics, Overhead-Paar, Raum, Lo-Fi-Regler
+Blast-TempoSechzehntel bei 250 BPM in den automatischen Tests klickfrei
+BassModellierter E-Bass, Finger, Plektrum oder leichter Slap, Tremolo-Picking synchron zum Host, Amp-DSP von Gravesaw mit drei Bass-Cabs, oder DI
+Atmos / KeysChor (Ah, Oh, Uh, bis zu 8 Stimmen pro Note, nur Vokale), Zugriegelorgel, Streicher-Pad, kalte Glocke, Celesta, Lo-Fi-Keys, lange Halle
+KlangquelleModelliert, keine Samples. Die Drum-Schläge sind nach gemittelten Messungen echter Trommeln geformt; es ist keine Aufnahme gespeichert.
+Presets20: 6 Drumkits, 6 Bass, 8 Atmos
+Latenz61 Samples (1,4 ms bei 44,1 kHz), wird an die DAW gemeldet
+TestsAutomatische Prüfungen für jedes Preset bei 44,1, 48 und 96 kHz, inklusive Blast bei 250 BPM und Monoprüfung. Noch nicht in jeder DAW ausprobiert.
+DemoDie Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+Bestellung, Bezahlung und eventuell anfallende Steuern laufen komplett über Gumroad. Polished verlinkt nur dorthin.
+### Tool, Mix oder Master?
+Hoarfell gibt einem Demo an einem Abend Drums, Bass und Atmosphäre. Wenn das Album aufgenommen und gemischt ist, entscheidet der Master, wie es auf Earbuds, im Auto und nach der Lautheitsnormalisierung der Streamingdienste besteht. Bei Polished beginnt jeder Master mit einem schriftlichen Audio-Audit deines Mixes, inklusive Beckenschärfe, Low End und Mono. Mehr dazu: Black Metal Mastering und Doom & Gothic Mastering.
+Mastering bei Polished gibt es ab 79 € pro Track inkl. 19 % USt., Zahlung auf Wunsch erst nach Lieferung. Audio-Audit anfragen.
+### Günstiger im Bundle
+Hoarfell gehört zur Code Chaos Black Metal Suite. Es steckt im Complete-Bundle:
+- Black Metal Suite Complete : 69 € statt 105 € (du sparst 36 €). Enthält Frostfret, Hoarfell, Gravesaw, Rimehall, Black Metal Tone Kit, Black Metal Drum Kit.
+Bundles vergleichen. Einzeln kostet Hoarfell 17 €.
+### Hoarfell: FAQ
+Kann ich eigene Drum-MIDI-Dateien mit Hoarfell nutzen?
+Ja. Hoarfell nutzt die General-MIDI-Drum-Belegung, Grooves aus deiner DAW, von einem E-Drum oder aus dem Black Metal Drum Kit spielen also ohne Umbelegen.
+Ersetzt Hoarfell einen Drummer oder eine Drum-Library fürs Album?
+Es ist für Demos und Vorproduktion gemacht. Für ein Release bleiben aufgenommene Drums oder eine eigene Drum-Produktion meist die bessere Wahl.
+Kann der Chor Texte singen?
+Nein. Er singt die Vokale Ah, Oh und Uh und funktioniert daher als Chor-Pad hinter dem Mix, nicht als Lead-Chor.
+Brauche ich zusätzlich Frostfret?
+Nein. Hoarfell läuft für sich allein. Die Gitarren stecken in Frostfret; beide zusammen sind Teil des Bundles Black Metal Suite Complete.
+Läuft Hoarfell auf dem Mac?
+Ja, auf Macs mit Apple Silicon (arm64) als VST3 und Standalone. Es gibt keinen Intel-Build und keine AU-Version, Logic Pro wird daher nicht unterstützt. Der macOS-Build ist nicht signiert und nicht notarisiert, du gibst ihn einmal unter Systemeinstellungen → Datenschutz & Sicherheit frei.
+Gibt es eine kostenlose Testversion?
+Ja. Die Hoarfell-Demo auf Gumroad ist das volle Instrument mit allen 20 Presets; sie spielt alle 45 Sekunden einen kurzen Rauschstoß.
+### Weitere Tools
+29 €Frostfret
+19 €Rimehall
+Gratis · Preis frei wählbarKick/Bass Scope
+Alle Tools für Bands →
+### Hoarfell gratis testen.
+Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
+Gratis-Demo →
+Auf Gumroad kaufen · 17 €
 
 ---
 

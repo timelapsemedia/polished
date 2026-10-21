@@ -20,9 +20,9 @@ GUIDE_DE = '/de/metal-mastering-lautstaerke/'
 
 BLACK_DE = dict(
     extra=tools_teaser('de', 'bm-tools', 'Album selbst aufnehmen? <em>Tools für Bands</em>',
-        'Tim baut unter dem Label Code Chaos Audio auch Produktions-Tools für Metal-Bands. Gravesaw macht aus Gitarren- und Bass-DIs einen rohen oder dicken Black-Metal-Amp-Sound, Rimehall bringt die kalte Halle und den Tape-Dreck, und die zwei Pakete liefern Cab-IRs und programmierte Drums. Jede Plugin-Seite zeigt, wie du es so einsetzt, dass der Mix gut masterbar bleibt.',
-        ['gravesaw', 'rimehall', 'kick-bass-scope', 'crucible'], 'Wenn die Platte fertig ist: <a href="/de/#kontakt">Audio-Audit anfragen</a>.',
-        packs=('black-metal-tone-kit', 'black-metal-drum-kit')),
+        'Tim baut unter dem Label Code Chaos Audio auch Produktions-Tools für Metal-Bands. Gravesaw macht aus Gitarren- und Bass-DIs einen rohen oder dicken Black-Metal-Amp-Sound, und Rimehall bringt die kalte Halle und den Tape-Dreck. Für Songwriting und Demos spielt Frostfret Gitarre und Bass aus MIDI, Hoarfell blast-taugliche Drums, Bass und ein Chor-Pad; beide sind modelliert, ohne Samples. Die zwei Pakete liefern Cab-IRs und programmierte Drums, und alles zusammen gibt es in den Black-Metal-Suite-Bundles. Jede Seite zeigt, wie du das Tool so einsetzt, dass der Mix gut masterbar bleibt.',
+        ['gravesaw', 'rimehall', 'frostfret', 'hoarfell', 'kick-bass-scope', 'crucible'], 'Wenn die Platte fertig ist: <a href="/de/#kontakt">Audio-Audit anfragen</a>.',
+        packs=('black-metal-tone-kit', 'black-metal-drum-kit'), bundles=True),
     slug='black-metal-mastering', name='Black Metal Mastering', eyebrow='Genre · Black Metal',
     title='Black Metal Mastering online – mit Audio-Audit | Polished',
     og_title='Black Metal Mastering — Polished',
@@ -99,8 +99,8 @@ DEATH_DE = dict(
 
 DOOM_DE = dict(
     extra=tools_teaser('de', 'dg-tools', 'Langsam, schwer und weit: <em>Tools für Bands</em>',
-        'Gravesaw hat einen Tight-Regler, der für ein volles Doom-Fundament tief bleiben kann, dazu das Preset Doom Bass Deep für die Bass-DI. Rimehall liefert lange, dunkle Hallräume mit bis zu 30 Sekunden Nachhall und duckt sie, solange das Riff spielt. Beide stammen von Tim, unter dem Label Code Chaos Audio.',
-        ['gravesaw', 'rimehall', 'kick-bass-scope']),
+        'Gravesaw hat einen Tight-Regler, der für ein volles Doom-Fundament tief bleiben kann, dazu das Preset Doom Bass Deep für die Bass-DI. Rimehall liefert lange, dunkle Hallräume mit bis zu 30 Sekunden Nachhall und duckt sie, solange das Riff spielt. Für Demos spielt Frostfret Gitarre und Bass aus MIDI, in Stimmungen bis hinunter zu B-Standard, und Hoarfell ergänzt Drums, Kirchenorgel, Streicher-Pad und ein Chor-Pad, das hinter dem Mix sitzt. Alle stammen von Tim, unter dem Label Code Chaos Audio.',
+        ['gravesaw', 'rimehall', 'frostfret', 'hoarfell', 'kick-bass-scope'], bundles=True),
     slug='doom-gothic-mastering', name='Doom & Gothic Mastering', eyebrow='Genre · Doom · Gothic',
     title='Doom & Gothic Metal Mastering online | Polished',
     og_title='Doom & Gothic Mastering — Polished',
