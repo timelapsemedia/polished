@@ -1,1 +1,41 @@
-{"marke": "polished", "stand": null, "posts": []}
+{
+ "marke": "polished",
+ "stand": "2026-10-22T11:18+02:00",
+ "posts": [
+  {
+   "id": "2026-10-23-myth_bust",
+   "due": "2026-10-23T10:30+02:00",
+   "caption": "Mastering can't fix a broken mix. It makes everything in it more obvious. 🔎\n\nA resonance at 300 Hz gets louder. A kick buried under the guitars stays buried, just at a higher level. A snare that cuts through too hard starts to hurt.\n\nThis is the reason every project here starts with the audit, not with a plugin. You get a written report on frequency balance, dynamics, stereo image and phase before mastering begins.\n\nIf something is better fixed in the mix, the report says so. Then you can decide while it is still cheap to change.\n\nAudit-first mastering → polished.media\n\n#mastering #masteringengineer #extrememetal #blackmetal #doommetal #deathmetal #audioengineering #loudnesswar #homerecording #diymusician #indielabel #metalband",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-23-myth_bust-portrait.jpg"
+   ],
+   "video_url": null
+  },
+  {
+   "id": "2026-10-24-motion_ep",
+   "due": "2026-10-24T10:30+02:00",
+   "caption": "Five tracks, one release. 🥁\n\nEP mastering at Polished covers up to 5 tracks for €349, €46 less than five singles at €395. Every track gets its own audit first: spectrum, dynamics, stereo image and phase. Then a consistency pass across the whole EP.\n\nUnlimited revisions. Delivery in 5 to 7 days. Pay up front or on invoice after delivery. Incl. 19% VAT.\n\npolished.media\n\n#mastering #masteringengineer #metalmastering #blackmetal #deathmetal #doommetal #gothicmetal #extrememetal #audioengineering #undergroundmetal #metalband #indielabel",
+   "image_urls": [],
+   "video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FMtIAsE6D0cRzFFQz1eWjr2KmC/17fd63d0-0d12-4bfc-ad32-a4923a835252.mp4",
+   "thumb_offset": 2600
+  },
+  {
+   "id": "2026-10-26-process",
+   "due": "2026-10-26T10:30+01:00",
+   "caption": "How to send a premaster that is ready for mastering. ✅\n\n▸ WAV or AIFF\n▸ 24 or 32-bit\n▸ At your session sample rate, no conversion\n▸ 3–6 dB headroom on the peaks\n▸ No limiter on the master bus\n▸ Two or three sentences on what you want the record to feel like\n\nThat is all. No stems needed unless you book Stem Pro.\n\nThe audit starts from there, and you get the written report before any mastering happens.\n\nSave this for your next bounce. Request your audit → polished.media\n\n#mastering #masteringengineer #doommetal #extrememetal #gothicmetal #djent #lufs #studiolife #audioengineering #homerecording #indielabel #metalband",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-26-process-portrait.jpg"
+   ],
+   "video_url": null
+  },
+  {
+   "id": "2026-10-28-offer",
+   "due": "2026-10-28T10:30+01:00",
+   "caption": "The album package is now €629. 💿\n\nUp to 10 tracks, which is €161 less than mastering them as ten singles.\n\nWhat an album gets that singles don't:\n▸ An audit per track plus an album audit across the whole record\n▸ Loudness and tone matched track to track, so nothing jumps out on shuffle\n▸ A vinyl-ready master on request\n▸ Unlimited revisions, no time limit\n\nDelivery in 7–14 days. Final price, 19% VAT included.\n\nIf you are finishing a record this winter → polished.media\n\n#mastering #masteringengineer #blackmetal #deathmetal #extrememetal #metalcore #audioengineering #studiolife #homerecording #mixingandmastering #recordingstudio #metalband",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-28-offer-portrait.jpg"
+   ],
+   "video_url": null
+  }
+ ]
+}
