@@ -1,0 +1,45 @@
+# Cloud-Publisher Instagram (Tim 22.10.2026): postet faellige Posts, wenn der PC aus ist.
+# Oeffentliches Repo = Actions-Minuten gratis. Warteschlange/Status liegen auf Branch cloud-publisher
+# (nie auf main, damit nichts die Website neu baut). Lokaler Publisher spiegelt queue.json dorthin.
+name: ig-cloud
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+    inputs:
+      trocken:
+        description: "1 = nur anzeigen, nichts posten"
+        default: "1"
+concurrency:
+  group: ig-cloud
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  posten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/cloud
+      - uses: actions/checkout@v4
+        with:
+          ref: cloud-publisher
+          path: cp
+      - name: Faellige Posts veroeffentlichen
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          QUEUE: cp/queue.json
+          STATE: cp/state.jsonl
+          TROCKEN: ${{ github.event.inputs.trocken || '0' }}
+        run: python .github/cloud/ig_cloud.py
+      - name: Status sichern
+        if: always()
+        run: |
+          cd cp
+          touch state.jsonl
+          git config user.name "ig-cloud"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.jsonl
+          git diff --cached --quiet || (git commit -m "ig-cloud: Status" && git push)
