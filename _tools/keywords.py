@@ -94,6 +94,7 @@ KEYWORDS = [
     ('djent mastering', '/metalcore-djent-mastering/', 'genre-en', 3),
     ('stem mastering', '/stem-mastering/', 'stem-en', 1),
     ('stem mastering services', '/stem-mastering/', 'stem-en', 2),
+    ('what is stem mastering', '/stem-mastering/', 'stem-en', 2),
     ('mastering for labels', '/mastering-for-labels/', 'label-en', 2),
     ('label mastering', '/mastering-for-labels/', 'label-en', 2),
     ('record label mastering', '/mastering-for-labels/', 'label-en', 3),
