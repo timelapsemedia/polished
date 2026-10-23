@@ -1,16 +1,7 @@
 {
  "marke": "polished",
- "stand": "2026-10-23T11:00+02:00",
+ "stand": "2026-10-23T12:00+02:00",
  "posts": [
-  {
-   "id": "2026-10-23-myth_bust",
-   "due": "2026-10-23T10:30+02:00",
-   "caption": "Mastering can't fix a broken mix. It makes everything in it more obvious. 🔎\n\nA resonance at 300 Hz gets louder. A kick buried under the guitars stays buried, just at a higher level. A snare that cuts through too hard starts to hurt.\n\nThis is the reason every project here starts with the audit, not with a plugin. You get a written report on frequency balance, dynamics, stereo image and phase before mastering begins.\n\nIf something is better fixed in the mix, the report says so. Then you can decide while it is still cheap to change.\n\nAudit-first mastering → polished.media\n\n#mastering #masteringengineer #extrememetal #blackmetal #doommetal #deathmetal #audioengineering #loudnesswar #homerecording #diymusician #indielabel #metalband",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-23-myth_bust-portrait.jpg"
-   ],
-   "video_url": null
-  },
   {
    "id": "2026-10-24-motion_ep",
    "due": "2026-10-24T10:30+02:00",
