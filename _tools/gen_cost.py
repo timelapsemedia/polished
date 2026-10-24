@@ -159,7 +159,8 @@ ce_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Mastering Cost', f'{BASE
         </tbody>
       </table>
     </div>
-    <p class="table-note">Indicative ranges based on publicly listed prices, October 2026.</p>""")}
+    <p class="table-note">Indicative ranges based on publicly listed prices, October 2026.</p>
+    <p>Reading in German? The same comparison with euro prices for the German market: <a href="/de/mastering-kosten/" hreflang="de" lang="de">Mastering-Kosten und Online-Mastering-Preise</a>.</p>""")}
 <section class="content-section alt" aria-labelledby="ce-polished">
   <div class="wrap">
     <h2 id="ce-polished">Mastering prices <em>at Polished</em></h2>
@@ -193,5 +194,5 @@ ce_schemas = [
     faq_schema(CE_FAQS),
 ]
 write(COST_EN, page(path=COST_EN, lang='en', title=CE_TITLE,
-      description='How much does mastering cost? Price comparison from AI mastering to studios, costs for a song, EP, album and stems. Polished: from €79 incl. VAT with audio audit.',
+      description='How much does mastering cost? Price comparison from AI mastering to studios, costs for a song, EP, album and stems. Polished: from €79 incl. VAT with an audit.',
       og_title='How much does mastering cost? — Polished', body=ce_body, schemas=ce_schemas, counterpart=COST_PAIR))
