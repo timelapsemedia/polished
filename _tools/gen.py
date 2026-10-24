@@ -730,7 +730,7 @@ de_body = f'''<header class="page-hero">
       <div class="price"><div class="name">EP · bis 5 Tracks</div><div class="amount">349<span style="margin-left:4px;">€</span></div><p>46 € gespart gegenüber 5 Singles. Audit pro Track, einheitliche Lautheit über das Release, 5–7 Tage.</p></div>
       <div class="price"><div class="name">Album · bis 10 Tracks</div><div class="amount">629<span style="margin-left:4px;">€</span></div><p>161 € gespart gegenüber 10 Singles. Audit pro Track plus Album-Audit, klangliche Konsistenz, Vinyl-Master auf Anfrage, 7–14 Tage.</p></div>
     </div>
-    <p class="meta-line">Alle Preise sind Endpreise inkl. 19 % USt. <strong>Keine Vorkasse nötig: Zahlung wahlweise auf Rechnung nach Lieferung oder vorab.</strong> Jedes Paket enthält das schriftliche Audio-Audit und unbegrenzte Revisionen. Zahlung per Überweisung oder PayPal.</p>
+    <p class="meta-line">Alle Preise sind Endpreise inkl. 19 % USt. <strong>Keine Vorkasse nötig: Zahlung wahlweise auf Rechnung nach Lieferung oder vorab.</strong> Jedes Paket enthält das schriftliche Audio-Audit und unbegrenzte Revisionen. Zahlung per Banküberweisung.</p>
     <h2 id="de-bundles" style="margin-top:72px;">Mehr Releases, <em>weniger pro Master.</em></h2>
     <div class="price-grid">
       <div class="price"><div class="name">Single-Serie · 3 Singles</div><div class="amount">73<span style="margin-left:4px;">€</span></div><p>Pro Single statt 79 €, 18 € gespart. Gemastert, wenn die Singles erscheinen, über bis zu 12 Monate. Bezahlung pro Single oder alle drei vorab.</p></div>
