@@ -50,6 +50,7 @@ KEYWORDS = [
     ('mix und mastering preise', '/de/mastering-kosten/', 'mix-de', 2),
     ('mixing mastering preise', '/de/mastering-kosten/', 'mix-de', 2),
     ('mixing mastering kosten', '/de/mastering-kosten/', 'mix-de', 2),
+    ('mixing und mastering preise', '/de/mastering-kosten/', 'mix-de', 3),
     ('mixing preise', '/de/mastering-kosten/', 'mix-de', 3),
     ('mixing kosten', '/de/mastering-kosten/', 'mix-de', 3),
     ('song mischen lassen kosten', '/de/mastering-kosten/', 'mix-de', 3),
