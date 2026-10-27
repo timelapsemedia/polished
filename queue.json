@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-10-27T11:08+01:00",
+ "stand": "2026-10-27T12:03+01:00",
  "posts": [
   {
    "id": "2026-10-28-offer",
@@ -14,10 +14,9 @@
    "id": "2026-10-30-genre_craft",
    "due": "2026-10-30T10:30+01:00",
    "caption": "A breakdown hits because of the silence between the hits. 💥\n\nOn a syncopated riff, the kick and the low palm mutes have to stop as precisely as they start. Over-compress the master and those gaps fill up: the riff turns into one long low smear.\n\nWhat the audit checks on Metalcore and Djent:\n▸ How fast the low end decays after each hit\n▸ Kick against bass guitar below 100 Hz, which one owns which band\n▸ Vocals, clean or screamed, sitting where they should without thinning the guitars\n▸ How much limiting the transients can take before the breakdown loses its edge\n\nTight is a decision, not a preset.\n\npolished.media\n\n#mastering #masteringengineer #djent #gothicmetal #blackmetal #deathmetal #loudnesswar #audioengineering #studiolife #homerecording #recordingstudio #metalband",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-30-genre_craft-portrait.jpg"
-   ],
-   "video_url": null
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-10-30-genre_craft.mp4",
+   "thumb_offset": 800
   },
   {
    "id": "2026-10-31-motion_audit",
