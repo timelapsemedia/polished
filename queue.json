@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-10-27T12:03+01:00",
+ "stand": "2026-10-27T15:01+01:00",
  "posts": [
   {
    "id": "2026-10-28-offer",
@@ -38,10 +38,9 @@
    "id": "2026-11-02-offer",
    "due": "2026-11-02T10:30+01:00",
    "caption": "Sometimes the problem sits in one instrument, and a stereo file can't separate it. 🎛️\n\nThat is what Stem Pro is for: up to 6 grouped stems, for example drums, bass, guitars, vocals, keys and FX.\n\nWhen it is worth it:\n▸ The audit shows a clash between two elements, like kick and bass\n▸ Vocals need to come forward without dragging the guitars along\n▸ The mix is good, but one group is fighting the rest\n\n€129 incl. VAT, full audit included, all platform exports, delivery in 48–72h, unlimited revisions.\n\nNot sure if you need stems? Send the stereo bounce first and the audit will tell you.\n\npolished.media\n\n#mastering #masteringengineer #extrememetal #gothicmetal #deathmetal #doommetal #diymusician #loudnesswar #homerecording #studiolife #recordingstudio #indielabel",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-02-offer-portrait.jpg"
-   ],
-   "video_url": null
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-02-offer.mp4",
+   "thumb_offset": 800
   }
  ]
 }
