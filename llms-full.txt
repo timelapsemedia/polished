@@ -1128,7 +1128,7 @@ Get a fixed quote →
 ### Mastering cost FAQ
 How much does professional mastering cost?
 Professional mastering typically costs roughly €50–150 per track, and €200 or more at well-known studios. Automated AI services are much cheaper but do not analyse your mix individually. At Polished, stereo mastering costs €79 per track incl. 19% VAT, including a written audio audit and unlimited revisions.
-How much does it cost to master one song?
+How much does it cost to master a song?
 At Polished, one song costs €79 incl. VAT for stereo mastering or €129 from stems, including a written audio audit, streaming and Bandcamp exports, 48–72h delivery and unlimited revisions. Booking three singles together costs €73 per single.
 How much does EP or album mastering cost?
 At Polished, an EP of up to 5 tracks costs €349 (€46 less than 5 singles) and an album of up to 10 tracks costs €629 (€161 less than 10 singles), both with a per-track audit and a consistency pass across the release.

@@ -24,3 +24,13 @@ domain:uncledspizza.com
 domain:theforbestimes.com
 domain:betulcrime.com
 domain:ggmap.us.com
+# Added 2026-10-27 (Ubersuggest backlinks): same PBN anchor, new path /all/52/13.html, all dofollow to the homepage.
+# Still NOT UPLOADED, same reasoning as above.
+domain:skystarnews.com
+domain:rdxextremez.com
+domain:qwenterprise.com
+domain:trendyhealthtimes.com
+domain:sapphirevpn.net
+domain:portailorange.net
+# "High-quality backlink" list page (/list.php?part=2026/02/25/244), spam score 61.
+domain:8coint.com

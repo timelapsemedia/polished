@@ -101,6 +101,8 @@ KEYWORDS = [
     ('record label mastering', '/mastering-for-labels/', 'label-en', 3),
     ('mastering cost', '/mastering-cost/', 'price-en', 1),
     ('how much does mastering cost', '/mastering-cost/', 'price-en', 1),
+    ('how much does it cost to master a song', '/mastering-cost/', 'price-en', 2),
+    ('song mastering price', '/mastering-cost/', 'price-en', 3),
     ('mastering prices', '/mastering-cost/', 'price-en', 2),
     ('album mastering cost', '/mastering-cost/', 'price-en', 2),
     ('mixing and mastering prices', '/mastering-cost/', 'price-en', 3),
