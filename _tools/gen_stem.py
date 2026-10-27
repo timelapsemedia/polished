@@ -5,7 +5,7 @@ STEM_EN = '/stem-mastering/'
 STEM_PAIR = {'en': STEM_EN, 'de': STEM_DE}
 
 # ---------------------------------------------------------------- DE
-SD_TITLE = 'Stem-Mastering ab 129 €: Vorteile, Kosten & Stem-Export | Polished'
+SD_TITLE = 'Stem-Mastering ab 129 €: Vorteile & Stem-Export | Polished'
 SD_FAQS = [
     ('Was ist Stem-Mastering?', 'Beim Stem-Mastering wird nicht eine fertige Stereo-Datei gemastert, sondern mehrere Spurgruppen (Stems) wie Drums, Bass, Gitarren und Vocals. Jede Gruppe kann einzeln bearbeitet werden, bevor alles zum finalen Master zusammengeführt wird. Das gibt mehr Kontrolle, wenn sich Instrumente im Mix gegenseitig verdecken.'),
     ('Wann lohnt sich Stem-Mastering?', 'Stem-Mastering lohnt sich, wenn einzelne Elemente im Mix kollidieren, etwa Kick und Bass im Low End, Gitarren, die Vocals verdecken, oder Becken, die bei Blastbeats die Snare verschlucken. Bei einem gut ausbalancierten Mix reicht Stereo-Mastering. Das Audio-Audit von Polished sagt dir, was für deinen Mix sinnvoll ist.'),
@@ -97,7 +97,7 @@ write(STEM_DE, page(path=STEM_DE, lang='de', title=SD_TITLE,
       og_title='Stem-Mastering — Polished', body=sd_body, schemas=sd_schemas, counterpart=STEM_PAIR))
 
 # ---------------------------------------------------------------- EN
-SE_TITLE = 'Stem Mastering from €129: Benefits, Cost & Stem Export | Polished'
+SE_TITLE = 'Stem Mastering from €129: Benefits & Stem Export | Polished'
 SE_FAQS = [
     ('What is stem mastering?', 'Stem mastering masters several track groups (stems) such as drums, bass, guitars and vocals instead of one finished stereo file. Each group can be processed individually before everything is combined into the final master, which gives more control when instruments mask each other in the mix.'),
     ('When is stem mastering worth it?', 'Stem mastering is worth it when elements in the mix collide, for example kick and bass in the low end, guitars masking the vocals, or cymbals swallowing the snare during blast beats. For a well-balanced mix, stereo mastering is enough. The Polished audio audit tells you which one suits your mix.'),

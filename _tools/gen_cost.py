@@ -5,7 +5,7 @@ COST_EN = '/mastering-cost/'
 COST_PAIR = {'en': COST_EN, 'de': COST_DE}
 
 # ---------------------------------------------------------------- DE
-CD_TITLE = 'Mastering Kosten & Preise 2026: Online-Mastering ab 79 € | Polished'
+CD_TITLE = 'Online-Mastering Preise & Kosten: ab 79 € | Polished'
 CD_FAQS = [
     ('Was kostet professionelles Mastering?', 'Professionelles Mastering kostet in Deutschland grob zwischen 50 und 150 € pro Track, bei renommierten Studios auch 200 € und mehr. Automatische KI-Dienste sind deutlich günstiger, liefern aber keine individuelle Analyse. Bei Polished kostet Stereo-Mastering 79 € pro Track inkl. 19 % USt., inklusive schriftlichem Audio-Audit und unbegrenzten Revisionen.'),
     ('Was kostet Online-Mastering?', 'Online-Mastering-Preise reichen von wenigen Euro oder einem Monatsabo bei KI-Diensten über etwa 15–60 € auf Freelancer-Plattformen bis etwa 50–150 € pro Track bei spezialisierten Online-Mastering-Studios. Der Ablauf ist überall ähnlich: Du schickst deinen Mix online, etwa per WeTransfer oder Dropbox, und bekommst den Master per Download-Link zurück. Bei Polished kostet Online-Mastering 79 € pro Track inkl. USt.; das schriftliche Audio-Audit, Exporte für Streaming und Bandcamp und unbegrenzte Revisionen sind im Preis enthalten.'),
@@ -131,7 +131,7 @@ write(COST_DE, page(path=COST_DE, lang='de', title=CD_TITLE,
       og_title='Was kostet Mastering? — Polished', body=cd_body, schemas=cd_schemas, counterpart=COST_PAIR))
 
 # ---------------------------------------------------------------- EN
-CE_TITLE = 'Mastering Cost & Prices 2026: Online Mastering from €79 | Polished'
+CE_TITLE = 'Online Mastering Prices & Cost: from €79 | Polished'
 CE_FAQS = [
     ('How much does professional mastering cost?', 'Professional mastering typically costs roughly €50–150 per track, and €200 or more at well-known studios. Automated AI services are much cheaper but do not analyse your mix individually. At Polished, stereo mastering costs €79 per track incl. 19% VAT, including a written audio audit and unlimited revisions.'),
     ('How much does it cost to master a song?', 'At Polished, one song costs €79 incl. VAT for stereo mastering or €129 from stems, including a written audio audit, streaming and Bandcamp exports, 48–72h delivery and unlimited revisions. Booking three singles together costs €73 per single.'),
