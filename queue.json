@@ -1,23 +1,14 @@
 {
  "marke": "polished",
- "stand": "2026-10-27T10:00+01:00",
+ "stand": "2026-10-27T11:08+01:00",
  "posts": [
-  {
-   "id": "2026-10-26-process",
-   "due": "2026-10-26T10:30+01:00",
-   "caption": "How to send a premaster that is ready for mastering. ✅\n\n▸ WAV or AIFF\n▸ 24 or 32-bit\n▸ At your session sample rate, no conversion\n▸ 3–6 dB headroom on the peaks\n▸ No limiter on the master bus\n▸ Two or three sentences on what you want the record to feel like\n\nThat is all. No stems needed unless you book Stem Pro.\n\nThe audit starts from there, and you get the written report before any mastering happens.\n\nSave this for your next bounce. Request your audit → polished.media\n\n#mastering #masteringengineer #doommetal #extrememetal #gothicmetal #djent #lufs #studiolife #audioengineering #homerecording #indielabel #metalband",
-   "image_urls": [],
-   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-10-26-process.mp4",
-   "thumb_offset": 800
-  },
   {
    "id": "2026-10-28-offer",
    "due": "2026-10-28T10:30+01:00",
    "caption": "The album package is now €629. 💿\n\nUp to 10 tracks, which is €161 less than mastering them as ten singles.\n\nWhat an album gets that singles don't:\n▸ An audit per track plus an album audit across the whole record\n▸ Loudness and tone matched track to track, so nothing jumps out on shuffle\n▸ A vinyl-ready master on request\n▸ Unlimited revisions, no time limit\n\nDelivery in 7–14 days. Final price, 19% VAT included.\n\nIf you are finishing a record this winter → polished.media\n\n#mastering #masteringengineer #blackmetal #deathmetal #extrememetal #metalcore #audioengineering #studiolife #homerecording #mixingandmastering #recordingstudio #metalband",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-28-offer-portrait.jpg"
-   ],
-   "video_url": null
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-10-28-offer.mp4",
+   "thumb_offset": 800
   },
   {
    "id": "2026-10-30-genre_craft",
