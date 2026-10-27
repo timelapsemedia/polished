@@ -1085,11 +1085,11 @@ Bandcamp normalisiert nicht. Hörer hören deinen Master genau so, wie er gelief
 
 ---
 
-## How Much Does Mastering Cost? Prices 2026 | Polished
+## Mastering Cost & Prices 2026: Online Mastering from €79 | Polished
 URL: https://polished.media/mastering-cost/
 
 Prices · Cost · Comparison
-## How much does mastering cost?
+## How much does mastering cost? Prices per song, EP & album – online mastering from €79
 Short answer: professional mastering usually costs roughly €50–150 per track. AI services are cheaper, renowned studios more expensive. At Polished, one song is €79 incl. VAT, an EP €349 and an album €629, each with a written audio audit and unlimited revisions.
 Get a fixed quote →
 See packages
@@ -1123,6 +1123,7 @@ Bundles: Single Series €73 per single (3 singles) · Stem EP €549 · Label P
 - Formats: streaming, Bandcamp, CD and vinyl may need separate versions. Streaming and Bandcamp exports are always included at Polished.
 - Revisions: many providers cap or charge for revisions. At Polished they are unlimited.
 - Analysis: a written audio audit of your mix is included at Polished; elsewhere a mix analysis is often not part of the service.
+Already have your own mix? Then you often don't need to pay €100–300 per song for a full mixing job. In many cases stereo mastering with a written mix audit for €79 is enough: the audit tells you up front whether low end, loudness and balance are ready for mastering and what to fix in your own mix. If single elements collide, such as kick and bass or guitars and vocals, stem mastering for €129 with up to 6 stem groups is the cheaper route than a new mix.
 Polished specialises in Black Metal, Death Metal, Doom & Gothic and Metalcore & Djent. You can pay up front or on invoice after delivery.
 Get a fixed quote →
 ### Mastering cost FAQ
@@ -1141,11 +1142,11 @@ Stem mastering costs more than stereo mastering because several track groups (e.
 
 ---
 
-## Mastering Kosten & Preise 2026: Was kostet Mastering? | Polished
+## Mastering Kosten & Preise 2026: Online-Mastering ab 79 € | Polished
 URL: https://polished.media/de/mastering-kosten/
 
 Preise · Kosten · Vergleich
-## Was kostet Mastering?
+## Was kostet Mastering? Preise für Song, EP & Album – Online-Mastering ab 79 €
 Kurze Antwort: Professionelles Mastering kostet in Deutschland meist zwischen 50 und 150 € pro Track. KI-Dienste sind günstiger, renommierte Studios teurer. Bei Polished kostet ein Song 79 € inkl. USt., eine EP 349 € und ein Album 629 €, jeweils mit schriftlichem Audio-Audit und unbegrenzten Revisionen.
 Festpreis-Angebot anfragen →
 Preise ansehen
@@ -1203,6 +1204,9 @@ Mix + Masteringetwa 150–450 €bei getrennten Anbietern einzeln buchbar
 Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026.
 Kurz gesagt: Typische Mixing-Mastering-Preise liegen am Markt bei etwa 150–450 € pro Song. Wer einen Song mischen lassen will, sollte die Mixing- und Mastering-Kosten getrennt anfragen und vergleichen.
 Polished ist bewusst auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass der Mix selbst noch Arbeit braucht, bekommst du das ehrlich gesagt, statt es im Mastering zu verstecken.
+#### Du hast schon einen eigenen Mix?
+Dann brauchst du oft kein bezahltes Komplett-Mixing für 100–300 € pro Song. In vielen Fällen reicht Stereo-Mastering mit schriftlichem Mix-Audit für 79 € : Das Audit zeigt dir vorher, ob Low End, Lautheit und Balance bereit fürs Mastering sind, und was du im Mix noch selbst ändern solltest. Kollidieren einzelne Elemente, etwa Kick und Bass oder Gitarren und Vocals, ist Stem-Mastering für 129 € mit bis zu 6 Spurgruppen der günstigere Weg als ein neuer Mix.
+Mix prüfen lassen: Audit + Mastering ab 79 € →
 ### Analog oder digital: Unterschied im Preis
 Analoges Mastering über Hardware wie Röhren-EQs und Kompressoren ist meist teurer als digitales Mastering, weil Geräte, Wartung und die Arbeit in Echtzeit mehr kosten. Am Markt liegt der Aufpreis häufig bei etwa 30–50 % pro Track.
 Teurer heißt nicht automatisch besser. Entscheidend ist, dass der Engineer weiß, was dein Mix und dein Genre brauchen. Ein gezielter Eingriff nach einer Analyse bringt mehr als teures Equipment ohne Plan.
@@ -1243,11 +1247,11 @@ Nein. Polished ist auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass
 
 ---
 
-## Stem Mastering: Benefits, Cost & How to Export Stems | Polished
+## Stem Mastering from €129: Benefits, Cost & Stem Export | Polished
 URL: https://polished.media/stem-mastering/
 
 Guide · Stem Mastering
-## Stem mastering: more control over your mix
+## Stem mastering from €129: more control over your mix
 Stem mastering masters several track groups, such as drums, bass, guitars and vocals, instead of one stereo file. It helps when instruments mask each other in the mix. At Polished, stem mastering costs €129 per track incl. VAT, with a written audio audit and unlimited revisions.
 Request stem mastering →
 How to export stems
@@ -1291,11 +1295,11 @@ No. Stem mixing rebuilds the balance of a song from its stems and changes the mi
 
 ---
 
-## Stem-Mastering: Vorteile, Kosten & Stem-Export | Polished
+## Stem-Mastering ab 129 €: Vorteile, Kosten & Stem-Export | Polished
 URL: https://polished.media/de/stem-mastering/
 
 Ratgeber · Stem-Mastering
-## Stem-Mastering: mehr Kontrolle für deinen Mix
+## Stem-Mastering ab 129 €: mehr Kontrolle für deinen Mix
 Beim Stem-Mastering werden statt einer Stereo-Datei mehrere Spurgruppen gemastert, zum Beispiel Drums, Bass, Gitarren und Vocals. Das hilft, wenn sich Instrumente im Mix verdecken. Bei Polished kostet Stem-Mastering 129 € pro Track inkl. USt., mit schriftlichem Audio-Audit und unbegrenzten Revisionen.
 Stem-Mastering anfragen →
 Stems richtig exportieren

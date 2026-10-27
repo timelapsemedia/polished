@@ -293,6 +293,34 @@ def service_schema(name, path, desc, audience, lang='en'):
                        "priceSpecification": {"@type": "PriceSpecification", "priceCurrency": "EUR", "valueAddedTaxIncluded": True}}}
 
 
+# Konkrete Angebote mit Preisen für die Preis-/Stem-Seiten (SEO-Befund 27.10.2026: diese Seiten trugen nur Article/FAQ,
+# Google las sie als Ratgeber statt als Angebotsseite). Preise = Endpreise inkl. 19 % USt., identisch mit PRICES_DE/EN.
+ANGEBOTE = {
+    'de': [('Stereo-Mastering (Single)', 79), ('Stem-Mastering (Single, bis 6 Stems)', 129), ('EP-Mastering (bis 5 Tracks)', 349),
+           ('Album-Mastering (bis 10 Tracks)', 629), ('Stem-EP (bis 5 Tracks aus Stems)', 549), ('Single-Serie (3 Singles à 73 €)', 219)],
+    'en': [('Stereo mastering (single)', 79), ('Stem mastering (single, up to 6 stems)', 129), ('EP mastering (up to 5 tracks)', 349),
+           ('Album mastering (up to 10 tracks)', 629), ('Stem EP (up to 5 tracks from stems)', 549), ('Single Series (3 singles at €73)', 219)],
+}
+
+
+def angebots_schema(path, name, desc, lang='en', nur=None):
+    """Service mit AggregateOffer + OfferCatalog (je Angebot Preis inkl. USt.). nur: Indexliste, z. B. [1, 4] für Stem-Seiten."""
+    liste = [a for i, a in enumerate(ANGEBOTE[lang]) if nur is None or i in nur]
+    preise = [p for _, p in liste]
+    ziel = f"{BASE}/de/#preise" if lang == 'de' else f"{BASE}/#packages"
+    return {"@context": "https://schema.org", "@type": "Service", "@id": f"{BASE}{path}#angebot",
+            "name": name, "serviceType": "Audio Mastering", "description": desc, "inLanguage": lang,
+            "url": f"{BASE}{path}", "provider": BIZ, "areaServed": "Worldwide",
+            "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": str(min(preise)),
+                       "highPrice": str(max(preise)), "offerCount": str(len(liste)), "url": ziel},
+            "hasOfferCatalog": {"@type": "OfferCatalog", "name": name, "itemListElement": [
+                {"@type": "Offer", "name": n, "price": str(p), "priceCurrency": "EUR", "url": ziel,
+                 "availability": "https://schema.org/InStock", "seller": BIZ,
+                 "priceSpecification": {"@type": "PriceSpecification", "price": str(p), "priceCurrency": "EUR",
+                                        "valueAddedTaxIncluded": True},
+                 "itemOffered": {"@type": "Service", "name": n}} for n, p in liste]}}
+
+
 def webpage_schema(path, name, lang='en', page_type='WebPage'):
     return {"@context": "https://schema.org", "@type": page_type, "@id": f"{BASE}{path}#webpage",
             "url": f"{BASE}{path}", "name": name, "inLanguage": lang,

@@ -5,7 +5,7 @@ STEM_EN = '/stem-mastering/'
 STEM_PAIR = {'en': STEM_EN, 'de': STEM_DE}
 
 # ---------------------------------------------------------------- DE
-SD_TITLE = 'Stem-Mastering: Vorteile, Kosten & Stem-Export | Polished'
+SD_TITLE = 'Stem-Mastering ab 129 €: Vorteile, Kosten & Stem-Export | Polished'
 SD_FAQS = [
     ('Was ist Stem-Mastering?', 'Beim Stem-Mastering wird nicht eine fertige Stereo-Datei gemastert, sondern mehrere Spurgruppen (Stems) wie Drums, Bass, Gitarren und Vocals. Jede Gruppe kann einzeln bearbeitet werden, bevor alles zum finalen Master zusammengeführt wird. Das gibt mehr Kontrolle, wenn sich Instrumente im Mix gegenseitig verdecken.'),
     ('Wann lohnt sich Stem-Mastering?', 'Stem-Mastering lohnt sich, wenn einzelne Elemente im Mix kollidieren, etwa Kick und Bass im Low End, Gitarren, die Vocals verdecken, oder Becken, die bei Blastbeats die Snare verschlucken. Bei einem gut ausbalancierten Mix reicht Stereo-Mastering. Das Audio-Audit von Polished sagt dir, was für deinen Mix sinnvoll ist.'),
@@ -17,7 +17,7 @@ sd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Stem-Mastering'
 <header class="page-hero">
   <div class="wrap">
     <div class="eyebrow">Ratgeber · Stem-Mastering</div>
-    <h1>Stem-Mastering: <em>mehr Kontrolle für deinen Mix</em></h1>
+    <h1>Stem-Mastering ab 129 €: <em>mehr Kontrolle für deinen Mix</em></h1>
     <p class="lead"><strong>Beim Stem-Mastering werden statt einer Stereo-Datei mehrere Spurgruppen gemastert, zum Beispiel Drums, Bass, Gitarren und Vocals.</strong> Das hilft, wenn sich Instrumente im Mix verdecken. Bei Polished kostet Stem-Mastering 129 € pro Track inkl. USt., mit schriftlichem Audio-Audit und unbegrenzten Revisionen.</p>
     <div class="cta-row">
       <a href="/de/#kontakt" class="cta-btn" data-track="de-stem-hero">Stem-Mastering anfragen →</a>
@@ -89,6 +89,7 @@ sd_schemas = [
          'Limiter, Clipper und Summenkompressor vor dem Export ausschalten.',
          'Hall und Delay in den Stem rendern oder als eigenen FX-Stem exportieren.',
          'Etwa 3–6 dB Headroom lassen und Dateien eindeutig benennen.'])]},
+    angebots_schema(STEM_DE, 'Stem-Mastering', 'Stem-Mastering mit bis zu 6 Spurgruppen, schriftlichem Audio-Audit und unbegrenzten Revisionen: 129 € pro Track, Stem-EP 549 €, Endpreise inkl. 19 % USt.', lang='de', nur=[1, 4]),
     faq_schema(SD_FAQS),
 ]
 write(STEM_DE, page(path=STEM_DE, lang='de', title=SD_TITLE,
@@ -96,7 +97,7 @@ write(STEM_DE, page(path=STEM_DE, lang='de', title=SD_TITLE,
       og_title='Stem-Mastering — Polished', body=sd_body, schemas=sd_schemas, counterpart=STEM_PAIR))
 
 # ---------------------------------------------------------------- EN
-SE_TITLE = 'Stem Mastering: Benefits, Cost & How to Export Stems | Polished'
+SE_TITLE = 'Stem Mastering from €129: Benefits, Cost & Stem Export | Polished'
 SE_FAQS = [
     ('What is stem mastering?', 'Stem mastering masters several track groups (stems) such as drums, bass, guitars and vocals instead of one finished stereo file. Each group can be processed individually before everything is combined into the final master, which gives more control when instruments mask each other in the mix.'),
     ('When is stem mastering worth it?', 'Stem mastering is worth it when elements in the mix collide, for example kick and bass in the low end, guitars masking the vocals, or cymbals swallowing the snare during blast beats. For a well-balanced mix, stereo mastering is enough. The Polished audio audit tells you which one suits your mix.'),
@@ -108,7 +109,7 @@ se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE
 <header class="page-hero">
   <div class="wrap">
     <div class="eyebrow">Guide · Stem Mastering</div>
-    <h1>Stem mastering: <em>more control over your mix</em></h1>
+    <h1>Stem mastering from €129: <em>more control over your mix</em></h1>
     <p class="lead"><strong>Stem mastering masters several track groups, such as drums, bass, guitars and vocals, instead of one stereo file.</strong> It helps when instruments mask each other in the mix. At Polished, stem mastering costs €129 per track incl. VAT, with a written audio audit and unlimited revisions.</p>
     <div class="cta-row">
       <a href="/#contact" class="cta-btn" data-track="stem-hero">Request stem mastering →</a>
@@ -172,6 +173,16 @@ se_schemas = [
      "image": f"{BASE}/assets/og-image.jpg", "datePublished": TODAY, "dateModified": TODAY,
      "author": {"@type": "Person", "@id": f"{BASE}/#tim-borchert", "name": "Tim Borchert", "url": f"{BASE}/#engineer"},
      "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{STEM_EN}#webpage"}},
+    {"@context": "https://schema.org", "@type": "HowTo", "name": "How to export stems for stem mastering", "inLanguage": "en",
+     "step": [{"@type": "HowToStep", "position": i + 1, "text": t} for i, t in enumerate([
+         'Group your tracks into 4–6 stems: drums, bass, guitars, vocals, plus keys/synths and FX if needed.',
+         'Export every stem from 0:00 or bar 1 with the same length.',
+         'Render as 24- or 32-bit WAV at the original sample rate.',
+         'Check that all stems played together at 0 dB reproduce your mix exactly.',
+         'Switch off any limiter, clipper and bus compressor before exporting.',
+         'Render reverb and delay into the stem or export them as a separate FX stem.',
+         'Leave about 3–6 dB of headroom and name the files clearly.'])]},
+    angebots_schema(STEM_EN, 'Stem mastering', 'Stem mastering with up to 6 stem groups, a written audio audit and unlimited revisions: €129 per track, Stem EP €549, final prices incl. 19% VAT.', nur=[1, 4]),
     faq_schema(SE_FAQS),
 ]
 write(STEM_EN, page(path=STEM_EN, lang='en', title=SE_TITLE,

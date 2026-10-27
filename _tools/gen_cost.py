@@ -5,7 +5,7 @@ COST_EN = '/mastering-cost/'
 COST_PAIR = {'en': COST_EN, 'de': COST_DE}
 
 # ---------------------------------------------------------------- DE
-CD_TITLE = 'Mastering Kosten & Preise 2026: Was kostet Mastering? | Polished'
+CD_TITLE = 'Mastering Kosten & Preise 2026: Online-Mastering ab 79 € | Polished'
 CD_FAQS = [
     ('Was kostet professionelles Mastering?', 'Professionelles Mastering kostet in Deutschland grob zwischen 50 und 150 € pro Track, bei renommierten Studios auch 200 € und mehr. Automatische KI-Dienste sind deutlich günstiger, liefern aber keine individuelle Analyse. Bei Polished kostet Stereo-Mastering 79 € pro Track inkl. 19 % USt., inklusive schriftlichem Audio-Audit und unbegrenzten Revisionen.'),
     ('Was kostet Online-Mastering?', 'Online-Mastering-Preise reichen von wenigen Euro oder einem Monatsabo bei KI-Diensten über etwa 15–60 € auf Freelancer-Plattformen bis etwa 50–150 € pro Track bei spezialisierten Online-Mastering-Studios. Der Ablauf ist überall ähnlich: Du schickst deinen Mix online, etwa per WeTransfer oder Dropbox, und bekommst den Master per Download-Link zurück. Bei Polished kostet Online-Mastering 79 € pro Track inkl. USt.; das schriftliche Audio-Audit, Exporte für Streaming und Bandcamp und unbegrenzte Revisionen sind im Preis enthalten.'),
@@ -22,7 +22,7 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
 <header class="page-hero">
   <div class="wrap">
     <div class="eyebrow">Preise · Kosten · Vergleich</div>
-    <h1>Was kostet <em>Mastering?</em></h1>
+    <h1>Was kostet Mastering? <em>Preise für Song, EP &amp; Album – Online-Mastering ab 79 €</em></h1>
     <p class="lead"><strong>Kurze Antwort: Professionelles Mastering kostet in Deutschland meist zwischen 50 und 150 € pro Track.</strong> KI-Dienste sind günstiger, renommierte Studios teurer. Bei Polished kostet ein Song 79 € inkl. USt., eine EP 349 € und ein Album 629 €, jeweils mit schriftlichem Audio-Audit und unbegrenzten Revisionen.</p>
     <div class="cta-row">
       <a href="/de/#kontakt" class="cta-btn" data-track="de-cost-hero">Festpreis-Angebot anfragen →</a>
@@ -91,7 +91,10 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
     </div>
     <p class="table-note">Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026.</p>
     <p>Kurz gesagt: Typische Mixing-Mastering-Preise liegen am Markt bei etwa 150–450 € pro Song. Wer einen Song mischen lassen will, sollte die Mixing- und Mastering-Kosten getrennt anfragen und vergleichen.</p>
-    <p>Polished ist bewusst auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass der Mix selbst noch Arbeit braucht, bekommst du das ehrlich gesagt, statt es im Mastering zu verstecken.</p>""", alt=True)}
+    <p>Polished ist bewusst auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass der Mix selbst noch Arbeit braucht, bekommst du das ehrlich gesagt, statt es im Mastering zu verstecken.</p>
+    <h3>Du hast schon einen eigenen Mix?</h3>
+    <p>Dann brauchst du oft kein bezahltes Komplett-Mixing für 100–300 € pro Song. In vielen Fällen reicht <strong>Stereo-Mastering mit schriftlichem Mix-Audit für 79 €</strong>: Das Audit zeigt dir vorher, ob Low End, Lautheit und Balance bereit fürs Mastering sind, und was du im Mix noch selbst ändern solltest. Kollidieren einzelne Elemente, etwa Kick und Bass oder Gitarren und Vocals, ist <strong><a href="/de/stem-mastering/">Stem-Mastering für 129 €</a></strong> mit bis zu 6 Spurgruppen der günstigere Weg als ein neuer Mix.</p>
+    <div class="cta-row" style="margin-top: 16px;"><a href="/de/#kontakt" class="cta-btn" data-track="de-cost-mix-bridge">Mix prüfen lassen: Audit + Mastering ab 79 € →</a></div>""", alt=True)}
 {sec('cd-analog', 'Analog oder digital: <em>Unterschied im Preis</em>', """    <p>Analoges Mastering über Hardware wie Röhren-EQs und Kompressoren ist meist teurer als digitales Mastering, weil Geräte, Wartung und die Arbeit in Echtzeit mehr kosten. Am Markt liegt der Aufpreis häufig bei etwa 30–50 % pro Track.</p>
     <p>Teurer heißt nicht automatisch besser. Entscheidend ist, dass der Engineer weiß, was dein Mix und dein Genre brauchen. Ein gezielter Eingriff nach einer Analyse bringt mehr als teures Equipment ohne Plan.</p>""")}
 {sec('cd-spartipps', 'So sparst du <em>beim Mastering</em>', """    <ol>
@@ -120,6 +123,7 @@ cd_schemas = [
      "image": f"{BASE}/assets/og-image.jpg", "datePublished": TODAY, "dateModified": TODAY,
      "author": {"@type": "Person", "@id": f"{BASE}/#tim-borchert", "name": "Tim Borchert", "url": f"{BASE}/de/#tim"},
      "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{COST_DE}#webpage"}},
+    angebots_schema(COST_DE, 'Online-Mastering für Metal: Preise', 'Online-Mastering mit schriftlichem Audio-Audit und unbegrenzten Revisionen: Song ab 79 €, Stems 129 €, EP 349 €, Album 629 €, Endpreise inkl. 19 % USt.', lang='de'),
     faq_schema(CD_FAQS),
 ]
 write(COST_DE, page(path=COST_DE, lang='de', title=CD_TITLE,
@@ -127,7 +131,7 @@ write(COST_DE, page(path=COST_DE, lang='de', title=CD_TITLE,
       og_title='Was kostet Mastering? — Polished', body=cd_body, schemas=cd_schemas, counterpart=COST_PAIR))
 
 # ---------------------------------------------------------------- EN
-CE_TITLE = 'How Much Does Mastering Cost? Prices 2026 | Polished'
+CE_TITLE = 'Mastering Cost & Prices 2026: Online Mastering from €79 | Polished'
 CE_FAQS = [
     ('How much does professional mastering cost?', 'Professional mastering typically costs roughly €50–150 per track, and €200 or more at well-known studios. Automated AI services are much cheaper but do not analyse your mix individually. At Polished, stereo mastering costs €79 per track incl. 19% VAT, including a written audio audit and unlimited revisions.'),
     ('How much does it cost to master a song?', 'At Polished, one song costs €79 incl. VAT for stereo mastering or €129 from stems, including a written audio audit, streaming and Bandcamp exports, 48–72h delivery and unlimited revisions. Booking three singles together costs €73 per single.'),
@@ -140,7 +144,7 @@ ce_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Mastering Cost', f'{BASE
 <header class="page-hero">
   <div class="wrap">
     <div class="eyebrow">Prices · Cost · Comparison</div>
-    <h1>How much does <em>mastering cost?</em></h1>
+    <h1>How much does mastering cost? <em>Prices per song, EP &amp; album – online mastering from €79</em></h1>
     <p class="lead"><strong>Short answer: professional mastering usually costs roughly €50–150 per track.</strong> AI services are cheaper, renowned studios more expensive. At Polished, one song is €79 incl. VAT, an EP €349 and an album €629, each with a written audio audit and unlimited revisions.</p>
     <div class="cta-row">
       <a href="/#contact" class="cta-btn" data-track="cost-hero">Get a fixed quote →</a>
@@ -176,6 +180,7 @@ ce_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Mastering Cost', f'{BASE
       <li><strong>Revisions:</strong> many providers cap or charge for revisions. At Polished they are unlimited.</li>
       <li><strong>Analysis:</strong> a written audio audit of your mix is included at Polished; elsewhere a mix analysis is often not part of the service.</li>
     </ul>
+    <p><strong>Already have your own mix?</strong> Then you often don't need to pay €100–300 per song for a full mixing job. In many cases <strong>stereo mastering with a written mix audit for €79</strong> is enough: the audit tells you up front whether low end, loudness and balance are ready for mastering and what to fix in your own mix. If single elements collide, such as kick and bass or guitars and vocals, <strong><a href="/stem-mastering/">stem mastering for €129</a></strong> with up to 6 stem groups is the cheaper route than a new mix.</p>
     <p>Polished specialises in <a href="/black-metal-mastering/">Black Metal</a>, <a href="/death-metal-mastering/">Death Metal</a>, <a href="/doom-gothic-mastering/">Doom &amp; Gothic</a> and <a href="/metalcore-djent-mastering/">Metalcore &amp; Djent</a>. You can pay up front or on invoice after delivery.</p>
     <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="cost-cta">Get a fixed quote →</a></div>""", alt=True)}
 <section class="content-section" aria-labelledby="ce-faq">
@@ -192,6 +197,7 @@ ce_schemas = [
      "image": f"{BASE}/assets/og-image.jpg", "datePublished": TODAY, "dateModified": TODAY,
      "author": {"@type": "Person", "@id": f"{BASE}/#tim-borchert", "name": "Tim Borchert", "url": f"{BASE}/#engineer"},
      "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{COST_EN}#webpage"}},
+    angebots_schema(COST_EN, 'Online metal mastering: prices', 'Online mastering with a written audio audit and unlimited revisions: song from €79, stems €129, EP €349, album €629, final prices incl. 19% VAT.'),
     faq_schema(CE_FAQS),
 ]
 write(COST_EN, page(path=COST_EN, lang='en', title=CE_TITLE,
