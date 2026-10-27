@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-10-23T12:00+02:00",
+ "stand": "2026-10-27T09:00+01:00",
  "posts": [
   {
    "id": "2026-10-24-motion_ep",
@@ -14,10 +14,9 @@
    "id": "2026-10-26-process",
    "due": "2026-10-26T10:30+01:00",
    "caption": "How to send a premaster that is ready for mastering. ✅\n\n▸ WAV or AIFF\n▸ 24 or 32-bit\n▸ At your session sample rate, no conversion\n▸ 3–6 dB headroom on the peaks\n▸ No limiter on the master bus\n▸ Two or three sentences on what you want the record to feel like\n\nThat is all. No stems needed unless you book Stem Pro.\n\nThe audit starts from there, and you get the written report before any mastering happens.\n\nSave this for your next bounce. Request your audit → polished.media\n\n#mastering #masteringengineer #doommetal #extrememetal #gothicmetal #djent #lufs #studiolife #audioengineering #homerecording #indielabel #metalband",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-26-process-portrait.jpg"
-   ],
-   "video_url": null
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-10-26-process.mp4",
+   "thumb_offset": 800
   },
   {
    "id": "2026-10-28-offer",
@@ -34,6 +33,31 @@
    "caption": "A breakdown hits because of the silence between the hits. 💥\n\nOn a syncopated riff, the kick and the low palm mutes have to stop as precisely as they start. Over-compress the master and those gaps fill up: the riff turns into one long low smear.\n\nWhat the audit checks on Metalcore and Djent:\n▸ How fast the low end decays after each hit\n▸ Kick against bass guitar below 100 Hz, which one owns which band\n▸ Vocals, clean or screamed, sitting where they should without thinning the guitars\n▸ How much limiting the transients can take before the breakdown loses its edge\n\nTight is a decision, not a preset.\n\npolished.media\n\n#mastering #masteringengineer #djent #gothicmetal #blackmetal #deathmetal #loudnesswar #audioengineering #studiolife #homerecording #recordingstudio #metalband",
    "image_urls": [
     "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-10-30-genre_craft-portrait.jpg"
+   ],
+   "video_url": null
+  },
+  {
+   "id": "2026-10-31-motion_audit",
+   "due": "2026-10-31T10:30+01:00",
+   "caption": "Mastered by gut feeling, or by analysis? 🔍\n\nAt Polished every project starts with a full audio audit. Before I touch a single plugin.\n\nSend me your premaster as a 24 or 32-bit WAV with 3 to 6 dB headroom and no limiter on the master bus. I'll measure frequency spectrum, dynamics, stereo image, phase, loudness and sonic character.\n\nYou get a written report and a concrete mastering plan. Every move I make is documented.\n\nMix not ready? I'll tell you upfront and point you to a mixing engineer from my network. No fake fix in the master.\n\nThe audit's part of every package. Single masters start at €79.\n\npolished.media\n\n#mastering #masteringengineer #metalmastering #audioanalysis #blackmetal #deathmetal #doommetal #gothicmetal #extrememetal #audioengineering #undergroundmetal #metalband #indielabel #homestudio",
+   "image_urls": [],
+   "video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_38hkCZF59GLldwwRS6in05Mr1ZD/05465df6-7ae3-4f53-8f66-fddc9c2ec199.mp4",
+   "thumb_offset": 2600
+  },
+  {
+   "id": "2026-11-01-motion_stem",
+   "due": "2026-11-01T10:30+01:00",
+   "caption": "Your kick needs more headroom than the rest of the mix? 🥁 Send stems.\n\nWith Stem Pro you send me up to 6 stems per track, for example drums, bass, guitars and vocals as separate stereo files, and I work on each group on its own before it all comes together in the final master.\n\nThe kick gets its room. Directly.\n\nNothing else has to bend around it. You still get the full audio audit first, and revisions are unlimited. Delivery takes 48 to 72 hours.\n\nIt's €129 per track incl. 19% VAT. Pay up front or on invoice after delivery, your call.\n\npolished.media\n\n#mastering #stemmastering #metalmastering #blackmetal #deathmetal #doommetal #gothicmetal #metalcore #audioengineering #mixingandmastering #undergroundmetal #metalband #indieband #homestudio",
+   "image_urls": [],
+   "video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_38hkCZF59GLldwwRS6in05Mr1ZD/f33a1de1-9329-466f-96f7-0d94f650157d.mp4",
+   "thumb_offset": 2600
+  },
+  {
+   "id": "2026-11-02-offer",
+   "due": "2026-11-02T10:30+01:00",
+   "caption": "Sometimes the problem sits in one instrument, and a stereo file can't separate it. 🎛️\n\nThat is what Stem Pro is for: up to 6 grouped stems, for example drums, bass, guitars, vocals, keys and FX.\n\nWhen it is worth it:\n▸ The audit shows a clash between two elements, like kick and bass\n▸ Vocals need to come forward without dragging the guitars along\n▸ The mix is good, but one group is fighting the rest\n\n€129 incl. VAT, full audit included, all platform exports, delivery in 48–72h, unlimited revisions.\n\nNot sure if you need stems? Send the stereo bounce first and the audit will tell you.\n\npolished.media\n\n#mastering #masteringengineer #extrememetal #gothicmetal #deathmetal #doommetal #diymusician #loudnesswar #homerecording #studiolife #recordingstudio #indielabel",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-02-offer-portrait.jpg"
    ],
    "video_url": null
   }
