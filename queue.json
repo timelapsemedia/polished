@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-10-27T15:01+01:00",
+ "stand": "2026-10-28T11:00+01:00",
  "posts": [
   {
    "id": "2026-10-28-offer",
@@ -41,6 +41,15 @@
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-02-offer.mp4",
    "thumb_offset": 800
+  },
+  {
+   "id": "2026-11-04-process",
+   "due": "2026-11-04T10:30+01:00",
+   "caption": "The first thing you get back is not a master. It is a written report. 📝\n\nIt covers:\n▸ Frequency balance against references for your subgenre\n▸ Dynamics and loudness, including streaming compliance\n▸ Stereo image, mono compatibility and phase below 80 Hz\n▸ What is working, what isn't, and why\n▸ The concrete mastering strategy that follows from it\n\nSo before a single processing step happens, you know what will change and for what reason. No black box.\n\nIncluded in every package, from the €79 single upwards.\n\npolished.media\n\n#mastering #masteringengineer #djent #blackmetal #metalcore #gothicmetal #mixingandmastering #homerecording #loudnesswar #diymusician #indielabel #recordingstudio",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-04-process-portrait.jpg"
+   ],
+   "video_url": null
   }
  ]
 }
