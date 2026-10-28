@@ -1272,6 +1272,15 @@ Typical metal cases for stems: kick and bass fighting below 100 Hz, guitar walls
 - Effects: render reverb and delay into the stem or export them as a separate FX stem, never both.
 - Headroom: no clipping; leave about 3–6 dB below 0 dBFS on the sum.
 - Naming: e.g. SongTitle_Drums.wav, SongTitle_Bass.wav.
+#### Which stem types (stem groups) for metal?
+StemWhat goes inWhy separate
+DrumsKick, snare, toms, overheads, roomKick and snare punch without squashing the guitars
+BassDI and amp bassLow end tight against the kick
+Rhythm guitarsAll rhythm tracks, double-trackedControls harshness at 2–5 kHz independently
+Leads / clean guitarsSolos, leads, clean partsLeads stay audible without raising the wall
+VocalsLead vocals, screams, backing vocalsLevel and sibilance correctable on their own
+Synths / FXKeys, orchestra, reverb and delay returnsSpace and atmosphere adjustable
+Four stems (drums, bass, guitars, vocals) are enough for most metal songs; six give more control on dense productions.
 Include the stereo mix as a reference and one or two reference tracks from your subgenre. Pricing compared to other providers: How much does mastering cost?
 Request stem mastering →
 ### Stem mastering service: prices
@@ -1320,6 +1329,15 @@ Im Metal sind die typischen Fälle für Stems: Kick und Bass streiten sich unter
 - Effekte: Hall und Delay entweder in den jeweiligen Stem rendern oder als eigenen FX-Stem exportieren, aber nicht doppelt.
 - Headroom: Keine Clips; die Summe sollte mit etwa 3–6 dB Luft unter 0 dBFS bleiben.
 - Benennung: zum Beispiel Songtitel_Drums.wav, Songtitel_Bass.wav.
+#### Welche Stem-Typen (Stem-Gruppen) brauchst du im Metal?
+StemWas hinein gehörtWarum getrennt
+DrumsKick, Snare, Toms, Overheads, RoomKick und Snare bekommen Punch, ohne die Gitarren zu quetschen
+BassDI- und Amp-BassTiefbass sitzt sauber an der Kick
+RhythmusgitarrenAlle Rhythmusspuren, gedoppeltHärte bei 2–5 kHz getrennt regelbar
+Lead-/Clean-GitarrenSoli, Leads, Clean-PartsLeads bleiben hörbar, ohne die Wand lauter zu machen
+VocalsGesang, Screams, BackingsPegel und Zischlaute einzeln korrigierbar
+Synths/FXKeys, Orchester, Hall- und Delay-ReturnsRaum und Atmosphäre einstellbar
+Für die meisten Metal-Songs reichen vier Stems (Drums, Bass, Gitarren, Vocals); sechs geben bei dichten Produktionen mehr Kontrolle.
 Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.
 ### Stem-Mastering Preise: was kostet es?
 PaketPreis inkl. USt.Umfang
