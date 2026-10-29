@@ -168,6 +168,7 @@ nav.site-nav {
 }
 .cta-btn:hover { background: var(--accent-bright); transform: translateY(-2px); box-shadow: 0 12px 32px var(--accent-glow-strong); }
 .cta-btn.outline { background: transparent; color: var(--text); border-color: var(--border-strong); }
+@media (max-width: 480px) { .cta-btn { white-space: normal; text-align: center; justify-content: center; } }
 .cta-btn.outline:hover { border-color: var(--accent); box-shadow: none; background: var(--bg-elevated); }
 .nav-cta { padding: 9px 16px; font-size: 12px; }
 .cta-short { display: none; }

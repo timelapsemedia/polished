@@ -52,17 +52,19 @@ sd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Stem-Mastering'
       <li><strong>Benennung:</strong> zum Beispiel <code>Songtitel_Drums.wav</code>, <code>Songtitel_Bass.wav</code>.</li>
     </ol>
     <h3>Welche Stem-Typen (Stem-Gruppen) brauchst du im Metal?</h3>
-    <table>
-      <thead><tr><th>Stem</th><th>Was hinein gehört</th><th>Warum getrennt</th></tr></thead>
-      <tbody>
-        <tr><td>Drums</td><td>Kick, Snare, Toms, Overheads, Room</td><td>Kick und Snare bekommen Punch, ohne die Gitarren zu quetschen</td></tr>
-        <tr><td>Bass</td><td>DI- und Amp-Bass</td><td>Tiefbass sitzt sauber an der Kick</td></tr>
-        <tr><td>Rhythmusgitarren</td><td>Alle Rhythmusspuren, gedoppelt</td><td>Härte bei 2–5 kHz getrennt regelbar</td></tr>
-        <tr><td>Lead-/Clean-Gitarren</td><td>Soli, Leads, Clean-Parts</td><td>Leads bleiben hörbar, ohne die Wand lauter zu machen</td></tr>
-        <tr><td>Vocals</td><td>Gesang, Screams, Backings</td><td>Pegel und Zischlaute einzeln korrigierbar</td></tr>
-        <tr><td>Synths/FX</td><td>Keys, Orchester, Hall- und Delay-Returns</td><td>Raum und Atmosphäre einstellbar</td></tr>
-      </tbody>
-    </table>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Stem</th><th>Was hinein gehört</th><th>Warum getrennt</th></tr></thead>
+        <tbody>
+          <tr><td>Drums</td><td>Kick, Snare, Toms, Overheads, Room</td><td>Kick und Snare bekommen Punch, ohne die Gitarren zu quetschen</td></tr>
+          <tr><td>Bass</td><td>DI- und Amp-Bass</td><td>Tiefbass sitzt sauber an der Kick</td></tr>
+          <tr><td>Rhythmusgitarren</td><td>Alle Rhythmusspuren, gedoppelt</td><td>Härte bei 2–5 kHz getrennt regelbar</td></tr>
+          <tr><td>Lead-/Clean-Gitarren</td><td>Soli, Leads, Clean-Parts</td><td>Leads bleiben hörbar, ohne die Wand lauter zu machen</td></tr>
+          <tr><td>Vocals</td><td>Gesang, Screams, Backings</td><td>Pegel und Zischlaute einzeln korrigierbar</td></tr>
+          <tr><td>Synths/FX</td><td>Keys, Orchester, Hall- und Delay-Returns</td><td>Raum und Atmosphäre einstellbar</td></tr>
+        </tbody>
+      </table>
+    </div>
     <p>Für die meisten Metal-Songs reichen vier Stems (Drums, Bass, Gitarren, Vocals); sechs geben bei dichten Produktionen mehr Kontrolle.</p>
     <p>Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.</p>
   </div>
@@ -157,17 +159,19 @@ se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE
       <li><strong>Naming:</strong> e.g. <code>SongTitle_Drums.wav</code>, <code>SongTitle_Bass.wav</code>.</li>
     </ol>
     <h3>Which stem types (stem groups) for metal?</h3>
-    <table>
-      <thead><tr><th>Stem</th><th>What goes in</th><th>Why separate</th></tr></thead>
-      <tbody>
-        <tr><td>Drums</td><td>Kick, snare, toms, overheads, room</td><td>Kick and snare punch without squashing the guitars</td></tr>
-        <tr><td>Bass</td><td>DI and amp bass</td><td>Low end tight against the kick</td></tr>
-        <tr><td>Rhythm guitars</td><td>All rhythm tracks, double-tracked</td><td>Controls harshness at 2–5 kHz independently</td></tr>
-        <tr><td>Leads / clean guitars</td><td>Solos, leads, clean parts</td><td>Leads stay audible without raising the wall</td></tr>
-        <tr><td>Vocals</td><td>Lead vocals, screams, backing vocals</td><td>Level and sibilance correctable on their own</td></tr>
-        <tr><td>Synths / FX</td><td>Keys, orchestra, reverb and delay returns</td><td>Space and atmosphere adjustable</td></tr>
-      </tbody>
-    </table>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Stem</th><th>What goes in</th><th>Why separate</th></tr></thead>
+        <tbody>
+          <tr><td>Drums</td><td>Kick, snare, toms, overheads, room</td><td>Kick and snare punch without squashing the guitars</td></tr>
+          <tr><td>Bass</td><td>DI and amp bass</td><td>Low end tight against the kick</td></tr>
+          <tr><td>Rhythm guitars</td><td>All rhythm tracks, double-tracked</td><td>Controls harshness at 2–5 kHz independently</td></tr>
+          <tr><td>Leads / clean guitars</td><td>Solos, leads, clean parts</td><td>Leads stay audible without raising the wall</td></tr>
+          <tr><td>Vocals</td><td>Lead vocals, screams, backing vocals</td><td>Level and sibilance correctable on their own</td></tr>
+          <tr><td>Synths / FX</td><td>Keys, orchestra, reverb and delay returns</td><td>Space and atmosphere adjustable</td></tr>
+        </tbody>
+      </table>
+    </div>
     <p>Four stems (drums, bass, guitars, vocals) are enough for most metal songs; six give more control on dense productions.</p>
     <p>Include the stereo mix as a reference and one or two reference tracks from your subgenre. Pricing compared to other providers: <a href="/mastering-cost/">How much does mastering cost?</a></p>
     <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="stem-cta">Request stem mastering →</a></div>

@@ -271,6 +271,6 @@ lgd_schemas = [
     faq_schema(LGD_FAQS),
 ]
 write(GUIDE_DE, page(path=GUIDE_DE, lang='de', title=LGD_TITLE,
-      description='Wie laut sollte Metal gemastert werden? LUFS-Ziele der Streaming-Plattformen, typische Lautheit für Metalcore, Death, Black und Doom Metal und True-Peak-Grenzen.',
+      description='Wie laut sollte Metal gemastert werden? LUFS-Ziele der Streaming-Plattformen, typische Lautheit für Metalcore, Death, Black und Doom Metal, True-Peak-Grenzen.',
       og_title='Wie laut sollte Metal gemastert werden? — Polished', body=lgd_body, schemas=lgd_schemas,
       counterpart={'en': '/metal-mastering-loudness/', 'de': GUIDE_DE}))
