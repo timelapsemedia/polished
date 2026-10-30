@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-10-28T16:00+01:00",
+ "stand": "2026-10-30T11:01+01:00",
  "posts": [
   {
    "id": "2026-10-30-genre_craft",
@@ -41,6 +41,15 @@
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-04-process.mp4",
    "thumb_offset": 800
+  },
+  {
+   "id": "2026-11-06-offer",
+   "due": "2026-11-06T10:30+01:00",
+   "caption": "An EP is not five singles in a row. 🎚️\n\nMastered one by one, every track gets pushed to its own loudness and its own top end. Played in order, the record jumps.\n\nThe EP package treats it as one record:\n▸ An audit for every track\n▸ Loudness balanced across the whole EP\n▸ Sequencing and the transitions between tracks worked out\n▸ Unlimited revisions\n\nUp to 5 tracks for €349, which is €46 less than five singles. Final price incl. 19% VAT, delivery in 5–7 days.\n\npolished.media\n\n#mastering #masteringengineer #extrememetal #deathmetal #doommetal #djent #loudnesswar #lufs #diymusician #audioengineering #indielabel #recordingstudio",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-06-offer-portrait.jpg"
+   ],
+   "video_url": null
   }
  ]
 }
