@@ -1,15 +1,7 @@
 {
  "marke": "polished",
- "stand": "2026-11-01T09:44+01:00",
+ "stand": "2026-11-01T10:43+01:00",
  "posts": [
-  {
-   "id": "2026-10-31-motion_audit",
-   "due": "2026-10-31T10:30+01:00",
-   "caption": "Mastered by gut feeling, or by analysis? 🔍\n\nAt Polished every project starts with a full audio audit. Before I touch a single plugin.\n\nSend me your premaster as a 24 or 32-bit WAV with 3 to 6 dB headroom and no limiter on the master bus. I'll measure frequency spectrum, dynamics, stereo image, phase, loudness and sonic character.\n\nYou get a written report and a concrete mastering plan. Every move I make is documented.\n\nMix not ready? I'll tell you upfront and point you to a mixing engineer from my network. No fake fix in the master.\n\nThe audit's part of every package. Single masters start at €79.\n\npolished.media\n\n#mastering #masteringengineer #metalmastering #audioanalysis #blackmetal #deathmetal #doommetal #gothicmetal #extrememetal #audioengineering #undergroundmetal #metalband #indielabel #homestudio",
-   "image_urls": [],
-   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-10-31-motion_audit.mp4",
-   "thumb_offset": 2600
-  },
   {
    "id": "2026-11-01-motion_stem",
    "due": "2026-11-01T10:30+01:00",
@@ -48,6 +40,14 @@
    "caption": "Ten tracks, one record. Does it sound like one? 💿\n\nAlbum mastering at Polished is €629 for up to 10 tracks. As 10 singles you'd pay €790, so you keep €161 in the band fund.\n\nI audit every track on its own, then I audit the whole album once more. That's how track one and track ten end up with the same loudness and the same tonal balance.\n\nPressing vinyl? Ask me for a vinyl-ready master. Revisions are unlimited, and you'll have the album back in 7 to 14 days.\n\nAll prices incl. 19% VAT.\n\npolished.media\n\n#mastering #masteringengineer #metalmastering #albummastering #blackmetal #deathmetal #doommetal #gothicmetal #extrememetal #audioengineering #undergroundmetal #metalband #vinyl #homestudio",
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-07-motion_album.mp4",
+   "thumb_offset": 2600
+  },
+  {
+   "id": "2026-11-08-motion_label",
+   "due": "2026-11-08T10:30+01:00",
+   "caption": "Running a label with four or more releases a year? 🏷️\n\nI've got fixed label partner rates, so you know what mastering costs before your release plan is even done.\n\nSingle: €63\nStem single: €103\nEP up to 5 tracks: €279\nAlbum up to 10 tracks: €499\n\nYou get the same audit, the same process and unlimited revisions on every release. Your whole catalog keeps one consistent sound, and you pay prepaid or by invoice per release. Whatever works for your label.\n\nAll prices incl. 19% VAT.\n\npolished.media\n\n#mastering #masteringengineer #metalmastering #indielabel #recordlabel #blackmetal #deathmetal #doommetal #gothicmetal #extrememetal #audioengineering #undergroundmetal #metallabel #musicbusiness",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-08-motion_label.mp4",
    "thumb_offset": 2600
   }
  ]
