@@ -695,7 +695,7 @@ lg_schemas = [
     faq_schema(LG_FAQS),
 ]
 write(LG_PATH, page(path=LG_PATH, lang='en', title=LG_TITLE,
-      description='How loud should metal be mastered? Streaming LUFS targets by platform, typical loudness for metalcore, death, black and doom metal, and true-peak limits.',
+      description='How loud should metal be mastered? Typical ranges run from about -12 to -6 LUFS by subgenre, while streaming plays back near -14 LUFS. Plus true-peak limits.',
       og_title='How loud should metal be mastered? — Polished', body=lg_body, schemas=lg_schemas,
       counterpart={'en': LG_PATH, 'de': '/de/metal-mastering-lautstaerke/'}))
 
