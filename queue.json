@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-01T11:43+01:00",
+ "stand": "2026-11-02T11:00+01:00",
  "posts": [
   {
    "id": "2026-11-02-offer",
@@ -41,6 +41,15 @@
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-08-motion_label.mp4",
    "thumb_offset": 2600
+  },
+  {
+   "id": "2026-11-09-process",
+   "due": "2026-11-09T10:30+01:00",
+   "caption": "What you actually receive at the end. 📦\n\n▸ 24-bit WAV\n▸ 16-bit AIFF\n▸ 320 kbps MP3\n▸ Platform-specific exports for Spotify, Apple Music and Bandcamp\n▸ A vinyl-ready master on request for albums\n\nAll through a secure download link, no file juggling on your side.\n\nEvery package includes every format. There is no extra charge for the streaming versions.\n\nSingle €79 · EP €349 · Album €629, all incl. VAT → polished.media\n\n#mastering #masteringengineer #doommetal #blackmetal #extrememetal #deathmetal #audioengineering #loudnesswar #studiolife #homerecording #indielabel #undergroundmetal",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-09-process-portrait.jpg"
+   ],
+   "video_url": null
   }
  ]
 }
