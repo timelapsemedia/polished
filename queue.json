@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-02T15:00+01:00",
+ "stand": "2026-11-04T11:00+01:00",
  "posts": [
   {
    "id": "2026-11-04-process",
@@ -41,6 +41,15 @@
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-09-process.mp4",
    "thumb_offset": 800
+  },
+  {
+   "id": "2026-11-11-studio_atmos",
+   "due": "2026-11-11T10:30+01:00",
+   "caption": "Mastering is not a gut feeling. It is applied audio engineering. ✍️\n\nEvery track gets treated like a research subject. Before deciding on an EQ move, a compression ratio or a saturation stage, it gets measured, compared and analysed.\n\nThat is not academic. It is efficient.\n\nTargeted moves instead of plugin roulette. A background in Systematic Musicology at the University of Hamburg is not a line on a website here — it is the working method.\n\nThe result: fewer revisions needed, and a reason behind every decision when you ask.\n\npolished.media\n\n#mastering #masteringengineer #extrememetal #metalcore #doommetal #gothicmetal #diymusician #studiolife #lufs #loudnesswar #recordingstudio #metalband",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-11-studio_atmos-portrait.jpg"
+   ],
+   "video_url": null
   }
  ]
 }
