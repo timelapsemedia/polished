@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-04T14:00+01:00",
+ "stand": "2026-11-05T12:02+01:00",
  "posts": [
   {
    "id": "2026-11-06-offer",
@@ -35,12 +35,30 @@
    "thumb_offset": 800
   },
   {
+   "id": "2026-11-10-process",
+   "due": "2026-11-10T10:30+01:00",
+   "caption": "You decide when you pay. 🧾\n\n▸ Option 1: pay up front, work starts right away\n▸ Option 2: pay on invoice after delivery\n▸ The audit is included either way\n▸ Unlimited revisions either way\n\nNo deposit games, no hidden fees. All prices include 19% VAT.\n\nSingle €79 · EP €349 · Album €629 → polished.media\n\n#mastering #masteringengineer #doommetal #djent #extrememetal #blackmetal #studiolife #homerecording #diymusician #audioengineering #metalband #recordingstudio",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-10-process-portrait.jpg"
+   ],
+   "video_url": null
+  },
+  {
    "id": "2026-11-11-studio_atmos",
    "due": "2026-11-11T10:30+01:00",
    "caption": "Mastering is not a gut feeling. It is applied audio engineering. ✍️\n\nEvery track gets treated like a research subject. Before deciding on an EQ move, a compression ratio or a saturation stage, it gets measured, compared and analysed.\n\nThat is not academic. It is efficient.\n\nTargeted moves instead of plugin roulette. A background in Systematic Musicology at the University of Hamburg is not a line on a website here — it is the working method.\n\nThe result: fewer revisions needed, and a reason behind every decision when you ask.\n\npolished.media\n\n#mastering #masteringengineer #extrememetal #metalcore #doommetal #gothicmetal #diymusician #studiolife #lufs #loudnesswar #recordingstudio #metalband",
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-11-studio_atmos.mp4",
    "thumb_offset": 800
+  },
+  {
+   "id": "2026-11-12-offer",
+   "due": "2026-11-12T10:30+01:00",
+   "caption": "One track, one fixed price. 🎚️\n\n▸ €79 incl. 19% VAT\n▸ Audit of your mix before any processing decision\n▸ Mastered for your subgenre, not for a loudness number\n▸ Unlimited revisions\n▸ Pay up front or on invoice after delivery\n\nReleasing more than one single this year? Three booked together cost €73 each.\n\nSend your mix via polished.media\n\n#mastering #masteringengineer #djent #extrememetal #gothicmetal #doommetal #lufs #studiolife #homerecording #loudnesswar #recordingstudio #undergroundmetal",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-12-offer-portrait.jpg"
+   ],
+   "video_url": null
   }
  ]
 }
