@@ -5,6 +5,8 @@ Run from anywhere:  python3 _tools/gen.py
 - gen.py      shared layout, nav/footer, EN genre pages, loudness guide, /de/ home, 404
 - gen_de.py   German genre pages + German loudness guide
 - gen_cost.py mastering cost pages (DE + EN)
+- gen_geo.py  GEO blocks for every page (TOC, author box, last-updated date, Article schema, tables);
+              page dates live in _tools/seitenstand.json, commit it together with the pages
 index.html (the homepage) is NOT generated; edit it directly.
 _tools/ is not published by GitHub Pages (Jekyll skips folders starting with "_").
 """
@@ -17,6 +19,9 @@ FONTS = 'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..1
 
 BIZ = {"@id": f"{BASE}/#business"}
 PERSON = {"@id": f"{BASE}/#tim-borchert"}
+
+# GEO building blocks (TOC, author box, last-updated date, Article schema, data tables); used by page(typ=...)
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_geo.py'), encoding='utf-8').read())
 
 GENRES = [
     ('black-metal-mastering', 'Black Metal Mastering'),
@@ -208,9 +213,12 @@ def footer(lang='en'):
 OG_DEFAULT = ('/assets/og-image.jpg', 1200, 630, 'Polished — Metal &amp; Gothic Mastering, with mastering engineer Tim Borchert')
 
 
-def page(*, path, lang, title, description, og_title, body, schemas, alternates=None, counterpart=None, robots='index, follow, max-snippet:-1, max-image-preview:large', canonical=True, og_image=None, og_type=None):
+def page(*, path, lang, title, description, og_title, body, schemas, alternates=None, counterpart=None, robots='index, follow, max-snippet:-1, max-image-preview:large', canonical=True, og_image=None, og_type=None, typ=None):
     url = f'{BASE}{path}'
     og_src, og_w, og_h, og_alt = og_image or OG_DEFAULT
+    if typ:  # GEO blocks: 'article' | 'produkt' | 'home' (see gen_geo.py)
+        body, schemas = geo_ergaenzen(path, lang, title, description, body, schemas, typ, og_src)
+    assert '%%STAND%%' not in body, path
     if counterpart and not alternates:
         alternates = [(l, f'{BASE}{p}') for l, p in counterpart.items()] + [('x-default', f'{BASE}{counterpart["en"]}')]
     alt = ''
@@ -330,12 +338,12 @@ def webpage_schema(path, name, lang='en', page_type='WebPage'):
 
 UI = {
     'en': dict(home='Home', prefix='', cta='Request Audio Audit →', contact='/#contact', pricing='Pricing',
-               meta='Mastered by <a href="/#engineer">Tim Borchert</a>, studying Systematic Musicology, University of Hamburg · Updated October 2026',
+               meta='Mastered by <a href="/#engineer">Tim Borchert</a>, studying Systematic Musicology, University of Hamburg · Last updated: %%STAND%%',
                pricing_h='{name} <em>pricing</em>', faq_h='{name} <em>FAQ</em>', related_h='Other <em>genres</em>',
                cta_p='Send your premaster and a reference track. You get a written audio audit and a mastering plan before anything is processed.',
                email='Email Tim', note='Replies within 24h · Pay after delivery · Limited slots per week'),
     'de': dict(home='Startseite', prefix='/de', cta='Audio-Audit anfragen →', contact='/de/#kontakt', pricing='Preise',
-               meta='Gemastert von <a href="/de/#tim">Tim Borchert</a>, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Aktualisiert Oktober 2026',
+               meta='Gemastert von <a href="/de/#tim">Tim Borchert</a>, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Zuletzt aktualisiert: %%STAND%%',
                pricing_h='{name}: <em>Preise</em>', faq_h='{name}: <em>FAQ</em>', related_h='Weitere <em>Genres</em>',
                cta_p='Schick deinen Premaster und einen Referenztrack. Du bekommst ein schriftliches Audio-Audit und einen Mastering-Plan, bevor irgendetwas bearbeitet wird.',
                email='E-Mail an Tim', note='Antwort meist innerhalb von 24 Std. · Zahlung auch nach Lieferung · Begrenzte Slots pro Woche'),
@@ -406,7 +414,7 @@ def genre_page(g, lang='en'):
                faq_schema(g['faqs'])]
     return page(path=path, lang=lang, title=g['title'], description=g['description'],
                 og_title=g['og_title'], body=body, schemas=schemas,
-                counterpart={'en': f'/{slug}/', 'de': f'/de/{slug}/'})
+                counterpart={'en': f'/{slug}/', 'de': f'/de/{slug}/'}, typ='article')
 
 
 def sec(id_, title, inner, alt=False):
@@ -467,7 +475,7 @@ BLACK = dict(
     </ul>
     <p>Each finding goes into the written report with a concrete fix. When a problem can't be solved properly in mastering, the report says so, so you can decide whether to adjust the mix first.</p>''', alt=True),
         sec('bm-process', 'How a black metal master <em>comes together</em>', AUDIT_STEPS + '''
-    <p>For loudness, black metal doesn't have to be crushed to sound vicious. Streaming services turn loud masters down anyway, so the target is set by what your mix can take before cymbals and blasts fall apart. More on that in the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a>.</p>'''),
+    <p>For loudness, black metal doesn't have to be crushed to sound vicious. Streaming services turn loud masters down anyway, so the target is set by what your mix can take before cymbals and blasts fall apart. More on that in the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a>.</p>''' + laut_tabelle('black-metal-mastering', 'en')),
     ],
     faqs=[
         ('Can you master raw or lo-fi black metal without making it sound clean?', 'Yes. Raw black metal is mastered to translate, not to be cleaned up. The audit separates intentional texture like hiss, grit and boxiness from actual problems like painful resonances, low-end rumble or phase cancellation, and only the problems are addressed. If you want the record to stay ugly, say so in your brief and include a reference.'),
@@ -506,7 +514,7 @@ DEATH = dict(
     </ul>
     <p>Each issue is documented with the measured value and the planned fix. If the cleanest solution is a change in the mix, the report says so instead of hiding it behind more processing.</p>''', alt=True),
         sec('dm-process', 'How a death metal master <em>comes together</em>', AUDIT_STEPS + '''
-    <p>Death metal is usually mastered louder than streaming normalization targets, which is fine as long as the transients survive. True peak is kept low enough to avoid distortion after lossy encoding. Details in the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a>.</p>'''),
+    <p>Death metal is usually mastered louder than streaming normalization targets, which is fine as long as the transients survive. True peak is kept low enough to avoid distortion after lossy encoding. Details in the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a>.</p>''' + laut_tabelle('death-metal-mastering', 'en')),
     ],
     faqs=[
         ('How do you keep blast beats from turning into mush?', 'By measuring before limiting. The audit looks at crest factor, transient behavior of kick and snare, and how much the cymbals and guitars mask the drums. The loudness target is then set so the limiter doesn\'t flatten every snare hit. If the drums are already buried in the mix, stem mastering or a small mix change is recommended instead of just pushing harder.'),
@@ -545,7 +553,7 @@ DOOM = dict(
     </ul>
     <p>For full releases the audit also covers the record as a whole, so quiet interludes and heavy songs feel connected instead of mismatched.</p>''', alt=True),
         sec('dg-process', 'How a doom or gothic master <em>comes together</em>', AUDIT_STEPS + '''
-    <p>Doom and gothic masters benefit most from loudness normalization on streaming platforms: a dynamic master isn't penalized, it just keeps its punch. Vinyl masters are available on request for album projects. More in the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a>.</p>'''),
+    <p>Doom and gothic masters benefit most from loudness normalization on streaming platforms: a dynamic master isn't penalized, it just keeps its punch. Vinyl masters are available on request for album projects. More in the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a>.</p>''' + laut_tabelle('doom-gothic-mastering', 'en')),
     ],
     faqs=[
         ('Will my doom record sound too quiet next to other releases?', 'Not on streaming platforms. Spotify, YouTube and Tidal normalize playback to around -14 LUFS and Apple Music to around -16 LUFS, so a more dynamic doom master plays back at a similar perceived level while keeping its contrast. On Bandcamp there\'s no normalization, so the loudness there is planned explicitly. The audit sets the target per track.'),
@@ -584,7 +592,7 @@ CORE = dict(
     </ul>
     <p>Each finding is documented with measured values and a planned fix, including an honest note if something should be changed in the mix first.</p>''', alt=True),
         sec('mc-process', 'How a metalcore or djent master <em>comes together</em>', AUDIT_STEPS + '''
-    <p>Metalcore is one of the loudest-mastered metal styles. That's achievable, but the cleanest results come from a mix with headroom and no master-bus limiter. See the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a> for targets and true-peak limits.</p>'''),
+    <p>Metalcore is one of the loudest-mastered metal styles. That's achievable, but the cleanest results come from a mix with headroom and no master-bus limiter. See the <a href="/metal-mastering-loudness/">metal mastering loudness guide</a> for targets and true-peak limits.</p>''' + laut_tabelle('metalcore-djent-mastering', 'en')),
     ],
     faqs=[
         ('Can you get my metalcore master as loud as major releases?', 'Usually close, if the mix allows it. Modern metalcore is often mastered somewhere around -8 to -6 LUFS integrated. Whether your mix can get there cleanly depends on how controlled the low end is and how much headroom the premaster has. The audit measures that first and tells you honestly what loudness is possible without distortion or pumping.'),
@@ -617,7 +625,7 @@ lg_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Metal Mastering Loudness
     <div class="eyebrow">Guide · Loudness</div>
     <h1>How loud should metal <em>be mastered?</em></h1>
     <p class="lead"><strong>Short answer: there is no single correct LUFS value for metal.</strong> Streaming services play everything back at roughly -14 LUFS (Apple Music around -16 LUFS), so extra loudness is turned down. The right target is the loudest level your specific mix can reach before blast beats, cymbals and low end start to collapse.</p>
-    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer, Systematic Musicology student (University of Hamburg) · Published October 5, 2026</p>
+    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer, Systematic Musicology student (University of Hamburg) · Published 5 October 2026 · Last updated: %%STAND%%</p>
   </div>
 </header>
 {sec('lg-what', 'What LUFS means <em>and why it matters</em>', """    <div class="answer-box"><div class="label">Definition</div><p>LUFS (Loudness Units relative to Full Scale) measures perceived loudness over time, weighted the way human hearing works. Integrated LUFS is the average across a whole track. Streaming platforms use it to play every track at a similar level.</p></div>
@@ -697,7 +705,7 @@ lg_schemas = [
 write(LG_PATH, page(path=LG_PATH, lang='en', title=LG_TITLE,
       description='How loud should metal be mastered? Typical ranges run from about -12 to -6 LUFS by subgenre, while streaming plays back near -14 LUFS. Plus true-peak limits.',
       og_title='How loud should metal be mastered? — Polished', body=lg_body, schemas=lg_schemas,
-      counterpart={'en': LG_PATH, 'de': '/de/metal-mastering-lautstaerke/'}))
+      counterpart={'en': LG_PATH, 'de': '/de/metal-mastering-lautstaerke/'}, typ='article'))
 
 # ---------------------------------------------------------------- GERMAN LANDING PAGE
 DE_PATH = '/de/'
@@ -766,6 +774,9 @@ de_body = f'''<header class="page-hero">
       <div class="price"><div class="name">Label-Partner · ab 4 Releases pro Jahr</div><div class="amount">ab 63<span style="margin-left:4px;">€</span></div><p>Single 63 €, Stem-Single 103 €, EP 279 €, Album 499 €. Ein konsistenter Klang über euren Katalog, Vorkasse oder Rechnung pro Release.</p></div>
     </div>
     <p class="meta-line">Alle Preise sind Endpreise inkl. 19 % USt. Bezahlung nach Wahl: Vorkasse oder auf Rechnung nach Fertigstellung. <a href="/de/mastering-kosten/">Mastering-Preise im Vergleich</a>.</p>
+    <div style="margin-top: 48px;">
+{paket_tabelle('de')}
+    </div>
   </div>
 </section>
 <section class="content-section alt" aria-labelledby="de-ablauf">
@@ -836,7 +847,7 @@ de_schemas = [
 write(DE_PATH, page(path=DE_PATH, lang='de', title=DE_TITLE,
       description='Online-Mastering-Studio aus Deutschland für Black Metal, Death Metal, Doom & Gothic. Schriftliches Audio-Audit vor jedem Master. Kosten ab 79 € inkl. USt.',
       og_title='Polished — Metal Mastering Studio online', body=de_body, schemas=de_schemas,
-      counterpart={'en': '/', 'de': '/de/'}))
+      counterpart={'en': '/', 'de': '/de/'}, typ='home'))
 
 # ---------------------------------------------------------------- 404
 nf_body = '''<header class="page-hero">
@@ -854,6 +865,10 @@ nf_body = '''<header class="page-hero">
 write('/404.html', page(path='/404.html', lang='en', title='Page not found | Polished',
       description='This page does not exist.', og_title='Page not found — Polished', body=nf_body, schemas=[],
       robots='noindex, follow', canonical=False))
+
+# ---------------------------------------------------------------- homepage package table + sitemap lastmod
+startseite_tabelle()
+sitemap_lastmod()
 
 # ---------------------------------------------------------------- llms-full.txt (AI-readable full text)
 import runpy

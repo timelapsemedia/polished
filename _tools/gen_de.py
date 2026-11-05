@@ -48,7 +48,7 @@ BLACK_DE = dict(
     </ul>
     <p>Jeder Befund steht mit konkreter Lösung im schriftlichen Bericht. Wenn sich ein Problem im Mastering nicht sauber lösen lässt, steht das ebenfalls drin, damit du entscheiden kannst, ob du den Mix vorher anpasst.</p>''', alt=True),
         sec('bm-process', 'So entsteht <em>ein Black-Metal-Master</em>', AUDIT_STEPS_DE + f'''
-    <p>Black Metal muss nicht plattgedrückt werden, um bösartig zu klingen. Streaming-Dienste drehen laute Master ohnehin leiser. Das Ziel ergibt sich daraus, wie viel dein Mix verträgt, bevor Becken und Blasts auseinanderfallen. Mehr dazu im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>'''),
+    <p>Black Metal muss nicht plattgedrückt werden, um bösartig zu klingen. Streaming-Dienste drehen laute Master ohnehin leiser. Das Ziel ergibt sich daraus, wie viel dein Mix verträgt, bevor Becken und Blasts auseinanderfallen. Mehr dazu im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>''' + laut_tabelle('black-metal-mastering', 'de')),
     ],
     faqs=[
         ('Kannst du rohen oder Lo-Fi-Black-Metal mastern, ohne dass er clean klingt?', 'Ja. Raw Black Metal wird so gemastert, dass er überall funktioniert, nicht so, dass er sauber wird. Das Audit trennt gewollte Textur wie Rauschen, Dreck und Boxigkeit von echten Problemen wie schmerzhaften Resonanzen, Rumpeln im Bass oder Phasenauslöschung. Nur die Probleme werden bearbeitet. Wenn die Platte hässlich bleiben soll, schreib das in dein Briefing und schick eine Referenz mit.'),
@@ -87,7 +87,7 @@ DEATH_DE = dict(
     </ul>
     <p>Jedes Problem wird mit Messwert und geplanter Lösung dokumentiert. Wenn die sauberste Lösung eine Änderung im Mix ist, steht das im Bericht, statt es hinter mehr Bearbeitung zu verstecken.</p>''', alt=True),
         sec('dm-process', 'So entsteht <em>ein Death-Metal-Master</em>', AUDIT_STEPS_DE + f'''
-    <p>Death Metal wird meist lauter gemastert als die Normalisierungsziele der Streaming-Dienste. Das ist in Ordnung, solange die Transienten überleben. Der True Peak bleibt niedrig genug, damit nach der verlustbehafteten Kodierung nichts verzerrt. Details im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>'''),
+    <p>Death Metal wird meist lauter gemastert als die Normalisierungsziele der Streaming-Dienste. Das ist in Ordnung, solange die Transienten überleben. Der True Peak bleibt niedrig genug, damit nach der verlustbehafteten Kodierung nichts verzerrt. Details im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>''' + laut_tabelle('death-metal-mastering', 'de')),
     ],
     faqs=[
         ('Wie verhinderst du, dass Blastbeats zu Brei werden?', 'Indem vor dem Limiting gemessen wird. Das Audit betrachtet Crest-Faktor, das Transientenverhalten von Kick und Snare und wie stark Becken und Gitarren die Drums maskieren. Das Lautheitsziel wird dann so gesetzt, dass der Limiter nicht jeden Snare-Schlag plattmacht. Wenn die Drums schon im Mix begraben sind, wird Stem-Mastering oder eine kleine Mix-Änderung empfohlen, statt einfach härter zu drücken.'),
@@ -126,7 +126,7 @@ DOOM_DE = dict(
     </ul>
     <p>Bei kompletten Releases betrachtet das Audit auch die Platte als Ganzes, damit leise Interludes und schwere Songs zusammengehören statt nebeneinanderzustehen.</p>''', alt=True),
         sec('dg-process', 'So entsteht <em>ein Doom- oder Gothic-Master</em>', AUDIT_STEPS_DE + f'''
-    <p>Doom- und Gothic-Master profitieren am meisten von der Lautheitsnormalisierung der Streaming-Dienste: Ein dynamischer Master wird nicht bestraft, er behält einfach seinen Punch. Vinyl-Master gibt es auf Anfrage für Album-Projekte. Mehr im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>'''),
+    <p>Doom- und Gothic-Master profitieren am meisten von der Lautheitsnormalisierung der Streaming-Dienste: Ein dynamischer Master wird nicht bestraft, er behält einfach seinen Punch. Vinyl-Master gibt es auf Anfrage für Album-Projekte. Mehr im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>''' + laut_tabelle('doom-gothic-mastering', 'de')),
     ],
     faqs=[
         ('Klingt meine Doom-Platte dann zu leise neben anderen Releases?', 'Nicht auf Streaming-Plattformen. Spotify, YouTube und Tidal normalisieren auf etwa -14 LUFS, Apple Music auf etwa -16 LUFS. Ein dynamischerer Doom-Master wird dort ähnlich laut wahrgenommen und behält seine Kontraste. Auf Bandcamp gibt es keine Normalisierung, deshalb wird die Lautheit dort gezielt geplant. Das Audit legt das Ziel pro Track fest.'),
@@ -165,7 +165,7 @@ CORE_DE = dict(
     </ul>
     <p>Jeder Befund wird mit Messwerten und geplanter Lösung dokumentiert, inklusive eines ehrlichen Hinweises, wenn etwas zuerst im Mix geändert werden sollte.</p>''', alt=True),
         sec('mc-process', 'So entsteht <em>ein Metalcore- oder Djent-Master</em>', AUDIT_STEPS_DE + f'''
-    <p>Metalcore gehört zu den am lautesten gemasterten Metal-Stilen. Das ist machbar, die saubersten Ergebnisse entstehen aber aus einem Mix mit Headroom und ohne Limiter auf der Summe. Ziele und True-Peak-Grenzen findest du im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>'''),
+    <p>Metalcore gehört zu den am lautesten gemasterten Metal-Stilen. Das ist machbar, die saubersten Ergebnisse entstehen aber aus einem Mix mit Headroom und ohne Limiter auf der Summe. Ziele und True-Peak-Grenzen findest du im <a href="{GUIDE_DE}">Guide zur Lautstärke beim Metal-Mastering</a>.</p>''' + laut_tabelle('metalcore-djent-mastering', 'de')),
     ],
     faqs=[
         ('Wird mein Metalcore-Master so laut wie große Releases?', 'Meistens nah dran, wenn der Mix es zulässt. Moderner Metalcore wird oft grob zwischen -8 und -6 LUFS integriert gemastert. Ob dein Mix das sauber erreicht, hängt davon ab, wie kontrolliert das Low End ist und wie viel Headroom der Premaster hat. Das Audit misst das zuerst und sagt dir ehrlich, welche Lautheit ohne Verzerrung oder Pumpen möglich ist.'),
@@ -193,7 +193,7 @@ lgd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Lautstärke-Gu
     <div class="eyebrow">Guide · Lautstärke</div>
     <h1>Wie laut sollte Metal <em>gemastert werden?</em></h1>
     <p class="lead"><strong>Kurze Antwort: Es gibt keinen einzig richtigen LUFS-Wert für Metal.</strong> Streaming-Dienste spielen alles mit etwa -14 LUFS ab (Apple Music etwa -16 LUFS), zusätzliche Lautheit wird also leiser gedreht. Das richtige Ziel ist der lauteste Pegel, den dein Mix erreicht, bevor Blastbeats, Becken und Low End zusammenbrechen.</p>
-    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Student der Systematischen Musikwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026</p>
+    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Student der Systematischen Musikwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: %%STAND%%</p>
   </div>
 </header>
 {sec('lgd-what', 'Was LUFS bedeutet <em>und warum es zählt</em>', """    <div class="answer-box"><div class="label">Definition</div><p>LUFS (Loudness Units relative to Full Scale) misst die wahrgenommene Lautheit über die Zeit, gewichtet nach dem menschlichen Gehör. Integrated LUFS ist der Durchschnitt über den ganzen Track. Streaming-Plattformen nutzen diesen Wert, um alle Tracks ähnlich laut abzuspielen.</p></div>
@@ -273,4 +273,4 @@ lgd_schemas = [
 write(GUIDE_DE, page(path=GUIDE_DE, lang='de', title=LGD_TITLE,
       description='Wie laut sollte Metal gemastert werden? LUFS-Ziele der Streaming-Plattformen, typische Lautheit für Metalcore, Death, Black und Doom Metal, True-Peak-Grenzen.',
       og_title='Wie laut sollte Metal gemastert werden? — Polished', body=lgd_body, schemas=lgd_schemas,
-      counterpart={'en': '/metal-mastering-loudness/', 'de': GUIDE_DE}))
+      counterpart={'en': '/metal-mastering-loudness/', 'de': GUIDE_DE}, typ='article'))

@@ -16,7 +16,8 @@ def local_file(url):
     return os.path.join(ROOT, path, 'index.html') if path else os.path.join(ROOT, 'index.html')
 
 
-SKIP_CLASSES = ('ab-player', 'audit-visual', 'cursor', 'portrait-corner', 'portrait-indicator', 'genre-arrow', 'icon')
+SKIP_CLASSES = ('ab-player', 'audit-visual', 'cursor', 'portrait-corner', 'portrait-indicator', 'genre-arrow', 'icon',
+                'author-section')  # GEO author box: same bio on every page, not repeated 36x in llms-full.txt
 BLOCK = {'p', 'li', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'tr', 'summary', 'div', 'section', 'table', 'blockquote', 'br', 'ol', 'ul', 'details', 'header'}
 VOID = {'br', 'img', 'input', 'meta', 'link', 'source', 'hr'}
 

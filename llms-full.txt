@@ -159,6 +159,16 @@ For independent labels with a release schedule
 - One consistent sound across your catalog✓
 - Prepaid or invoiced per release✓
 Request label rates →
+All packages compared
+PackageScopePrice incl. 19% VATDelivery
+Single · stereo1 track€7948–72 h
+Single · stems1 track, up to 6 stems€12948–72 h
+EPup to 5 tracks€3495–7 days
+Albumup to 10 tracks, vinyl master on request€6297–14 days
+Single Series3 singles, mastered as they are released over up to 12 months€73 per single48–72 h per single
+Stem EPup to 5 tracks, up to 6 stems each€5495–7 days
+Label Partnerfrom 4 releases per yearsingle €63 · stem single €103 · EP €279 · album €499as per release
+Every package includes the written audio audit, streaming and Bandcamp exports and unlimited revisions.
 All prices are final prices incl. 19% VAT · How much does mastering cost? Market comparison · Mastering Kosten & Preise (Deutsch) · Mastering for labels: partner rates explained · Last updated: October 2026
 Tim Borchert
 Mastering Engineer · Producer
@@ -286,6 +296,16 @@ Label-Partner · ab 4 Releases pro Jahr
 ab 63€
 Single 63 €, Stem-Single 103 €, EP 279 €, Album 499 €. Ein konsistenter Klang über euren Katalog, Vorkasse oder Rechnung pro Release.
 Alle Preise sind Endpreise inkl. 19 % USt. Bezahlung nach Wahl: Vorkasse oder auf Rechnung nach Fertigstellung. Mastering-Preise im Vergleich.
+Alle Pakete im Vergleich
+PaketUmfangPreis inkl. 19 % USt.Lieferzeit
+Single · Stereo1 Track79 €48–72 Std.
+Single · Stems1 Track, bis zu 6 Stems129 €48–72 Std.
+EPbis 5 Tracks349 €5–7 Tage
+Albumbis 10 Tracks, Vinyl-Master auf Anfrage629 €7–14 Tage
+Single-Serie3 Singles, gemastert, wenn sie erscheinen, über bis zu 12 Monate73 € pro Single48–72 Std. pro Single
+Stem-EPbis 5 Tracks, bis zu 6 Stems pro Track549 €5–7 Tage
+Label-Partnerab 4 Releases pro JahrSingle 63 € · Stem-Single 103 € · EP 279 € · Album 499 €je nach Release
+Jedes Paket enthält das schriftliche Audio-Audit, Exporte für Streaming und Bandcamp und unbegrenzte Revisionen.
 ### Song oder Album mastern lassen: so läuft es ab
 - Premaster schicken: 24/32-Bit WAV oder AIFF in der Original-Samplerate, 3–6 dB Headroom, kein Limiter auf der Summe, dazu ein oder zwei Referenztracks.
 - Audio-Audit: schriftlicher Bericht mit Schwachstellen und Mastering-Plan.
@@ -325,7 +345,7 @@ Genre · Black Metal
 Black metal mastering is the final stage that makes tremolo walls, blast beats and harsh vocals translate to every system without sanding off the raw, cold character of the genre. At Polished every black metal master starts with a written audio audit of your mix, so loudness, brightness and low end are decided by measurement, not by a generic preset. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Updated October 2026
+Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Last updated: 5 November 2026
 ### What black metal needs from a master
 Black metal breaks most of the rules generic mastering templates are built on. Brightness, noise and density are part of the aesthetic, so "fixing" them the way a pop chain would can strip out exactly what makes the record work. The job is to keep the character and remove only what blocks translation.
 / 01
@@ -354,6 +374,12 @@ Each finding goes into the written report with a concrete fix. When a problem ca
 - Master + exports: 24-bit WAV, 16-bit AIFF, 320 kbps MP3, platform-specific versions for streaming and Bandcamp.
 - Revisions: unlimited, until it matches what you hear in your head.
 For loudness, black metal doesn't have to be crushed to sound vicious. Streaming services turn loud masters down anyway, so the target is set by what your mix can take before cymbals and blasts fall apart. More on that in the metal mastering loudness guide.
+#### Loudness at a glance
+StyleCommon integrated loudnessWhat limits loudness first
+Black Metalaround -10 to -7 LUFSCymbal wash and harshness in blast sections
+Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
+True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
 ### Black Metal Mastering pricing
 Single · Stereo
 €79
@@ -409,7 +435,7 @@ Genre · Black Metal
 Black-Metal-Mastering ist der letzte Schritt, der Tremolo-Wände, Blastbeats und Screams auf jedem Abhörsystem funktionieren lässt, ohne den rohen, kalten Charakter des Genres glattzuschleifen. Bei Polished beginnt jeder Black-Metal-Master mit einem schriftlichen Audio-Audit deines Mixes. Lautheit, Höhen und Low End werden gemessen und begründet entschieden, nicht per Preset. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Aktualisiert Oktober 2026
+Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 05.11.2026
 ### Was Black Metal vom Master braucht
 Black Metal bricht die meisten Regeln, auf denen Standard-Mastering-Vorlagen aufbauen. Helligkeit, Rauschen und Dichte gehören zur Ästhetik. Wer sie „repariert“ wie bei einer Pop-Produktion, nimmt der Platte genau das, was sie ausmacht. Die Aufgabe ist, den Charakter zu erhalten und nur zu entfernen, was die Übertragung auf andere Systeme verhindert.
 / 01
@@ -438,6 +464,12 @@ Jeder Befund steht mit konkreter Lösung im schriftlichen Bericht. Wenn sich ein
 - Master und Exporte: 24-Bit WAV, 16-Bit AIFF, 320 kbps MP3 sowie eigene Versionen für Streaming und Bandcamp.
 - Revisionen: unbegrenzt, bis der Master so klingt, wie du ihn im Kopf hast.
 Black Metal muss nicht plattgedrückt werden, um bösartig zu klingen. Streaming-Dienste drehen laute Master ohnehin leiser. Das Ziel ergibt sich daraus, wie viel dein Mix verträgt, bevor Becken und Blasts auseinanderfallen. Mehr dazu im Guide zur Lautstärke beim Metal-Mastering.
+#### Lautheit im Überblick
+StilÜbliche integrierte LautheitWas die Lautheit zuerst begrenzt
+Black Metaletwa -10 bis -7 LUFSBeckenteppich und Schärfe in Blast-Passagen
+Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
+True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
 ### Black Metal Mastering: Preise
 Single · Stereo
 79€
@@ -493,7 +525,7 @@ Genre · Death Metal
 Death metal mastering is the stage that gives palm-mutes real weight, keeps blast beats and fast double-kick readable, and makes growls cut through the guitar wall on every playback system. At Polished every death metal master starts with a written audio audit of your mix, so the low end and loudness are decided by measurement, not by guesswork. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Updated October 2026
+Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Last updated: 5 November 2026
 ### What death metal needs from a master
 Death metal is dense by design: down-tuned guitars, fast double-kick, low growls and often bass playing in the same register as the guitars. Loudness is expected, but every dB of limiting costs transient definition. A good death metal master finds the point where the record hits hard without the drums turning into mush.
 / 01
@@ -522,6 +554,12 @@ Each issue is documented with the measured value and the planned fix. If the cle
 - Master + exports: 24-bit WAV, 16-bit AIFF, 320 kbps MP3, platform-specific versions for streaming and Bandcamp.
 - Revisions: unlimited, until it matches what you hear in your head.
 Death metal is usually mastered louder than streaming normalization targets, which is fine as long as the transients survive. True peak is kept low enough to avoid distortion after lossy encoding. Details in the metal mastering loudness guide.
+#### Loudness at a glance
+StyleCommon integrated loudnessWhat limits loudness first
+Death Metalaround -9 to -6 LUFSSnare crack and double-kick definition
+Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
+True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
 ### Death Metal Mastering pricing
 Single · Stereo
 €79
@@ -570,7 +608,7 @@ Genre · Death Metal
 Death-Metal-Mastering gibt Palm-Mutes echtes Gewicht, hält Blastbeats und schnelle Double-Bass lesbar und sorgt dafür, dass Growls sich auf jedem Abhörsystem durch die Gitarrenwand setzen. Bei Polished beginnt jeder Death-Metal-Master mit einem schriftlichen Audio-Audit deines Mixes. Low End und Lautheit werden gemessen, nicht geraten. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Aktualisiert Oktober 2026
+Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 05.11.2026
 ### Was Death Metal vom Master braucht
 Death Metal ist absichtlich dicht: tiefgestimmte Gitarren, schnelle Double-Bass, tiefe Growls und oft ein Bass im selben Register wie die Gitarren. Lautheit wird erwartet, aber jedes dB Limiting kostet Transienten. Ein guter Death-Metal-Master findet den Punkt, an dem die Platte hart zuschlägt, ohne dass die Drums zu Brei werden.
 / 01
@@ -599,6 +637,12 @@ Jedes Problem wird mit Messwert und geplanter Lösung dokumentiert. Wenn die sau
 - Master und Exporte: 24-Bit WAV, 16-Bit AIFF, 320 kbps MP3 sowie eigene Versionen für Streaming und Bandcamp.
 - Revisionen: unbegrenzt, bis der Master so klingt, wie du ihn im Kopf hast.
 Death Metal wird meist lauter gemastert als die Normalisierungsziele der Streaming-Dienste. Das ist in Ordnung, solange die Transienten überleben. Der True Peak bleibt niedrig genug, damit nach der verlustbehafteten Kodierung nichts verzerrt. Details im Guide zur Lautstärke beim Metal-Mastering.
+#### Lautheit im Überblick
+StilÜbliche integrierte LautheitWas die Lautheit zuerst begrenzt
+Death Metaletwa -9 bis -6 LUFSCrack der Snare und Definition der Double-Bass
+Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
+True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
 ### Death Metal Mastering: Preise
 Single · Stereo
 79€
@@ -647,7 +691,7 @@ Genre · Doom · Gothic
 Doom and gothic mastering is about keeping dynamic range and space intact so slow builds still hit, while the low end stays thick without swallowing vocals, keys and atmosphere. At Polished every doom and gothic master starts with a written audio audit of your mix, so loudness is chosen deliberately instead of maximized by default. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Updated October 2026
+Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Last updated: 5 November 2026
 ### What doom and gothic need from a master
 Slow music exposes everything. Sustained chords, long decays and quiet passages make over-compression audible in a way fast genres can hide. Doom and gothic records lose most of their impact when every section is pushed to the same loudness. The master has to preserve contrast, keep the low end heavy but controlled, and leave space for vocals, keys and reverb tails.
 / 01
@@ -676,6 +720,13 @@ For full releases the audit also covers the record as a whole, so quiet interlud
 - Master + exports: 24-bit WAV, 16-bit AIFF, 320 kbps MP3, platform-specific versions for streaming and Bandcamp.
 - Revisions: unlimited, until it matches what you hear in your head.
 Doom and gothic masters benefit most from loudness normalization on streaming platforms: a dynamic master isn't penalized, it just keeps its punch. Vinyl masters are available on request for album projects. More in the metal mastering loudness guide.
+#### Loudness at a glance
+StyleCommon integrated loudnessWhat limits loudness first
+Doom / Sludgearound -11 to -8 LUFSSustained sub energy and loss of contrast
+Gothic Metal / Gothic Rockaround -12 to -8 LUFSDynamics between quiet and heavy sections
+Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
+True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
 ### Doom & Gothic Mastering pricing
 Single · Stereo
 €79
@@ -728,7 +779,7 @@ Genre · Doom · Gothic
 Beim Doom- und Gothic-Mastering geht es darum, Dynamik und Raum zu erhalten, damit langsame Steigerungen wirken, während das Low End dick bleibt, ohne Vocals, Keys und Atmosphäre zu verschlucken. Bei Polished beginnt jeder Doom- und Gothic-Master mit einem schriftlichen Audio-Audit deines Mixes. Die Lautheit wird bewusst gewählt, nicht standardmäßig maximiert. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Aktualisiert Oktober 2026
+Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 05.11.2026
 ### Was Doom und Gothic vom Master brauchen
 Langsame Musik legt alles offen. Gehaltene Akkorde, lange Ausklänge und leise Passagen machen Überkompression hörbar, wo schnelle Genres sie verstecken. Doom- und Gothic-Platten verlieren den Großteil ihrer Wirkung, wenn jeder Teil auf dieselbe Lautheit gedrückt wird. Der Master muss Kontraste erhalten, das Low End schwer, aber kontrolliert halten und Platz für Vocals, Keys und Hallfahnen lassen.
 / 01
@@ -757,6 +808,13 @@ Bei kompletten Releases betrachtet das Audit auch die Platte als Ganzes, damit l
 - Master und Exporte: 24-Bit WAV, 16-Bit AIFF, 320 kbps MP3 sowie eigene Versionen für Streaming und Bandcamp.
 - Revisionen: unbegrenzt, bis der Master so klingt, wie du ihn im Kopf hast.
 Doom- und Gothic-Master profitieren am meisten von der Lautheitsnormalisierung der Streaming-Dienste: Ein dynamischer Master wird nicht bestraft, er behält einfach seinen Punch. Vinyl-Master gibt es auf Anfrage für Album-Projekte. Mehr im Guide zur Lautstärke beim Metal-Mastering.
+#### Lautheit im Überblick
+StilÜbliche integrierte LautheitWas die Lautheit zuerst begrenzt
+Doom / Sludgeetwa -11 bis -8 LUFSStehende Sub-Energie und Verlust von Kontrast
+Gothic Metal / Gothic Rocketwa -12 bis -8 LUFSDynamik zwischen leisen und schweren Teilen
+Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
+True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
 ### Doom & Gothic Mastering: Preise
 Single · Stereo
 79€
@@ -809,7 +867,7 @@ Genre · Metalcore · Djent
 Metalcore and djent mastering is about precise, controlled low end for syncopated extended-range riffs, breakdowns that hit hard, and clean and screamed vocals that both sit exactly where they should. At Polished every metalcore and djent master starts with a written audio audit of your mix, so loudness and low end are set by measurement. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Updated October 2026
+Mastered by Tim Borchert, studying Systematic Musicology, University of Hamburg · Last updated: 5 November 2026
 ### What metalcore and djent need from a master
 Modern metalcore and djent are produced tight, loud and polished, often with programmed drums, extended-range guitars and synth layers. Listeners compare your release directly to big-budget productions. The master has to deliver that modern loudness and polish while keeping the low end controlled when 7- and 8-string guitars, bass and kick all live below 100 Hz.
 / 01
@@ -838,6 +896,12 @@ Each finding is documented with measured values and a planned fix, including an 
 - Master + exports: 24-bit WAV, 16-bit AIFF, 320 kbps MP3, platform-specific versions for streaming and Bandcamp.
 - Revisions: unlimited, until it matches what you hear in your head.
 Metalcore is one of the loudest-mastered metal styles. That's achievable, but the cleanest results come from a mix with headroom and no master-bus limiter. See the metal mastering loudness guide for targets and true-peak limits.
+#### Loudness at a glance
+StyleCommon integrated loudnessWhat limits loudness first
+Metalcore / Djentaround -8 to -6 LUFSLow end below 100 Hz eating headroom in breakdowns
+Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
+True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
 ### Metalcore & Djent Mastering pricing
 Single · Stereo
 €79
@@ -887,7 +951,7 @@ Genre · Metalcore · Djent
 Beim Metalcore- und Djent-Mastering geht es um ein präzises, kontrolliertes Low End für synkopierte Extended-Range-Riffs, Breakdowns mit Druck und Clean- wie Scream-Vocals, die genau dort sitzen, wo sie hingehören. Bei Polished beginnt jeder Metalcore- und Djent-Master mit einem schriftlichen Audio-Audit deines Mixes. Lautheit und Low End werden gemessen. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Aktualisiert Oktober 2026
+Gemastert von Tim Borchert, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 05.11.2026
 ### Was Metalcore und Djent vom Master brauchen
 Moderner Metalcore und Djent wird straff, laut und poliert produziert, oft mit programmierten Drums, Extended-Range-Gitarren und Synth-Layern. Hörer vergleichen dein Release direkt mit großen Produktionen. Der Master muss diese moderne Lautheit und Politur liefern und gleichzeitig das Low End kontrollieren, wenn 7- und 8-Saiter, Bass und Kick alle unter 100 Hz zuhause sind.
 / 01
@@ -916,6 +980,12 @@ Jeder Befund wird mit Messwerten und geplanter Lösung dokumentiert, inklusive e
 - Master und Exporte: 24-Bit WAV, 16-Bit AIFF, 320 kbps MP3 sowie eigene Versionen für Streaming und Bandcamp.
 - Revisionen: unbegrenzt, bis der Master so klingt, wie du ihn im Kopf hast.
 Metalcore gehört zu den am lautesten gemasterten Metal-Stilen. Das ist machbar, die saubersten Ergebnisse entstehen aber aus einem Mix mit Headroom und ohne Limiter auf der Summe. Ziele und True-Peak-Grenzen findest du im Guide zur Lautstärke beim Metal-Mastering.
+#### Lautheit im Überblick
+StilÜbliche integrierte LautheitWas die Lautheit zuerst begrenzt
+Metalcore / Djentetwa -8 bis -6 LUFSLow End unter 100 Hz frisst in Breakdowns den Headroom
+Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
+True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
 ### Metalcore & Djent Mastering: Preise
 Single · Stereo
 79€
@@ -963,7 +1033,7 @@ URL: https://polished.media/metal-mastering-loudness/
 Guide · Loudness
 ## How loud should metal be mastered?
 Short answer: there is no single correct LUFS value for metal. Streaming services play everything back at roughly -14 LUFS (Apple Music around -16 LUFS), so extra loudness is turned down. The right target is the loudest level your specific mix can reach before blast beats, cymbals and low end start to collapse.
-By Tim Borchert, mastering engineer, Systematic Musicology student (University of Hamburg) · Published October 5, 2026
+By Tim Borchert, mastering engineer, Systematic Musicology student (University of Hamburg) · Published 5 October 2026 · Last updated: 2 November 2026
 ### What LUFS means and why it matters
 Definition
 LUFS (Loudness Units relative to Full Scale) measures perceived loudness over time, weighted the way human hearing works. Integrated LUFS is the average across a whole track. Streaming platforms use it to play every track at a similar level.
@@ -1027,7 +1097,7 @@ URL: https://polished.media/de/metal-mastering-lautstaerke/
 Guide · Lautstärke
 ## Wie laut sollte Metal gemastert werden?
 Kurze Antwort: Es gibt keinen einzig richtigen LUFS-Wert für Metal. Streaming-Dienste spielen alles mit etwa -14 LUFS ab (Apple Music etwa -16 LUFS), zusätzliche Lautheit wird also leiser gedreht. Das richtige Ziel ist der lauteste Pegel, den dein Mix erreicht, bevor Blastbeats, Becken und Low End zusammenbrechen.
-Von Tim Borchert, Mastering Engineer, Student der Systematischen Musikwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026
+Von Tim Borchert, Mastering Engineer, Student der Systematischen Musikwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: 29.10.2026
 ### Was LUFS bedeutet und warum es zählt
 Definition
 LUFS (Loudness Units relative to Full Scale) misst die wahrgenommene Lautheit über die Zeit, gewichtet nach dem menschlichen Gehör. Integrated LUFS ist der Durchschnitt über den ganzen Track. Streaming-Plattformen nutzen diesen Wert, um alle Tracks ähnlich laut abzuspielen.
@@ -1093,7 +1163,7 @@ Prices · Cost · Comparison
 Short answer: professional mastering usually costs roughly €50–150 per track. AI services are cheaper, renowned studios more expensive. At Polished, one song is €79 incl. VAT, an EP €349 and an album €629, each with a written audio audit and unlimited revisions.
 Get a fixed quote →
 See packages
-By Tim Borchert, mastering engineer · Updated October 2026 · All prices final incl. 19% VAT
+By Tim Borchert, mastering engineer · Last updated: 27 October 2026 · All prices final incl. 19% VAT
 ### Mastering prices compared
 Provider typeTypical price per trackWhat you get
 AI / automated masteringa few euros or a subscriptionAn algorithm applies loudness and EQ; no analysis of your mix, no questions
@@ -1123,7 +1193,8 @@ Bundles: Single Series €73 per single (3 singles) · Stem EP €549 · Label P
 - Formats: streaming, Bandcamp, CD and vinyl may need separate versions. Streaming and Bandcamp exports are always included at Polished.
 - Revisions: many providers cap or charge for revisions. At Polished they are unlimited.
 - Analysis: a written audio audit of your mix is included at Polished; elsewhere a mix analysis is often not part of the service.
-Already have your own mix? Then you often don't need to pay €100–300 per song for a full mixing job. In many cases stereo mastering with a written mix audit for €79 is enough: the audit tells you up front whether low end, loudness and balance are ready for mastering and what to fix in your own mix. If single elements collide, such as kick and bass or guitars and vocals, stem mastering for €129 with up to 6 stem groups is the cheaper route than a new mix.
+### Already have your own mix?
+Then you often don't need to pay €100–300 per song for a full mixing job. In many cases stereo mastering with a written mix audit for €79 is enough: the audit tells you up front whether low end, loudness and balance are ready for mastering and what to fix in your own mix. If single elements collide, such as kick and bass or guitars and vocals, stem mastering for €129 with up to 6 stem groups is the cheaper route than a new mix.
 Polished specialises in Black Metal, Death Metal, Doom & Gothic and Metalcore & Djent. You can pay up front or on invoice after delivery.
 Get a fixed quote →
 ### Mastering cost FAQ
@@ -1150,7 +1221,7 @@ Preise · Kosten · Vergleich
 Kurze Antwort: Professionelles Mastering kostet in Deutschland meist zwischen 50 und 150 € pro Track. KI-Dienste sind günstiger, renommierte Studios teurer. Bei Polished kostet ein Song 79 € inkl. USt., eine EP 349 € und ein Album 629 €, jeweils mit schriftlichem Audio-Audit und unbegrenzten Revisionen.
 Festpreis-Angebot anfragen →
 Preise ansehen
-Von Tim Borchert, Mastering Engineer · Stand: Oktober 2026 · Alle Preise Endpreise inkl. 19 % USt.
+Von Tim Borchert, Mastering Engineer · Zuletzt aktualisiert: 29.10.2026 · Alle Preise Endpreise inkl. 19 % USt.
 ### Mastering-Studio-Preise und Online-Mastering-Preise im Vergleich
 Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:
 AnbieterTypischer Preis pro TrackWas du bekommst
@@ -1255,7 +1326,7 @@ Guide · Stem Mastering
 Stem mastering masters several track groups, such as drums, bass, guitars and vocals, instead of one stereo file. It helps when instruments mask each other in the mix. At Polished, stem mastering costs €129 per track incl. VAT, with a written audio audit and unlimited revisions.
 Request stem mastering →
 How to export stems
-By Tim Borchert, mastering engineer · Updated October 2026
+By Tim Borchert, mastering engineer · Last updated: 5 November 2026
 ### Stereo vs. stem mastering
 Stereo masteringStem mastering
 Sourceone finished stereo file4–6 track groups (stems)
@@ -1272,7 +1343,9 @@ Typical metal cases for stems: kick and bass fighting below 100 Hz, guitar walls
 - Effects: render reverb and delay into the stem or export them as a separate FX stem, never both.
 - Headroom: no clipping; leave about 3–6 dB below 0 dBFS on the sum.
 - Naming: e.g. SongTitle_Drums.wav, SongTitle_Bass.wav.
-#### Which stem types (stem groups) for metal?
+Include the stereo mix as a reference and one or two reference tracks from your subgenre. Pricing compared to other providers: How much does mastering cost?
+Request stem mastering →
+### Which stem types (stem groups) for metal?
 StemWhat goes inWhy separate
 DrumsKick, snare, toms, overheads, roomKick and snare punch without squashing the guitars
 BassDI and amp bassLow end tight against the kick
@@ -1281,8 +1354,6 @@ Leads / clean guitarsSolos, leads, clean partsLeads stay audible without raising
 VocalsLead vocals, screams, backing vocalsLevel and sibilance correctable on their own
 Synths / FXKeys, orchestra, reverb and delay returnsSpace and atmosphere adjustable
 Four stems (drums, bass, guitars, vocals) are enough for most metal songs; six give more control on dense productions.
-Include the stereo mix as a reference and one or two reference tracks from your subgenre. Pricing compared to other providers: How much does mastering cost?
-Request stem mastering →
 ### Stem mastering service: prices
 PackagePrice incl. VATScope
 Stem single€1291 track, up to 6 stems, audio audit, 48–72 h
@@ -1312,7 +1383,7 @@ Ratgeber · Stem-Mastering
 Beim Stem-Mastering werden statt einer Stereo-Datei mehrere Spurgruppen gemastert, zum Beispiel Drums, Bass, Gitarren und Vocals. Das hilft, wenn sich Instrumente im Mix verdecken. Bei Polished kostet Stem-Mastering 129 € pro Track inkl. USt., mit schriftlichem Audio-Audit und unbegrenzten Revisionen.
 Stem-Mastering anfragen →
 Stems richtig exportieren
-Von Tim Borchert, Mastering Engineer · Stand: Oktober 2026
+Von Tim Borchert, Mastering Engineer · Zuletzt aktualisiert: 05.11.2026
 ### Stereo- oder Stem-Mastering: der Unterschied
 Stereo-MasteringStem-Mastering
 Ausgangsmaterialeine fertige Stereo-Datei4–6 Spurgruppen (Stems)
@@ -1329,7 +1400,8 @@ Im Metal sind die typischen Fälle für Stems: Kick und Bass streiten sich unter
 - Effekte: Hall und Delay entweder in den jeweiligen Stem rendern oder als eigenen FX-Stem exportieren, aber nicht doppelt.
 - Headroom: Keine Clips; die Summe sollte mit etwa 3–6 dB Luft unter 0 dBFS bleiben.
 - Benennung: zum Beispiel Songtitel_Drums.wav, Songtitel_Bass.wav.
-#### Welche Stem-Typen (Stem-Gruppen) brauchst du im Metal?
+Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.
+### Welche Stem-Typen (Stem-Gruppen) brauchst du im Metal?
 StemWas hinein gehörtWarum getrennt
 DrumsKick, Snare, Toms, Overheads, RoomKick und Snare bekommen Punch, ohne die Gitarren zu quetschen
 BassDI- und Amp-BassTiefbass sitzt sauber an der Kick
@@ -1338,7 +1410,6 @@ Lead-/Clean-GitarrenSoli, Leads, Clean-PartsLeads bleiben hörbar, ohne die Wand
 VocalsGesang, Screams, BackingsPegel und Zischlaute einzeln korrigierbar
 Synths/FXKeys, Orchester, Hall- und Delay-ReturnsRaum und Atmosphäre einstellbar
 Für die meisten Metal-Songs reichen vier Stems (Drums, Bass, Gitarren, Vocals); sechs geben bei dichten Produktionen mehr Kontrolle.
-Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.
 ### Stem-Mastering Preise: was kostet es?
 PaketPreis inkl. USt.Umfang
 Stem-Single129 €1 Track, bis zu 6 Stems, Audio-Audit, 48–72 Std.
@@ -1368,7 +1439,7 @@ For independent labels
 Independent labels with 4 or more releases a year get fixed mastering rates at Polished: €63 per single, €103 per stem single, €279 per EP and €499 per album, incl. VAT. Every track gets a written audio audit and unlimited revisions. Each release is prepaid or invoiced after delivery.
 Request label rates →
 See partner rates
-By Tim Borchert, mastering engineer · Updated October 2026
+By Tim Borchert, mastering engineer · Last updated: 21 October 2026
 ### Label mastering rates: fixed per release
 ReleaseLabel partner rateRegular priceDelivery
 Single · stereo€63€7948–72 h
@@ -1420,7 +1491,7 @@ Für unabhängige Labels
 Unabhängige Labels mit mindestens 4 Releases im Jahr bekommen bei Polished feste Mastering-Preise: 63 € pro Single, 103 € pro Stem-Single, 279 € pro EP und 499 € pro Album, inkl. USt. Jeder Track bekommt ein schriftliches Audio-Audit und unbegrenzte Revisionen. Bezahlt wird pro Release, vorab oder auf Rechnung nach Lieferung.
 Label-Preise anfragen →
 Partnerpreise ansehen
-Von Tim Borchert, Mastering Engineer · Stand: Oktober 2026
+Von Tim Borchert, Mastering Engineer · Zuletzt aktualisiert: 29.10.2026
 ### Label-Mastering Preise: fest pro Release
 ReleaseLabel-PartnerpreisRegulärer PreisLieferung
 Single · Stereo63 €79 €48–72 Std.
@@ -1472,7 +1543,7 @@ Tools for bands · Code Chaos Audio
 Many problems a mastering engineer finds start much earlier: a fizzy amp tone, a reverb that collapses in mono, a kick and bass that cancel each other. Tim Borchert, who masters every track at Polished, also builds audio plugins under the label Code Chaos Audio. Here they are with screenshots, real demo audio and plain system requirements. Everything is sold on Gumroad, and most plugins have a free demo.
 See all plugins →
 Free: Kick/Bass Scope
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 ### Where each tool fits
 / 01
 #### Writing and demos
@@ -1604,7 +1675,7 @@ Tools für Bands · Code Chaos Audio
 Viele Probleme, die beim Mastering auffallen, entstehen viel früher: ein fizziger Amp-Sound, ein Hall, der in Mono zusammenfällt, Kick und Bass, die sich gegenseitig auslöschen. Tim Borchert, der bei Polished jeden Track mastert, baut unter dem Label Code Chaos Audio auch Audio-Plugins. Hier findest du sie mit Screenshots, echter Audio-Demo und klaren Systemangaben. Verkauft wird alles über Gumroad, und für die meisten Plugins gibt es eine Gratis-Demo.
 Alle Plugins ansehen →
 Gratis: Kick/Bass Scope
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 ### Wo welches Tool hingehört
 / 01
 #### Songwriting und Demos
@@ -1737,7 +1808,7 @@ Gravesaw is a VST3 amp with the cab built in: plug in a guitar or bass DI and ch
 Free demo →
 Buy on Gumroad · €19
 €19 · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 Gravesaw with the Carpathian Buzz preset. Gate, Tight and Gain sit before the distortion, the tone stack after it.
 ### Hear it: Gravesaw
 Gravesaw demo: one DI riff at 170 BPM, six presets, then a full mix (26 s)
@@ -1815,7 +1886,7 @@ Gravesaw ist ein VST3-Amp mit eingebautem Cab: Gitarren- oder Bass-DI rein, dann
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
 19 € · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Gravesaw mit dem Preset Carpathian Buzz. Gate, Tight und Gain sitzen vor der Verzerrung, die Klangregelung dahinter.
 ### Reinhören: Gravesaw
 Gravesaw-Demo: ein DI-Riff bei 170 BPM, sechs Presets, dann ein voller Mix (26 s)
@@ -1893,7 +1964,7 @@ Rimehall puts a dark hall, an octave shimmer and a tape stage on one bus, and du
 Free demo →
 Buy on Gumroad · €19
 €19 · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 Rimehall with the Frozen Forest preset. The graph shows the estimated decay for lows, mids and highs.
 ### Hear it: Rimehall
 Rimehall demo: a dry riff at 170 BPM, six presets, then a full mix (69 s)
@@ -1968,7 +2039,7 @@ Rimehall vereint eine dunkle Halle, einen Oktav-Shimmer und eine Tape-Stufe auf 
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
 19 € · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Rimehall mit dem Preset Frozen Forest. Die Grafik zeigt die geschätzte Nachhallzeit für Tiefen, Mitten und Höhen.
 ### Reinhören: Rimehall
 Rimehall-Demo: ein trockenes Riff bei 170 BPM, sechs Presets, dann ein voller Mix (69 s)
@@ -2043,7 +2114,7 @@ Frostfret is a VST3 instrument that plays electric, steel-string and nylon guita
 Free demo →
 Buy on Gumroad · €29
 €29 · Windows 10/11 · macOS Apple Silicon · VST3 instrument + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 Frostfret with the Wall of Ice (Double Track) preset. Strings and pickup on top, playing style in the middle, the built-in amp below.
 ### Hear it: Frostfret
 Black metal: double-tracked tremolo guitars and bass through the built-in amp, 170 BPM, E phrygian (25 s)
@@ -2139,7 +2210,7 @@ Frostfret ist ein VST3-Instrument, das E-Gitarre, Westerngitarre, Nylongitarre u
 Gratis-Demo →
 Auf Gumroad kaufen · 29 €
 29 € · Windows 10/11 · macOS Apple Silicon · VST3-Instrument + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Frostfret mit dem Preset Wall of Ice (Double Track). Oben Saiten und Tonabnehmer, in der Mitte die Spielweise, unten der eingebaute Amp.
 ### Reinhören: Frostfret
 Black Metal: gedoppelte Tremolo-Gitarren und Bass durch den eingebauten Amp, 170 BPM, E-Phrygisch (25 s)
@@ -2235,7 +2306,7 @@ Hoarfell is a VST3 instrument with three engines: a drum kit on the General MIDI
 Free demo →
 Buy on Gumroad · €17
 €17 · Windows 10/11 · macOS Apple Silicon · VST3 instrument + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 Hoarfell on the drum engine with the Studio Kit preset. The mapping panel lists the General MIDI notes.
 ### Hear it: Hoarfell
 Hoarfell alone: choir and bell intro, a mid-tempo groove, then a blast, 150 BPM, E phrygian (29 s)
@@ -2321,7 +2392,7 @@ Hoarfell ist ein VST3-Instrument mit drei Engines: ein Drumkit auf der General-M
 Gratis-Demo →
 Auf Gumroad kaufen · 17 €
 17 € · Windows 10/11 · macOS Apple Silicon · VST3-Instrument + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Hoarfell auf der Drum-Engine mit dem Preset Studio Kit. Das Mapping-Feld listet die General-MIDI-Noten.
 ### Reinhören: Hoarfell
 Hoarfell allein: Intro mit Chor und Glocke, ein Groove im mittleren Tempo, dann ein Blast, 150 BPM, E-Phrygisch (29 s)
@@ -2406,7 +2477,7 @@ Tools for bands · Code Chaos Audio
 Kick/Bass Scope is a free VST3 analyzer that draws your kick and your bass on top of each other, locked to your DAW's beat, and shows whether they add up or cancel each other. Tim Borchert built it under his Code Chaos Audio label for fast electronic music. The problem it shows is the same in a death metal or metalcore mix: two low-end sources fighting over the same moment.
 Free download →
 Free · pay what you want · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 In phase: kick and bass add up where they overlap (correlation +0.32).
 Out of phase: same groove, the correlation drops to -0.32 and the scope warns you.
 ### Why kick/bass phase matters before mastering
@@ -2464,7 +2535,7 @@ Tools für Bands · Code Chaos Audio
 Kick/Bass Scope ist ein kostenloser VST3-Analyzer, der Kick und Bass übereinander zeichnet, synchron zum Takt deiner DAW, und zeigt, ob sie sich addieren oder gegenseitig auslöschen. Tim Borchert hat ihn unter seinem Label Code Chaos Audio für schnelle elektronische Musik gebaut. Das Problem, das er sichtbar macht, ist in einem Death-Metal- oder Metalcore-Mix dasselbe: zwei Bassquellen, die sich um denselben Moment streiten.
 Gratis laden →
 Gratis · Preis frei wählbar · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Phasengleich: Wo sich Kick und Bass überlappen, addieren sie sich (Korrelation +0,32).
 Gegenphasig: derselbe Groove, die Korrelation fällt auf -0,32 und der Scope warnt.
 ### Warum die Phase von Kick und Bass vor dem Mastering zählt
@@ -2523,7 +2594,7 @@ Crucible splits your signal into low, mid and high and saturates each band on it
 Free demo →
 Buy on Gumroad · €19
 €19 · Windows 10/11 only · VST3 + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 Crucible with the crossovers at 120 Hz and 4 kHz. Each band has its own saturation type, drive, mix and gain.
 ### Hear it: Crucible
 A · Dry: a 190 BPM loop without Crucible (10 s)
@@ -2581,7 +2652,7 @@ Crucible teilt dein Signal in Tiefen, Mitten und Höhen und sättigt jedes Band 
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
 19 € · Nur Windows 10/11 · VST3 + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Crucible mit Trennfrequenzen bei 120 Hz und 4 kHz. Jedes Band hat eigenen Sättigungstyp, Drive, Mix und Gain.
 ### Reinhören: Crucible
 A · Trocken: ein Loop mit 190 BPM ohne Crucible (10 s)
@@ -2639,7 +2710,7 @@ Shardstep chops, repeats, reverses and tape-stops audio in time with your DAW, w
 Free demo →
 Buy on Gumroad · €15
 €15 · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 Shardstep at 200 BPM, synced to the host: one bar of 16 steps, each with its own effect.
 ### Hear it: Shardstep
 A · Dry: the demo loop without Shardstep (38 s)
@@ -2701,7 +2772,7 @@ Shardstep zerhackt, wiederholt, dreht um und stoppt Audio im Takt deiner DAW, mi
 Gratis-Demo →
 Auf Gumroad kaufen · 15 €
 15 € · Windows 10/11 · macOS Apple Silicon · VST3 + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Shardstep bei 200 BPM, synchron zum Host: ein Takt mit 16 Steps, jeder mit eigenem Effekt.
 ### Reinhören: Shardstep
 A · Trocken: der Demo-Loop ohne Shardstep (38 s)
@@ -2763,7 +2834,7 @@ Chaos FM is a three-operator FM synth with a GENERATE button that rolls a new, p
 Free demo →
 Buy on Gumroad · €19
 €19 · Windows 10/11 only · VST3 + Standalone
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
 Chaos FM with the preset Hitech Scream Lead. Every operator has its own ratio, level and envelope.
 ### FM synths in a guitar mix, before mastering
 FM sounds are bright and dense by nature, and in a metal mix they compete with cymbals and guitar fizz for the same upper range. A few habits keep them from becoming the harshest part of the master:
@@ -2817,7 +2888,7 @@ Chaos FM ist ein FM-Synth mit drei Operatoren und einem GENERATE-Button, der fü
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
 19 € · Nur Windows 10/11 · VST3 + Standalone
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
 Chaos FM mit dem Preset Hitech Scream Lead. Jeder Operator hat eigene Ratio, eigenen Pegel und eigene Hüllkurve.
 ### FM-Synths im Gitarrenmix, vor dem Mastering
 FM-Sounds sind von Natur aus hell und dicht, und im Metal-Mix konkurrieren sie mit Becken und Gitarren-Fizz um denselben oberen Bereich. Ein paar Gewohnheiten verhindern, dass sie zum schärfsten Teil des Masters werden:

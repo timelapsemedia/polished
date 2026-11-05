@@ -39,7 +39,7 @@ TT = {
     'en': dict(home='Home', hub='Tools for Bands', hub_path='/tools/', eyebrow='Tools for bands · Code Chaos Audio',
                demo='Free demo', free='Free download', buy='Buy on Gumroad', details='Details &amp; audio →',
                contact='/#contact', audit='Request an audio audit →',
-               made='Made by <a href="/#engineer">Tim Borchert</a> under the label Code Chaos Audio · Sold on Gumroad · Updated October 2026',
+               made='Made by <a href="/#engineer">Tim Borchert</a> under the label Code Chaos Audio · Sold on Gumroad · Last updated: %%STAND%%',
                listen='Hear it', specs='At a <em>glance</em>', faq='{name} <em>FAQ</em>', related='More <em>tools</em>',
                master_h='Tool, mix or <em>master?</em>', spec_k='Detail', spec_v='{name}', shot='Screenshot',
                winmac='Windows 10/11 · macOS Apple Silicon', win='Windows 10/11 only', price_free='Free · pay what you want',
@@ -47,7 +47,7 @@ TT = {
     'de': dict(home='Startseite', hub='Tools für Bands', hub_path='/de/tools/', eyebrow='Tools für Bands · Code Chaos Audio',
                demo='Gratis-Demo', free='Gratis laden', buy='Auf Gumroad kaufen', details='Details &amp; Audio →',
                contact='/de/#kontakt', audit='Audio-Audit anfragen →',
-               made='Entwickelt von <a href="/de/#tim">Tim Borchert</a> unter dem Label Code Chaos Audio · Verkauf über Gumroad · Stand: Oktober 2026',
+               made='Entwickelt von <a href="/de/#tim">Tim Borchert</a> unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: %%STAND%%',
                listen='Reinhören', specs='Auf einen <em>Blick</em>', faq='{name}: <em>FAQ</em>', related='Weitere <em>Tools</em>',
                master_h='Tool, Mix oder <em>Master?</em>', spec_k='Detail', spec_v='{name}', shot='Screenshot',
                winmac='Windows 10/11 · macOS Apple Silicon', win='Nur Windows 10/11', price_free='Gratis · Preis frei wählbar',
@@ -1136,7 +1136,7 @@ def tool_page(t, lang):
     og_alt = html.escape(f'{t["name"]} by Code Chaos Audio' if lang == 'en' else f'{t["name"]} von Code Chaos Audio')
     return page(path=path, lang=lang, title=L['title'], description=L['description'], og_title=L['og_title'],
                 body=body, schemas=schemas, counterpart={'en': tool_path(slug, 'en'), 'de': tool_path(slug, 'de')},
-                og_image=(f'/assets/tools/{slug}-cover.jpg', cw, ch, og_alt))
+                og_image=(f'/assets/tools/{slug}-cover.jpg', cw, ch, og_alt), typ='produkt')
 
 
 # ---------------------------------------------------------------- OVERVIEW /tools/
@@ -1331,7 +1331,7 @@ def hub_page(lang):
     og_alt = 'Gravesaw by Code Chaos Audio' if lang == 'en' else 'Gravesaw von Code Chaos Audio'
     return page(path=path, lang=lang, title=H['title'], description=H['description'], og_title=H['og_title'],
                 body=body, schemas=schemas, counterpart={'en': '/tools/', 'de': '/de/tools/'},
-                og_image=('/assets/tools/gravesaw-cover.jpg', 1280, 720, og_alt))
+                og_image=('/assets/tools/gravesaw-cover.jpg', 1280, 720, og_alt), typ='produkt')
 
 
 def tools_teaser(lang, sid, heading, intro, slugs, outro='', packs=(), bundles=False):
