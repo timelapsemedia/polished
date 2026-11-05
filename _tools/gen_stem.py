@@ -23,7 +23,7 @@ sd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Stem-Mastering'
       <a href="/de/#kontakt" class="cta-btn" data-track="de-stem-hero">Stem-Mastering anfragen →</a>
       <a href="#export" class="cta-btn outline">Stems richtig exportieren</a>
     </div>
-    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Stand: Oktober 2026</p>
+    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Zuletzt aktualisiert: %%STAND%%</p>
   </div>
 </header>
 {sec('sd-vs', 'Stereo- oder Stem-Mastering: <em>der Unterschied</em>', """    <div class="table-wrap">
@@ -51,8 +51,10 @@ sd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Stem-Mastering'
       <li><strong>Headroom:</strong> Keine Clips; die Summe sollte mit etwa 3–6 dB Luft unter 0 dBFS bleiben.</li>
       <li><strong>Benennung:</strong> zum Beispiel <code>Songtitel_Drums.wav</code>, <code>Songtitel_Bass.wav</code>.</li>
     </ol>
-    <h3>Welche Stem-Typen (Stem-Gruppen) brauchst du im Metal?</h3>
-    <div class="table-wrap">
+    <p>Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.</p>
+  </div>
+</section>
+{sec('sd-typen', 'Welche Stem-Typen (Stem-Gruppen) <em>brauchst du im Metal?</em>', """    <div class="table-wrap">
       <table>
         <thead><tr><th>Stem</th><th>Was hinein gehört</th><th>Warum getrennt</th></tr></thead>
         <tbody>
@@ -65,10 +67,7 @@ sd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Stem-Mastering'
         </tbody>
       </table>
     </div>
-    <p>Für die meisten Metal-Songs reichen vier Stems (Drums, Bass, Gitarren, Vocals); sechs geben bei dichten Produktionen mehr Kontrolle.</p>
-    <p>Dazu am besten den Stereo-Mix als Referenz und ein bis zwei Referenztracks aus deinem Subgenre mitschicken. Das Audit prüft dann auch, ob die Stems korrekt zusammenpassen.</p>
-  </div>
-</section>
+    <p>Für die meisten Metal-Songs reichen vier Stems (Drums, Bass, Gitarren, Vocals); sechs geben bei dichten Produktionen mehr Kontrolle.</p>""")}
 {sec('sd-kosten', 'Stem-Mastering Preise: <em>was kostet es?</em>', """    <div class="table-wrap">
       <table>
         <thead><tr><th>Paket</th><th>Preis inkl. USt.</th><th>Umfang</th></tr></thead>
@@ -109,7 +108,7 @@ sd_schemas = [
 ]
 write(STEM_DE, page(path=STEM_DE, lang='de', title=SD_TITLE,
       description='Was ist Stem-Mastering, wann lohnt es sich und wie exportierst du Stems richtig? Mit Checkliste und Preisen: Stem-Mastering ab 129 € inkl. USt.',
-      og_title='Stem-Mastering — Polished', body=sd_body, schemas=sd_schemas, counterpart=STEM_PAIR))
+      og_title='Stem-Mastering — Polished', body=sd_body, schemas=sd_schemas, counterpart=STEM_PAIR, typ='article'))
 
 # ---------------------------------------------------------------- EN
 SE_TITLE = 'Stem Mastering from €129: Benefits & Stem Export | Polished'
@@ -130,7 +129,7 @@ se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE
       <a href="/#contact" class="cta-btn" data-track="stem-hero">Request stem mastering →</a>
       <a href="#export" class="cta-btn outline">How to export stems</a>
     </div>
-    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer · Updated October 2026</p>
+    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer · Last updated: %%STAND%%</p>
   </div>
 </header>
 {sec('se-vs', 'Stereo vs. stem mastering', """    <div class="table-wrap">
@@ -158,8 +157,11 @@ se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE
       <li><strong>Headroom:</strong> no clipping; leave about 3–6 dB below 0 dBFS on the sum.</li>
       <li><strong>Naming:</strong> e.g. <code>SongTitle_Drums.wav</code>, <code>SongTitle_Bass.wav</code>.</li>
     </ol>
-    <h3>Which stem types (stem groups) for metal?</h3>
-    <div class="table-wrap">
+    <p>Include the stereo mix as a reference and one or two reference tracks from your subgenre. Pricing compared to other providers: <a href="/mastering-cost/">How much does mastering cost?</a></p>
+    <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="stem-cta">Request stem mastering →</a></div>
+  </div>
+</section>
+{sec('se-types', 'Which stem types (stem groups) <em>for metal?</em>', """    <div class="table-wrap">
       <table>
         <thead><tr><th>Stem</th><th>What goes in</th><th>Why separate</th></tr></thead>
         <tbody>
@@ -172,11 +174,7 @@ se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE
         </tbody>
       </table>
     </div>
-    <p>Four stems (drums, bass, guitars, vocals) are enough for most metal songs; six give more control on dense productions.</p>
-    <p>Include the stereo mix as a reference and one or two reference tracks from your subgenre. Pricing compared to other providers: <a href="/mastering-cost/">How much does mastering cost?</a></p>
-    <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="stem-cta">Request stem mastering →</a></div>
-  </div>
-</section>
+    <p>Four stems (drums, bass, guitars, vocals) are enough for most metal songs; six give more control on dense productions.</p>""")}
 {sec('se-price', 'Stem mastering service: <em>prices</em>', """    <div class="table-wrap">
       <table>
         <thead><tr><th>Package</th><th>Price incl. VAT</th><th>Scope</th></tr></thead>
@@ -188,8 +186,8 @@ se_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Stem Mastering', f'{BASE
       </table>
     </div>
     <p>All stem mastering services at Polished include the written audio audit, streaming and Bandcamp exports and unlimited revisions. Not sure whether stems are worth it for your mix? Send the stereo mix first and the audit will tell you.</p>
-    <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="stem-price-cta">Request stem mastering →</a></div>""")}
-<section class="content-section alt" aria-labelledby="se-faq">
+    <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="stem-price-cta">Request stem mastering →</a></div>""", alt=True)}
+<section class="content-section" aria-labelledby="se-faq">
   <div class="wrap prose-wrap">
     <h2 id="se-faq">Stem mastering <em>FAQ</em></h2>
 {faq_html(SE_FAQS)}
@@ -217,4 +215,4 @@ se_schemas = [
 ]
 write(STEM_EN, page(path=STEM_EN, lang='en', title=SE_TITLE,
       description='What is stem mastering, when is it worth it and how do you export stems correctly? Checklist and prices: stem mastering from €129 incl. VAT.',
-      og_title='Stem mastering — Polished', body=se_body, schemas=se_schemas, counterpart=STEM_PAIR))
+      og_title='Stem mastering — Polished', body=se_body, schemas=se_schemas, counterpart=STEM_PAIR, typ='article'))

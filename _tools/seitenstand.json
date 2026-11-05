@@ -1,0 +1,177 @@
+{
+ "/black-metal-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "b5104251b0000437"
+ },
+ "/de/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "bcbcd4eecc601582"
+ },
+ "/de/black-metal-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "583a39c4a83899ad"
+ },
+ "/de/death-metal-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "1b5db98ac9b81c98"
+ },
+ "/de/doom-gothic-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "13ac5b3d9ffb1e55"
+ },
+ "/de/mastering-fuer-labels/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-29",
+  "hash": "4eb90568188bcac3"
+ },
+ "/de/mastering-kosten/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-10-29",
+  "hash": "bc194ec4bab9d129"
+ },
+ "/de/metal-mastering-lautstaerke/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-10-29",
+  "hash": "3bdfc1c6d8d7b639"
+ },
+ "/de/metalcore-djent-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "1aca646740931d83"
+ },
+ "/de/stem-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "131898dac90796ea"
+ },
+ "/de/tools/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "053a2b3c6bffeeb2"
+ },
+ "/de/tools/chaos-fm/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "1deddca1cd77618f"
+ },
+ "/de/tools/crucible/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "36133b0187aa9ad5"
+ },
+ "/de/tools/frostfret/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "0d35e301806d6a66"
+ },
+ "/de/tools/gravesaw/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "7be662ec7fea5ce1"
+ },
+ "/de/tools/hoarfell/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "efb57a3c7ae9990d"
+ },
+ "/de/tools/kick-bass-scope/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "204631cb32984d84"
+ },
+ "/de/tools/rimehall/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "7b6a99087d08111e"
+ },
+ "/de/tools/shardstep/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "c02e94e050acc1dd"
+ },
+ "/death-metal-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "634e01cd3784ee2e"
+ },
+ "/doom-gothic-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "5a7737f236b001f2"
+ },
+ "/mastering-cost/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-10-27",
+  "hash": "8191b5961135e4f6"
+ },
+ "/mastering-for-labels/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "1204f129cf4eef47"
+ },
+ "/metal-mastering-loudness/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-02",
+  "hash": "32ba7dccfff83eda"
+ },
+ "/metalcore-djent-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "93c5f24739211247"
+ },
+ "/stem-mastering/": {
+  "veroeffentlicht": "2026-10-05",
+  "geaendert": "2026-11-05",
+  "hash": "2e8e6b162080d376"
+ },
+ "/tools/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "888a82bbb167e7ca"
+ },
+ "/tools/chaos-fm/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "99aef84136cde8f2"
+ },
+ "/tools/crucible/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "ce6363cd6915fa35"
+ },
+ "/tools/frostfret/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "ae85451b9042a40f"
+ },
+ "/tools/gravesaw/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "a05f0777c178b9ff"
+ },
+ "/tools/hoarfell/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "52e2c9da4bbff15b"
+ },
+ "/tools/kick-bass-scope/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "4c8c3f56e0a7caea"
+ },
+ "/tools/rimehall/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "c1d165750cf3824a"
+ },
+ "/tools/shardstep/": {
+  "veroeffentlicht": "2026-10-21",
+  "geaendert": "2026-10-21",
+  "hash": "6479d0a5cc64eb8a"
+ }
+}

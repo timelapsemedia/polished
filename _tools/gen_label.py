@@ -35,7 +35,7 @@ le_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Mastering for Labels', f
       <a href="{LABEL_MAIL_EN}" class="cta-btn" data-track="label-hero">Request label rates →</a>
       <a href="#lp-rates" class="cta-btn outline">See partner rates</a>
     </div>
-    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer · Updated October 2026</p>
+    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer · Last updated: %%STAND%%</p>
   </div>
 </header>
 <section class="content-section" id="lp-rates" aria-labelledby="le-rates">
@@ -93,7 +93,7 @@ le_schemas = [
 ]
 write(LABEL_EN, page(path=LABEL_EN, lang='en', title=LE_TITLE,
       description='Mastering for independent metal & gothic labels: fixed partner rates from 4 releases a year. €63 single, €279 EP, €499 album incl. VAT, audit included.',
-      og_title='Mastering for record labels — Polished', body=le_body, schemas=le_schemas, counterpart=LABEL_PAIR))
+      og_title='Mastering for record labels — Polished', body=le_body, schemas=le_schemas, counterpart=LABEL_PAIR, typ='article'))
 
 # ---------------------------------------------------------------- DE
 LD_TITLE = 'Mastering für Labels: feste Partnerpreise | Polished'
@@ -115,7 +115,7 @@ ld_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering für 
       <a href="{LABEL_MAIL_DE}" class="cta-btn" data-track="de-label-hero">Label-Preise anfragen →</a>
       <a href="#lp-preise" class="cta-btn outline">Partnerpreise ansehen</a>
     </div>
-    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Stand: Oktober 2026</p>
+    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Zuletzt aktualisiert: %%STAND%%</p>
   </div>
 </header>
 <section class="content-section" id="lp-preise" aria-labelledby="ld-preise">
@@ -173,4 +173,4 @@ ld_schemas = [
 ]
 write(LABEL_DE, page(path=LABEL_DE, lang='de', title=LD_TITLE,
       description='Mastering für unabhängige Metal- & Gothic-Labels: feste Partnerpreise ab 4 Releases im Jahr. 63 € Single, 279 € EP, 499 € Album inkl. USt., mit Audit.',
-      og_title='Mastering für Labels — Polished', body=ld_body, schemas=ld_schemas, counterpart=LABEL_PAIR))
+      og_title='Mastering für Labels — Polished', body=ld_body, schemas=ld_schemas, counterpart=LABEL_PAIR, typ='article'))

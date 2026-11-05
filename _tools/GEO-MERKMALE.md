@@ -19,6 +19,15 @@ Der Faktor gibt an, wie viel öfter eine Seite mit dem Merkmal zitiert wird. Sei
 | 4 | Sichtbares Datum „Zuletzt aktualisiert“ | 1,3 | Aus dem Build-Datum der Seite, nur bei echter inhaltlicher Änderung erhöhen |
 | 4 | Mindestens 1.000 Wörter | 1,5 | Nur mit echtem Inhalt für die Suchabsicht, nie Füllstoff |
 
+**Umsetzung seit 05.11.2026 (`_tools/gen_geo.py`, automatisch über `page(..., typ=...)`):**
+- `typ='article'` (Genre-, Ratgeber-, Preis-, Stem- und Label-Seiten): Inhaltsverzeichnis am Ende des Hero mit Links auf alle H2, `Article`-Schema (headline, author Tim Borchert, publisher, datePublished, dateModified, inLanguage), Autorenbox mit Foto, sichtbares „Last updated / Zuletzt aktualisiert“.
+- `typ='produkt'` (/tools/*): wie oben, aber kein `Article`; `SoftwareApplication`/`Product` bekommen `author` und `dateModified`.
+- `typ='home'` (/de/): Autorenbox und Datum, kein Inhaltsverzeichnis. index.html ist handgepflegt: nur der Block zwischen `<!-- geo:pakete -->` wird aus `PAKETE` neu geschrieben.
+- Datum = letzte echte Textänderung: `_tools/seitenstand.json` hält je Seite einen Hash des sichtbaren Texts. Ändert sich der Text, springt das Datum auf den Build-Tag, sonst bleibt es. `seitenstand.json` immer mit den Seiten committen. `sitemap.xml` lastmod wird daraus gesetzt.
+- Im Hero-Text steht das Datum als Platzhalter `%%STAND%%`.
+- Tabellen: `laut_tabelle()` (Genre-Seiten, Werte aus dem Lautstärke-Guide), `paket_tabelle()` (/ und /de/, Werte wie die Preiskarten).
+- Prüfen lokal: `python _tools/geo_merkmale.py https://polished.media --lokal .`
+
 **Kaum Wirkung:** llms.txt, eine Ziel-Wortzahl als Selbstzweck, Lesbarkeitswerte sowie Breadcrumb-, HowTo- und QAPage-Schema. Diese nicht als GEO-Hebel verkaufen.
 
 **Ablauf:**

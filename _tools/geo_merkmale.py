@@ -14,20 +14,45 @@ mit sich bringen (Faktor = so viel öfter zitiert als eine Seite derselben Domai
 Ohne messbaren Effekt: llms.txt, Breadcrumb-, HowTo-, QAPage-Schema, Lesbarkeitswerte. Korrelation, keine Kausalität.
 
   python3 geo_merkmale.py https://polished.media [--json]
+  python3 geo_merkmale.py https://polished.media --lokal .   # local build: sitemap.xml + pages from the repo folder
 """
-import html, json, re, sys, urllib.request
+import html, json, os, re, sys, urllib.request
 
 UA = {"User-Agent": "Mozilla/5.0 (geo-merkmale)"}
+LOKAL = sys.argv[sys.argv.index("--lokal") + 1] if "--lokal" in sys.argv else None
+SITE = sys.argv[1].rstrip("/") if len(sys.argv) > 1 else ""
 
 
 def holen(u):
+    if LOKAL:  # https://site/pfad/ -> <ordner>/pfad/index.html
+        rel = u.replace(SITE, "").strip("/")
+        datei = os.path.join(LOKAL, rel, "index.html") if not rel.endswith((".xml", ".html")) else os.path.join(LOKAL, rel)
+        with open(datei, encoding="utf-8") as f:
+            return f.read()
     return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30).read().decode("utf-8", "replace")
+
+
+def schema_typen(h):
+    """All @type values in the JSON-LD blocks, including type lists like ["SoftwareApplication", "Product"]."""
+    typen = set()
+
+    def sammle(o):
+        if isinstance(o, dict):
+            t = o.get("@type")
+            typen.update(t if isinstance(t, list) else [t] if t else [])
+            for v in o.values():
+                sammle(v)
+        elif isinstance(o, list):
+            for v in o:
+                sammle(v)
+    for block in re.findall(r'<script[^>]+ld\+json[^>]*>(.*?)</script>', h, re.S):
+        sammle(json.loads(block))  # broken JSON-LD fails loudly
+    return typen
 
 
 def pruefe(u):
     h = holen(u)
-    ld = " ".join(re.findall(r'<script[^>]+ld\+json[^>]*>(.*?)</script>', h, re.S))
-    typen = set(re.findall(r'"@type"\s*:\s*"([^"]+)"', ld))
+    typen = schema_typen(h)
     body = re.sub(r"<script.*?</script>|<style.*?</style>", "", h, flags=re.S)
     text = html.unescape(re.sub(r"<[^>]+>", " ", body))
     produkt = bool(typen & {"Product", "SoftwareApplication"})
@@ -46,7 +71,7 @@ def pruefe(u):
 
 
 def main():
-    site = sys.argv[1].rstrip("/")
+    site = SITE
     urls = re.findall(r"<loc>(.*?)</loc>", holen(site + "/sitemap.xml"))
     erg = {}
     for u in urls:

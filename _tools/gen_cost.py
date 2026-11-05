@@ -28,7 +28,7 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
       <a href="/de/#kontakt" class="cta-btn" data-track="de-cost-hero">Festpreis-Angebot anfragen →</a>
       <a href="#preise-polished" class="cta-btn outline">Preise ansehen</a>
     </div>
-    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Stand: Oktober 2026 · Alle Preise Endpreise inkl. 19 % USt.</p>
+    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Zuletzt aktualisiert: %%STAND%% · Alle Preise Endpreise inkl. 19 % USt.</p>
   </div>
 </header>
 {sec('cd-markt', 'Mastering-Studio-Preise und Online-Mastering-Preise <em>im Vergleich</em>', """    <p>Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:</p>
@@ -128,7 +128,7 @@ cd_schemas = [
 ]
 write(COST_DE, page(path=COST_DE, lang='de', title=CD_TITLE,
       description='Was kostet Mastering? Preisvergleich von KI-Mastering bis Studio, Kosten für Song, EP, Album, Stems und Vinyl. Polished: ab 79 € inkl. USt. mit Audio-Audit.',
-      og_title='Was kostet Mastering? — Polished', body=cd_body, schemas=cd_schemas, counterpart=COST_PAIR))
+      og_title='Was kostet Mastering? — Polished', body=cd_body, schemas=cd_schemas, counterpart=COST_PAIR, typ='article'))
 
 # ---------------------------------------------------------------- EN
 CE_TITLE = 'Online Mastering Prices & Cost: from €79 | Polished'
@@ -150,7 +150,7 @@ ce_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Mastering Cost', f'{BASE
       <a href="/#contact" class="cta-btn" data-track="cost-hero">Get a fixed quote →</a>
       <a href="/#packages" class="cta-btn outline">See packages</a>
     </div>
-    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer · Updated October 2026 · All prices final incl. 19% VAT</p>
+    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer · Last updated: %%STAND%% · All prices final incl. 19% VAT</p>
   </div>
 </header>
 {sec('ce-market', 'Mastering prices <em>compared</em>', """    <div class="table-wrap">
@@ -179,8 +179,8 @@ ce_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Mastering Cost', f'{BASE
       <li><strong>Formats:</strong> streaming, Bandcamp, CD and vinyl may need separate versions. Streaming and Bandcamp exports are always included at Polished.</li>
       <li><strong>Revisions:</strong> many providers cap or charge for revisions. At Polished they are unlimited.</li>
       <li><strong>Analysis:</strong> a written audio audit of your mix is included at Polished; elsewhere a mix analysis is often not part of the service.</li>
-    </ul>
-    <p><strong>Already have your own mix?</strong> Then you often don't need to pay €100–300 per song for a full mixing job. In many cases <strong>stereo mastering with a written mix audit for €79</strong> is enough: the audit tells you up front whether low end, loudness and balance are ready for mastering and what to fix in your own mix. If single elements collide, such as kick and bass or guitars and vocals, <strong><a href="/stem-mastering/">stem mastering for €129</a></strong> with up to 6 stem groups is the cheaper route than a new mix.</p>
+    </ul>""")}
+{sec('ce-own-mix', 'Already have <em>your own mix?</em>', """    <p>Then you often don't need to pay €100–300 per song for a full mixing job. In many cases <strong>stereo mastering with a written mix audit for €79</strong> is enough: the audit tells you up front whether low end, loudness and balance are ready for mastering and what to fix in your own mix. If single elements collide, such as kick and bass or guitars and vocals, <strong><a href="/stem-mastering/">stem mastering for €129</a></strong> with up to 6 stem groups is the cheaper route than a new mix.</p>
     <p>Polished specialises in <a href="/black-metal-mastering/">Black Metal</a>, <a href="/death-metal-mastering/">Death Metal</a>, <a href="/doom-gothic-mastering/">Doom &amp; Gothic</a> and <a href="/metalcore-djent-mastering/">Metalcore &amp; Djent</a>. You can pay up front or on invoice after delivery.</p>
     <div class="cta-row" style="margin-top: 24px;"><a href="/#contact" class="cta-btn" data-track="cost-cta">Get a fixed quote →</a></div>""", alt=True)}
 <section class="content-section" aria-labelledby="ce-faq">
@@ -202,4 +202,4 @@ ce_schemas = [
 ]
 write(COST_EN, page(path=COST_EN, lang='en', title=CE_TITLE,
       description='How much does mastering cost? Price comparison from AI mastering to studios, costs for a song, EP, album and stems. Polished: from €79 incl. VAT with an audit.',
-      og_title='How much does mastering cost? — Polished', body=ce_body, schemas=ce_schemas, counterpart=COST_PAIR))
+      og_title='How much does mastering cost? — Polished', body=ce_body, schemas=ce_schemas, counterpart=COST_PAIR, typ='article'))
