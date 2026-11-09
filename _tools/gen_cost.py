@@ -127,7 +127,7 @@ cd_schemas = [
     faq_schema(CD_FAQS),
 ]
 write(COST_DE, page(path=COST_DE, lang='de', title=CD_TITLE,
-      description='Was kostet Mastering? Preisvergleich von KI-Mastering bis Studio, Kosten für Song, EP, Album, Stems und Vinyl. Polished: ab 79 € inkl. USt. mit Audio-Audit.',
+      description='Was kostet Mastering? Meist 50–150 € pro Track im Studio, KI-Dienste weniger. Preise für Song, EP, Album, Stems und Vinyl. Polished: ab 79 € inkl. USt.',
       og_title='Was kostet Mastering? — Polished', body=cd_body, schemas=cd_schemas, counterpart=COST_PAIR, typ='article'))
 
 # ---------------------------------------------------------------- EN
