@@ -1,15 +1,7 @@
 {
  "marke": "polished",
- "stand": "2026-11-10T09:51+01:00",
+ "stand": "2026-11-10T10:50+01:00",
  "posts": [
-  {
-   "id": "2026-11-09-process",
-   "due": "2026-11-09T10:30+01:00",
-   "caption": "What you actually receive at the end. 📦\n\n▸ 24-bit WAV\n▸ 16-bit AIFF\n▸ 320 kbps MP3\n▸ Platform-specific exports for Spotify, Apple Music and Bandcamp\n▸ A vinyl-ready master on request for albums\n\nAll through a secure download link, no file juggling on your side.\n\nEvery package includes every format. There is no extra charge for the streaming versions.\n\nSingle €79 · EP €349 · Album €629, all incl. VAT → polished.media\n\n#mastering #masteringengineer #doommetal #blackmetal #extrememetal #deathmetal #audioengineering #loudnesswar #studiolife #homerecording #indielabel #undergroundmetal",
-   "image_urls": [],
-   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-09-process.mp4",
-   "thumb_offset": 800
-  },
   {
    "id": "2026-11-10-process",
    "due": "2026-11-10T10:30+01:00",
@@ -64,6 +56,15 @@
    "caption": "A lot of bands now release a record as a string of singles. 🎚️\n\nThe catch: master each one months apart, at different studios or settings, and single three no longer sounds like it belongs next to single one.\n\nThe Single Series fixes both the sound and the price:\n▸ 3 singles booked together, €73 each instead of €79\n▸ Mastered whenever each one is ready, over up to 12 months\n▸ An audit per single, with the first one as the reference for the rest\n▸ Unlimited revisions on every single\n\n€219 for all three, €18 saved. Pay per single or all three up front, your choice. Incl. 19% VAT.\n\npolished.media\n\n#mastering #masteringengineer #gothicmetal #djent #doommetal #deathmetal #diymusician #lufs #homerecording #mixingandmastering #indielabel #undergroundmetal",
    "image_urls": [
     "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-16-offer-portrait.jpg"
+   ],
+   "video_url": null
+  },
+  {
+   "id": "2026-11-17-myth_bust",
+   "due": "2026-11-17T10:30+01:00",
+   "caption": "-14 LUFS is not the number your master has to hit. 📉\n\n▸ Spotify plays tracks back around -14 LUFS integrated by default\n▸ A louder master is simply turned down on playback\n▸ What stays is the damage: flattened transients, less punch\n▸ True peak at or below -1 dBTP keeps lossy encodes from clipping\n\nA metal master should be as loud as the genre needs, not as loud as possible.\n\nAudit-first mastering → polished.media\n\n#mastering #masteringengineer #gothicmetal #blackmetal #doommetal #metalcore #diymusician #homerecording #audioengineering #lufs #undergroundmetal #indielabel",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-17-myth_bust-portrait.jpg"
    ],
    "video_url": null
   }
