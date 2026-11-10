@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-10T11:51+01:00",
+ "stand": "2026-11-10T12:51+01:00",
  "posts": [
   {
    "id": "2026-11-11-studio_atmos",
@@ -54,10 +54,9 @@
    "id": "2026-11-17-myth_bust",
    "due": "2026-11-17T10:30+01:00",
    "caption": "-14 LUFS is not the number your master has to hit. 📉\n\n▸ Spotify plays tracks back around -14 LUFS integrated by default\n▸ A louder master is simply turned down on playback\n▸ What stays is the damage: flattened transients, less punch\n▸ True peak at or below -1 dBTP keeps lossy encodes from clipping\n\nA metal master should be as loud as the genre needs, not as loud as possible.\n\nAudit-first mastering → polished.media\n\n#mastering #masteringengineer #gothicmetal #blackmetal #doommetal #metalcore #diymusician #homerecording #audioengineering #lufs #undergroundmetal #indielabel",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-17-myth_bust-portrait.jpg"
-   ],
-   "video_url": null
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-17-myth_bust.mp4",
+   "thumb_offset": 800
   }
  ]
 }
