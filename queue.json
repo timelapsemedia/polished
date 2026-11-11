@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-11T09:00+01:00",
+ "stand": "2026-11-11T11:00+01:00",
  "posts": [
   {
    "id": "2026-11-11-studio_atmos",
@@ -57,6 +57,15 @@
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-17-myth_bust.mp4",
    "thumb_offset": 800
+  },
+  {
+   "id": "2026-11-18-offer",
+   "due": "2026-11-18T10:30+01:00",
+   "caption": "Stem mastering for a whole EP, at a package price. 🎛️\n\nWhen the audit shows the same clash on several tracks, like kick against bass or vocals fighting the guitars, fixing it from a stereo file means compromise on every song. From stems, each element gets its own decision.\n\nThe Stem EP:\n▸ Up to 5 tracks, up to 6 stems each\n▸ An audit per track\n▸ Loudness balanced across the whole EP, transitions worked out\n▸ Unlimited revisions\n\n€549 instead of €645 for five stem singles, €96 saved. Delivery in 5–7 days. Pay up front or on invoice after delivery. Incl. 19% VAT.\n\npolished.media\n\n#mastering #masteringengineer #deathmetal #metalcore #doommetal #extrememetal #audioengineering #diymusician #homerecording #loudnesswar #indielabel #undergroundmetal",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-18-offer-portrait.jpg"
+   ],
+   "video_url": null
   }
  ]
 }
