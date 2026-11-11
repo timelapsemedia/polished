@@ -125,7 +125,7 @@ AUTOR_TEXT = {
                tools='Under the label Code Chaos Audio he also builds production tools for bands.'),
     'de': dict(article='Geschrieben von', produkt='Entwickelt von', home='Gemastert von', link='/de/#tim', mehr='Mehr über Tim',
                stand='Zuletzt aktualisiert', alt='Porträt von Tim Borchert, Mastering Engineer bei Polished',
-               bio='Tim Borchert mastert jeden Track bei Polished persönlich. Er studiert Systematische Musikwissenschaft und Medienwissenschaft und '
+               bio='Tim Borchert mastert jeden Track bei Polished persönlich. Er studiert Systematische Musikwissenschaft und '
                    'Medienwissenschaft an der Universität Hamburg. Davor hat er zwei Jahre eine Ausbildung zur Fachkraft für '
                    'Veranstaltungstechnik gemacht, eine Rockband live abgemischt und eigene Musik auf Labels in Mexiko, Indien '
                    'und der Türkei veröffentlicht.',
