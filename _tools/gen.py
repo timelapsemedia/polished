@@ -338,12 +338,12 @@ def webpage_schema(path, name, lang='en', page_type='WebPage'):
 
 UI = {
     'en': dict(home='Home', prefix='', cta='Request Audio Audit →', contact='/#contact', pricing='Pricing',
-               meta='Mastered by <a href="/#engineer">Tim Borchert</a>, studying Systematic Musicology, University of Hamburg · Last updated: %%STAND%%',
+               meta='Mastered by <a href="/#engineer">Tim Borchert</a>, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: %%STAND%%',
                pricing_h='{name} <em>pricing</em>', faq_h='{name} <em>FAQ</em>', related_h='Other <em>genres</em>',
                cta_p='Send your premaster and a reference track. You get a written audio audit and a mastering plan before anything is processed.',
                email='Email Tim', note='Replies within 24h · Pay after delivery · Limited slots per week'),
     'de': dict(home='Startseite', prefix='/de', cta='Audio-Audit anfragen →', contact='/de/#kontakt', pricing='Preise',
-               meta='Gemastert von <a href="/de/#tim">Tim Borchert</a>, Studium der Systematischen Musikwissenschaft, Universität Hamburg · Zuletzt aktualisiert: %%STAND%%',
+               meta='Gemastert von <a href="/de/#tim">Tim Borchert</a>, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: %%STAND%%',
                pricing_h='{name}: <em>Preise</em>', faq_h='{name}: <em>FAQ</em>', related_h='Weitere <em>Genres</em>',
                cta_p='Schick deinen Premaster und einen Referenztrack. Du bekommst ein schriftliches Audio-Audit und einen Mastering-Plan, bevor irgendetwas bearbeitet wird.',
                email='E-Mail an Tim', note='Antwort meist innerhalb von 24 Std. · Zahlung auch nach Lieferung · Begrenzte Slots pro Woche'),
@@ -625,7 +625,7 @@ lg_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Metal Mastering Loudness
     <div class="eyebrow">Guide · Loudness</div>
     <h1>How loud should metal <em>be mastered?</em></h1>
     <p class="lead"><strong>Short answer: there is no single correct LUFS value for metal.</strong> Streaming services play everything back at roughly -14 LUFS (Apple Music around -16 LUFS), so extra loudness is turned down. The right target is the loudest level your specific mix can reach before blast beats, cymbals and low end start to collapse.</p>
-    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer, Systematic Musicology student (University of Hamburg) · Published 5 October 2026 · Last updated: %%STAND%%</p>
+    <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer, Systematic Musicology and Media Studies student (University of Hamburg) · Published 5 October 2026 · Last updated: %%STAND%%</p>
   </div>
 </header>
 {sec('lg-what', 'What LUFS means <em>and why it matters</em>', """    <div class="answer-box"><div class="label">Definition</div><p>LUFS (Loudness Units relative to Full Scale) measures perceived loudness over time, weighted the way human hearing works. Integrated LUFS is the average across a whole track. Streaming platforms use it to play every track at a similar level.</p></div>
@@ -723,7 +723,7 @@ de_body = f'''<header class="page-hero">
   <div class="wrap">
     <div class="eyebrow">Metal &amp; Gothic Mastering Studio</div>
     <h1>Metal Mastering, <em>analysiert statt geraten.</em></h1>
-    <p class="lead"><strong>Polished ist ein Mastering-Studio aus Deutschland, spezialisiert auf Black Metal, Death Metal, Doom, Gothic sowie Metalcore und Djent, und arbeitet komplett online.</strong> Jedes Projekt beginnt mit einem schriftlichen Audio-Audit deines Mixes, bevor ein Plugin angefasst wird. Gemastert persönlich von Tim Borchert, Student der Systematischen Musikwissenschaft an der Universität Hamburg. Ab 79 € pro Track, unbegrenzte Revisionen.</p>
+    <p class="lead"><strong>Polished ist ein Mastering-Studio aus Deutschland, spezialisiert auf Black Metal, Death Metal, Doom, Gothic sowie Metalcore und Djent, und arbeitet komplett online.</strong> Jedes Projekt beginnt mit einem schriftlichen Audio-Audit deines Mixes, bevor ein Plugin angefasst wird. Gemastert persönlich von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft an der Universität Hamburg. Ab 79 € pro Track, unbegrenzte Revisionen.</p>
     <div class="cta-row">
       <a href="#kontakt" class="cta-btn" data-track="de-hero">Audio-Audit anfragen →</a>
       <a href="#preise" class="cta-btn outline">Preise ansehen</a>
