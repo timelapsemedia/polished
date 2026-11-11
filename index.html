@@ -1901,6 +1901,9 @@ footer { background: #050505; padding: 80px 32px 40px; border-top: 1px solid var
 .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
+/* Cookie-Banner: Link im Text zusätzlich zur Farbe unterstrichen (A11y link-in-text-block, Grok #67) */
+#cookieBanner a { text-decoration: underline; text-underline-offset: 2px; }
+
 /* === MODAL === */
 .modal-overlay {
   position: fixed;
