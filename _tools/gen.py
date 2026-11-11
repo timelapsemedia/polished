@@ -10,6 +10,7 @@ Run from anywhere:  python3 _tools/gen.py
 index.html (the homepage) is NOT generated; edit it directly.
 _tools/ is not published by GitHub Pages (Jekyll skips folders starting with "_").
 """
+import urllib.parse
 import json, os, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -162,7 +163,7 @@ def footer(lang='en'):
     </div>
     <div class="footer-bottom">
       <div>© 2026 Polished Mastering · Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)</div>
-      <div><a href="/#legal-notice">Impressum</a> · <a href="/#privacy">Datenschutz</a> · <a href="/#terms">AGB</a> · <a href="#" class="cookie-settings-link">Cookie-Einstellungen</a></div>
+      <div><a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a> · <a href="/agb/">AGB</a> · <a href="#" class="cookie-settings-link">Cookie-Einstellungen</a></div>
     </div>
   </div>
 </footer>'''
@@ -204,7 +205,7 @@ def footer(lang='en'):
     </div>
     <div class="footer-bottom">
       <div>© 2026 Polished Mastering · Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)</div>
-      <div><a href="/#legal-notice">Legal Notice</a> · <a href="/#privacy">Privacy Policy</a> · <a href="/#terms">Terms</a> · <a href="#" class="cookie-settings-link">Cookie settings</a></div>
+      <div><a href="/impressum/#impressum-en">Legal Notice</a> · <a href="/datenschutz/#privacy-en">Privacy Policy</a> · <a href="/agb/#agb-en">Terms</a> · <a href="#" class="cookie-settings-link">Cookie settings</a></div>
     </div>
   </div>
 </footer>'''
@@ -362,6 +363,11 @@ def genre_page(g, lang='en'):
     path = f"{u['prefix']}/{slug}/"
     home = '/de/' if lang == 'de' else '/'
     crumbs = [(u['home'], f'{BASE}{home}'), (g['name'], f'{BASE}{path}')]
+    # Grok #67: CTA mit Genre-Vorauswahl (?genre=…); das Formular liest den Wert aus und wählt die passende Option
+    _gval = {'black-metal-mastering': 'Black Metal', 'death-metal-mastering': 'Death Metal', 'doom-gothic-mastering': 'Doom & Gothic',
+             'metalcore-djent-mastering': 'Metalcore/Djent'}.get(slug)
+    if _gval:
+        u = dict(u, contact=u['contact'].replace('#', '?genre=' + urllib.parse.quote(_gval) + '#', 1))
     sections = '\n'.join(g['sections'])
     body = f'''{breadcrumb_html(crumbs, 'Brotkrumen' if lang == 'de' else 'Breadcrumb')}
 <header class="page-hero">
@@ -829,7 +835,7 @@ de_body = f'''<header class="page-hero">
       <div class="form-group"><label for="f-files">Link zu den Dateien <span class="opt">(optional)</span></label><input type="url" id="f-files" name="files" inputmode="url" placeholder="WeTransfer-, Dropbox- oder Google-Drive-Link zum Premaster"></div>
       <div class="form-group"><label for="f-message">Nachricht <span class="req" aria-hidden="true">*</span></label><textarea id="f-message" name="message" required placeholder="Worum geht es? Vision, Referenztracks, geplanter Release-Termin?"></textarea></div>
       <div class="hp" aria-hidden="true"><label for="f-website">Dieses Feld leer lassen</label><input type="text" id="f-website" name="_honey" tabindex="-1" autocomplete="off"></div>
-      <div class="consent-row"><input type="checkbox" id="f-consent" name="consent" required><label for="f-consent">Ich habe die <a href="/#privacy">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verarbeitet werden. <span class="req" aria-hidden="true">*</span></label></div>
+      <div class="consent-row"><input type="checkbox" id="f-consent" name="consent" required><label for="f-consent">Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verarbeitet werden. <span class="req" aria-hidden="true">*</span></label></div>
       <button type="submit" class="cta-btn form-submit" data-track="de-form-submit">Anfrage senden →</button>
       <div class="form-status" role="status" aria-live="polite"></div>
     </form>
@@ -837,6 +843,14 @@ de_body = f'''<header class="page-hero">
 </section>'''
 de_schemas = [
     webpage_schema(DE_PATH, DE_TITLE, lang='de'),
+    # Grok #67: LocalBusiness/ProfessionalService nur mit Angaben, die auf /de/ sichtbar sind (Name, Preise 63–629 €, E-Mail,
+    # Sitz Kirchlinteln/Niedersachsen und DACH aus der FAQ). Keine Straße, keine erfundenen Felder.
+    {"@context": "https://schema.org", "@type": ["LocalBusiness", "ProfessionalService"], "@id": f"{BASE}/#business",
+     "name": "Polished Mastering", "url": f"{BASE}/de/", "email": "polished.media@gmx.de", "priceRange": "63–629 €",
+     "currenciesAccepted": "EUR", "description": "Online-Mastering-Studio für Black Metal, Death Metal, Doom und Gothic mit schriftlichem Audio-Audit vor jedem Master.",
+     "address": {"@type": "PostalAddress", "addressLocality": "Kirchlinteln", "addressRegion": "Niedersachsen", "addressCountry": "DE"},
+     "areaServed": [{"@type": "Country", "name": "Deutschland"}, {"@type": "Country", "name": "Österreich"}, {"@type": "Country", "name": "Schweiz"}],
+     "employee": PERSON},
     {"@context": "https://schema.org", "@type": "Service", "@id": f"{BASE}/de/#service",
      "name": "Metal Mastering", "serviceType": "Audio-Mastering für Metal und Gothic", "url": f"{BASE}/de/",
      "provider": BIZ, "areaServed": [{"@type": "Country", "name": "Deutschland"}, {"@type": "Country", "name": "Österreich"}, {"@type": "Country", "name": "Schweiz"}],
@@ -849,6 +863,16 @@ write(DE_PATH, page(path=DE_PATH, lang='de', title=DE_TITLE,
       og_title='Polished — Metal Mastering Studio online', body=de_body, schemas=de_schemas,
       counterpart={'en': '/', 'de': '/de/'}, typ='home'))
 
+# ---------------------------------------------------------------- legal pages (Grok #67, 11.11.2026)
+# Wortlaut 1:1 aus den früheren Modals der Startseite (_tools/legal/*.html), nur auf eigene URLs verlagert. Texte hier nie ändern.
+for _slug, _title, _desc in (
+        ('impressum', 'Impressum · Legal Notice | Polished', 'Impressum (Anbieterkennzeichnung nach § 5 DDG) von polished.media, mit englischer Fassung.'),
+        ('datenschutz', 'Datenschutzerklärung · Privacy Policy | Polished', 'Datenschutzerklärung von polished.media: welche Daten verarbeitet werden und welche Rechte du hast, mit englischer Fassung.'),
+        ('agb', 'AGB & Kundeninformationen · Terms | Polished', 'Allgemeine Geschäftsbedingungen und Kundeninformationen von Polished Mastering, mit englischer Übersetzung.')):
+    _inner = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'legal', _slug + '.html'), encoding='utf-8').read()
+    write(f'/{_slug}/', page(path=f'/{_slug}/', lang='de', title=_title, description=_desc, og_title=_title,
+          body=f'<article class="legal-doc">\n{_inner}</article>', schemas=[webpage_schema(f'/{_slug}/', _title, lang='de')],
+          robots='index, follow'))
 # ---------------------------------------------------------------- 404
 nf_body = '''<header class="page-hero">
   <div class="wrap">

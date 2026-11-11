@@ -11,6 +11,9 @@
     });
   }
 
+  /* Alles Weitere (Tracking, Formulare, Cookie-Banner) erst wenn der Browser frei ist: kein langer Task beim Laden (Grok #67) */
+  var spaeter = window.requestIdleCallback || function (f) { return setTimeout(f, 200); };
+  spaeter(function () {
   var GA_ID = 'G-CP8GKKDKCV';
   var CONSENT_KEY = 'polished_analytics_consent';
   var de = document.documentElement.lang === 'de';
@@ -108,8 +111,8 @@
   banner.setAttribute('role', 'dialog');
   banner.setAttribute('aria-label', de ? 'Cookie-Einstellungen' : 'Cookie settings');
   banner.innerHTML = de
-    ? '<p>Wir nutzen Google Analytics, um anonym zu verstehen, wie polished.media genutzt wird. Du entscheidest frei und kannst deine Wahl jederzeit über „Cookie-Einstellungen“ im Footer ändern. Details in der <a href="/#privacy">Datenschutzerklärung</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Nur notwendige</button><button class="cookie-btn primary" data-c="granted">Akzeptieren</button></div>'
-    : '<p>We use Google Analytics to anonymously understand how polished.media is used. You\'re free to choose and can change your choice any time via "Cookie settings" in the footer. Details in the <a href="/#privacy">Privacy Policy</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Necessary Only</button><button class="cookie-btn primary" data-c="granted">Accept</button></div>';
+    ? '<p>Wir nutzen Google Analytics, um anonym zu verstehen, wie polished.media genutzt wird. Du entscheidest frei und kannst deine Wahl jederzeit über „Cookie-Einstellungen“ im Footer ändern. Details in der <a href="/datenschutz/">Datenschutzerklärung</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Nur notwendige</button><button class="cookie-btn primary" data-c="granted">Akzeptieren</button></div>'
+    : '<p>We use Google Analytics to anonymously understand how polished.media is used. You\'re free to choose and can change your choice any time via "Cookie settings" in the footer. Details in the <a href="/datenschutz/#privacy-en">Privacy Policy</a>.</p><div class="cookie-actions"><button class="cookie-btn" data-c="denied">Necessary Only</button><button class="cookie-btn primary" data-c="granted">Accept</button></div>';
   document.body.appendChild(banner);
   banner.querySelectorAll('[data-c]').forEach(function (btn) {
     btn.addEventListener('click', function () {
@@ -127,6 +130,7 @@
   try { stored = localStorage.getItem(CONSENT_KEY); } catch (e) {}
   if (stored === 'granted') loadGA();
   else if (stored !== 'denied') setTimeout(function () { banner.classList.add('show'); }, 1500);
+  }, { timeout: 2000 });
 })();
 
 /* Language hint: German-speaking visitor on an English page -> offer the German version (no auto-redirect) */
@@ -166,4 +170,15 @@
       if (p && p.catch) p.catch(function () {});
     });
   });
+})();
+
+/* Genre-Vorauswahl aus ?genre= (Genre-Seiten, Grok #67) */
+(function () {
+  try {
+    var g = new URLSearchParams(location.search).get('genre');
+    if (!g) return;
+    document.querySelectorAll('select[name="genre"]').forEach(function (sel) {
+      for (var i = 0; i < sel.options.length; i++) { if (sel.options[i].value === g) { sel.selectedIndex = i; break; } }
+    });
+  } catch (e) {}
 })();
