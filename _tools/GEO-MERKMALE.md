@@ -2,6 +2,8 @@
 
 Gilt für jeden Lauf, der die Generatoren in `_tools/` bearbeitet (auch „Weekly run“).
 
+**SEO-Arbeitsliste aus GSC (Pos. 8–30, CTR):** [`SEO-ARBEITSLISTE.md`](SEO-ARBEITSLISTE.md). Der Weekly run arbeitet zuerst deren offene Punkte ab, statt selbst neu zu suchen (Grok #72). Messwerte der Datenseiten nur aus `daten/genre_index.json` (erzeugt von `C:/traffic/seiten/genre_index.py`), nie von Hand.
+
 ## GEO-Merkmale (fester Arbeitsvorrat, seit 05.11.2026)
 
 Grundlage: SISTRIX-Studie „Citation Worthiness“ vom 22.10.2026. Ausgewertet wurden 96.418 URLs aus ChatGPT, Google AI Mode und AI Overviews, jeweils zitierte gegen nicht zitierte Seiten derselben Domain. Es entscheidet also die einzelne Seite, nicht die Marke. Quelle: https://www.sistrix.de/news/geo-mythen-im-datencheck/. Die Werte sind Korrelationen, keine Kausalität.
