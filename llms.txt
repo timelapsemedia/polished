@@ -22,7 +22,8 @@ All prices are final prices including 19% German VAT. No upfront payment require
 - [Mastering for record labels](https://polished.media/mastering-for-labels/): fixed label partner rates from 4 releases per year (€63 single, €103 stem single, €279 EP, €499 album incl. VAT), audit per track, payment per release
 - [Stem mastering guide](https://polished.media/stem-mastering/): stereo vs. stem mastering, when stems are worth it, how to export stems (checklist), prices
 - [How much does mastering cost?](https://polished.media/mastering-cost/): market price ranges from AI mastering to renowned studios, Polished prices for single, EP, album, stems
-- [How loud should metal be mastered?](https://polished.media/metal-mastering-loudness/): streaming loudness targets by platform (Spotify -14 LUFS, Apple Music about -16 LUFS), typical LUFS ranges by metal subgenre, true-peak limits
+- [How loud should metal be mastered?](https://polished.media/metal-mastering-loudness/): streaming loudness targets by platform (Spotify -14 LUFS, Apple Music about -16 LUFS), measured and typical LUFS ranges by metal subgenre, true-peak limits
+- [Metal & gothic loudness data 2026](https://polished.media/metal-loudness-data/): measured LUFS, DR, LRA, PLR, stereo width, low-end correlation and tonal balance of released black metal, DSBM, doom/gothic/dark wave and modern/industrial metal records (16 tracks per genre, medians and middle half, method documented)
 
 ## Tools for bands (plugins by Code Chaos Audio)
 Tim Borchert also builds audio plugins under the label Code Chaos Audio. Polished only links to them; they are sold and downloaded on Gumroad (timberwolf688.gumroad.com). No AU versions (Logic Pro not supported); macOS builds are Apple Silicon only and not signed or notarized.
@@ -48,6 +49,7 @@ Tim Borchert also builds audio plugins under the label Code Chaos Audio. Polishe
 - [Stem-Mastering](https://polished.media/de/stem-mastering/)
 - [Mastering für Labels](https://polished.media/de/mastering-fuer-labels/)
 - [Wie laut sollte Metal gemastert werden?](https://polished.media/de/metal-mastering-lautstaerke/)
+- [Metal- und Gothic-Lautheit: Messdaten 2026](https://polished.media/de/metal-lautheit-daten/)
 - [Tools für Bands (Plugins von Code Chaos Audio)](https://polished.media/de/tools/)
 
 ## Service area

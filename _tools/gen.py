@@ -23,6 +23,8 @@ PERSON = {"@id": f"{BASE}/#tim-borchert"}
 
 # GEO building blocks (TOC, author box, last-updated date, Article schema, data tables); used by page(typ=...)
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_geo.py'), encoding='utf-8').read())
+# Measured loudness data (genre_index.json, Markdown sources in _tools/daten/; Grok #72)
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'daten.py'), encoding='utf-8').read())
 
 GENRES = [
     ('black-metal-mastering', 'Black Metal Mastering'),
@@ -617,7 +619,7 @@ exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_label.py
 
 # ---------------------------------------------------------------- LOUDNESS GUIDE
 LG_PATH = '/metal-mastering-loudness/'
-LG_TITLE = 'How Loud Should Metal Be Mastered? LUFS Guide 2026 | Polished'
+LG_TITLE = 'How Loud Should Metal Be Mastered? Real Release LUFS 2026'  # SEO-Arbeitsliste A (Grok #72), <= 60 chars
 LG_FAQS = [
     ('What LUFS should metal be mastered to?', 'There is no single correct value. Streaming services normalize playback to about -14 LUFS integrated (Apple Music about -16 LUFS), so louder masters are turned down. Many commercial metal releases land roughly between -10 and -6 LUFS integrated because density and saturation are part of the sound. The right target is the loudest level your mix reaches before transients, cymbals and low end start to collapse.'),
     ('Does Spotify turn down loud metal masters?', 'Yes. With normalization on (the default), Spotify plays tracks at about -14 LUFS integrated. A master at -8 LUFS is turned down by about 6 dB. Spotify also offers a "Loud" setting at -11 LUFS and a "Quiet" setting at -19 LUFS.'),
@@ -658,20 +660,21 @@ lg_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Metal Mastering Loudness
     </div>
     <p class="table-note">Values reflect platform documentation and widely used measurements as of October 2026. Platforms can change their reference levels. Spotify values are taken from <a href="https://support.spotify.com/us/artists/article/loudness-normalization/" rel="noopener" target="_blank">Spotify's loudness normalization guidelines</a>.</p>
     <p>The practical consequence: on streaming platforms a -7 LUFS master and a -11 LUFS master end up at roughly the same playback level. The louder one doesn't win the volume contest anymore. It only gives up transient detail, unless that density is part of the sound you want.</p>""", alt=True)}
-{sec('lg-metal', 'Typical loudness ranges <em>by metal subgenre</em>', """    <p>Commercial metal is usually mastered louder than streaming references, and that's legitimate: saturation and density are part of the genre's sound. These are rough orientation ranges, not targets:</p>
+{sec('lg-metal', 'Typical loudness ranges <em>by metal subgenre</em>', """    <p>Commercial metal is usually mastered louder than streaming references, and that's legitimate: saturation and density are part of the genre's sound. For four styles we measured released records (16 tracks per genre, method and full tables on the <a href="/metal-loudness-data/">metal loudness data page</a>). The other rows are rough orientation ranges, not targets:</p>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Subgenre</th><th>Common integrated range</th><th>What limits loudness first</th></tr></thead>
+        <thead><tr><th>Subgenre</th><th>Integrated loudness</th><th>Basis</th><th>What limits loudness first</th></tr></thead>
         <tbody>
-          <tr><td>Metalcore / Djent</td><td>around -8 to -6 LUFS</td><td>Low end below 100 Hz eating headroom in breakdowns</td></tr>
-          <tr><td>Death Metal</td><td>around -9 to -6 LUFS</td><td>Snare crack and double-kick definition</td></tr>
-          <tr><td>Black Metal</td><td>around -10 to -7 LUFS</td><td>Cymbal wash and harshness in blast sections</td></tr>
-          <tr><td>Doom / Sludge</td><td>around -11 to -8 LUFS</td><td>Sustained sub energy and loss of contrast</td></tr>
-          <tr><td>Gothic Metal / Gothic Rock</td><td>around -12 to -8 LUFS</td><td>Dynamics between quiet and heavy sections</td></tr>
+          <tr><td>Black Metal</td><td>""" + gi_lufs('polished', 'black', 'en') + """</td><td>measured</td><td>Cymbal wash and harshness in blast sections</td></tr>
+          <tr><td>Depressive Black Metal (DSBM)</td><td>""" + gi_lufs('polished', 'dsbm', 'en') + """</td><td>measured</td><td>Slow swells in long, sustained passages</td></tr>
+          <tr><td>Doom / Gothic / Dark Wave</td><td>""" + gi_lufs('polished', 'doom_gothic', 'en') + """</td><td>measured</td><td>Sustained sub energy and loss of contrast</td></tr>
+          <tr><td>Modern &amp; Industrial Metal (NDH, nu metal)</td><td>""" + gi_lufs('polished', 'modern_metal', 'en') + """</td><td>measured</td><td>Low-mid density under the guitar wall</td></tr>
+          <tr><td>Metalcore / Djent</td><td>around -8 to -6 LUFS</td><td>orientation</td><td>Low end below 100 Hz eating headroom in breakdowns</td></tr>
+          <tr><td>Death Metal</td><td>around -9 to -6 LUFS</td><td>orientation</td><td>Snare crack and double-kick definition</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="table-note">Orientation values from mastering practice. Individual releases vary widely, and the right value for your track depends on the mix.</p>
+    <p class="table-note">Measured rows: median and middle half (25th to 75th percentile) of integrated loudness after ITU-R BS.1770. DR, loudness range and tonal balance per genre are on the <a href="/metal-loudness-data/">metal loudness data page</a>. Orientation rows: values from mastering practice. Individual releases vary widely, and the right value for your track depends on the mix.</p>
     <p>Genre-specific details: <a href="/black-metal-mastering/">black metal</a>, <a href="/death-metal-mastering/">death metal</a>, <a href="/doom-gothic-mastering/">doom &amp; gothic</a>, <a href="/metalcore-djent-mastering/">metalcore &amp; djent</a>.</p>""")}
 {sec('lg-peak', 'True peak: <em>the number that causes distortion</em>', """    <p>When a WAV master is converted to Ogg Vorbis, AAC or MP3 for streaming, peaks can rise above the original level. A master limited to 0 dBFS can clip after encoding even though the WAV looks clean. Loud, dense metal masters are especially exposed.</p>
     <ul>
@@ -709,9 +712,12 @@ lg_schemas = [
     faq_schema(LG_FAQS),
 ]
 write(LG_PATH, page(path=LG_PATH, lang='en', title=LG_TITLE,
-      description='How loud should metal be mastered? Typical ranges run from about -12 to -6 LUFS by subgenre, while streaming plays back near -14 LUFS. Plus true-peak limits.',
+      description='Measured medians: black metal about −8 LUFS, DSBM −12.7, doom/gothic −7.5 (16 releases each). Streaming plays at −14. True-peak limits and how to choose.',
       og_title='How loud should metal be mastered? — Polished', body=lg_body, schemas=lg_schemas,
       counterpart={'en': LG_PATH, 'de': '/de/metal-mastering-lautstaerke/'}, typ='article'))
+
+# ---------------------------------------------------------------- MEASURED LOUDNESS DATA (Grok #72)
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_daten.py'), encoding='utf-8').read())
 
 # ---------------------------------------------------------------- GERMAN LANDING PAGE
 DE_PATH = '/de/'
@@ -779,7 +785,7 @@ de_body = f'''<header class="page-hero">
       <div class="price"><div class="name">Stem-EP · bis 5 Tracks</div><div class="amount">549<span style="margin-left:4px;">€</span></div><p>96 € gespart gegenüber 5 Stem-Singles. Bis zu 6 Stems pro Track, Audit pro Track, 5–7 Tage.</p></div>
       <div class="price"><div class="name">Label-Partner · ab 4 Releases pro Jahr</div><div class="amount">ab 63<span style="margin-left:4px;">€</span></div><p>Single 63 €, Stem-Single 103 €, EP 279 €, Album 499 €. Ein konsistenter Klang über euren Katalog, Vorkasse oder Rechnung pro Release.</p></div>
     </div>
-    <p class="meta-line">Alle Preise sind Endpreise inkl. 19 % USt. Bezahlung nach Wahl: Vorkasse oder auf Rechnung nach Fertigstellung. <a href="/de/mastering-kosten/">Mastering-Preise im Vergleich</a>.</p>
+    <p class="meta-line">Alle Preise sind Endpreise inkl. 19 % USt. Bezahlung nach Wahl: Vorkasse oder auf Rechnung nach Fertigstellung. <a href="/de/mastering-kosten/">Mastering-Preise im Vergleich</a> · <a href="/de/mastering-fuer-labels/">Mastering für Labels</a>.</p>
     <div style="margin-top: 48px;">
 {paket_tabelle('de')}
     </div>

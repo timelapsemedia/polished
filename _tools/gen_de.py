@@ -179,7 +179,7 @@ for _g in (BLACK_DE, DEATH_DE, DOOM_DE, CORE_DE):
     write(f'/de/{_g["slug"]}/', genre_page(_g, 'de'))
 
 # ---------------------------------------------------------------- GERMAN LOUDNESS GUIDE
-LGD_TITLE = 'Wie laut sollte Metal gemastert werden? LUFS-Guide | Polished'
+LGD_TITLE = 'Wie laut sollte Metal gemastert werden? LUFS-Messwerte 2026'  # SEO-Arbeitsliste A (Grok #72)
 LGD_FAQS = [
     ('Auf wie viel LUFS sollte man Metal mastern?', 'Es gibt keinen einzig richtigen Wert. Streaming-Dienste normalisieren die Wiedergabe auf etwa -14 LUFS integriert (Apple Music etwa -16 LUFS), lautere Master werden also leiser gedreht. Viele kommerzielle Metal-Releases liegen grob zwischen -10 und -6 LUFS integriert, weil Dichte und Sättigung zum Sound gehören. Das richtige Ziel ist der lauteste Pegel, den dein Mix erreicht, bevor Transienten, Becken und Low End zusammenbrechen.'),
     ('Dreht Spotify laute Metal-Master leiser?', 'Ja. Mit aktivierter Normalisierung (Standard) spielt Spotify Tracks mit etwa -14 LUFS integriert ab. Ein Master mit -8 LUFS wird um etwa 6 dB leiser gedreht. Zusätzlich gibt es die Einstellung „Laut“ mit -11 LUFS und „Leise“ mit -19 LUFS.'),
@@ -220,20 +220,21 @@ lgd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Lautstärke-Gu
     </div>
     <p class="table-note">Werte nach Plattform-Dokumentation und verbreiteten Messungen, Stand Oktober 2026. Plattformen können ihre Referenzpegel ändern. Die Spotify-Werte stammen aus den <a href="https://support.spotify.com/de/artists/article/loudness-normalization/" rel="noopener" target="_blank">Richtlinien von Spotify zur Lautheitsnormalisierung</a>.</p>
     <p>Die praktische Folge: Auf Streaming-Plattformen landen ein Master mit -7 LUFS und einer mit -11 LUFS bei ungefähr derselben Wiedergabelautstärke. Der lautere gewinnt den Lautstärkewettbewerb nicht mehr. Er gibt nur Transienten-Details ab, es sei denn, genau diese Dichte ist der Sound, den du willst.</p>""", alt=True)}
-{sec('lgd-metal', 'Typische Lautheit <em>nach Metal-Subgenre</em>', """    <p>Kommerzieller Metal wird meist lauter gemastert als die Streaming-Referenzen, und das ist legitim: Sättigung und Dichte gehören zum Sound des Genres. Diese Bereiche dienen der groben Orientierung, sie sind keine Zielwerte:</p>
+{sec('lgd-metal', 'Typische Lautheit <em>nach Metal-Subgenre</em>', """    <p>Kommerzieller Metal wird meist lauter gemastert als die Streaming-Referenzen, und das ist legitim: Sättigung und Dichte gehören zum Sound des Genres. Für vier Stile haben wir veröffentlichte Platten gemessen (16 Tracks je Genre, Methode und vollständige Tabellen auf der Seite <a href="/de/metal-lautheit-daten/">Metal-Lautheit: Messdaten</a>). Die übrigen Zeilen dienen der groben Orientierung, sie sind keine Zielwerte:</p>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Subgenre</th><th>Üblicher Integrated-Bereich</th><th>Was die Lautheit zuerst begrenzt</th></tr></thead>
+        <thead><tr><th>Subgenre</th><th>Integrierte Lautheit</th><th>Grundlage</th><th>Was die Lautheit zuerst begrenzt</th></tr></thead>
         <tbody>
-          <tr><td>Metalcore / Djent</td><td>etwa -8 bis -6 LUFS</td><td>Low End unter 100 Hz frisst in Breakdowns den Headroom</td></tr>
-          <tr><td>Death Metal</td><td>etwa -9 bis -6 LUFS</td><td>Crack der Snare und Definition der Double-Bass</td></tr>
-          <tr><td>Black Metal</td><td>etwa -10 bis -7 LUFS</td><td>Beckenteppich und Schärfe in Blast-Passagen</td></tr>
-          <tr><td>Doom / Sludge</td><td>etwa -11 bis -8 LUFS</td><td>Stehende Sub-Energie und Verlust von Kontrast</td></tr>
-          <tr><td>Gothic Metal / Gothic Rock</td><td>etwa -12 bis -8 LUFS</td><td>Dynamik zwischen leisen und schweren Teilen</td></tr>
+          <tr><td>Black Metal</td><td>""" + gi_lufs('polished', 'black', 'de') + """</td><td>gemessen</td><td>Beckenteppich und Schärfe in Blast-Passagen</td></tr>
+          <tr><td>Depressive Black Metal (DSBM)</td><td>""" + gi_lufs('polished', 'dsbm', 'de') + """</td><td>gemessen</td><td>Langsame Steigerungen in langen, getragenen Passagen</td></tr>
+          <tr><td>Doom / Gothic / Dark Wave</td><td>""" + gi_lufs('polished', 'doom_gothic', 'de') + """</td><td>gemessen</td><td>Stehende Sub-Energie und Verlust von Kontrast</td></tr>
+          <tr><td>Moderner &amp; Industrial Metal (NDH, Nu Metal)</td><td>""" + gi_lufs('polished', 'modern_metal', 'de') + """</td><td>gemessen</td><td>Dichte der unteren Mitten unter der Gitarrenwand</td></tr>
+          <tr><td>Metalcore / Djent</td><td>etwa -8 bis -6 LUFS</td><td>Orientierung</td><td>Low End unter 100 Hz frisst in Breakdowns den Headroom</td></tr>
+          <tr><td>Death Metal</td><td>etwa -9 bis -6 LUFS</td><td>Orientierung</td><td>Crack der Snare und Definition der Double-Bass</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="table-note">Orientierungswerte aus der Mastering-Praxis. Einzelne Releases weichen stark ab, und der richtige Wert für deinen Track hängt vom Mix ab.</p>
+    <p class="table-note">Gemessene Zeilen: Median und mittlere Hälfte (25. bis 75. Perzentil) der integrierten Lautheit nach ITU-R BS.1770. DR, Lautheitsumfang und tonale Balance je Genre stehen auf der Seite <a href="/de/metal-lautheit-daten/">Metal-Lautheit: Messdaten</a>. Orientierungszeilen: Werte aus der Mastering-Praxis. Einzelne Releases weichen stark ab, und der richtige Wert für deinen Track hängt vom Mix ab.</p>
     <p>Genre-spezifische Details: <a href="/de/black-metal-mastering/">Black Metal</a>, <a href="/de/death-metal-mastering/">Death Metal</a>, <a href="/de/doom-gothic-mastering/">Doom &amp; Gothic</a>, <a href="/de/metalcore-djent-mastering/">Metalcore &amp; Djent</a>.</p>""")}
 {sec('lgd-peak', 'True Peak: <em>der Wert, der Verzerrung verursacht</em>', """    <p>Wenn ein WAV-Master für Streaming in Ogg Vorbis, AAC oder MP3 umgewandelt wird, können Spitzen über den ursprünglichen Pegel steigen. Ein auf 0 dBFS limitierter Master kann nach der Kodierung clippen, obwohl das WAV sauber aussieht. Laute, dichte Metal-Master sind besonders betroffen.</p>
     <ul>
@@ -271,6 +272,6 @@ lgd_schemas = [
     faq_schema(LGD_FAQS),
 ]
 write(GUIDE_DE, page(path=GUIDE_DE, lang='de', title=LGD_TITLE,
-      description='Wie laut sollte Metal gemastert werden? LUFS-Ziele der Streaming-Plattformen, typische Lautheit für Metalcore, Death, Black und Doom Metal, True-Peak-Grenzen.',
+      description='Gemessene Mediane: Black Metal etwa −8 LUFS, DSBM −12,7, Doom/Gothic −7,5 (je 16 Releases). Streaming spielt mit −14. True-Peak-Grenzen und wie du wählst.',
       og_title='Wie laut sollte Metal gemastert werden? — Polished', body=lgd_body, schemas=lgd_schemas,
       counterpart={'en': '/metal-mastering-loudness/', 'de': GUIDE_DE}, typ='article'))

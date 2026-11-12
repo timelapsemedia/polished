@@ -1142,7 +1142,9 @@ def tool_page(t, lang):
 # ---------------------------------------------------------------- OVERVIEW /tools/
 HUB = {
     'en': dict(
-        title='Tools for Bands: Plugins for Metal Mixes | Polished',
+        title='Tools for Bands: Mix Polishing Plugins for Metal | Polished',  # GSC: „mix polishing plugin“ Pos. 17 (Grok #72)
+        polish_h='Mix polishing <em>plugins</em>',
+        polish_p='Polishing a mix before mastering mostly means fixing the few things a master cannot fix later. Three of the tools are made for that step. <a href="/tools/crucible/">Crucible</a> adds density with saturation per band: low, mid and high separately, five saturation types per band, so a bass can grind in the mids while the lowest octave stays clean. <a href="/tools/kick-bass-scope/">Kick/Bass Scope</a> checks the low end: it lays kick and bass on top of each other and warns you when they cancel. It is free. <a href="/tools/rimehall/">Rimehall</a> puts a cold hall and tape on a bus and ducks the reverb while the riff plays. Loudness, true peak and the final tonal balance for release are the mastering step: see the <a href="/metal-loudness-data/">measured loudness of metal releases</a>.',
         og_title='Tools for bands — Polished',
         description='Plugins from the mastering desk: Gravesaw amp, Rimehall reverb, Frostfret guitar, Hoarfell drums, a free phase scope and two bundles. Real demo audio.',
         h1='Tools for bands, <em>built next to the mastering desk.</em>',
@@ -1173,6 +1175,8 @@ HUB = {
     ),
     'de': dict(
         title='Tools für Bands: Plugins für Metal-Mixe | Polished',
+        polish_h='Plugins zum <em>Mix-Polieren</em>',
+        polish_p='Einen Mix vor dem Mastering polieren heißt vor allem: die wenigen Dinge richten, die ein Master später nicht mehr richten kann. Drei der Tools sind für genau diesen Schritt gemacht. <a href="/de/tools/crucible/">Crucible</a> bringt Dichte über Sättigung pro Band: Tiefen, Mitten und Höhen getrennt, fünf Sättigungstypen pro Band, damit ein Bass in den Mitten knurrt, während die tiefste Oktave sauber bleibt. <a href="/de/tools/kick-bass-scope/">Kick/Bass Scope</a> prüft das Low End: Es legt Kick und Bass übereinander und warnt, wenn sie sich auslöschen. Es ist kostenlos. <a href="/de/tools/rimehall/">Rimehall</a> legt kalten Hall und Tape auf einen Bus und duckt den Hall, solange das Riff spielt. Lautheit, True Peak und die finale tonale Balance für das Release sind Sache des Masterings: siehe die <a href="/de/metal-lautheit-daten/">gemessene Lautheit von Metal-Releases</a>.',
         og_title='Tools für Bands — Polished',
         description='Plugins vom Mastering-Platz: Gravesaw-Amp, Rimehall-Hall, Frostfret-Gitarre, Hoarfell-Drums, ein Gratis-Phasen-Scope und zwei Bundles. Echte Audio-Demos.',
         h1='Tools für Bands, <em>gebaut neben dem Mastering-Platz.</em>',
@@ -1286,6 +1290,12 @@ def hub_page(lang):
   <div class="wrap">
     <h2 id="tl-flow">{H["workflow_h"]}</h2>
 {flow}
+  </div>
+</section>
+<section class="content-section" aria-labelledby="tl-polish">
+  <div class="wrap prose-wrap prose">
+    <h2 id="tl-polish">{H["polish_h"]}</h2>
+    <p>{H["polish_p"]}</p>
   </div>
 </section>
 <section class="content-section alt" id="plugins" aria-labelledby="tl-grid">

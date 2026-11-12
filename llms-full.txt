@@ -295,7 +295,7 @@ Stem-EP · bis 5 Tracks
 Label-Partner · ab 4 Releases pro Jahr
 ab 63€
 Single 63 €, Stem-Single 103 €, EP 279 €, Album 499 €. Ein konsistenter Klang über euren Katalog, Vorkasse oder Rechnung pro Release.
-Alle Preise sind Endpreise inkl. 19 % USt. Bezahlung nach Wahl: Vorkasse oder auf Rechnung nach Fertigstellung. Mastering-Preise im Vergleich.
+Alle Preise sind Endpreise inkl. 19 % USt. Bezahlung nach Wahl: Vorkasse oder auf Rechnung nach Fertigstellung. Mastering-Preise im Vergleich · Mastering für Labels.
 Alle Pakete im Vergleich
 PaketUmfangPreis inkl. 19 % USt.Lieferzeit
 Single · Stereo1 Track79 €48–72 Std.
@@ -345,7 +345,7 @@ Genre · Black Metal
 Black metal mastering is the final stage that makes tremolo walls, blast beats and harsh vocals translate to every system without sanding off the raw, cold character of the genre. At Polished every black metal master starts with a written audio audit of your mix, so loudness, brightness and low end are decided by measurement, not by a generic preset. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 11 November 2026
+Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 12 November 2026
 ### What black metal needs from a master
 Black metal breaks most of the rules generic mastering templates are built on. Brightness, noise and density are part of the aesthetic, so "fixing" them the way a pop chain would can strip out exactly what makes the record work. The job is to keep the character and remove only what blocks translation.
 / 01
@@ -379,7 +379,7 @@ StyleCommon integrated loudnessWhat limits loudness first
 Black Metalaround -10 to -7 LUFSCymbal wash and harshness in blast sections
 Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
 True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
-Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide. Measured medians of released records: metal loudness data.
 ### Black Metal Mastering pricing
 Single · Stereo
 €79
@@ -435,7 +435,7 @@ Genre · Black Metal
 Black-Metal-Mastering ist der letzte Schritt, der Tremolo-Wände, Blastbeats und Screams auf jedem Abhörsystem funktionieren lässt, ohne den rohen, kalten Charakter des Genres glattzuschleifen. Bei Polished beginnt jeder Black-Metal-Master mit einem schriftlichen Audio-Audit deines Mixes. Lautheit, Höhen und Low End werden gemessen und begründet entschieden, nicht per Preset. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 11.11.2026
+Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 12.11.2026
 ### Was Black Metal vom Master braucht
 Black Metal bricht die meisten Regeln, auf denen Standard-Mastering-Vorlagen aufbauen. Helligkeit, Rauschen und Dichte gehören zur Ästhetik. Wer sie „repariert“ wie bei einer Pop-Produktion, nimmt der Platte genau das, was sie ausmacht. Die Aufgabe ist, den Charakter zu erhalten und nur zu entfernen, was die Übertragung auf andere Systeme verhindert.
 / 01
@@ -469,7 +469,7 @@ StilÜbliche integrierte LautheitWas die Lautheit zuerst begrenzt
 Black Metaletwa -10 bis -7 LUFSBeckenteppich und Schärfe in Blast-Passagen
 Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
 True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
-Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide. Gemessene Mediane veröffentlichter Platten: Metal-Lautheit: Messdaten. Pakete und Ablauf: Metal & Gothic Mastering.
 ### Black Metal Mastering: Preise
 Single · Stereo
 79€
@@ -525,7 +525,7 @@ Genre · Death Metal
 Death metal mastering is the stage that gives palm-mutes real weight, keeps blast beats and fast double-kick readable, and makes growls cut through the guitar wall on every playback system. At Polished every death metal master starts with a written audio audit of your mix, so the low end and loudness are decided by measurement, not by guesswork. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 11 November 2026
+Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 12 November 2026
 ### What death metal needs from a master
 Death metal is dense by design: down-tuned guitars, fast double-kick, low growls and often bass playing in the same register as the guitars. Loudness is expected, but every dB of limiting costs transient definition. A good death metal master finds the point where the record hits hard without the drums turning into mush.
 / 01
@@ -559,7 +559,7 @@ StyleCommon integrated loudnessWhat limits loudness first
 Death Metalaround -9 to -6 LUFSSnare crack and double-kick definition
 Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
 True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
-Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide. Measured medians of released records: metal loudness data.
 ### Death Metal Mastering pricing
 Single · Stereo
 €79
@@ -608,7 +608,7 @@ Genre · Death Metal
 Death-Metal-Mastering gibt Palm-Mutes echtes Gewicht, hält Blastbeats und schnelle Double-Bass lesbar und sorgt dafür, dass Growls sich auf jedem Abhörsystem durch die Gitarrenwand setzen. Bei Polished beginnt jeder Death-Metal-Master mit einem schriftlichen Audio-Audit deines Mixes. Low End und Lautheit werden gemessen, nicht geraten. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 11.11.2026
+Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 12.11.2026
 ### Was Death Metal vom Master braucht
 Death Metal ist absichtlich dicht: tiefgestimmte Gitarren, schnelle Double-Bass, tiefe Growls und oft ein Bass im selben Register wie die Gitarren. Lautheit wird erwartet, aber jedes dB Limiting kostet Transienten. Ein guter Death-Metal-Master findet den Punkt, an dem die Platte hart zuschlägt, ohne dass die Drums zu Brei werden.
 / 01
@@ -642,7 +642,7 @@ StilÜbliche integrierte LautheitWas die Lautheit zuerst begrenzt
 Death Metaletwa -9 bis -6 LUFSCrack der Snare und Definition der Double-Bass
 Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
 True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
-Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide. Gemessene Mediane veröffentlichter Platten: Metal-Lautheit: Messdaten. Pakete und Ablauf: Metal & Gothic Mastering.
 ### Death Metal Mastering: Preise
 Single · Stereo
 79€
@@ -691,7 +691,7 @@ Genre · Doom · Gothic
 Doom and gothic mastering is about keeping dynamic range and space intact so slow builds still hit, while the low end stays thick without swallowing vocals, keys and atmosphere. At Polished every doom and gothic master starts with a written audio audit of your mix, so loudness is chosen deliberately instead of maximized by default. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 11 November 2026
+Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 12 November 2026
 ### What doom and gothic need from a master
 Slow music exposes everything. Sustained chords, long decays and quiet passages make over-compression audible in a way fast genres can hide. Doom and gothic records lose most of their impact when every section is pushed to the same loudness. The master has to preserve contrast, keep the low end heavy but controlled, and leave space for vocals, keys and reverb tails.
 / 01
@@ -726,7 +726,7 @@ Doom / Sludgearound -11 to -8 LUFSSustained sub energy and loss of contrast
 Gothic Metal / Gothic Rockaround -12 to -8 LUFSDynamics between quiet and heavy sections
 Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
 True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
-Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide. Measured medians of released records: metal loudness data.
 ### Doom & Gothic Mastering pricing
 Single · Stereo
 €79
@@ -779,7 +779,7 @@ Genre · Doom · Gothic
 Beim Doom- und Gothic-Mastering geht es darum, Dynamik und Raum zu erhalten, damit langsame Steigerungen wirken, während das Low End dick bleibt, ohne Vocals, Keys und Atmosphäre zu verschlucken. Bei Polished beginnt jeder Doom- und Gothic-Master mit einem schriftlichen Audio-Audit deines Mixes. Die Lautheit wird bewusst gewählt, nicht standardmäßig maximiert. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 11.11.2026
+Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 12.11.2026
 ### Was Doom und Gothic vom Master brauchen
 Langsame Musik legt alles offen. Gehaltene Akkorde, lange Ausklänge und leise Passagen machen Überkompression hörbar, wo schnelle Genres sie verstecken. Doom- und Gothic-Platten verlieren den Großteil ihrer Wirkung, wenn jeder Teil auf dieselbe Lautheit gedrückt wird. Der Master muss Kontraste erhalten, das Low End schwer, aber kontrolliert halten und Platz für Vocals, Keys und Hallfahnen lassen.
 / 01
@@ -814,7 +814,7 @@ Doom / Sludgeetwa -11 bis -8 LUFSStehende Sub-Energie und Verlust von Kontrast
 Gothic Metal / Gothic Rocketwa -12 bis -8 LUFSDynamik zwischen leisen und schweren Teilen
 Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
 True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
-Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide. Gemessene Mediane veröffentlichter Platten: Metal-Lautheit: Messdaten. Pakete und Ablauf: Metal & Gothic Mastering.
 ### Doom & Gothic Mastering: Preise
 Single · Stereo
 79€
@@ -867,7 +867,7 @@ Genre · Metalcore · Djent
 Metalcore and djent mastering is about precise, controlled low end for syncopated extended-range riffs, breakdowns that hit hard, and clean and screamed vocals that both sit exactly where they should. At Polished every metalcore and djent master starts with a written audio audit of your mix, so loudness and low end are set by measurement. From €79 per track, mastered personally by Tim Borchert.
 Request Audio Audit →
 Pricing
-Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 11 November 2026
+Mastered by Tim Borchert, studying Systematic Musicology and Media Studies, University of Hamburg · Last updated: 12 November 2026
 ### What metalcore and djent need from a master
 Modern metalcore and djent are produced tight, loud and polished, often with programmed drums, extended-range guitars and synth layers. Listeners compare your release directly to big-budget productions. The master has to deliver that modern loudness and polish while keeping the low end controlled when 7- and 8-string guitars, bass and kick all live below 100 Hz.
 / 01
@@ -901,7 +901,7 @@ StyleCommon integrated loudnessWhat limits loudness first
 Metalcore / Djentaround -8 to -6 LUFSLow end below 100 Hz eating headroom in breakdowns
 Streaming playbackabout -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on BandcampLouder masters are turned down
 True peakbelow -1 dBTP, below -2 dBTP for masters louder than -14 LUFSPeaks rise during lossy encoding (Spotify recommendation)
-Orientation values from mastering practice, not targets. Details and sources in the loudness guide.
+Orientation values from mastering practice, not targets. Details and sources in the loudness guide. Measured medians of released records: metal loudness data.
 ### Metalcore & Djent Mastering pricing
 Single · Stereo
 €79
@@ -951,7 +951,7 @@ Genre · Metalcore · Djent
 Beim Metalcore- und Djent-Mastering geht es um ein präzises, kontrolliertes Low End für synkopierte Extended-Range-Riffs, Breakdowns mit Druck und Clean- wie Scream-Vocals, die genau dort sitzen, wo sie hingehören. Bei Polished beginnt jeder Metalcore- und Djent-Master mit einem schriftlichen Audio-Audit deines Mixes. Lautheit und Low End werden gemessen. Ab 79 € pro Track, persönlich gemastert von Tim Borchert.
 Audio-Audit anfragen →
 Preise
-Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 11.11.2026
+Gemastert von Tim Borchert, Student der Systematischen Musikwissenschaft und Medienwissenschaft, Universität Hamburg · Zuletzt aktualisiert: 12.11.2026
 ### Was Metalcore und Djent vom Master brauchen
 Moderner Metalcore und Djent wird straff, laut und poliert produziert, oft mit programmierten Drums, Extended-Range-Gitarren und Synth-Layern. Hörer vergleichen dein Release direkt mit großen Produktionen. Der Master muss diese moderne Lautheit und Politur liefern und gleichzeitig das Low End kontrollieren, wenn 7- und 8-Saiter, Bass und Kick alle unter 100 Hz zuhause sind.
 / 01
@@ -985,7 +985,7 @@ StilÜbliche integrierte LautheitWas die Lautheit zuerst begrenzt
 Metalcore / Djentetwa -8 bis -6 LUFSLow End unter 100 Hz frisst in Breakdowns den Headroom
 Streaming-Wiedergabeetwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne NormalisierungLautere Master werden leiser gedreht
 True Peakunter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTPSpitzen steigen bei der Kodierung (Empfehlung von Spotify)
-Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide.
+Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im Lautstärke-Guide. Gemessene Mediane veröffentlichter Platten: Metal-Lautheit: Messdaten. Pakete und Ablauf: Metal & Gothic Mastering.
 ### Metalcore & Djent Mastering: Preise
 Single · Stereo
 79€
@@ -1027,13 +1027,13 @@ Antwort meist innerhalb von 24 Std. · Zahlung auch nach Lieferung · Begrenzte 
 
 ---
 
-## How Loud Should Metal Be Mastered? LUFS Guide 2026 | Polished
+## How Loud Should Metal Be Mastered? Real Release LUFS 2026
 URL: https://polished.media/metal-mastering-loudness/
 
 Guide · Loudness
 ## How loud should metal be mastered?
 Short answer: there is no single correct LUFS value for metal. Streaming services play everything back at roughly -14 LUFS (Apple Music around -16 LUFS), so extra loudness is turned down. The right target is the loudest level your specific mix can reach before blast beats, cymbals and low end start to collapse.
-By Tim Borchert, mastering engineer, Systematic Musicology and Media Studies student (University of Hamburg) · Published 5 October 2026 · Last updated: 11 November 2026
+By Tim Borchert, mastering engineer, Systematic Musicology and Media Studies student (University of Hamburg) · Published 5 October 2026 · Last updated: 12 November 2026
 ### What LUFS means and why it matters
 Definition
 LUFS (Loudness Units relative to Full Scale) measures perceived loudness over time, weighted the way human hearing works. Integrated LUFS is the average across a whole track. Streaming platforms use it to play every track at a similar level.
@@ -1054,14 +1054,15 @@ Bandcampno normalizationPlayed exactly as delivered.
 Values reflect platform documentation and widely used measurements as of October 2026. Platforms can change their reference levels. Spotify values are taken from Spotify's loudness normalization guidelines.
 The practical consequence: on streaming platforms a -7 LUFS master and a -11 LUFS master end up at roughly the same playback level. The louder one doesn't win the volume contest anymore. It only gives up transient detail, unless that density is part of the sound you want.
 ### Typical loudness ranges by metal subgenre
-Commercial metal is usually mastered louder than streaming references, and that's legitimate: saturation and density are part of the genre's sound. These are rough orientation ranges, not targets:
-SubgenreCommon integrated rangeWhat limits loudness first
-Metalcore / Djentaround -8 to -6 LUFSLow end below 100 Hz eating headroom in breakdowns
-Death Metalaround -9 to -6 LUFSSnare crack and double-kick definition
-Black Metalaround -10 to -7 LUFSCymbal wash and harshness in blast sections
-Doom / Sludgearound -11 to -8 LUFSSustained sub energy and loss of contrast
-Gothic Metal / Gothic Rockaround -12 to -8 LUFSDynamics between quiet and heavy sections
-Orientation values from mastering practice. Individual releases vary widely, and the right value for your track depends on the mix.
+Commercial metal is usually mastered louder than streaming references, and that's legitimate: saturation and density are part of the genre's sound. For four styles we measured released records (16 tracks per genre, method and full tables on the metal loudness data page). The other rows are rough orientation ranges, not targets:
+SubgenreIntegrated loudnessBasisWhat limits loudness first
+Black Metalmedian −8.0 LUFS (middle half −9.6 to −6.9), 16 releasesmeasuredCymbal wash and harshness in blast sections
+Depressive Black Metal (DSBM)median −12.7 LUFS (middle half −15.1 to −10.1), 16 releasesmeasuredSlow swells in long, sustained passages
+Doom / Gothic / Dark Wavemedian −7.5 LUFS (middle half −8.9 to −7.1), 16 releasesmeasuredSustained sub energy and loss of contrast
+Modern & Industrial Metal (NDH, nu metal)median −7.0 LUFS (middle half −7.8 to −6.4), 16 releasesmeasuredLow-mid density under the guitar wall
+Metalcore / Djentaround -8 to -6 LUFSorientationLow end below 100 Hz eating headroom in breakdowns
+Death Metalaround -9 to -6 LUFSorientationSnare crack and double-kick definition
+Measured rows: median and middle half (25th to 75th percentile) of integrated loudness after ITU-R BS.1770. DR, loudness range and tonal balance per genre are on the metal loudness data page. Orientation rows: values from mastering practice. Individual releases vary widely, and the right value for your track depends on the mix.
 Genre-specific details: black metal, death metal, doom & gothic, metalcore & djent.
 ### True peak: the number that causes distortion
 When a WAV master is converted to Ogg Vorbis, AAC or MP3 for streaming, peaks can rise above the original level. A master limited to 0 dBFS can clip after encoding even though the WAV looks clean. Loud, dense metal masters are especially exposed.
@@ -1091,13 +1092,13 @@ Bandcamp does not normalize loudness, so listeners hear your master exactly as d
 
 ---
 
-## Wie laut sollte Metal gemastert werden? LUFS-Guide | Polished
+## Wie laut sollte Metal gemastert werden? LUFS-Messwerte 2026
 URL: https://polished.media/de/metal-mastering-lautstaerke/
 
 Guide · Lautstärke
 ## Wie laut sollte Metal gemastert werden?
 Kurze Antwort: Es gibt keinen einzig richtigen LUFS-Wert für Metal. Streaming-Dienste spielen alles mit etwa -14 LUFS ab (Apple Music etwa -16 LUFS), zusätzliche Lautheit wird also leiser gedreht. Das richtige Ziel ist der lauteste Pegel, den dein Mix erreicht, bevor Blastbeats, Becken und Low End zusammenbrechen.
-Von Tim Borchert, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: 11.11.2026
+Von Tim Borchert, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: 12.11.2026
 ### Was LUFS bedeutet und warum es zählt
 Definition
 LUFS (Loudness Units relative to Full Scale) misst die wahrgenommene Lautheit über die Zeit, gewichtet nach dem menschlichen Gehör. Integrated LUFS ist der Durchschnitt über den ganzen Track. Streaming-Plattformen nutzen diesen Wert, um alle Tracks ähnlich laut abzuspielen.
@@ -1118,14 +1119,15 @@ Bandcampkeine NormalisierungWird genau so abgespielt, wie er geliefert wurde.
 Werte nach Plattform-Dokumentation und verbreiteten Messungen, Stand Oktober 2026. Plattformen können ihre Referenzpegel ändern. Die Spotify-Werte stammen aus den Richtlinien von Spotify zur Lautheitsnormalisierung.
 Die praktische Folge: Auf Streaming-Plattformen landen ein Master mit -7 LUFS und einer mit -11 LUFS bei ungefähr derselben Wiedergabelautstärke. Der lautere gewinnt den Lautstärkewettbewerb nicht mehr. Er gibt nur Transienten-Details ab, es sei denn, genau diese Dichte ist der Sound, den du willst.
 ### Typische Lautheit nach Metal-Subgenre
-Kommerzieller Metal wird meist lauter gemastert als die Streaming-Referenzen, und das ist legitim: Sättigung und Dichte gehören zum Sound des Genres. Diese Bereiche dienen der groben Orientierung, sie sind keine Zielwerte:
-SubgenreÜblicher Integrated-BereichWas die Lautheit zuerst begrenzt
-Metalcore / Djentetwa -8 bis -6 LUFSLow End unter 100 Hz frisst in Breakdowns den Headroom
-Death Metaletwa -9 bis -6 LUFSCrack der Snare und Definition der Double-Bass
-Black Metaletwa -10 bis -7 LUFSBeckenteppich und Schärfe in Blast-Passagen
-Doom / Sludgeetwa -11 bis -8 LUFSStehende Sub-Energie und Verlust von Kontrast
-Gothic Metal / Gothic Rocketwa -12 bis -8 LUFSDynamik zwischen leisen und schweren Teilen
-Orientierungswerte aus der Mastering-Praxis. Einzelne Releases weichen stark ab, und der richtige Wert für deinen Track hängt vom Mix ab.
+Kommerzieller Metal wird meist lauter gemastert als die Streaming-Referenzen, und das ist legitim: Sättigung und Dichte gehören zum Sound des Genres. Für vier Stile haben wir veröffentlichte Platten gemessen (16 Tracks je Genre, Methode und vollständige Tabellen auf der Seite Metal-Lautheit: Messdaten). Die übrigen Zeilen dienen der groben Orientierung, sie sind keine Zielwerte:
+SubgenreIntegrierte LautheitGrundlageWas die Lautheit zuerst begrenzt
+Black MetalMedian −8,0 LUFS (mittlere Hälfte −9,6 bis −6,9), 16 ReleasesgemessenBeckenteppich und Schärfe in Blast-Passagen
+Depressive Black Metal (DSBM)Median −12,7 LUFS (mittlere Hälfte −15,1 bis −10,1), 16 ReleasesgemessenLangsame Steigerungen in langen, getragenen Passagen
+Doom / Gothic / Dark WaveMedian −7,5 LUFS (mittlere Hälfte −8,9 bis −7,1), 16 ReleasesgemessenStehende Sub-Energie und Verlust von Kontrast
+Moderner & Industrial Metal (NDH, Nu Metal)Median −7,0 LUFS (mittlere Hälfte −7,8 bis −6,4), 16 ReleasesgemessenDichte der unteren Mitten unter der Gitarrenwand
+Metalcore / Djentetwa -8 bis -6 LUFSOrientierungLow End unter 100 Hz frisst in Breakdowns den Headroom
+Death Metaletwa -9 bis -6 LUFSOrientierungCrack der Snare und Definition der Double-Bass
+Gemessene Zeilen: Median und mittlere Hälfte (25. bis 75. Perzentil) der integrierten Lautheit nach ITU-R BS.1770. DR, Lautheitsumfang und tonale Balance je Genre stehen auf der Seite Metal-Lautheit: Messdaten. Orientierungszeilen: Werte aus der Mastering-Praxis. Einzelne Releases weichen stark ab, und der richtige Wert für deinen Track hängt vom Mix ab.
 Genre-spezifische Details: Black Metal, Death Metal, Doom & Gothic, Metalcore & Djent.
 ### True Peak: der Wert, der Verzerrung verursacht
 Wenn ein WAV-Master für Streaming in Ogg Vorbis, AAC oder MP3 umgewandelt wird, können Spitzen über den ursprünglichen Pegel steigen. Ein auf 0 dBFS limitierter Master kann nach der Kodierung clippen, obwohl das WAV sauber aussieht. Laute, dichte Metal-Master sind besonders betroffen.
@@ -1152,6 +1154,146 @@ Welchen True Peak sollte ein Metal-Master haben?
 Spotify empfiehlt einen True Peak unter -1 dBTP und unter -2 dBTP, wenn der Master lauter als -14 LUFS integriert ist, weil verlustbehaftete Kodierung Spitzen anheben und Verzerrungen verursachen kann. Für laute Metal-Master ist -1 dBTP eine übliche Obergrenze, niedrigere Werte kommen zum Einsatz, wenn der Codec-Test Clipping zeigt.
 Sollte ich für Bandcamp anders mastern?
 Bandcamp normalisiert nicht. Hörer hören deinen Master genau so, wie er geliefert wurde, und Pegelunterschiede zu anderen Releases sind hörbar. Viele Künstler nutzen überall denselben Master. Wenn dein Streaming-Master eher dynamisch ist, kann eine etwas lautere Bandcamp-Version sinnvoll sein.
+
+---
+
+## Metal Loudness Data 2026: LUFS & DR of Real Releases
+URL: https://polished.media/metal-loudness-data/
+
+Data · Loudness
+## What metal and gothic releases actually measure
+Most loudness advice for metal is a range somebody remembers. This page is the other thing: numbers measured from released records, with the method written down so you can check it. We've used the same corpus as the reference for every Polished master and every mix audit.
+Short answer
+In our measurements the median black metal release sits at about −8 LUFS integrated, depressive black metal (DSBM) much quieter at about −12.7 LUFS, doom, gothic and dark wave at about −7.5 LUFS, and modern and industrial metal at about −7 LUFS. That's what records do. It isn't what yours has to do.
+Request Audio Audit →
+By Tim Borchert, mastering engineer, Systematic Musicology and Media Studies student (University of Hamburg) · Last updated: 12 November 2026
+### Measured values by genre
+Genren releases (lossless)Integrated loudness LUFS, median (p25 to p75)DRLRA LUPLR dBSide/mid dBCorrelation < 150 Hz
+Black metal16 (2)−8.0 (−9.6 to −6.9)7.5*2.79.0−6.70.90
+Depressive black metal (DSBM)16 (2)−12.7 (−15.1 to −10.1)10.0*6.312.5−5.10.86
+Doom / gothic / dark wave16 (8)−7.5 (−8.9 to −7.1)5.63.18.1−6.90.88
+Modern & industrial metal (NDH, nu metal)16 (5)−7.0 (−7.8 to −6.4)5.64.77.8−5.70.85
+### Tonal balance relative to 1 kHz (median, dB)
+GenreSub/low 40–125 HzLow mids 160–400 HzMids 500–2k HzPresence 2.5–5k HzAir 6.3–12.5k Hz
+Black metal+15.4+8.8+0.7−5.0−17.6
+Depressive black metal (DSBM)+10.0+6.8+0.3−8.8−22.2
+Doom / gothic / dark wave+17.2+10.0+1.3−2.7−13.5
+Modern & industrial metal (NDH, nu metal)+14.9+7.6+0.5−3.5−14.5
+* Dynamics measured mostly from lossy sources. Our own control measurement shows MP3 reads DR about 1.0 dB too high, so the true value is probably a little lower.
+Not enough material yet for a reliable figure (left out of the table): Melodic death metal (n = 6, 5 artists); Grindcore / goregrind (n = 7, 3 artists).
+### How to read these numbers
+- Integrated loudness (LUFS): the average loudness of the whole track after the ITU-R BS.1770 weighting. The value in brackets is the middle half of the releases (25th to 75th percentile). So a quarter of the records you'd find is quieter than the first number, and a quarter is louder than the second.
+- DR: the dynamic range figure as the DR database computes it (second-highest peak against the loudest 20 % of RMS blocks, per channel, averaged). Higher means there's more distance between peaks and body.
+- LRA: loudness range in LU, how much the loudness moves between quiet and loud passages.
+- PLR: peak-to-loudness ratio, true peak minus integrated loudness. Low values mean the limiter is doing a lot of the work.
+- Side/mid: energy of the side signal against the mid signal. Closer to 0 dB means a wider mix.
+- Correlation below 150 Hz: 1.00 is fully mono low end. Values well under 0.9 can lose bass on mono club systems and phone speakers.
+- Tonal balance: each band's level relative to the 1 kHz band in the median release. It's the shape of the spectrum, not a target curve.
+### What stands out
+- DSBM is the quiet one. About 5 dB below black metal in the median, with a DR around 10. That fits the genre's slow, sustained material: there's little reason to push a 9-minute dirge into a limiter.
+- Black metal keeps more dynamics than doom and gothic. DR 7.5 against 5.6, even though the loudness is similar. Doom and gothic records tend to be denser and more compressed in the low mids.
+- Doom, gothic and dark wave carry the most low end. +17 dB below 125 Hz relative to 1 kHz, against +15 in black metal and +10 in DSBM.
+- Black metal top end is darker than you'd expect. The air band (6.3 to 12.5 kHz) sits about 18 dB under 1 kHz in the median. The harsh sound most people associate with the genre lives in the guitars' upper mids, not in a bright master.
+- Nobody masters metal to −14 LUFS. Streaming platforms turn everything down to about −14 anyway, so the loudness you choose decides density and transient detail, not playback volume.
+### How the data was collected
+- Corpus: 16 commercially released tracks per genre from 8 to 12 different artists. No artist contributes more than 2 of the 16 tracks.
+- Sources: lossless files where we have them, otherwise high-bitrate lossy files. The table shows how many of the 16 were lossless. Where at least five lossless files exist, the dynamics values (DR, LRA, PLR, true peak) come only from those. Where they don't, we've marked the value with an asterisk. We measured how much MP3 shifts the numbers on our own reference files: DR reads about 1 dB high, loudness about 0.3 LU low.
+- Top end: bands above 12.5 kHz only count files that actually contain full-band audio, because 128 kbit/s encoders cut there.
+- Software: our own measuring core (the same one behind the Polished audio audit), loudness after BS.1770, DR after the DR-database method, true peak with 4× oversampling.
+- What we don't publish: values of single tracks or artists. The page shows only medians and ranges.
+- Sample size: 16 per genre is enough for a median and a rough range, not for fine distinctions. Melodic death metal (6 releases) and grindcore (7 releases from 3 artists) are left out until there is enough material. The corpus keeps growing, and we update this page with the date below.
+### What this means for your master
+A number in this table describes the genre. It's not a quality score. Being close to the median says your record is typical, not that it is good. A DSBM album mastered at −8 LUFS is not wrong because the median is −12.7, but it will sound denser than most of its neighbours on a playlist, and it gives up the slow swells that make the style work.
+Here's what we actually check in a master or a mix audit:
+- Where the loudness sits in the genre range, and what it costs in that specific mix.
+- Whether the tonal balance falls outside the typical range in a band that matters (for black metal: low mids under the guitars, presence of the snare).
+- Low-end correlation and mono compatibility.
+- True peak headroom for streaming encoders.
+If you want those numbers for your own mix, the audio audit in every Polished package measures it against this corpus, and you get a written report. Request an audio audit.
+### Metal loudness FAQ
+How loud should a metal master be?
+There isn't one value. Our measured medians run from about −12.7 LUFS (DSBM) to about −7 LUFS (modern and industrial metal). Pick the level your mix can hold before the cymbals and blast beats start to smear, then check true peak.
+How loud should a metal mix be before mastering?
+Mix loudness doesn't matter much as long as nothing clips and the mix bus isn't limited. Leave a few dB of headroom (peaks around −6 to −3 dBFS) so the master has room to work.
+What LUFS should black metal be mastered to?
+The middle half of the black metal releases we measured sits between −9.6 and −6.9 LUFS, median −8.0. Atmospheric and depressive black metal usually sits lower.
+Will Spotify turn my loud metal master down?
+Yes. With normalization on, Spotify plays everything at about −14 LUFS, so a −7 LUFS master is turned down by about 7 dB. It doesn't get louder than other tracks, only denser.
+Why is DSBM mastered quieter than other black metal?
+In our data the median DSBM release is about 5 dB quieter with clearly more dynamic range. Long, slow, sustained material gains little from heavy limiting and loses its swells.
+Can I use these numbers as a target?
+Use them as a map, not a target. They tell you where released records sit. Whether your record should sit in the middle or at the edge depends on the mix and on what you want it to sound like.
+Related: How loud should metal be mastered? LUFS guide | Black metal mastering | Doom & gothic mastering
+
+---
+
+## Metal-Lautheit 2026: LUFS und DR echter Releases
+URL: https://polished.media/de/metal-lautheit-daten/
+
+Daten · Lautheit
+## Was Metal- und Gothic-Releases wirklich messen
+Die meisten Lautheitstipps für Metal sind Spannen, an die sich jemand erinnert. Diese Seite ist das Gegenteil: Messwerte veröffentlichter Platten, mit offengelegter Methode zum Nachprüfen. Derselbe Korpus ist die Referenz für jedes Polished-Master und jeden Mix-Audit.
+Kurze Antwort
+In unseren Messungen liegt das mittlere Black-Metal-Release bei etwa −8 LUFS integriert, Depressive Black Metal (DSBM) deutlich leiser bei etwa −12,7 LUFS, Doom, Gothic und Dark Wave bei etwa −7,5 LUFS und moderner bzw. Industrial Metal bei etwa −7 LUFS. Das ist, was Platten tun, nicht, was deine tun muss.
+Audio-Audit anfragen →
+Von Tim Borchert, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Zuletzt aktualisiert: 12.11.2026
+### Messwerte je Genre
+Genren Releases (verlustfrei)Integrierte Lautheit LUFS, Median (p25 bis p75)DRLRA LUPLR dBSide/Mid dBKorrelation < 150 Hz
+Black Metal16 (2)−8,0 (−9,6 bis −6,9)7,5*2,79,0−6,70,90
+Depressive Black Metal (DSBM)16 (2)−12,7 (−15,1 bis −10,1)10,0*6,312,5−5,10,86
+Doom / Gothic / Dark Wave16 (8)−7,5 (−8,9 bis −7,1)5,63,18,1−6,90,88
+Moderner & Industrial Metal (NDH, Nu Metal)16 (5)−7,0 (−7,8 bis −6,4)5,64,77,8−5,70,85
+### Tonale Balance relativ zu 1 kHz (Median, dB)
+GenreSub/Tiefen 40–125 HzUntere Mitten 160–400 HzMitten 500–2k HzPräsenz 2,5–5k HzHöhen 6,3–12,5k Hz
+Black Metal+15,4+8,8+0,7−5,0−17,6
+Depressive Black Metal (DSBM)+10,0+6,8+0,3−8,8−22,2
+Doom / Gothic / Dark Wave+17,2+10,0+1,3−2,7−13,5
+Moderner & Industrial Metal (NDH, Nu Metal)+14,9+7,6+0,5−3,5−14,5
+* Dynamikwerte aus überwiegend verlustbehafteten Quellen. Unsere Gegenmessung zeigt, dass MP3 den DR-Wert um etwa 1,0 dB zu hoch liest; der wahre Wert liegt also eher darunter.
+Noch zu wenig Material für eine belastbare Aussage (nicht in der Tabelle): Melodic Death Metal (n = 6, 5 Künstler); Grindcore / Goregrind (n = 7, 3 Künstler).
+### So liest du die Werte
+- Integrierte Lautheit (LUFS): mittlere Lautheit des ganzen Tracks nach ITU-R BS.1770. In Klammern steht die mittlere Hälfte der Releases (25. bis 75. Perzentil). Ein Viertel der Platten ist leiser als der erste Wert, ein Viertel lauter als der zweite.
+- DR: Dynamikwert nach der Methode der DR-Datenbank (zweithöchster Spitzenwert gegen die lautesten 20 % der RMS-Blöcke, je Kanal, gemittelt). Höher heißt mehr Abstand zwischen Spitzen und Körper.
+- LRA: Lautheitsumfang in LU, also wie stark sich die Lautheit zwischen leisen und lauten Passagen bewegt.
+- PLR: Verhältnis von Spitze zu Lautheit, True Peak minus integrierte Lautheit. Niedrige Werte heißen: Der Limiter arbeitet viel.
+- Side/Mid: Energie des Seitensignals gegen das Mittensignal. Je näher an 0 dB, desto breiter.
+- Korrelation unter 150 Hz: 1,00 ist komplett monofones Low End. Werte deutlich unter 0,9 können auf Mono-Anlagen und Handylautsprechern Bass kosten.
+- Tonale Balance: Pegel jedes Bandes relativ zum 1-kHz-Band im mittleren Release. Sie zeigt die Form des Spektrums, keine Zielkurve.
+### Was auffällt
+- DSBM ist das leise Genre. Im Median etwa 5 dB unter Black Metal, mit einem DR um 10. Das passt zum langsamen, getragenen Material: Ein neunminütiges Klagelied gewinnt nichts durch harten Limiter.
+- Black Metal behält mehr Dynamik als Doom und Gothic. DR 7,5 gegen 5,6, bei ähnlicher Lautheit. Doom- und Gothic-Platten sind meist dichter und in den unteren Mitten stärker komprimiert.
+- Doom, Gothic und Dark Wave haben das meiste Low End. +17 dB unter 125 Hz relativ zu 1 kHz, gegen +15 bei Black Metal und +10 bei DSBM.
+- Die Höhen im Black Metal sind dunkler, als viele denken. Das Höhenband (6,3 bis 12,5 kHz) liegt im Median etwa 18 dB unter 1 kHz. Die Härte, die man mit dem Genre verbindet, sitzt in den oberen Mitten der Gitarren, nicht in einem hellen Master.
+- Niemand mastert Metal auf −14 LUFS. Streamingdienste regeln ohnehin alles auf etwa −14 herunter. Die gewählte Lautheit entscheidet über Dichte und Transienten, nicht über die Wiedergabelautstärke.
+### So wurden die Daten erhoben
+- Korpus: 16 veröffentlichte Tracks je Genre von 8 bis 12 verschiedenen Künstlern. Kein Künstler steuert mehr als 2 der 16 Tracks bei.
+- Quellen: verlustfreie Dateien, wo vorhanden, sonst verlustbehaftete Dateien mit hoher Bitrate. Die Tabelle zeigt, wie viele der 16 verlustfrei waren. Gibt es mindestens fünf verlustfreie Dateien, stammen die Dynamikwerte (DR, LRA, PLR, True Peak) nur aus diesen, sonst ist der Wert mit Sternchen markiert. Wie stark MP3 die Werte verschiebt, haben wir an eigenen Referenzdateien gemessen: DR liest etwa 1 dB zu hoch, die Lautheit etwa 0,3 LU zu niedrig.
+- Höhen: Bänder über 12,5 kHz zählen nur Dateien mit echtem Vollband-Audio, weil 128-kbit/s-Encoder dort abschneiden.
+- Software: unser eigener Messkern (derselbe wie im Polished-Audio-Audit), Lautheit nach BS.1770, DR nach der Methode der DR-Datenbank, True Peak mit 4-facher Überabtastung.
+- Was wir nicht veröffentlichen: Werte einzelner Tracks oder Künstler. Die Seite zeigt nur Mediane und Spannen.
+- Stichprobe: 16 je Genre reichen für einen Median und eine grobe Spanne, nicht für feine Unterschiede. Melodic Death Metal (6 Releases) und Grindcore (7 Releases von 3 Künstlern) fehlen, bis genug Material da ist. Der Korpus wächst, die Seite wird mit Datum aktualisiert.
+### Was das für dein Master heißt
+Ein Wert in dieser Tabelle beschreibt das Genre, er ist keine Qualitätsnote. Nah am Median heißt: typisch, nicht gut. Ein DSBM-Album auf −8 LUFS ist nicht falsch, weil der Median bei −12,7 liegt. Es klingt aber dichter als die meisten Nachbarn in einer Playlist und gibt die langsamen Steigerungen auf, von denen der Stil lebt.
+Was wir in einem Master oder Mix-Audit tatsächlich prüfen:
+- Wo die Lautheit in der Genre-Spanne liegt und was sie in genau diesem Mix kostet.
+- Ob die tonale Balance in einem wichtigen Band außerhalb der typischen Spanne liegt (bei Black Metal: untere Mitten unter den Gitarren, Präsenz der Snare).
+- Korrelation und Monotauglichkeit im Low End.
+- True-Peak-Reserve für die Encoder der Streamingdienste.
+Wenn du diese Werte für deinen eigenen Mix willst: Das Audio-Audit in jedem Polished-Paket misst ihn gegen diesen Korpus, und du bekommst einen schriftlichen Bericht. Audio-Audit anfragen.
+### Häufige Fragen zur Metal-Lautheit
+Wie laut sollte ein Metal-Master sein?
+Einen festen Wert gibt es nicht. Unsere gemessenen Mediane reichen von etwa −12,7 LUFS (DSBM) bis etwa −7 LUFS (moderner und Industrial Metal). Nimm die Lautheit, die dein Mix hält, bevor Becken und Blastbeats verschmieren, und prüfe dann den True Peak.
+Wie laut sollte ein Metal-Mix vor dem Mastering sein?
+Die Mix-Lautheit spielt kaum eine Rolle, solange nichts clippt und auf dem Summenbus kein Limiter sitzt. Lass ein paar dB Reserve (Spitzen etwa bei −6 bis −3 dBFS), damit das Mastering Raum hat.
+Auf wie viel LUFS wird Black Metal gemastert?
+Die mittlere Hälfte der von uns gemessenen Black-Metal-Releases liegt zwischen −9,6 und −6,9 LUFS, Median −8,0. Atmosphärischer und depressiver Black Metal liegt meist darunter.
+Regelt Spotify mein lautes Metal-Master herunter?
+Ja. Mit aktivierter Normalisierung spielt Spotify alles bei etwa −14 LUFS, ein Master mit −7 LUFS wird also um etwa 7 dB leiser gestellt. Es wird nicht lauter als andere Tracks, nur dichter.
+Warum wird DSBM leiser gemastert als anderer Black Metal?
+In unseren Daten ist das mittlere DSBM-Release etwa 5 dB leiser und hat deutlich mehr Dynamik. Langes, langsames, getragenes Material gewinnt durch starkes Limiting wenig und verliert seine Steigerungen.
+Kann ich die Werte als Ziel nehmen?
+Nimm sie als Karte, nicht als Ziel. Sie zeigen, wo veröffentlichte Platten liegen. Ob deine Platte in der Mitte oder am Rand liegen sollte, hängt vom Mix ab und davon, wie sie klingen soll.
+Siehe auch: Metal-Mastering-Lautstärke: LUFS-Ratgeber · Black Metal Mastering · Doom & Gothic Mastering · Metal & Gothic Mastering
 
 ---
 
@@ -1535,7 +1677,7 @@ Black Metal, Death Metal, Doom und Gothic sowie Metalcore und Djent. Polished ar
 
 ---
 
-## Tools for Bands: Plugins for Metal Mixes | Polished
+## Tools for Bands: Mix Polishing Plugins for Metal | Polished
 URL: https://polished.media/tools/
 
 Tools for bands · Code Chaos Audio
@@ -1543,7 +1685,7 @@ Tools for bands · Code Chaos Audio
 Many problems a mastering engineer finds start much earlier: a fizzy amp tone, a reverb that collapses in mono, a kick and bass that cancel each other. Tim Borchert, who masters every track at Polished, also builds audio plugins under the label Code Chaos Audio. Here they are with screenshots, real demo audio and plain system requirements. Everything is sold on Gumroad, and most plugins have a free demo.
 See all plugins →
 Free: Kick/Bass Scope
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 21 October 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 12 November 2026
 ### Where each tool fits
 / 01
 #### Writing and demos
@@ -1563,6 +1705,8 @@ Crucible saturates bass, drums and buses in three bands with five saturation typ
 / 06
 #### Electronic layers
 Shardstep adds tempo-synced stutter and glitch fills, Chaos FM generates FM leads, basses and stabs.
+### Mix polishing plugins
+Polishing a mix before mastering mostly means fixing the few things a master cannot fix later. Three of the tools are made for that step. Crucible adds density with saturation per band: low, mid and high separately, five saturation types per band, so a bass can grind in the mids while the lowest octave stays clean. Kick/Bass Scope checks the low end: it lays kick and bass on top of each other and warns you when they cancel. It is free. Rimehall puts a cold hall and tape on a bus and ducks the reverb while the riff plays. Loudness, true peak and the final tonal balance for release are the mastering step: see the measured loudness of metal releases.
 ### All plugins
 #### Gravesaw
 Black metal amp with 19 built-in cabs for guitar and bass DI, from raw buzz to a thick wall.
@@ -1675,7 +1819,7 @@ Tools für Bands · Code Chaos Audio
 Viele Probleme, die beim Mastering auffallen, entstehen viel früher: ein fizziger Amp-Sound, ein Hall, der in Mono zusammenfällt, Kick und Bass, die sich gegenseitig auslöschen. Tim Borchert, der bei Polished jeden Track mastert, baut unter dem Label Code Chaos Audio auch Audio-Plugins. Hier findest du sie mit Screenshots, echter Audio-Demo und klaren Systemangaben. Verkauft wird alles über Gumroad, und für die meisten Plugins gibt es eine Gratis-Demo.
 Alle Plugins ansehen →
 Gratis: Kick/Bass Scope
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 21.10.2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 12.11.2026
 ### Wo welches Tool hingehört
 / 01
 #### Songwriting und Demos
@@ -1695,6 +1839,8 @@ Crucible sättigt Bass, Drums und Busse in drei Bändern, mit fünf Sättigungst
 / 06
 #### Elektronische Layer
 Shardstep liefert taktsynchrone Stutter- und Glitch-Fills, Chaos FM erzeugt FM-Leads, -Bässe und -Stabs.
+### Plugins zum Mix-Polieren
+Einen Mix vor dem Mastering polieren heißt vor allem: die wenigen Dinge richten, die ein Master später nicht mehr richten kann. Drei der Tools sind für genau diesen Schritt gemacht. Crucible bringt Dichte über Sättigung pro Band: Tiefen, Mitten und Höhen getrennt, fünf Sättigungstypen pro Band, damit ein Bass in den Mitten knurrt, während die tiefste Oktave sauber bleibt. Kick/Bass Scope prüft das Low End: Es legt Kick und Bass übereinander und warnt, wenn sie sich auslöschen. Es ist kostenlos. Rimehall legt kalten Hall und Tape auf einen Bus und duckt den Hall, solange das Riff spielt. Lautheit, True Peak und die finale tonale Balance für das Release sind Sache des Masterings: siehe die gemessene Lautheit von Metal-Releases.
 ### Alle Plugins
 #### Gravesaw
 Black-Metal-Amp mit 19 eingebauten Cabs für Gitarren- und Bass-DI, von rohem Sägen bis zur dicken Wand.
@@ -2930,3 +3076,277 @@ Alle Tools für Bands →
 Die Gratis-Demo ist das komplette Plugin; sie spielt alle 45 Sekunden einen kurzen Rauschstoß. Kauf und Download laufen über Gumroad, unter Code Chaos Audio.
 Gratis-Demo →
 Auf Gumroad kaufen · 19 €
+
+---
+
+## Impressum · Legal Notice | Polished
+URL: https://polished.media/impressum/
+
+Impressum · Legal Notice
+## Impressum
+Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz). English version below.
+#### Anbieter
+Unternehmen
+Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)
+handelnd unter der Marke Polished / Polished.Media
+Anschrift
+Wasserstr. 9
+27308 Kirchlinteln
+Deutschland
+E-Mail
+polished.media@gmx.de
+#### Vertretungsberechtigt
+Geschäftsführer
+Christoph Junge
+#### Register und Steuern
+Registergericht
+Amtsgericht Walsrode
+Registernummer
+HRB 211843
+USt-IdNr.
+DE367324699
+Steuernummer
+48/202/14038
+#### Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+Christoph Junge, Wasserstr. 9, 27308 Kirchlinteln, Deutschland
+#### Verbraucherstreitbeilegung
+Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+#### Haftung für Inhalte
+Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Für übermittelte oder gespeicherte fremde Informationen gelten die Haftungsregeln der §§ 7 ff. DDG bzw. des Digital Services Act (Verordnung (EU) 2022/2065); eine allgemeine Pflicht zur Überwachung solcher Informationen besteht nicht. Bei Bekanntwerden von Rechtsverletzungen entfernen wir entsprechende Inhalte umgehend.
+#### Haftung für Links
+Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Links umgehend.
+#### Urheberrecht
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung und Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung.
+#### Geltungsbereich
+Dieses Impressum gilt für die Domain polished.media sowie für unsere Social-Media-Präsenz bei Instagram.
+### Legal Notice (English)
+Information pursuant to § 5 DDG (German Digital Services Act).
+Provider: Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), trading as Polished / Polished.Media, Wasserstr. 9, 27308 Kirchlinteln, Germany. Email: polished.media@gmx.de
+Managing Director: Christoph Junge
+Commercial register: Local Court Walsrode (Amtsgericht Walsrode), HRB 211843 · VAT ID: DE367324699 · Tax number: 48/202/14038
+Responsible for content pursuant to § 18 (2) MStV: Christoph Junge, address as above.
+Consumer dispute resolution: We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.
+Liability: We are responsible for our own content under general law. For third-party information, the liability rules of §§ 7 et seq. DDG and the EU Digital Services Act apply; there is no general obligation to monitor such information. We remove unlawful content and links promptly once we become aware of them.
+Copyright: Content created by the site operators is subject to German copyright law. Reproduction, editing and use outside the limits of copyright law require written consent.
+Scope: This legal notice applies to polished.media and our social media presence on Instagram.
+Stand / Last updated: Oktober 2026
+
+---
+
+## Datenschutzerklärung · Privacy Policy | Polished
+URL: https://polished.media/datenschutz/
+
+Datenschutzerklärung · Privacy Policy
+## Datenschutz­erklärung
+English version below.
+#### 1. Verantwortlicher
+Unternehmen
+Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt) , handelnd als Polished / Polished.Media
+Anschrift
+Wasserstr. 9, 27308 Kirchlinteln, Deutschland
+E-Mail
+polished.media@gmx.de
+#### 2. Hosting und Server-Logfiles
+Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Website verarbeitet GitHub technisch notwendige Verbindungsdaten (insbesondere IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Referrer-URL, Browser und Betriebssystem), um die Seite sicher und stabil auszuliefern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse liegt in einer sicheren und funktionsfähigen Bereitstellung der Website. Eine Übermittlung in die USA ist möglich; sie erfolgt, soweit anwendbar, auf Grundlage des EU-US Data Privacy Framework und/oder von Standardvertragsklauseln (Art. 46 DSGVO). Details: Datenschutzerklärung von GitHub.
+#### 3. Schriftarten
+Die auf dieser Website verwendeten Schriftarten sind lokal auf unserem Server eingebunden. Beim Laden der Seite findet keine Verbindung zu Servern von Google oder anderen Schriftanbietern statt.
+#### 4. Kontaktaufnahme und Anfrageformular
+Wenn Sie uns per E-Mail, Instagram-Direktnachricht oder über das Anfrageformular kontaktieren, verarbeiten wir Ihre Angaben (z. B. Name, E-Mail-Adresse, Genre, gewünschte Leistung, Anzahl der Tracks, Link zu Ihren Dateien, Nachricht), um Ihre Anfrage zu bearbeiten und ggf. ein Angebot zu erstellen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) sowie Art. 6 Abs. 1 lit. f DSGVO.
+Das Anfrageformular nutzt den Dienst FormSubmit (Devro LABS, formsubmit.co), der die eingegebenen Daten an unser E-Mail-Postfach weiterleitet. Dabei kann eine Verarbeitung außerhalb der EU stattfinden. Datenschutzhinweise des Anbieters: formsubmit.co/privacy.pdf. Wenn Sie das Formular nicht nutzen möchten, schreiben Sie uns direkt per E-Mail.
+#### 5. Verarbeitung von Audiodaten
+Im Rahmen des Mastering-Auftrags übermitteln Sie uns Audiomaterial. Dieses verarbeiten wir ausschließlich zur Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO):
+- Speicherung auf verschlüsselten Speichersystemen
+- keine Weitergabe an Dritte ohne Ihre Zustimmung
+- Standard-Aufbewahrung: 90 Tage nach Projektabschluss, danach Löschung
+- auf Wunsch jederzeit frühere Löschung
+Für große Dateien empfehlen wir Filetransfer-Dienste (z. B. WeTransfer, Dropbox, Google Drive). Für deren Nutzung gelten die Datenschutzbestimmungen des jeweiligen Anbieters.
+#### 6. Google Analytics 4 (nur mit Einwilligung)
+Mit Ihrer Einwilligung nutzen wir Google Analytics 4, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics setzt Cookies und ähnliche Technologien ein, um die Nutzung der Website auszuwerten (z. B. aufgerufene Seiten, Verweildauer, Klickpfade, Geräte- und Browserinformationen, ungefähre Region). IP-Adressen werden von Google Analytics 4 nicht gespeichert.
+Die Verarbeitung erfolgt nur, wenn Sie im Cookie-Banner auf „Akzeptieren“ klicken. Rechtsgrundlage sind Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG. Eine Übermittlung in die USA ist möglich; sie erfolgt, soweit anwendbar, auf Grundlage des EU-US Data Privacy Framework und/oder von Standardvertragsklauseln. Speicherdauer: 14 Monate, danach automatische Löschung.
+Widerruf: Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie im Footer jeder Seite auf „Cookie-Einstellungen“ klicken.
+Ihre Auswahl im Cookie-Banner speichern wir im lokalen Speicher Ihres Browsers (localStorage), damit das Banner nicht bei jedem Seitenaufruf erneut erscheint. Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG.
+#### 7. Social Media
+Auf unserer Website verlinken wir auf unser Profil bei Instagram. Es handelt sich um einen einfachen Link; beim bloßen Aufruf unserer Website werden keine Daten an Instagram übertragen. Wenn Sie dem Link folgen, gelten die Datenschutzbestimmungen von Instagram (Meta Platforms Ireland Ltd.).
+#### 8. Ihre Rechte
+Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Art. 21). Anfragen richten Sie bitte an polished.media@gmx.de.
+Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, z. B. bei der Landesbeauftragten für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover.
+#### 9. Speicherdauer
+Wir speichern personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist oder gesetzliche Aufbewahrungspflichten (z. B. nach Handels- und Steuerrecht für Rechnungen) bestehen.
+#### 10. Datensicherheit
+Diese Website nutzt eine SSL/TLS-Verschlüsselung. Eine vollständig sichere Datenübertragung im Internet kann dennoch nicht garantiert werden.
+### Privacy Policy (English)
+This translation is provided for convenience; the German version above prevails.
+#### 1. Controller
+Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), trading as Polished / Polished.Media, Wasserstr. 9, 27308 Kirchlinteln, Germany, polished.media@gmx.de
+#### 2. Hosting and server log files
+This website is served via GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you visit the site, GitHub processes technically necessary connection data (in particular IP address, date and time, requested page, referrer URL, browser and operating system) to deliver the site securely and reliably. Legal basis: Art. 6(1)(f) GDPR. Transfers to the USA may occur, based where applicable on the EU-US Data Privacy Framework and/or Standard Contractual Clauses (Art. 46 GDPR).
+#### 3. Fonts
+All fonts are hosted locally. No connection to Google or other font providers is made when the page loads.
+#### 4. Contact and inquiry form
+When you contact us by email, Instagram DM or the inquiry form, we process your details (e.g. name, email, genre, requested service, number of tracks, file link, message) to handle your inquiry and prepare a quote. Legal basis: Art. 6(1)(b) and (f) GDPR. The form uses FormSubmit (Devro LABS, formsubmit.co), which forwards the data to our inbox; processing may take place outside the EU. You can always email us directly instead.
+#### 5. Audio data
+Audio material you send us is processed solely to perform the contract (Art. 6(1)(b) GDPR), stored on encrypted systems, not shared with third parties without your consent, and deleted 90 days after project completion or earlier on request. File transfer services you choose (e.g. WeTransfer, Dropbox, Google Drive) are subject to their own privacy policies.
+#### 6. Google Analytics 4 (consent only)
+With your consent, we use Google Analytics 4 (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland) to analyse website usage via cookies and similar technologies. IP addresses are not stored by Google Analytics 4. Processing only starts after you click "Accept" in the cookie banner. Legal basis: Art. 6(1)(a) GDPR and § 25(1) TDDDG. Transfers to the USA may occur (EU-US Data Privacy Framework and/or Standard Contractual Clauses where applicable). Retention: 14 months. You can withdraw your consent at any time via "Cookie settings" in the footer of every page. Your banner choice is stored in your browser's localStorage (§ 25(2) no. 2 TDDDG).
+#### 7. Social media
+We link to our Instagram profile. This is a plain link; no data is sent to Instagram when you merely visit our website.
+#### 8. Your rights
+You have the right of access, rectification, erasure, restriction, data portability and objection (Art. 15–18, 20, 21 GDPR). Contact: polished.media@gmx.de. You may also lodge a complaint with a supervisory authority, e.g. the Data Protection Commissioner of Lower Saxony (Landesbeauftragte für den Datenschutz Niedersachsen), Prinzenstraße 5, 30159 Hannover, Germany.
+#### 9. Retention and security
+We keep personal data only as long as necessary for the respective purpose or required by statutory retention obligations (e.g. invoices). The site uses SSL/TLS encryption.
+Stand / Last updated: Oktober 2026
+
+---
+
+## AGB & Kundeninformationen · Terms | Polished
+URL: https://polished.media/agb/
+
+AGB · Terms & Conditions
+## AGB & Kunden­informationen
+The German version below is legally binding. An English translation follows for convenience.
+#### I. Allgemeine Geschäftsbedingungen
+#### § 1 Grundlegende Bestimmungen
+(1) Die nachstehenden Geschäftsbedingungen gelten für alle Verträge über Audio-Mastering- und Audio-Audit-Leistungen, die Sie mit uns als Anbieter (Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), handelnd unter der Marke „Polished“ / „Polished.Media“) über die Internetseite polished.media, per E-Mail oder über unsere Social-Media-Kanäle schließen. Soweit nicht anders vereinbart, wird der Einbeziehung gegebenenfalls von Ihnen verwendeter eigener Bedingungen widersprochen.
+(2) Verbraucher im Sinne der nachstehenden Regelungen ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden kann. Unternehmer ist jede natürliche oder juristische Person oder eine rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer selbständigen beruflichen oder gewerblichen Tätigkeit handelt. Bands, Labels und Musiker können je nach Einzelfall Verbraucher oder Unternehmer sein.
+#### § 2 Vertragsgegenstand und Leistungsumfang
+(1) Gegenstand des Vertrages ist die Erbringung von Audio-Mastering-Leistungen einschließlich eines schriftlichen Audio-Audits (technische und klangliche Analyse des eingereichten Mixes) gemäß dem gebuchten Paket (z. B. Single Stereo, Single Stems, EP, Album) oder einem individuellen Angebot.
+(2) Der konkrete Leistungsumfang (Anzahl der Tracks, Stereo- oder Stem-Mastering, Lieferformate, Zusatzleistungen wie Vinyl-Master oder Express-Lieferung) ergibt sich aus der Paketbeschreibung auf polished.media bzw. aus unserem Angebot in Textform.
+(3) Mastering ist eine klangliche Bearbeitung des gelieferten Mixes. Eine Änderung des Mixes selbst (z. B. Lautstärkeverhältnisse einzelner Instrumente in einer Stereo-Datei, Arrangement, Editing) ist nicht geschuldet, soweit nicht ausdrücklich vereinbart. Stellt das Audio-Audit fest, dass der Mix grundlegende Probleme aufweist, die sich im Mastering nicht sachgerecht lösen lassen, weisen wir Sie darauf hin, bevor mit dem Mastering begonnen wird.
+(4) Klangliche Ergebnisse unterliegen künstlerischem Ermessen. Wir arbeiten nach Ihrem Briefing und Ihren Referenzen; ein bestimmter subjektiver Klangeindruck oder ein bestimmter kommerzieller Erfolg ist nicht geschuldet.
+#### § 3 Zustandekommen des Vertrages
+(1) Die Darstellung unserer Leistungen und Preise auf polished.media ist unverbindlich und stellt kein verbindliches Angebot zum Abschluss eines Vertrages dar.
+(2) Ihre Anfrage über das Kontaktformular, per E-Mail oder per Direktnachricht ist für Sie unverbindlich. Wir unterbreiten Ihnen daraufhin ein verbindliches Angebot in Textform (z. B. per E-Mail), das Leistungsumfang, Preis und voraussichtliche Lieferzeit enthält. Sie können dieses Angebot innerhalb von 5 Tagen (soweit im jeweiligen Angebot keine andere Frist ausgewiesen ist) in Textform annehmen, z. B. durch Antwort per E-Mail. Mit Zugang Ihrer Annahme kommt der Vertrag zustande.
+(3) Wir beginnen mit der Leistung unmittelbar nach Vertragsschluss. Unser Angebot enthält deshalb folgenden, hervorgehobenen Hinweis: „Mit der Annahme dieses Angebots verlangst du ausdrücklich, dass Polished vor Ablauf der Widerrufsfrist mit dem Audio-Audit und dem Mastering beginnt. Dir ist bekannt, dass du dein Widerrufsrecht verlierst, sobald der Auftrag vollständig ausgeführt ist, und dass du bei einem Widerruf vor diesem Zeitpunkt die bis dahin erbrachten Leistungen anteilig bezahlen musst.“ Mit Ihrer Annahme geben Sie diese Erklärung ab. Möchten Sie als Verbraucher nicht, dass wir vor Ablauf der Widerrufsfrist beginnen, teilen Sie uns dies bei der Annahme mit; wir beginnen dann erst nach Ablauf der Widerrufsfrist, und die angegebenen Lieferzeiten verlängern sich entsprechend. Beachten Sie hierzu die Widerrufsbelehrung (Teil III).
+(4) Die Abwicklung des Auftrags und die Übermittlung aller im Zusammenhang mit dem Vertragsschluss erforderlichen Informationen erfolgen per E-Mail. Sie haben sicherzustellen, dass die von Ihnen angegebene E-Mail-Adresse zutreffend ist, der Empfang der E-Mails technisch sichergestellt ist und insbesondere nicht durch Spam-Filter verhindert wird.
+#### § 4 Mitwirkungspflichten und Rechte an den Audiodateien
+(1) Sie stellen die Audiodateien in den vereinbarten Formaten bereit (in der Regel 24- oder 32-Bit WAV oder AIFF in der Original-Samplerate, mit ausreichendem Headroom und ohne Limiter auf der Summe) sowie ggf. Referenztracks und ein kurzes Briefing. Die Übermittlung erfolgt über einen Filetransfer-Dienst Ihrer Wahl (z. B. WeTransfer, Dropbox, Google Drive).
+(2) Sie versichern, dass Sie über alle erforderlichen Rechte an den übermittelten Aufnahmen und den darin enthaltenen Werken verfügen bzw. die Zustimmung der Berechtigten eingeholt haben, und dass die Bearbeitung durch uns keine Rechte Dritter verletzt. Sie stellen uns von Ansprüchen Dritter frei, die aus einer Verletzung dieser Zusicherung entstehen, soweit Sie die Verletzung zu vertreten haben.
+(3) Sie bewahren eigene Sicherungskopien Ihrer Dateien auf. Wir speichern die übermittelten Dateien und Master grundsätzlich für 90 Tage nach Projektabschluss und löschen sie danach; auf Wunsch löschen wir sie jederzeit früher.
+#### § 5 Lieferung und Lieferzeiten
+(1) Die Lieferung der Master und des Audit-Berichts erfolgt digital per Download-Link an die von Ihnen angegebene E-Mail-Adresse. Ein physischer Versand findet nicht statt; Versandkosten fallen nicht an.
+(2) Angegebene Lieferzeiten (z. B. 48–72 Stunden für eine Single, 5–7 Tage für eine EP, 7–14 Tage für ein Album) sind voraussichtliche Bearbeitungszeiten, sofern nicht ausdrücklich ein verbindlicher Termin vereinbart wurde. Sie beginnen mit Zugang aller benötigten Dateien und Informationen sowie dem Zustandekommen des Vertrages.
+(3) Eine Express-Lieferung ist nach gesonderter Vereinbarung möglich.
+#### § 6 Revisionen
+(1) In jedem Paket sind unbegrenzte Revisionen des Masters ohne Aufpreis und ohne zeitliche Begrenzung enthalten, bis der Master Ihren im Briefing beschriebenen Vorstellungen entspricht.
+(2) Revisionen beziehen sich auf das Mastering des ursprünglich gelieferten Mixes. Liefern Sie einen geänderten Mix (z. B. neuer Mixdown, geänderte Spuren) oder ändern Sie das Briefing grundlegend, kann dies als neuer Auftrag behandelt werden; wir weisen Sie vorher darauf hin.
+#### § 7 Preise und Zahlung
+(1) Alle angegebenen Preise sind Endpreise und enthalten die gesetzliche Umsatzsteuer (derzeit 19 %). Weitere Preisbestandteile oder Versandkosten fallen nicht an.
+(2) Die Zahlung erfolgt nach Ihrer Wahl entweder im Voraus nach Annahme des Angebots (Vorkasse) oder auf Rechnung nach Lieferung des Masters. Rechnungen werden mit ausgewiesener Umsatzsteuer gestellt. Bei Zahlung auf Rechnung ist der Rechnungsbetrag innerhalb von 14 Tagen ab Rechnungsdatum ohne Abzug zu zahlen, soweit im Angebot nichts anderes vereinbart ist.
+(3) Die Zahlung erfolgt per Banküberweisung. Für Labels und Agenturen sind abweichende Zahlungsvereinbarungen nach Absprache möglich.
+(4) Entstandene Kosten der Geldübermittlung (Überweisungs- oder Wechselkursgebühren der Kreditinstitute) sind von Ihnen zu tragen, soweit die Zahlung von außerhalb der Europäischen Union veranlasst wird.
+#### § 8 Nutzungsrechte
+(1) Mit vollständiger Zahlung der vereinbarten Vergütung räumen wir Ihnen an dem gelieferten Master das einfache, zeitlich, räumlich und inhaltlich unbeschränkte Recht zur Nutzung ein, insbesondere zur Vervielfältigung, Verbreitung und öffentlichen Zugänglichmachung (z. B. Streaming, Download, CD, Vinyl). Bis zur vollständigen Zahlung ist eine Veröffentlichung des Masters nicht gestattet.
+(2) Alle Rechte an Ihren Kompositionen und Aufnahmen verbleiben bei Ihnen bzw. den jeweiligen Berechtigten.
+(3) Wir dürfen das Projekt (Künstlername, Titel, Cover sowie kurze Hörbeispiele nach der Veröffentlichung) als Referenz auf polished.media und in unseren Social-Media-Kanälen nennen, sofern Sie dem nicht widersprechen. Ein Widerspruch ist jederzeit formlos per E-Mail möglich.
+#### § 9 Gewährleistung
+(1) Es gelten die gesetzlichen Mängelhaftungsrechte.
+(2) Abweichungen von den objektiven Anforderungen gelten nur dann als vereinbart, wenn Sie vor Abgabe Ihrer Vertragserklärung darüber in Kenntnis gesetzt wurden und die Abweichung ausdrücklich und gesondert vereinbart wurde.
+#### § 10 Haftung
+(1) Wir haften unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei der Verletzung von Leben, Körper oder Gesundheit sowie nach den Vorschriften des Produkthaftungsgesetzes.
+(2) Bei leicht fahrlässiger Verletzung einer wesentlichen Vertragspflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht und auf deren Einhaltung Sie regelmäßig vertrauen dürfen (Kardinalpflicht), ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden begrenzt. Im Übrigen ist die Haftung für leichte Fahrlässigkeit ausgeschlossen.
+(3) Für den Verlust von Daten haften wir nur in dem Umfang, der bei ordnungsgemäßer Datensicherung durch Sie (§ 4 Abs. 3) entstanden wäre.
+#### § 11 Zurückbehaltungsrecht
+Ein Zurückbehaltungsrecht können Sie nur ausüben, soweit es sich um Forderungen aus demselben Vertragsverhältnis handelt.
+#### § 12 Rechtswahl, Erfüllungsort, Gerichtsstand
+(1) Es gilt deutsches Recht. Bei Verbrauchern gilt diese Rechtswahl nur, soweit hierdurch der durch zwingende Bestimmungen des Rechts des Staates des gewöhnlichen Aufenthaltes des Verbrauchers gewährte Schutz nicht entzogen wird (Günstigkeitsprinzip).
+(2) Erfüllungsort für alle Leistungen aus den mit uns bestehenden Geschäftsbeziehungen sowie Gerichtsstand ist unser Sitz, soweit Sie nicht Verbraucher, sondern Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen sind. Dasselbe gilt, wenn Sie keinen allgemeinen Gerichtsstand in Deutschland oder der EU haben oder Ihr Wohnsitz oder gewöhnlicher Aufenthalt im Zeitpunkt der Klageerhebung nicht bekannt ist. Die Befugnis, auch das Gericht an einem anderen gesetzlichen Gerichtsstand anzurufen, bleibt hiervon unberührt.
+(3) Die Bestimmungen des UN-Kaufrechts finden ausdrücklich keine Anwendung.
+#### II. Kundeninformationen
+#### 1. Identität des Anbieters
+Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), handelnd unter der Marke Polished / Polished.Media
+Wasserstr. 9, 27308 Kirchlinteln, Deutschland
+E-Mail: polished.media@gmx.de
+Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+#### 2. Zustandekommen des Vertrages
+Die technischen Schritte zum Vertragsschluss, der Vertragsschluss selbst und die Korrekturmöglichkeiten erfolgen nach Maßgabe von § 3 unserer Allgemeinen Geschäftsbedingungen (Teil I). Bis zu Ihrer Annahme unseres Angebots können Sie Ihre Angaben jederzeit per E-Mail korrigieren.
+#### 3. Vertragssprache, Vertragstextspeicherung
+3.1. Vertragssprache ist Deutsch. Auf Wunsch kommunizieren wir auch auf Englisch; maßgeblich ist der deutsche Vertragstext.
+3.2. Sie erhalten alle Vertragsdaten im Rahmen unseres verbindlichen Angebots in Textform per E-Mail, die Sie ausdrucken oder elektronisch sichern können. Diese AGB sind jederzeit unter polished.media abrufbar.
+#### 4. Wesentliche Merkmale der Dienstleistung
+Die wesentlichen Merkmale der Dienstleistung ergeben sich aus der Paketbeschreibung auf polished.media und aus unserem jeweiligen Angebot.
+#### 5. Preise und Zahlungsmodalitäten
+Die angegebenen Preise sind Gesamtpreise einschließlich aller Steuern. Versandkosten fallen nicht an. Zahlungsarten, Fälligkeit und Zahlungsfrist ergeben sich aus § 7 der AGB.
+#### 6. Leistungsbedingungen
+Lieferweg und voraussichtliche Lieferzeiten ergeben sich aus § 5 der AGB bzw. aus dem jeweiligen Angebot.
+#### 7. Gesetzliches Mängelhaftungsrecht
+Die Mängelhaftung richtet sich nach § 9 unserer Allgemeinen Geschäftsbedingungen (Teil I).
+#### III. Widerrufsbelehrung für Verbraucher
+#### Widerrufsrecht
+Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.
+Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), Wasserstr. 9, 27308 Kirchlinteln, Deutschland, E-Mail: polished.media@gmx.de) mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.
+Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.
+#### Folgen des Widerrufs
+Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.
+Haben Sie verlangt, dass die Dienstleistungen während der Widerrufsfrist beginnen sollen, so haben Sie uns einen angemessenen Betrag zu zahlen, der dem Anteil der bis zu dem Zeitpunkt, zu dem Sie uns von der Ausübung des Widerrufsrechts hinsichtlich dieses Vertrags unterrichten, bereits erbrachten Dienstleistungen im Vergleich zum Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.
+#### Erlöschen des Widerrufsrechts
+Das Widerrufsrecht erlischt bei einem Vertrag zur Erbringung von Dienstleistungen, wenn wir die Dienstleistung vollständig erbracht haben und mit der Ausführung der Dienstleistung erst begonnen haben, nachdem Sie dazu Ihre ausdrückliche Zustimmung gegeben haben und gleichzeitig Ihre Kenntnis davon bestätigt haben, dass Sie Ihr Widerrufsrecht bei vollständiger Vertragserfüllung durch uns verlieren.
+#### Muster-Widerrufsformular
+(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)
+An: Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), Wasserstr. 9, 27308 Kirchlinteln, Deutschland, E-Mail: polished.media@gmx.de
+Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung (*):
+_____________________________________________
+Bestellt am (*) / erhalten am (*): _______________
+Name des/der Verbraucher(s): _______________
+Anschrift des/der Verbraucher(s): _______________
+Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier): _______________
+Datum: _______________
+(*) Unzutreffendes streichen.
+Stand: Oktober 2026
+### English translation
+This translation is provided for convenience. In case of any discrepancy, the German version above prevails.
+#### I. Terms & Conditions
+#### § 1 Scope
+(1) These terms apply to all contracts for audio mastering and audio audit services concluded with us as provider (Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), trading as "Polished" / "Polished.Media") via polished.media, by email or via our social media channels. Unless otherwise agreed, any terms of your own are not incorporated.
+(2) A consumer is any natural person entering into a transaction for purposes predominantly outside their trade, business or profession. A business is any natural or legal person or partnership acting in the exercise of its trade, business or profession. Bands, labels and musicians may be consumers or businesses depending on the case.
+#### § 2 Subject Matter and Scope of Services
+(1) The subject of the contract is audio mastering including a written audio audit (technical and sonic analysis of the submitted mix) according to the booked package (e.g. Single Stereo, Single Stems, EP, Album) or an individual quote.
+(2) The specific scope (number of tracks, stereo or stem mastering, delivery formats, extras such as vinyl master or rush delivery) follows from the package description on polished.media or our quote in text form.
+(3) Mastering processes the delivered mix. Changes to the mix itself (e.g. balance of individual instruments within a stereo file, arrangement, editing) are not owed unless expressly agreed. If the audit finds fundamental problems that cannot be properly solved in mastering, we will tell you before mastering begins.
+(4) Sonic results involve artistic judgement. We work to your brief and references; a particular subjective sound or commercial success is not owed.
+#### § 3 Formation of Contract
+(1) Services and prices shown on polished.media are non-binding and do not constitute a binding offer.
+(2) Your inquiry via the contact form, email or direct message is non-binding. We then send you a binding quote in text form (e.g. email) stating scope, price and estimated delivery time. You may accept it in text form (e.g. by replying by email) within 5 days unless the quote states otherwise. The contract is formed when your acceptance reaches us.
+(3) We start work immediately after the contract is formed. Our quote therefore contains the following highlighted statement: "By accepting this quote, you expressly request that Polished begins the audio audit and mastering before the withdrawal period ends. You acknowledge that you lose your right of withdrawal once the order has been fully performed, and that if you withdraw before then you must pay for the services provided up to that point on a pro-rata basis." By accepting, you make this declaration. If, as a consumer, you do not want us to start before the withdrawal period ends, tell us when accepting; we will then start only after the withdrawal period has expired, and the stated delivery times are extended accordingly. See the withdrawal information (Part III).
+(4) Orders are handled by email. Please make sure your email address is correct and that our emails are not blocked by spam filters.
+#### § 4 Client Obligations and Rights in the Audio Files
+(1) You provide the audio files in the agreed formats (usually 24- or 32-bit WAV or AIFF at the original sample rate, with sufficient headroom and no master-bus limiter), plus any reference tracks and a short brief, via a file transfer service of your choice (e.g. WeTransfer, Dropbox, Google Drive).
+(2) You warrant that you hold all necessary rights to the submitted recordings and works, or have obtained the rights holders' consent, and that our processing does not infringe third-party rights. You indemnify us against third-party claims arising from a breach of this warranty for which you are responsible.
+(3) Please keep your own backups. We generally store submitted files and masters for 90 days after project completion and then delete them; on request, we delete them earlier at any time.
+#### § 5 Delivery and Delivery Times
+(1) Masters and the audit report are delivered digitally via download link to the email address you provide. There is no physical shipping and no shipping cost.
+(2) Stated delivery times (e.g. 48–72 hours for a single, 5–7 days for an EP, 7–14 days for an album) are estimated processing times unless a binding date has been expressly agreed. They begin once all required files and information have been received and the contract has been formed.
+(3) Rush delivery is available by separate agreement.
+#### § 6 Revisions
+(1) Every package includes unlimited revisions of the master at no extra cost and with no time limit, until the master matches the vision described in your brief.
+(2) Revisions relate to mastering the originally delivered mix. A changed mix (e.g. a new mixdown or changed tracks) or a fundamentally changed brief may be treated as a new order; we will tell you beforehand.
+#### § 7 Prices and Payment
+(1) All prices are final prices including statutory VAT (currently 19%). No other price components or shipping costs apply.
+(2) At your choice, you pay either in advance after accepting the quote (prepayment) or on invoice after delivery of the master. Invoices show VAT. When paying on invoice, the amount is due within 14 days of the invoice date without deduction unless otherwise agreed in the quote.
+(3) Payment by bank transfer. Labels and agencies may agree other arrangements.
+(4) Bank transfer or currency exchange fees are borne by you where payment is initiated from outside the European Union.
+#### § 8 Usage Rights
+(1) Upon full payment, we grant you a non-exclusive right to use the delivered master without limitation in time, territory or content, in particular to reproduce, distribute and make it publicly available (e.g. streaming, download, CD, vinyl). The master may not be released before full payment.
+(2) All rights to your compositions and recordings remain with you or the respective rights holders.
+(3) We may name the project (artist name, title, artwork and short audio excerpts after release) as a reference on polished.media and our social media channels unless you object. You can object at any time by email.
+#### § 9 Warranty
+(1) Statutory warranty rights apply.
+(2) Deviations from objective requirements are only agreed if you were informed of them before making your contractual declaration and they were expressly and separately agreed.
+#### § 10 Liability
+(1) We are liable without limitation for intent and gross negligence, for injury to life, body or health, and under the German Product Liability Act.
+(2) For slightly negligent breach of an essential contractual obligation (cardinal obligation), liability is limited to the foreseeable damage typical for this type of contract. Otherwise, liability for slight negligence is excluded.
+(3) For loss of data, we are only liable to the extent that would have arisen had you kept proper backups (§ 4 (3)).
+#### § 11 Right of Retention
+You may only exercise a right of retention for claims arising from the same contractual relationship.
+#### § 12 Governing Law, Place of Performance, Jurisdiction
+(1) German law applies. For consumers, this choice of law applies only insofar as it does not remove protection granted by mandatory provisions of the law of the consumer's country of habitual residence.
+(2) Place of performance and jurisdiction is our registered office if you are a merchant, a legal entity under public law or a special fund under public law, or if you have no general place of jurisdiction in Germany or the EU, or your residence is unknown when proceedings are filed. The right to bring proceedings at another statutory place of jurisdiction remains unaffected.
+(3) The UN Convention on Contracts for the International Sale of Goods (CISG) does not apply.
+#### II. Customer Information
+Provider: Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), trading as Polished / Polished.Media, Wasserstr. 9, 27308 Kirchlinteln, Germany, email: polished.media@gmx.de. We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.
+Contract language: German; we also communicate in English on request. You receive all contract data with our binding quote by email. These terms are available at polished.media at any time.
+Main characteristics, prices, delivery, warranty: see the package descriptions on polished.media, your quote, and §§ 5, 7 and 9 above.
+#### III. Withdrawal Information for Consumers
+Right of withdrawal: You have the right to withdraw from this contract within fourteen days without giving any reason. The withdrawal period is fourteen days from the day the contract is concluded. To exercise it, inform us (Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt), Wasserstr. 9, 27308 Kirchlinteln, Germany, email: polished.media@gmx.de) of your decision by a clear statement (e.g. letter or email). You may use the model withdrawal form above, but it is not obligatory. It is sufficient to send your notice before the withdrawal period expires.
+Effects of withdrawal: If you withdraw, we will reimburse all payments received from you without undue delay and no later than fourteen days from the day we receive your notice, using the same means of payment you used, unless expressly agreed otherwise; you will not incur any fees for this reimbursement. If you requested that the services begin during the withdrawal period, you must pay us an amount proportionate to the services already provided up to the time you inform us of your withdrawal, compared with the full scope of services under the contract.
+Expiry of the right of withdrawal: For service contracts, the right of withdrawal expires when we have fully performed the service, provided we only began performance after you gave your express consent and at the same time acknowledged that you lose your right of withdrawal once we have fully performed the contract.
+Last updated: October 2026

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="color-scheme" content="dark">
+<title>Metal-Lautheit 2026: LUFS und DR echter Releases</title>
+<meta name="description" content="Gemessen statt geschätzt: Black Metal liegt im Median bei etwa −8 LUFS, DSBM bei −12,7, Doom und Gothic bei −7,5. Mediane, Spannen und Methode aus 64 Releases.">
+<meta name="author" content="Tim Borchert · Polished Mastering">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://polished.media/de/metal-lautheit-daten/">
+<link rel="alternate" hreflang="en" href="https://polished.media/metal-loudness-data/">
+<link rel="alternate" hreflang="de" href="https://polished.media/de/metal-lautheit-daten/">
+<link rel="alternate" hreflang="x-default" href="https://polished.media/metal-loudness-data/">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Polished Mastering">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Was Metal- und Gothic-Releases wirklich messen">
+<meta property="og:description" content="Gemessen statt geschätzt: Black Metal liegt im Median bei etwa −8 LUFS, DSBM bei −12,7, Doom und Gothic bei −7,5. Mediane, Spannen und Methode aus 64 Releases.">
+<meta property="og:url" content="https://polished.media/de/metal-lautheit-daten/">
+<meta property="og:image" content="https://polished.media/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Polished — Metal &amp; Gothic Mastering, with mastering engineer Tim Borchert">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Was Metal- und Gothic-Releases wirklich messen">
+<meta name="twitter:description" content="Gemessen statt geschätzt: Black Metal liegt im Median bei etwa −8 LUFS, DSBM bei −12,7, Doom und Gothic bei −7,5. Mediane, Spannen und Methode aus 64 Releases.">
+<meta name="twitter:image" content="https://polished.media/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="Polished — Metal &amp; Gothic Mastering, with mastering engineer Tim Borchert">
+<link rel="preload" href="/assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://polished.media/de/metal-lautheit-daten/#webpage",
+  "url": "https://polished.media/de/metal-lautheit-daten/",
+  "name": "Metal-Lautheit 2026: LUFS und DR echter Releases",
+  "inLanguage": "de",
+  "isPartOf": {
+    "@id": "https://polished.media/#website"
+  },
+  "about": {
+    "@id": "https://polished.media/#business"
+  },
+  "primaryImageOfPage": "https://polished.media/assets/og-image.jpg",
+  "dateModified": "2026-11-12"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://polished.media/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Lautstärke-Guide",
+      "item": "https://polished.media/de/metal-mastering-lautstaerke/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Metal-Lautheit: Messdaten",
+      "item": "https://polished.media/de/metal-lautheit-daten/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://polished.media/de/metal-lautheit-daten/#dataset",
+  "name": "Was Metal- und Gothic-Releases wirklich messen",
+  "description": "Gemessen statt geschätzt: Black Metal liegt im Median bei etwa −8 LUFS, DSBM bei −12,7, Doom und Gothic bei −7,5. Mediane, Spannen und Methode aus 64 Releases.",
+  "url": "https://polished.media/de/metal-lautheit-daten/",
+  "inLanguage": "de",
+  "creator": {
+    "@type": "Person",
+    "@id": "https://polished.media/#tim-borchert",
+    "name": "Tim Borchert"
+  },
+  "publisher": {
+    "@id": "https://polished.media/#business"
+  },
+  "copyrightHolder": {
+    "@id": "https://polished.media/#business"
+  },
+  "license": {
+    "@type": "CreativeWork",
+    "name": "© Polished Mastering, all rights reserved"
+  },
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Metal-Mastering",
+    "LUFS",
+    "Lautheit",
+    "Dynamik",
+    "Black Metal",
+    "DSBM",
+    "Doom Metal",
+    "Gothic",
+    "Industrial Metal"
+  ],
+  "measurementTechnique": "ITU-R BS.1770 integrated loudness, DR database method, third-octave spectrum",
+  "temporalCoverage": "2026",
+  "dateModified": "2026-11-12",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Integrierte Lautheit",
+      "description": "integrierte Lautheit nach ITU-R BS.1770 je Track; Median und 25. bis 75. Perzentil je Genre",
+      "unitText": "LUFS"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamikwert (DR)",
+      "description": "Methode der DR-Datenbank: zweithöchster Spitzenwert gegen die lautesten 20 % der RMS-Blöcke, je Kanal, gemittelt",
+      "unitText": "dB"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Lautheitsumfang (LRA)",
+      "description": "Loudness Range nach EBU R 128",
+      "unitText": "LU"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Peak-to-Loudness-Ratio (PLR)",
+      "description": "True Peak minus integrierte Lautheit",
+      "unitText": "dB"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Side/Mid-Verhältnis",
+      "description": "Energie des Seitensignals gegen das Mittensignal",
+      "unitText": "dB"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Korrelation unter 150 Hz",
+      "description": "Phasenkorrelation im Low End, 1,00 = mono"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tonale Balance relativ zu 1 kHz",
+      "description": "Terzspektrum, in fünf Bänder gruppiert, relativ zum 1-kHz-Band",
+      "unitText": "dB"
+    }
+  ],
+  "isPartOf": {
+    "@id": "https://polished.media/de/metal-lautheit-daten/#webpage"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie laut sollte ein Metal-Master sein?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Einen festen Wert gibt es nicht. Unsere gemessenen Mediane reichen von etwa −12,7 LUFS (DSBM) bis etwa −7 LUFS (moderner und Industrial Metal). Nimm die Lautheit, die dein Mix hält, bevor Becken und Blastbeats verschmieren, und prüfe dann den True Peak."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie laut sollte ein Metal-Mix vor dem Mastering sein?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Mix-Lautheit spielt kaum eine Rolle, solange nichts clippt und auf dem Summenbus kein Limiter sitzt. Lass ein paar dB Reserve (Spitzen etwa bei −6 bis −3 dBFS), damit das Mastering Raum hat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Auf wie viel LUFS wird Black Metal gemastert?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die mittlere Hälfte der von uns gemessenen Black-Metal-Releases liegt zwischen −9,6 und −6,9 LUFS, Median −8,0. Atmosphärischer und depressiver Black Metal liegt meist darunter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Regelt Spotify mein lautes Metal-Master herunter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja. Mit aktivierter Normalisierung spielt Spotify alles bei etwa −14 LUFS, ein Master mit −7 LUFS wird also um etwa 7 dB leiser gestellt. Es wird nicht lauter als andere Tracks, nur dichter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Warum wird DSBM leiser gemastert als anderer Black Metal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In unseren Daten ist das mittlere DSBM-Release etwa 5 dB leiser und hat deutlich mehr Dynamik. Langes, langsames, getragenes Material gewinnt durch starkes Limiting wenig und verliert seine Steigerungen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann ich die Werte als Ziel nehmen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nimm sie als Karte, nicht als Ziel. Sie zeigen, wo veröffentlichte Platten liegen. Ob deine Platte in der Mitte oder am Rand liegen sollte, hängt vom Mix ab und davon, wie sie klingen soll."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://polished.media/de/metal-lautheit-daten/#article",
+  "headline": "Was Metal- und Gothic-Releases wirklich messen",
+  "description": "Gemessen statt geschätzt: Black Metal liegt im Median bei etwa −8 LUFS, DSBM bei −12,7, Doom und Gothic bei −7,5. Mediane, Spannen und Methode aus 64 Releases.",
+  "inLanguage": "de",
+  "image": "https://polished.media/assets/og-image.jpg",
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "author": {
+    "@type": "Person",
+    "@id": "https://polished.media/#tim-borchert",
+    "name": "Tim Borchert",
+    "jobTitle": "Mastering Engineer",
+    "image": "https://polished.media/tim-borchert-portrait.jpg",
+    "url": "https://polished.media/de/#tim"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://polished.media/#business",
+    "name": "Polished Mastering",
+    "url": "https://polished.media/",
+    "logo": "https://polished.media/assets/icon-512.png"
+  },
+  "mainEntityOfPage": {
+    "@id": "https://polished.media/de/metal-lautheit-daten/#webpage"
+  }
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+<nav class="site-nav" aria-label="Hauptnavigation">
+  <div class="nav-inner">
+    <a href="/de/" class="logo">Polished<span class="dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/de/#audit">Audit</a></li><li><a href="/de/#genres">Genres</a></li><li><a href="/de/#preise">Preise</a></li><li><a href="/de/mastering-kosten/">Kosten-Vergleich</a></li><li><a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a></li><li><a href="/de/tools/">Tools</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-switch" role="group" aria-label="Sprache"><a href="/metal-loudness-data/" hreflang="en" lang="en" title="English" data-track="lang-en">EN</a><span aria-current="true" lang="de" title="Deutsch">DE</span></div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menü öffnen" aria-controls="navLinks" aria-expanded="false"><span></span><span></span><span></span></button>
+      <a href="/de/#kontakt" class="cta-btn nav-cta" data-track="nav-cta"><span class="cta-full">Audit anfragen →</span><span class="cta-short">Anfragen →</span></a>
+    </div>
+  </div>
+</nav>
+<main id="main">
+<nav class="breadcrumb wrap" aria-label="Brotkrumen"><ol><li><a href="/de/">Startseite</a></li><li><a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a></li><li aria-current="page">Metal-Lautheit: Messdaten</li></ol></nav>
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Daten · Lautheit</div>
+    <h1>Was Metal- und Gothic-Releases wirklich messen</h1>
+    <p class="lead">Die meisten Lautheitstipps für Metal sind Spannen, an die sich jemand erinnert. Diese Seite ist das Gegenteil: Messwerte veröffentlichter Platten, mit offengelegter Methode zum Nachprüfen. Derselbe Korpus ist die Referenz für jedes Polished-Master und jeden Mix-Audit.</p>
+    <div class="answer-box"><div class="label">Kurze Antwort</div><p>In unseren Messungen liegt das mittlere Black-Metal-Release bei etwa −8 LUFS integriert, Depressive Black Metal (DSBM) deutlich leiser bei etwa −12,7 LUFS, Doom, Gothic und Dark Wave bei etwa −7,5 LUFS und moderner bzw. Industrial Metal bei etwa −7 LUFS. Das ist, was Platten tun, nicht, was deine tun muss.</p></div>
+    <div class="cta-row">
+      <a href="/de/#kontakt" class="cta-btn" data-track="de-data-hero">Audio-Audit anfragen →</a>
+    </div>
+    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Zuletzt aktualisiert: <time datetime="2026-11-12">12.11.2026</time></p>
+    <nav class="toc" aria-label="Auf dieser Seite">
+      <p class="toc-title">Auf dieser Seite</p>
+      <ol>
+        <li><a href="#messwerte-je-genre">Messwerte je Genre</a></li>
+        <li><a href="#tonale-balance-relativ-zu-1-khz-median-db">Tonale Balance relativ zu 1 kHz (Median, dB)</a></li>
+        <li><a href="#so-liest-du-die-werte">So liest du die Werte</a></li>
+        <li><a href="#was-auffaellt">Was auffällt</a></li>
+        <li><a href="#so-wurden-die-daten-erhoben">So wurden die Daten erhoben</a></li>
+        <li><a href="#was-das-fuer-dein-master-heisst">Was das für dein Master heißt</a></li>
+        <li><a href="#haeufige-fragen-zur-metal-lautheit">Häufige Fragen zur Metal-Lautheit</a></li>
+      </ol>
+    </nav>
+  </div>
+</header>
+<section class="content-section" aria-labelledby="messwerte-je-genre">
+  <div class="wrap prose-wrap prose">
+    <h2 id="messwerte-je-genre">Messwerte je Genre</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Genre</th><th scope="col">n Releases (verlustfrei)</th><th scope="col">Integrierte Lautheit LUFS, Median (p25 bis p75)</th><th scope="col">DR</th><th scope="col">LRA LU</th><th scope="col">PLR dB</th><th scope="col">Side/Mid dB</th><th scope="col">Korrelation &lt; 150 Hz</th></tr></thead>
+        <tbody>
+            <tr><th scope="row">Black Metal</th><td>16 (2)</td><td>−8,0 (−9,6 bis −6,9)</td><td>7,5*</td><td>2,7</td><td>9,0</td><td>−6,7</td><td>0,90</td></tr>
+            <tr><th scope="row">Depressive Black Metal (DSBM)</th><td>16 (2)</td><td>−12,7 (−15,1 bis −10,1)</td><td>10,0*</td><td>6,3</td><td>12,5</td><td>−5,1</td><td>0,86</td></tr>
+            <tr><th scope="row">Doom / Gothic / Dark Wave</th><td>16 (8)</td><td>−7,5 (−8,9 bis −7,1)</td><td>5,6</td><td>3,1</td><td>8,1</td><td>−6,9</td><td>0,88</td></tr>
+            <tr><th scope="row">Moderner &amp; Industrial Metal (NDH, Nu Metal)</th><td>16 (5)</td><td>−7,0 (−7,8 bis −6,4)</td><td>5,6</td><td>4,7</td><td>7,8</td><td>−5,7</td><td>0,85</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section class="content-section alt" aria-labelledby="tonale-balance-relativ-zu-1-khz-median-db">
+  <div class="wrap prose-wrap prose">
+    <h2 id="tonale-balance-relativ-zu-1-khz-median-db">Tonale Balance relativ zu 1 kHz (Median, dB)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Genre</th><th scope="col">Sub/Tiefen 40–125 Hz</th><th scope="col">Untere Mitten 160–400 Hz</th><th scope="col">Mitten 500–2k Hz</th><th scope="col">Präsenz 2,5–5k Hz</th><th scope="col">Höhen 6,3–12,5k Hz</th></tr></thead>
+        <tbody>
+            <tr><th scope="row">Black Metal</th><td>+15,4</td><td>+8,8</td><td>+0,7</td><td>−5,0</td><td>−17,6</td></tr>
+            <tr><th scope="row">Depressive Black Metal (DSBM)</th><td>+10,0</td><td>+6,8</td><td>+0,3</td><td>−8,8</td><td>−22,2</td></tr>
+            <tr><th scope="row">Doom / Gothic / Dark Wave</th><td>+17,2</td><td>+10,0</td><td>+1,3</td><td>−2,7</td><td>−13,5</td></tr>
+            <tr><th scope="row">Moderner &amp; Industrial Metal (NDH, Nu Metal)</th><td>+14,9</td><td>+7,6</td><td>+0,5</td><td>−3,5</td><td>−14,5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">&#42; Dynamikwerte aus überwiegend verlustbehafteten Quellen. Unsere Gegenmessung zeigt, dass MP3 den DR-Wert um etwa 1,0 dB zu hoch liest; der wahre Wert liegt also eher darunter.</p>
+    <p class="table-note">Noch zu wenig Material für eine belastbare Aussage (nicht in der Tabelle): Melodic Death Metal (n = 6, 5 Künstler); Grindcore / Goregrind (n = 7, 3 Künstler).</p>
+  </div>
+</section>
+<section class="content-section" aria-labelledby="so-liest-du-die-werte">
+  <div class="wrap prose-wrap prose">
+    <h2 id="so-liest-du-die-werte">So liest du die Werte</h2>
+    <ul>
+      <li><strong>Integrierte Lautheit (LUFS):</strong> mittlere Lautheit des ganzen Tracks nach ITU-R BS.1770. In Klammern steht die mittlere Hälfte der Releases (25. bis 75. Perzentil). Ein Viertel der Platten ist leiser als der erste Wert, ein Viertel lauter als der zweite.</li>
+      <li><strong>DR:</strong> Dynamikwert nach der Methode der DR-Datenbank (zweithöchster Spitzenwert gegen die lautesten 20 % der RMS-Blöcke, je Kanal, gemittelt). Höher heißt mehr Abstand zwischen Spitzen und Körper.</li>
+      <li><strong>LRA:</strong> Lautheitsumfang in LU, also wie stark sich die Lautheit zwischen leisen und lauten Passagen bewegt.</li>
+      <li><strong>PLR:</strong> Verhältnis von Spitze zu Lautheit, True Peak minus integrierte Lautheit. Niedrige Werte heißen: Der Limiter arbeitet viel.</li>
+      <li><strong>Side/Mid:</strong> Energie des Seitensignals gegen das Mittensignal. Je näher an 0 dB, desto breiter.</li>
+      <li><strong>Korrelation unter 150 Hz:</strong> 1,00 ist komplett monofones Low End. Werte deutlich unter 0,9 können auf Mono-Anlagen und Handylautsprechern Bass kosten.</li>
+      <li><strong>Tonale Balance:</strong> Pegel jedes Bandes relativ zum 1-kHz-Band im mittleren Release. Sie zeigt die Form des Spektrums, keine Zielkurve.</li>
+    </ul>
+  </div>
+</section>
+<section class="content-section alt" aria-labelledby="was-auffaellt">
+  <div class="wrap prose-wrap prose">
+    <h2 id="was-auffaellt">Was auffällt</h2>
+    <ul>
+      <li><strong>DSBM ist das leise Genre.</strong> Im Median etwa 5 dB unter Black Metal, mit einem DR um 10. Das passt zum langsamen, getragenen Material: Ein neunminütiges Klagelied gewinnt nichts durch harten Limiter.</li>
+      <li><strong>Black Metal behält mehr Dynamik als Doom und Gothic.</strong> DR 7,5 gegen 5,6, bei ähnlicher Lautheit. Doom- und Gothic-Platten sind meist dichter und in den unteren Mitten stärker komprimiert.</li>
+      <li><strong>Doom, Gothic und Dark Wave haben das meiste Low End.</strong> +17 dB unter 125 Hz relativ zu 1 kHz, gegen +15 bei Black Metal und +10 bei DSBM.</li>
+      <li><strong>Die Höhen im Black Metal sind dunkler, als viele denken.</strong> Das Höhenband (6,3 bis 12,5 kHz) liegt im Median etwa 18 dB unter 1 kHz. Die Härte, die man mit dem Genre verbindet, sitzt in den oberen Mitten der Gitarren, nicht in einem hellen Master.</li>
+      <li><strong>Niemand mastert Metal auf −14 LUFS.</strong> Streamingdienste regeln ohnehin alles auf etwa −14 herunter. Die gewählte Lautheit entscheidet über Dichte und Transienten, nicht über die Wiedergabelautstärke.</li>
+    </ul>
+  </div>
+</section>
+<section class="content-section" aria-labelledby="so-wurden-die-daten-erhoben">
+  <div class="wrap prose-wrap prose">
+    <h2 id="so-wurden-die-daten-erhoben">So wurden die Daten erhoben</h2>
+    <ul>
+      <li><strong>Korpus:</strong> 16 veröffentlichte Tracks je Genre von 8 bis 12 verschiedenen Künstlern. Kein Künstler steuert mehr als 2 der 16 Tracks bei.</li>
+      <li><strong>Quellen:</strong> verlustfreie Dateien, wo vorhanden, sonst verlustbehaftete Dateien mit hoher Bitrate. Die Tabelle zeigt, wie viele der 16 verlustfrei waren. Gibt es mindestens fünf verlustfreie Dateien, stammen die Dynamikwerte (DR, LRA, PLR, True Peak) nur aus diesen, sonst ist der Wert mit Sternchen markiert. Wie stark MP3 die Werte verschiebt, haben wir an eigenen Referenzdateien gemessen: DR liest etwa 1 dB zu hoch, die Lautheit etwa 0,3 LU zu niedrig.</li>
+      <li><strong>Höhen:</strong> Bänder über 12,5 kHz zählen nur Dateien mit echtem Vollband-Audio, weil 128-kbit/s-Encoder dort abschneiden.</li>
+      <li><strong>Software:</strong> unser eigener Messkern (derselbe wie im Polished-Audio-Audit), Lautheit nach BS.1770, DR nach der Methode der DR-Datenbank, True Peak mit 4-facher Überabtastung.</li>
+      <li><strong>Was wir nicht veröffentlichen:</strong> Werte einzelner Tracks oder Künstler. Die Seite zeigt nur Mediane und Spannen.</li>
+      <li><strong>Stichprobe:</strong> 16 je Genre reichen für einen Median und eine grobe Spanne, nicht für feine Unterschiede. Melodic Death Metal (6 Releases) und Grindcore (7 Releases von 3 Künstlern) fehlen, bis genug Material da ist. Der Korpus wächst, die Seite wird mit Datum aktualisiert.</li>
+    </ul>
+  </div>
+</section>
+<section class="content-section alt" aria-labelledby="was-das-fuer-dein-master-heisst">
+  <div class="wrap prose-wrap prose">
+    <h2 id="was-das-fuer-dein-master-heisst">Was das für dein Master heißt</h2>
+    <p>Ein Wert in dieser Tabelle beschreibt das Genre, er ist keine Qualitätsnote. Nah am Median heißt: typisch, nicht gut. Ein DSBM-Album auf −8 LUFS ist nicht falsch, weil der Median bei −12,7 liegt. Es klingt aber dichter als die meisten Nachbarn in einer Playlist und gibt die langsamen Steigerungen auf, von denen der Stil lebt.</p>
+    <p>Was wir in einem Master oder Mix-Audit tatsächlich prüfen:</p>
+    <ol>
+      <li>Wo die Lautheit in der Genre-Spanne liegt und was sie in genau diesem Mix kostet.</li>
+      <li>Ob die tonale Balance in einem wichtigen Band außerhalb der typischen Spanne liegt (bei Black Metal: untere Mitten unter den Gitarren, Präsenz der Snare).</li>
+      <li>Korrelation und Monotauglichkeit im Low End.</li>
+      <li>True-Peak-Reserve für die Encoder der Streamingdienste.</li>
+    </ol>
+    <p>Wenn du diese Werte für deinen eigenen Mix willst: Das Audio-Audit in jedem Polished-Paket misst ihn gegen diesen Korpus, und du bekommst einen schriftlichen Bericht. <a href="/de/#kontakt">Audio-Audit anfragen</a>.</p>
+  </div>
+</section>
+<section class="content-section" aria-labelledby="haeufige-fragen-zur-metal-lautheit">
+  <div class="wrap prose-wrap">
+    <h2 id="haeufige-fragen-zur-metal-lautheit">Häufige Fragen zur Metal-Lautheit</h2>
+        <details class="faq-item">
+          <summary>Wie laut sollte ein Metal-Master sein?</summary>
+          <div class="faq-answer">Einen festen Wert gibt es nicht. Unsere gemessenen Mediane reichen von etwa −12,7 LUFS (DSBM) bis etwa −7 LUFS (moderner und Industrial Metal). Nimm die Lautheit, die dein Mix hält, bevor Becken und Blastbeats verschmieren, und prüfe dann den True Peak.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Wie laut sollte ein Metal-Mix vor dem Mastering sein?</summary>
+          <div class="faq-answer">Die Mix-Lautheit spielt kaum eine Rolle, solange nichts clippt und auf dem Summenbus kein Limiter sitzt. Lass ein paar dB Reserve (Spitzen etwa bei −6 bis −3 dBFS), damit das Mastering Raum hat.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Auf wie viel LUFS wird Black Metal gemastert?</summary>
+          <div class="faq-answer">Die mittlere Hälfte der von uns gemessenen Black-Metal-Releases liegt zwischen −9,6 und −6,9 LUFS, Median −8,0. Atmosphärischer und depressiver Black Metal liegt meist darunter.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Regelt Spotify mein lautes Metal-Master herunter?</summary>
+          <div class="faq-answer">Ja. Mit aktivierter Normalisierung spielt Spotify alles bei etwa −14 LUFS, ein Master mit −7 LUFS wird also um etwa 7 dB leiser gestellt. Es wird nicht lauter als andere Tracks, nur dichter.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Warum wird DSBM leiser gemastert als anderer Black Metal?</summary>
+          <div class="faq-answer">In unseren Daten ist das mittlere DSBM-Release etwa 5 dB leiser und hat deutlich mehr Dynamik. Langes, langsames, getragenes Material gewinnt durch starkes Limiting wenig und verliert seine Steigerungen.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Kann ich die Werte als Ziel nehmen?</summary>
+          <div class="faq-answer">Nimm sie als Karte, nicht als Ziel. Sie zeigen, wo veröffentlichte Platten liegen. Ob deine Platte in der Mitte oder am Rand liegen sollte, hängt vom Mix ab und davon, wie sie klingen soll.</div>
+        </details>
+    <div class="prose">
+    <p>Siehe auch: <a href="/de/metal-mastering-lautstaerke/">Metal-Mastering-Lautstärke: LUFS-Ratgeber</a> · <a href="/de/black-metal-mastering/">Black Metal Mastering</a> · <a href="/de/doom-gothic-mastering/">Doom &amp; Gothic Mastering</a> · <a href="/de/">Metal &amp; Gothic Mastering</a></p>
+    </div>
+  </div>
+</section>
+<section class="author-section" aria-label="Geschrieben von Tim Borchert">
+  <div class="wrap">
+    <aside class="author-box">
+      <picture><source srcset="/assets/tim-borchert-160.webp" type="image/webp"><img src="/assets/tim-borchert-160.jpg" alt="Porträt von Tim Borchert, Mastering Engineer bei Polished" width="80" height="80" loading="lazy" decoding="async"></picture>
+      <div>
+        <p class="author-label">Geschrieben von</p>
+        <p class="author-name"><a href="/de/#tim">Tim Borchert</a></p>
+        <p class="author-bio">Tim Borchert mastert jeden Track bei Polished persönlich. Er studiert Systematische Musikwissenschaft und Medienwissenschaft an der Universität Hamburg. Davor hat er zwei Jahre eine Ausbildung zur Fachkraft für Veranstaltungstechnik gemacht, eine Rockband live abgemischt und eigene Musik auf Labels in Mexiko, Indien und der Türkei veröffentlicht. <a href="/de/#tim">Mehr über Tim →</a></p>
+        <p class="author-meta">Zuletzt aktualisiert: <time datetime="2026-11-12">12.11.2026</time></p>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/de/" class="logo">Polished<span class="dot">.</span></a>
+        <p>Online-Mastering-Studio für Metal &amp; Gothic aus Niedersachsen. Schriftliches Audio-Audit vor jedem Master.</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-title">Genres</p>
+        <ul>
+          <li><a href="/de/black-metal-mastering/">Black Metal Mastering</a></li><li><a href="/de/death-metal-mastering/">Death Metal Mastering</a></li><li><a href="/de/doom-gothic-mastering/">Doom & Gothic Mastering</a></li><li><a href="/de/metalcore-djent-mastering/">Metalcore & Djent Mastering</a></li><li><a href="https://codechaos-official.de/mastering/">Psytrance, Psycore &amp; Hitech Mastering</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-title">Studio</p>
+        <ul>
+          <li><a href="/de/#audit">Audio-Audit</a></li>
+          <li><a href="/de/#preise">Preise</a></li>
+          <li><a href="/de/mastering-kosten/">Mastering-Kosten</a></li>
+          <li><a href="/de/stem-mastering/">Stem-Mastering</a></li>
+          <li><a href="/de/mastering-fuer-labels/">Mastering für Labels</a></li>
+          <li><a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a></li>
+          <li><a href="/de/tools/">Tools für Bands</a></li>
+          <li><a href="/de/#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-title">Kontakt</p>
+        <ul>
+          <li><a href="mailto:polished.media@gmx.de">polished.media@gmx.de</a></li>
+          <li><a href="https://instagram.com/polishedmetalmastering" rel="noopener" target="_blank">Instagram</a></li>
+          <li><a href="https://soundbetter.com/profiles/748631-polished-mastering" rel="noopener" target="_blank">SoundBetter</a></li>
+          <li><a href="/" hreflang="en" lang="en">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Polished Mastering · Heart Warrior – Business meets Spiritualität UG (haftungsbeschränkt)</div>
+      <div><a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a> · <a href="/agb/">AGB</a> · <a href="#" class="cookie-settings-link">Cookie-Einstellungen</a></div>
+    </div>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

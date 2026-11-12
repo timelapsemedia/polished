@@ -210,12 +210,12 @@ def laut_tabelle(slug_, lang):
         h, kopf = 'Lautheit <em>im Überblick</em>', ('Stil', 'Übliche integrierte Lautheit', 'Was die Lautheit zuerst begrenzt')
         extra = [('Streaming-Wiedergabe', 'etwa -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), etwa -16 LUFS (Apple Music), Bandcamp ohne Normalisierung', 'Lautere Master werden leiser gedreht'),
                  ('True Peak', 'unter -1 dBTP, bei Mastern lauter als -14 LUFS unter -2 dBTP', 'Spitzen steigen bei der Kodierung (Empfehlung von Spotify)')]
-        note = 'Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im <a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a>.'
+        note = 'Orientierungswerte aus der Mastering-Praxis, keine Zielwerte. Details und Quellen im <a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a>. Gemessene Mediane veröffentlichter Platten: <a href="/de/metal-lautheit-daten/">Metal-Lautheit: Messdaten</a>. Pakete und Ablauf: <a href="/de/">Metal &amp; Gothic Mastering</a>.'
     else:
         h, kopf = 'Loudness <em>at a glance</em>', ('Style', 'Common integrated loudness', 'What limits loudness first')
         extra = [('Streaming playback', 'about -14 LUFS (Spotify, YouTube, Tidal, Amazon Music), about -16 LUFS (Apple Music), no normalization on Bandcamp', 'Louder masters are turned down'),
                  ('True peak', 'below -1 dBTP, below -2 dBTP for masters louder than -14 LUFS', 'Peaks rise during lossy encoding (Spotify recommendation)')]
-        note = 'Orientation values from mastering practice, not targets. Details and sources in the <a href="/metal-mastering-loudness/">loudness guide</a>.'
+        note = 'Orientation values from mastering practice, not targets. Details and sources in the <a href="/metal-mastering-loudness/">loudness guide</a>. Measured medians of released records: <a href="/metal-loudness-data/">metal loudness data</a>.'
     rows = '\n'.join(f'          <tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>' for a, b, c in LAUT[lang][slug_] + extra)
     return f'''
     <h3>{h}</h3>

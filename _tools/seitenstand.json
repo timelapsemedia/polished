@@ -1,28 +1,28 @@
 {
  "/black-metal-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "3e28fe4e82ea11ad"
+  "geaendert": "2026-11-12",
+  "hash": "23fb386c2ec6ba66"
  },
  "/de/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "4684aaa11bb0c675"
+  "geaendert": "2026-11-12",
+  "hash": "3b91de7f2a4b2a19"
  },
  "/de/black-metal-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "80860919434d41f4"
+  "geaendert": "2026-11-12",
+  "hash": "d596faf984655e1e"
  },
  "/de/death-metal-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "2573ab587a282a7d"
+  "geaendert": "2026-11-12",
+  "hash": "1a3a569f9ed08052"
  },
  "/de/doom-gothic-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "c6397cf878e252d8"
+  "geaendert": "2026-11-12",
+  "hash": "2cbf8d7a17fbb90e"
  },
  "/de/mastering-fuer-labels/": {
   "veroeffentlicht": "2026-10-21",
@@ -34,15 +34,20 @@
   "geaendert": "2026-11-09",
   "hash": "5334cf5132bb5ce1"
  },
+ "/de/metal-lautheit-daten/": {
+  "veroeffentlicht": "2026-11-12",
+  "geaendert": "2026-11-12",
+  "hash": "5f36412e0e148387"
+ },
  "/de/metal-mastering-lautstaerke/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "ee12449f87d02f4f"
+  "geaendert": "2026-11-12",
+  "hash": "81dece13b9bdca99"
  },
  "/de/metalcore-djent-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "20a982830fcc77d0"
+  "geaendert": "2026-11-12",
+  "hash": "a5e2b5c879129d9a"
  },
  "/de/stem-mastering/": {
   "veroeffentlicht": "2026-10-05",
@@ -51,8 +56,8 @@
  },
  "/de/tools/": {
   "veroeffentlicht": "2026-10-21",
-  "geaendert": "2026-10-21",
-  "hash": "053a2b3c6bffeeb2"
+  "geaendert": "2026-11-12",
+  "hash": "e1109b0dac20be99"
  },
  "/de/tools/chaos-fm/": {
   "veroeffentlicht": "2026-10-21",
@@ -96,13 +101,13 @@
  },
  "/death-metal-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "28930ba006640f06"
+  "geaendert": "2026-11-12",
+  "hash": "36dde3c24b29cc7e"
  },
  "/doom-gothic-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "250afd9b54deb072"
+  "geaendert": "2026-11-12",
+  "hash": "1b889ebc1084bc16"
  },
  "/mastering-cost/": {
   "veroeffentlicht": "2026-10-05",
@@ -114,15 +119,20 @@
   "geaendert": "2026-10-21",
   "hash": "1204f129cf4eef47"
  },
+ "/metal-loudness-data/": {
+  "veroeffentlicht": "2026-11-12",
+  "geaendert": "2026-11-12",
+  "hash": "b23456a7c1bdc231"
+ },
  "/metal-mastering-loudness/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "b5d2d34e285c8532"
+  "geaendert": "2026-11-12",
+  "hash": "d6273e2d10662ccf"
  },
  "/metalcore-djent-mastering/": {
   "veroeffentlicht": "2026-10-05",
-  "geaendert": "2026-11-11",
-  "hash": "069e16ef21ecbafc"
+  "geaendert": "2026-11-12",
+  "hash": "fef20921016c2140"
  },
  "/stem-mastering/": {
   "veroeffentlicht": "2026-10-05",
@@ -131,8 +141,8 @@
  },
  "/tools/": {
   "veroeffentlicht": "2026-10-21",
-  "geaendert": "2026-10-21",
-  "hash": "888a82bbb167e7ca"
+  "geaendert": "2026-11-12",
+  "hash": "b0b8178fa4531fab"
  },
  "/tools/chaos-fm/": {
   "veroeffentlicht": "2026-10-21",
