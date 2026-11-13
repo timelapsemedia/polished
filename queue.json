@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-13T12:00+01:00",
+ "stand": "2026-11-13T15:00+01:00",
  "posts": [
   {
    "id": "2026-11-14-motion_pay",
@@ -46,10 +46,9 @@
    "id": "2026-11-19-genre_craft",
    "due": "2026-11-19T10:30+01:00",
    "caption": "In doom, the space between the hits is part of the riff. 🕯️\n\n▸ Slow tempos expose every tail: cymbals, amp sustain, room\n▸ Heavy limiting pulls those tails up and flattens the swell\n▸ The low end needs control below 100 Hz, not more level\n▸ Dynamics carry the weight of a slow riff\n\nDoom is mastered differently than death metal. That is the point of genre-specific work.\n\nDoom and gothic mastering → polished.media\n\n#mastering #masteringengineer #doommetal #metalcore #djent #deathmetal #audioengineering #homerecording #mixingandmastering #studiolife #metalband #recordingstudio",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-19-genre_craft-portrait.jpg"
-   ],
-   "video_url": null
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-19-genre_craft.mp4",
+   "thumb_offset": 800
   }
  ]
 }
