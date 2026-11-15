@@ -1,5 +1,14 @@
 {
  "marke": "polished",
- "stand": "2026-11-14T09:30+01:00",
- "posts": []
+ "stand": "2026-11-15T08:00+01:00",
+ "posts": [
+  {
+   "id": "2026-11-15-p1_loud",
+   "due": "2026-11-15T10:30+01:00",
+   "caption": "Your metal mix sits at -19 LUFS. Here is how it gets to -8.8 without guessing. 📈\n\n▸ Move 1: EQ into the tonal range of genre references (4.3 dB off target down to 2.1 dB)\n▸ Move 2: stereo width toward the references (sides +3 dB)\n▸ Move 3: low end mono below 60 Hz, kick/bass peaks evened out (2.2 dB max)\n▸ Move 4: soft clip and true-peak limiter at -1 dBTP (4.5 dB max, 0.11 dB on average)\n\nThe A/B at the end is level-matched, so you hear the master, not just more volume.\n\nWhich move did your mix miss?\n\npolished.media\n\n#mastering #metalmastering #deathmetal #lufs #mixingmastering #audioengineering #homerecording #metalproducer",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-15-p1_loud.mp4",
+   "thumb_offset": 300
+  }
+ ]
 }
