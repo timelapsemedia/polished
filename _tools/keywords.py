@@ -108,6 +108,7 @@ KEYWORDS = [
     ('mastering prices', '/mastering-cost/', 'price-en', 2),
     ('album mastering cost', '/mastering-cost/', 'price-en', 2),
     ('mixing and mastering prices', '/mastering-cost/', 'price-en', 3),
+    ('mixing mastering prices', '/mastering-cost/', 'price-en', 3),
     ('how much does mixing and mastering cost', '/mastering-cost/', 'price-en', 3),
     ('metal mastering loudness', '/metal-mastering-loudness/', 'loud-en', 2),
     ('lufs for metal', '/metal-mastering-loudness/', 'loud-en', 2),
