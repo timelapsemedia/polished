@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-17T09:21+01:00",
+ "stand": "2026-11-17T11:21+01:00",
  "posts": [
   {
    "id": "2026-11-20-myth_bust",
@@ -17,6 +17,15 @@
    "caption": "An eight-string in standard F# puts the open low string at 46 Hz.\n\n→ That is the same octave as the bass guitar and the kick fundamental, which usually sits somewhere around 50 to 80 Hz in modern metal.\n→ On a stereo file, any low cut or shelf at the master hits all three at once. Pull the guitar mud and the kick goes thin.\n→ With stems, the guitar low end gets its own dynamic EQ and the kick keeps its attack.\n→ Palm-muted chugs are transients. Heavy bus limiting flattens the exact rhythm that defines djent.\n\nStem single: €129. Stem EP up to 5 tracks: €549. Audit included. Upload at polished.media.\n\n#mastering #masteringengineer #extrememetal #djent #blackmetal #metalcore #diymusician #lufs #loudnesswar #studiolife #recordingstudio #indielabel",
    "image_urls": [
     "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-23-genre_craft-portrait.jpg"
+   ],
+   "video_url": null
+  },
+  {
+   "id": "2026-11-24-process",
+   "due": "2026-11-24T10:30+01:00",
+   "caption": "From mix to master in three steps. Nothing hidden in between.\n\n→ 1. Pick a package at polished.media and upload your mix: WAV, 24-bit or 32-bit float, at the session sample rate, no limiter on the master bus.\n→ 2. The audit: integrated and short-term LUFS, true peak in dBTP, dynamic range, spectrum and stereo correlation. You get it in writing.\n→ 3. The master, built from those numbers, with unlimited revisions and no time limit on them.\n→ Payment up front or on invoice after delivery. Your choice.\n\nSingle €79, EP up to 5 tracks €349, album up to 10 tracks €629.\n\n#mastering #masteringengineer #metalcore #doommetal #deathmetal #djent #audioengineering #mixingandmastering #diymusician #lufs #indielabel #undergroundmetal",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-24-process-portrait.jpg"
    ],
    "video_url": null
   }
