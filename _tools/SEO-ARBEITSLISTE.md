@@ -45,3 +45,7 @@ Der Weekly run arbeitet nur die offenen Punkte ab und misst die erledigten erst 
 - [x] B Labels: Link von /de/ ergänzt (/ und Kostenseiten hatten ihn schon).
 - [x] D Datenseiten /metal-loudness-data/ + /de/metal-lautheit-daten/ (`gen_daten.py`, Quellen `daten/`).
 - [ ] C /de/mastering-kosten/ bleibt bei #60.
+
+## Aus Grok #88 (Website-Agentur, 18.11.2026, von Claude geprüft)
+- [ ] C /de/mastering-kosten/ (918 Impr., Pos. 60,6, 0 Klicks; GSC 18.10.–14.11.): Autocomplete ergänzt „mastering kosten“ mit „kostenlos“ und „pro song“. Live-HTML 18.11.: 0× „kostenlos“, 0× LANDR, „pro Song“ 8× (Claude nachgezählt). Vorschlag: (a) Abschnitt „Mastering kostenlos? KI, Gratis-Tools und bezahltes Mastering“ mit Anbieterpreisen nur mit Quelle + Stand-Datum (vor Übernahme auf Anbieterseiten prüfen), (b) H2/FAQ „Mastering Kosten pro Song“. Wirkung Hypothese, Messung GSC +14 Tage. Hängt an #60.
+- [x] /tools/ „mix polishing plugin“: schon erledigt (Abschnitt B oben), Grok-Empfehlung 5 entfällt.
