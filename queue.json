@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-19T11:00+01:00",
+ "stand": "2026-11-20T11:00+01:00",
  "posts": [
   {
    "id": "2026-11-20-myth_bust",
@@ -62,6 +62,14 @@
     "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-26-studio_atmos-portrait.jpg"
    ],
    "video_url": null
+  },
+  {
+   "id": "2026-11-27-vm_frostbound_ab",
+   "due": "2026-11-27T10:30+01:00",
+   "caption": "Your black metal mix sounds this thin. I flipped it against the release master so you can hear exactly where.\n\n▸ Width. I put 2.7 dB more into the sides, so the tremolo wall wraps around the vocals instead of sitting on them.\n▸ Body. 160 to 630 Hz comes up 3 to 4 dB. That's where your riffs went missing.\n▸ Level. -14 LUFS, true peak -1 dBTP. Streaming turns you down to about there anyway, so I don't push past it.\n\nIt's Frostbound Sepulchre by Vesper Mortis. Out in January.\n\nWhat did you hear first, the width or the low mids?\n\npolished.media\n\n#blackmetal #mastering #metalmastering #mixingmastering #audioengineering",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-27-vm_frostbound_ab.mp4",
+   "thumb_offset": 1000
   }
  ]
 }
