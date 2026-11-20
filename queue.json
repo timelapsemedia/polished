@@ -1,16 +1,7 @@
 {
  "marke": "polished",
- "stand": "2026-11-20T11:00+01:00",
+ "stand": "2026-11-20T12:00+01:00",
  "posts": [
-  {
-   "id": "2026-11-20-myth_bust",
-   "due": "2026-11-20T10:30+01:00",
-   "caption": "A wider master does not sound bigger everywhere.\n\n→ Stereo wideners shift phase between left and right. When the signal is summed to mono, part of it cancels.\n→ A correlation meter shows the risk. Near +1 is safe, around 0 is risky, and below 0 means content disappears in mono.\n→ Below roughly 120 Hz, kick and bass belong in the centre. Side energy that low costs weight on most systems.\n→ Doubled, hard-panned guitars are fine. They are separate takes, not a phase effect.\n\nEvery Polished audit measures correlation per frequency band before anything gets touched.\n\nDo you check your master in mono before release, yes or no?\n\n#mastering #masteringengineer #doommetal #djent #gothicmetal #extrememetal #lufs #studiolife #diymusician #mixingandmastering #indielabel #recordingstudio",
-   "image_urls": [
-    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-20-myth_bust-portrait.jpg"
-   ],
-   "video_url": null
-  },
   {
    "id": "2026-11-21-vm_death_carrion_b_ab",
    "due": "2026-11-21T10:30+01:00",
