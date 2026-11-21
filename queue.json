@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-20T12:00+01:00",
+ "stand": "2026-11-21T11:00+01:00",
  "posts": [
   {
    "id": "2026-11-21-vm_death_carrion_b_ab",
@@ -60,6 +60,14 @@
    "caption": "Your black metal mix sounds this thin. I flipped it against the release master so you can hear exactly where.\n\n▸ Width. I put 2.7 dB more into the sides, so the tremolo wall wraps around the vocals instead of sitting on them.\n▸ Body. 160 to 630 Hz comes up 3 to 4 dB. That's where your riffs went missing.\n▸ Level. -14 LUFS, true peak -1 dBTP. Streaming turns you down to about there anyway, so I don't push past it.\n\nIt's Frostbound Sepulchre by Vesper Mortis. Out in January.\n\nWhat did you hear first, the width or the low mids?\n\npolished.media\n\n#blackmetal #mastering #metalmastering #mixingmastering #audioengineering",
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-27-vm_frostbound_ab.mp4",
+   "thumb_offset": 1000
+  },
+  {
+   "id": "2026-11-28-vm_gothic_velvet_b_ab",
+   "due": "2026-11-28T10:30+01:00",
+   "caption": "Your gothic metal mix: -18 LUFS.\n\nThat's where it starts. Quiet, and a bit hollow. You'll notice it when it flips: I brought 160 to 315 Hz up by 2.3 dB, and the whole song lands at -10.4 LUFS. I didn't widen it. Didn't need to, because the room was already there in your mix and I'd only have smeared it.\n\nIt's Velvet Requiem by Vesper Mortis.\n\nWhich did you hear first, the low mids or the level?\n\npolished.media\n\n#gothicmetal #mastering #metalmastering #mixingmastering #audioengineering",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-28-vm_gothic_velvet_b_ab.mp4",
    "thumb_offset": 1000
   }
  ]
