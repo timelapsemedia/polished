@@ -16,6 +16,15 @@ Limited mastering slots per week
 Audit-First Approach Analysis before mastering — no blind guessing
 Musicology-grounded Studying Systematic Musicology and Media Studies · University of Hamburg
 Unlimited revisions Pay after delivery if you like, no upfront risk
+Hear the difference
+### Same song. Before and after mastering.
+20 seconds from “Frostbound Sepulchre” by Vesper Mortis, an atmospheric black metal project of ours. Mix is the mixdown as it came out, lowered by 4 dB so it leaves headroom like a normal premaster. Master is the Polished master.
+Match loudness (mix +5 dB)
+0:00 / 0:20
+LUFS-ITrue peak
+Mix−18.2−8.7 dBTP
+Master−13.2−2.0 dBTP
+Measured on this 20-second excerpt (EBU R128). The full track is mastered to −14.0 LUFS integrated and −1.1 dBTP. Louder sounds better at first listen, so use the loudness switch to compare fairly.
 The Polished Difference
 ### Full Audio Audit before every master.
 An audio audit is a full technical and perceptual analysis of a mix, carried out before any mastering decision is made. Other studios start straight with plugins. Polished starts with a scientifically grounded analysis — because what isn't measured can't be deliberately improved. You get a full written analysis report of your mix before a single mastering step happens.
@@ -248,6 +257,14 @@ Polished ist ein Mastering-Studio aus Deutschland, spezialisiert auf Black Metal
 Audio-Audit anfragen →
 Preise ansehen
 Zahlung auch nach Lieferung · Antwort meist innerhalb von 24 Stunden · Begrenzte Slots pro Woche
+### Derselbe Song. Vorher und nachher beim Mastering.
+20 Sekunden aus „Frostbound Sepulchre“ von Vesper Mortis, einem atmosphärischen Black-Metal-Projekt von uns. Mix ist der Mixdown, wie er herauskam, um 4 dB abgesenkt, damit er wie ein normales Premaster Headroom lässt. Master ist das Polished-Master.
+Lautheit angleichen (Mix +5 dB)
+0:00 / 0:20
+LUFS-ITrue Peak
+Mix−18.2−8.7 dBTP
+Master−13.2−2.0 dBTP
+Gemessen an diesem 20-Sekunden-Ausschnitt (EBU R128). Der ganze Song ist auf −14,0 LUFS integriert und −1,1 dBTP gemastert. Lauter klingt beim ersten Hören besser, darum kannst du die Lautheit angleichen und fair vergleichen.
 ### Audio-Mastering-Studio in Deutschland: professionelles Online-Mastering mit Audit
 Polished ist ein Mastering-Service aus Deutschland, spezialisiert auf Metal und Gothic. Du kannst dein Mastering online machen lassen, komplett digital: Dateien per Link schicken, Audit und Master digital zurückbekommen, egal ob du in Deutschland, Österreich, der Schweiz oder anderswo spielst.
 Definition
