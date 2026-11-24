@@ -1460,7 +1460,7 @@ Nein. Polished ist auf Mastering spezialisiert. Wenn das Audio-Audit zeigt, dass
 
 ---
 
-## Stem Mastering from €129: Benefits & Stem Export | Polished
+## Stem Mastering: What It Is, When It's Worth It & Cost | Polished
 URL: https://polished.media/stem-mastering/
 
 Guide · Stem Mastering
@@ -1468,7 +1468,7 @@ Guide · Stem Mastering
 Stem mastering masters several track groups, such as drums, bass, guitars and vocals, instead of one stereo file. It helps when instruments mask each other in the mix. At Polished, stem mastering costs €129 per track incl. VAT, with a written audio audit and unlimited revisions.
 Request stem mastering →
 How to export stems
-By Tim Borchert, mastering engineer · Last updated: 5 November 2026
+By Tim Borchert, mastering engineer · Last updated: 24 November 2026
 ### Stereo vs. stem mastering
 Stereo masteringStem mastering
 Sourceone finished stereo file4–6 track groups (stems)

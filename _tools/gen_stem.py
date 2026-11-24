@@ -111,7 +111,7 @@ write(STEM_DE, page(path=STEM_DE, lang='de', title=SD_TITLE,
       og_title='Stem-Mastering — Polished', body=sd_body, schemas=sd_schemas, counterpart=STEM_PAIR, typ='article'))
 
 # ---------------------------------------------------------------- EN
-SE_TITLE = 'Stem Mastering from €129: Benefits & Stem Export | Polished'
+SE_TITLE = "Stem Mastering: What It Is, When It's Worth It & Cost | Polished"
 SE_FAQS = [
     ('What is stem mastering?', 'Stem mastering masters several track groups (stems) such as drums, bass, guitars and vocals instead of one finished stereo file. Each group can be processed individually before everything is combined into the final master, which gives more control when instruments mask each other in the mix.'),
     ('When is stem mastering worth it?', 'Stem mastering is worth it when elements in the mix collide, for example kick and bass in the low end, guitars masking the vocals, or cymbals swallowing the snare during blast beats. For a well-balanced mix, stereo mastering is enough. The Polished audio audit tells you which one suits your mix.'),
