@@ -50,7 +50,7 @@
     "@id": "https://polished.media/#business"
   },
   "primaryImageOfPage": "https://polished.media/assets/og-image.jpg",
-  "dateModified": "2026-11-12"
+  "dateModified": "2026-11-24"
 }
 </script>
 <script type="application/ld+json">
@@ -229,6 +229,64 @@
     <p class="meta-line">Zahlung auch nach Lieferung · Antwort meist innerhalb von 24 Stunden · Begrenzte Slots pro Woche</p>
   </div>
 </header>
+<style>
+.hear-box{border:1px solid var(--border-strong);background:var(--bg-card);padding:20px;margin:24px 0 12px}
+.hear-switch{display:flex;gap:8px;margin-bottom:14px}
+.hear-btn{flex:1;padding:12px 10px;background:var(--bg-elevated);color:var(--text-dim);border:1px solid var(--border-strong);font:inherit;cursor:pointer}
+.hear-btn.active{background:var(--accent);color:#0a0a0a;border-color:var(--accent);font-weight:700}
+.hear-match{display:block;font-size:14px;color:var(--text-dim);margin-bottom:14px}
+.hear-ctl{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.hear-play{width:44px;height:44px;border-radius:50%;border:1px solid var(--accent);background:transparent;color:var(--accent);font-size:16px;cursor:pointer}
+.hear-ctl input[type=range]{flex:1;min-width:0}
+#hearTime{font-size:13px;color:var(--text-muted);white-space:nowrap}
+.hear-spec{width:100%;border-collapse:collapse;font-size:14px}
+.hear-spec th,.hear-spec td{padding:6px 8px;border-top:1px solid var(--border);text-align:left;color:var(--text-dim)}
+.hear-spec tbody th{color:var(--text)}
+.hear-note{font-size:13px;color:var(--text-muted);margin:0}
+</style>
+<section class="content-section alt" id="hoerprobe" aria-labelledby="hear-heading">
+  <div class="wrap prose-wrap prose">
+    <h2 id="hear-heading">Derselbe Song. <em>Vorher und nachher</em> beim Mastering.</h2>
+    <p>20 Sekunden aus „Frostbound Sepulchre“ von Vesper Mortis, einem atmosphärischen Black-Metal-Projekt von uns. <strong>Mix</strong> ist der Mixdown, wie er herauskam, um 4&nbsp;dB abgesenkt, damit er wie ein normales Premaster Headroom lässt. <strong>Master</strong> ist das Polished-Master.</p>
+    <div class="hear-box" role="group" aria-label="Vorher-Nachher-Demo zum Mastering">
+      <div class="hear-switch" role="tablist">
+        <button type="button" class="hear-btn active" data-k="mix" role="tab" aria-selected="true">Mix</button>
+        <button type="button" class="hear-btn" data-k="master" role="tab" aria-selected="false">Master</button>
+      </div>
+      <label class="hear-match"><input type="checkbox" id="hearMatch"> Lautheit angleichen (Mix +5&nbsp;dB)</label>
+      <audio id="hear-mix" preload="none" src="/assets/audio/vm-frostbound-mix.mp3"></audio>
+      <audio id="hear-matched" preload="none" src="/assets/audio/vm-frostbound-mix-matched.mp3"></audio>
+      <audio id="hear-master" preload="none" src="/assets/audio/vm-frostbound-master.mp3"></audio>
+      <div class="hear-ctl"><button type="button" id="hearPlay" class="hear-play" aria-label="Play">&#9654;</button><input type="range" id="hearSeek" min="0" max="20" step="0.1" value="0" aria-label="Position"><span id="hearTime">0:00 / 0:20</span></div>
+      <table class="hear-spec"><thead><tr><th></th><th>LUFS-I</th><th>True Peak</th></tr></thead><tbody>
+        <tr><th scope="row">Mix</th><td id="hearMixLufs">−18.2</td><td id="hearMixTp">−8.7 dBTP</td></tr>
+        <tr><th scope="row">Master</th><td>−13.2</td><td>−2.0 dBTP</td></tr></tbody></table>
+    </div>
+    <p class="hear-note">Gemessen an diesem 20-Sekunden-Ausschnitt (EBU R128). Der ganze Song ist auf −14,0&nbsp;LUFS integriert und −1,1&nbsp;dBTP gemastert. Lauter klingt beim ersten Hören besser, darum kannst du die Lautheit angleichen und fair vergleichen.</p>
+  </div>
+</section>
+<script>
+(function(){
+  var a={mix:document.getElementById('hear-mix'),matched:document.getElementById('hear-matched'),master:document.getElementById('hear-master')};
+  if(!a.mix||!a.master)return;
+  var key='mix',match=document.getElementById('hearMatch'),play=document.getElementById('hearPlay'),seek=document.getElementById('hearSeek'),time=document.getElementById('hearTime');
+  function cur(){return key==='master'?a.master:(match.checked?a.matched:a.mix);}
+  function fmt(s){s=Math.floor(s||0);return Math.floor(s/60)+':'+('0'+s%60).slice(-2);}
+  function stopAll(){a.mix.pause();a.matched.pause();a.master.pause();}
+  function swap(){var was=!(a.mix.paused&&a.matched.paused&&a.master.paused),t=0;['mix','matched','master'].forEach(function(k){if(!a[k].paused||a[k].currentTime>0){t=Math.max(t,a[k].currentTime);}});
+    stopAll();var n=cur();n.currentTime=t;if(was)n.play();ui();}
+  function ui(){var n=cur();play.innerHTML=n.paused?'&#9654;':'&#10074;&#10074;';seek.value=n.currentTime;time.textContent=fmt(n.currentTime)+' / 0:20';
+    var m=match.checked;document.getElementById('hearMixLufs').textContent=m?'−13.2':'−18.2';document.getElementById('hearMixTp').textContent=m?'−4.0 dBTP':'−8.7 dBTP';}
+  Array.prototype.forEach.call(document.querySelectorAll('.hear-btn'),function(b){b.addEventListener('click',function(){key=b.getAttribute('data-k');
+    Array.prototype.forEach.call(document.querySelectorAll('.hear-btn'),function(x){var on=x===b;x.classList.toggle('active',on);x.setAttribute('aria-selected',on);});swap();});});
+  match.addEventListener('change',swap);
+  play.addEventListener('click',function(){var n=cur();if(n.paused){n.play();}else{n.pause();}ui();});
+  seek.addEventListener('input',function(){cur().currentTime=parseFloat(seek.value);ui();});
+  ['mix','matched','master'].forEach(function(k){a[k].addEventListener('timeupdate',function(){if(a[k]===cur())ui();});a[k].addEventListener('ended',function(){a[k].currentTime=0;ui();});a[k].addEventListener('pause',ui);a[k].addEventListener('play',ui);});
+  ui();
+})();
+</script>
+
 <section class="content-section" id="audit" aria-labelledby="de-audit">
   <div class="wrap prose-wrap prose">
     <h2 id="de-audit">Audio-Mastering-Studio in Deutschland: <em>professionelles Online-Mastering mit Audit</em></h2>
@@ -383,7 +441,7 @@
         <p class="author-label">Gemastert von</p>
         <p class="author-name"><a href="/de/#tim">Tim Borchert</a></p>
         <p class="author-bio">Tim Borchert mastert jeden Track bei Polished persönlich. Er studiert Systematische Musikwissenschaft und Medienwissenschaft an der Universität Hamburg. Davor hat er zwei Jahre eine Ausbildung zur Fachkraft für Veranstaltungstechnik gemacht, eine Rockband live abgemischt und eigene Musik auf Labels in Mexiko, Indien und der Türkei veröffentlicht. <a href="/de/#tim">Mehr über Tim →</a></p>
-        <p class="author-meta">Zuletzt aktualisiert: <time datetime="2026-11-12">12.11.2026</time></p>
+        <p class="author-meta">Zuletzt aktualisiert: <time datetime="2026-11-24">24.11.2026</time></p>
       </div>
     </aside>
   </div>
