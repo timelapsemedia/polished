@@ -26,7 +26,7 @@ All prices are final prices including 19% German VAT. No upfront payment require
 - [Metal & gothic loudness data 2026](https://polished.media/metal-loudness-data/): measured LUFS, DR, LRA, PLR, stereo width, low-end correlation and tonal balance of released black metal, DSBM, doom/gothic/dark wave and modern/industrial metal records (16 tracks per genre, medians and middle half, method documented)
 
 ## Tools for bands (plugins by Code Chaos Audio)
-Tim Borchert also builds audio plugins under the label Code Chaos Audio. Polished only links to them; they are sold and downloaded on Gumroad (timberwolf688.gumroad.com). No AU versions (Logic Pro not supported); macOS builds are Apple Silicon only and not signed or notarized.
+Tim Borchert also builds audio plugins under the label Code Chaos Audio. Polished only links to them; they are sold and downloaded on Gumroad (shop.codechaos-official.de). No AU versions (Logic Pro not supported); macOS builds are Apple Silicon only and not signed or notarized.
 - [Tools for bands (overview)](https://polished.media/tools/): all plugins and bundles with price, platforms, demo audio
 - [Gravesaw](https://polished.media/tools/gravesaw/): black metal amp + cab for guitar and bass DI, 19 built-in cabs, 16 presets; €19, free demo; Windows + macOS (Apple Silicon)
 - [Rimehall](https://polished.media/tools/rimehall/): cold reverb, octave shimmer and tape bus with ducking, 14 presets; €19, free demo; Windows + macOS (Apple Silicon)
