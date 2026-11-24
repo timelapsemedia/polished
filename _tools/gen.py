@@ -25,6 +25,8 @@ PERSON = {"@id": f"{BASE}/#tim-borchert"}
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_geo.py'), encoding='utf-8').read())
 # Measured loudness data (genre_index.json, Markdown sources in _tools/daten/; Grok #72)
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'daten.py'), encoding='utf-8').read())
+# Citable evidence blocks for the loudness guide (sources, verbatim quotation, key figures; 24 Nov 2026)
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'belege.py'), encoding='utf-8').read())
 
 GENRES = [
     ('black-metal-mastering', 'Black Metal Mastering'),
@@ -636,6 +638,7 @@ lg_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Metal Mastering Loudness
     <p class="meta-line">By <a href="/#engineer">Tim Borchert</a>, mastering engineer, Systematic Musicology and Media Studies student (University of Hamburg) · Published 5 October 2026 · Last updated: %%STAND%%</p>
   </div>
 </header>
+{lg_zahlen('en', alt=True)}
 {sec('lg-what', 'What LUFS means <em>and why it matters</em>', """    <div class="answer-box"><div class="label">Definition</div><p>LUFS (Loudness Units relative to Full Scale) measures perceived loudness over time, weighted the way human hearing works. Integrated LUFS is the average across a whole track. Streaming platforms use it to play every track at a similar level.</p></div>
     <p>Peak meters only show the highest sample. LUFS shows how loud a track actually feels. Two masters can both peak at -1 dBFS and still be 6 dB apart in perceived loudness. That difference is what the loudness war was about, and why normalization changed it.</p>
     <p>Three numbers matter when a metal master is judged for release:</p>
@@ -697,7 +700,8 @@ lg_body = f'''{breadcrumb_html([('Home', f'{BASE}/'), ('Metal Mastering Loudness
     <h2 id="lg-faq">Metal loudness <em>FAQ</em></h2>
 {faq_html(LG_FAQS)}
   </div>
-</section>'''
+</section>
+{lg_quellen('en')}'''
 lg_schemas = [
     webpage_schema(LG_PATH, LG_TITLE),
     breadcrumb_schema([('Home', f'{BASE}/'), ('Metal Mastering Loudness Guide', f'{BASE}{LG_PATH}')]),
@@ -707,7 +711,7 @@ lg_schemas = [
      "image": f"{BASE}/assets/og-image.jpg", "inLanguage": "en",
      "datePublished": TODAY, "dateModified": TODAY,
      "author": {"@type": "Person", "@id": f"{BASE}/#tim-borchert", "name": "Tim Borchert", "url": f"{BASE}/#engineer"},
-     "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{LG_PATH}#webpage"},
+     "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{LG_PATH}#webpage"}, "citation": lg_citation(),
      "about": ["Audio mastering", "Loudness normalization", "LUFS", "Metal music"]},
     faq_schema(LG_FAQS),
 ]

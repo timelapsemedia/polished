@@ -50,7 +50,7 @@
     "@id": "https://polished.media/#business"
   },
   "primaryImageOfPage": "https://polished.media/assets/og-image.jpg",
-  "dateModified": "2026-11-12"
+  "dateModified": "2026-11-24"
 }
 </script>
 <script type="application/ld+json">
@@ -83,7 +83,7 @@
   "image": "https://polished.media/assets/og-image.jpg",
   "inLanguage": "de",
   "datePublished": "2026-10-05",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-24",
   "author": {
     "@type": "Person",
     "@id": "https://polished.media/#tim-borchert",
@@ -102,6 +102,53 @@
   "mainEntityOfPage": {
     "@id": "https://polished.media/de/metal-mastering-lautstaerke/#webpage"
   },
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Loudness normalization",
+      "author": {
+        "@type": "Organization",
+        "name": "Spotify for Artists"
+      },
+      "url": "https://support.spotify.com/us/artists/article/loudness-normalization/"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Recommendation ITU-R BS.1770-5: Algorithms to measure audio programme loudness and true-peak audio level",
+      "author": {
+        "@type": "Organization",
+        "name": "International Telecommunication Union"
+      },
+      "url": "https://www.itu.int/rec/R-REC-BS.1770",
+      "datePublished": "2023"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "EBU R 128: Loudness normalisation and permitted maximum level of audio signals (version 5.0)",
+      "author": {
+        "@type": "Organization",
+        "name": "European Broadcasting Union"
+      },
+      "url": "https://tech.ebu.ch/publications/r128",
+      "datePublished": "2023"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Dynamic Range Across Music Genres and the Perception of Dynamic Compression in Hearing-Impaired Listeners",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Martin Kirchberger"
+        },
+        {
+          "@type": "Person",
+          "name": "Frank Russo"
+        }
+      ],
+      "url": "https://doi.org/10.1177/2331216516630549",
+      "datePublished": "2016"
+    }
+  ],
   "about": [
     "Audio-Mastering",
     "Lautheitsnormalisierung",
@@ -181,20 +228,36 @@
     <div class="eyebrow">Guide · Lautstärke</div>
     <h1>Wie laut sollte Metal <em>gemastert werden?</em></h1>
     <p class="lead"><strong>Kurze Antwort: Es gibt keinen einzig richtigen LUFS-Wert für Metal.</strong> Streaming-Dienste spielen alles mit etwa -14 LUFS ab (Apple Music etwa -16 LUFS), zusätzliche Lautheit wird also leiser gedreht. Das richtige Ziel ist der lauteste Pegel, den dein Mix erreicht, bevor Blastbeats, Becken und Low End zusammenbrechen.</p>
-    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: <time datetime="2026-11-12">12.11.2026</time></p>
+    <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: <time datetime="2026-11-24">24.11.2026</time></p>
     <nav class="toc" aria-label="Auf dieser Seite">
       <p class="toc-title">Auf dieser Seite</p>
       <ol>
+        <li><a href="#lgd-numbers">Metal-Lautheit in Zahlen</a></li>
         <li><a href="#lgd-what">Was LUFS bedeutet und warum es zählt</a></li>
         <li><a href="#lgd-platforms">Lautheitsziele nach Plattform</a></li>
         <li><a href="#lgd-metal">Typische Lautheit nach Metal-Subgenre</a></li>
         <li><a href="#lgd-peak">True Peak: der Wert, der Verzerrung verursacht</a></li>
         <li><a href="#lgd-how">Wie die richtige Lautheit festgelegt wird</a></li>
         <li><a href="#lgd-faq">Metal-Lautheit: FAQ</a></li>
+        <li><a href="#lgd-sources">Quellen</a></li>
       </ol>
     </nav>
   </div>
 </header>
+<section class="content-section alt" aria-labelledby="lgd-numbers">
+  <div class="wrap prose-wrap prose">
+    <h2 id="lgd-numbers">Metal-Lautheit <em>in Zahlen</em></h2>
+    <p>Die am häufigsten gefragten Werte, jeweils mit Quelle. Die Messwerte stammen aus unserer eigenen Analyse veröffentlichter Platten (<a href="/de/metal-lautheit-daten/">Methode und alle Tabellen</a>).</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Kennzahl</th><th>Wert</th><th>Quelle</th></tr></thead>
+        <tbody><tr><td>Wiedergabe-Referenz bei Spotify</td><td>−14 LUFS (Laut −11, Leise −19)</td><td>Spotify for Artists</td></tr><tr><td>Messnorm für LUFS und True Peak</td><td>ITU-R BS.1770-5 (November 2023)</td><td>ITU</td></tr><tr><td>Zielwert im Rundfunk, zum Vergleich</td><td>−23 LUFS</td><td>EBU R 128</td></tr><tr><td>Black-Metal-Releases</td><td>Median −8,0 LUFS (16 Releases)</td><td>eigene Messung</td></tr><tr><td>Depressive-Black-Metal-Releases (DSBM)</td><td>Median −12,7 LUFS (16 Releases)</td><td>eigene Messung</td></tr><tr><td>Doom- und Gothic-Releases</td><td>Median −7,5 LUFS (16 Releases)</td><td>eigene Messung</td></tr><tr><td>Modern- und Industrial-Metal-Releases</td><td>Median −7,0 LUFS (16 Releases)</td><td>eigene Messung</td></tr><tr><td>So weit dreht Spotify einen mittleren Black-Metal-Master herunter</td><td>etwa 6 dB</td><td>berechnet: −8,0 LUFS auf −14 LUFS</td></tr><tr><td>True-Peak-Obergrenze</td><td>−1 dBTP, bei Mastern lauter als −14 LUFS −2 dBTP</td><td>Spotify for Artists</td></tr></tbody>
+      </table>
+    </div>
+    <blockquote class="answer-box" cite="https://support.spotify.com/us/artists/article/loudness-normalization/" style="margin-left:0;margin-right:0"><div class="label">Spotify im Wortlaut (englisches Original)</div><p lang="en">“We adjust tracks to -14 dB LUFS, according to the ITU 1770 standard.”</p><p class="table-note" style="margin:10px 0 0">Spotify for Artists, Loudness normalization: <a href="https://support.spotify.com/us/artists/article/loudness-normalization/" rel="noopener" target="_blank">support.spotify.com</a></p></blockquote>
+    <p>Sinngemäß: Spotify gleicht Tracks nach der Norm ITU 1770 auf −14 LUFS an. Dichte Master sind keine Eigenheit von Metal. Eine akustische Analyse von Musikaufnahmen ergab, dass Ausschnitte aus populären Genres wie Rock oder Rap in der Regel einen kleineren Dynamikumfang haben als Ausschnitte aus klassischen Genres (<a href="https://doi.org/10.1177/2331216516630549" rel="noopener" target="_blank">Kirchberger &amp; Russo 2016</a>, Trends in Hearing).</p>
+  </div>
+</section>
 <section class="content-section" aria-labelledby="lgd-what">
   <div class="wrap prose-wrap prose">
     <h2 id="lgd-what">Was LUFS bedeutet <em>und warum es zählt</em></h2>
@@ -301,6 +364,13 @@
         </details>
   </div>
 </section>
+<section class="content-section" aria-labelledby="lgd-sources">
+  <div class="wrap prose-wrap prose">
+    <h2 id="lgd-sources">Quellen</h2>
+    <p>Plattformwerte, Normen und Messwerte auf dieser Seite stützen sich auf:</p>
+    <ol><li>Spotify for Artists (abgerufen am 24.11.2026): <a href="https://support.spotify.com/us/artists/article/loudness-normalization/" rel="noopener" target="_blank">Loudness normalization</a>.</li><li>International Telecommunication Union (2023): <a href="https://www.itu.int/rec/R-REC-BS.1770" rel="noopener" target="_blank">Recommendation ITU-R BS.1770-5: Algorithms to measure audio programme loudness and true-peak audio level</a>.</li><li>European Broadcasting Union (2023): <a href="https://tech.ebu.ch/publications/r128" rel="noopener" target="_blank">EBU R 128: Loudness normalisation and permitted maximum level of audio signals (version 5.0)</a>.</li><li>Martin Kirchberger and Frank Russo (2016): <a href="https://doi.org/10.1177/2331216516630549" rel="noopener" target="_blank">Dynamic Range Across Music Genres and the Perception of Dynamic Compression in Hearing-Impaired Listeners</a>. Trends in Hearing 20.</li><li>Polished: <a href="/de/metal-lautheit-daten/">Lautheitsdaten für Metal</a>, eigene Messung von 16 Releases je Genre nach ITU-R BS.1770.</li></ol>
+  </div>
+</section>
 <section class="author-section" aria-label="Geschrieben von Tim Borchert">
   <div class="wrap">
     <aside class="author-box">
@@ -309,7 +379,7 @@
         <p class="author-label">Geschrieben von</p>
         <p class="author-name"><a href="/de/#tim">Tim Borchert</a></p>
         <p class="author-bio">Tim Borchert mastert jeden Track bei Polished persönlich. Er studiert Systematische Musikwissenschaft und Medienwissenschaft an der Universität Hamburg. Davor hat er zwei Jahre eine Ausbildung zur Fachkraft für Veranstaltungstechnik gemacht, eine Rockband live abgemischt und eigene Musik auf Labels in Mexiko, Indien und der Türkei veröffentlicht. <a href="/de/#tim">Mehr über Tim →</a></p>
-        <p class="author-meta">Zuletzt aktualisiert: <time datetime="2026-11-12">12.11.2026</time></p>
+        <p class="author-meta">Zuletzt aktualisiert: <time datetime="2026-11-24">24.11.2026</time></p>
       </div>
     </aside>
   </div>

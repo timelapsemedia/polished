@@ -196,6 +196,7 @@ lgd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Lautstärke-Gu
     <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: %%STAND%%</p>
   </div>
 </header>
+{lg_zahlen('de', alt=True)}
 {sec('lgd-what', 'Was LUFS bedeutet <em>und warum es zählt</em>', """    <div class="answer-box"><div class="label">Definition</div><p>LUFS (Loudness Units relative to Full Scale) misst die wahrgenommene Lautheit über die Zeit, gewichtet nach dem menschlichen Gehör. Integrated LUFS ist der Durchschnitt über den ganzen Track. Streaming-Plattformen nutzen diesen Wert, um alle Tracks ähnlich laut abzuspielen.</p></div>
     <p>Peak-Meter zeigen nur das höchste Sample. LUFS zeigt, wie laut sich ein Track tatsächlich anfühlt. Zwei Master können beide bei -1 dBFS spitzen und trotzdem 6 dB auseinanderliegen. Um genau diesen Unterschied ging es im Loudness War, und genau das hat die Normalisierung verändert.</p>
     <p>Drei Werte zählen, wenn ein Metal-Master für die Veröffentlichung bewertet wird:</p>
@@ -257,7 +258,8 @@ lgd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Lautstärke-Gu
     <h2 id="lgd-faq">Metal-Lautheit: <em>FAQ</em></h2>
 {faq_html(LGD_FAQS)}
   </div>
-</section>'''
+</section>
+{lg_quellen('de')}'''
 lgd_schemas = [
     webpage_schema(GUIDE_DE, LGD_TITLE, lang='de'),
     breadcrumb_schema([('Startseite', f'{BASE}/de/'), ('Lautstärke-Guide Metal-Mastering', f'{BASE}{GUIDE_DE}')]),
@@ -267,7 +269,7 @@ lgd_schemas = [
      "image": f"{BASE}/assets/og-image.jpg", "inLanguage": "de",
      "datePublished": TODAY, "dateModified": TODAY,
      "author": {"@type": "Person", "@id": f"{BASE}/#tim-borchert", "name": "Tim Borchert", "url": f"{BASE}/de/#tim"},
-     "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{GUIDE_DE}#webpage"},
+     "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{GUIDE_DE}#webpage"}, "citation": lg_citation(),
      "about": ["Audio-Mastering", "Lautheitsnormalisierung", "LUFS", "Metal"]},
     faq_schema(LGD_FAQS),
 ]

@@ -1050,7 +1050,23 @@ URL: https://polished.media/metal-mastering-loudness/
 Guide · Loudness
 ## How loud should metal be mastered?
 Short answer: there is no single correct LUFS value for metal. Streaming services play everything back at roughly -14 LUFS (Apple Music around -16 LUFS), so extra loudness is turned down. The right target is the loudest level your specific mix can reach before blast beats, cymbals and low end start to collapse.
-By Tim Borchert, mastering engineer, Systematic Musicology and Media Studies student (University of Hamburg) · Published 5 October 2026 · Last updated: 12 November 2026
+By Tim Borchert, mastering engineer, Systematic Musicology and Media Studies student (University of Hamburg) · Published 5 October 2026 · Last updated: 24 November 2026
+### Metal loudness in numbers
+The figures most often asked about, each with its source. Measured values are our own analysis of released records (method and full tables).
+FigureValueSource
+Spotify playback reference−14 LUFS (Loud −11, Quiet −19)Spotify for Artists
+Measurement standard for LUFS and true peakITU-R BS.1770-5 (November 2023)ITU
+Broadcast target, for comparison−23 LUFSEBU R 128
+Black metal releasesmedian −8.0 LUFS (16 releases)own measurement
+Depressive black metal (DSBM) releasesmedian −12.7 LUFS (16 releases)own measurement
+Doom / gothic releasesmedian −7.5 LUFS (16 releases)own measurement
+Modern and industrial metal releasesmedian −7.0 LUFS (16 releases)own measurement
+How far Spotify turns a median black metal master downabout 6 dBcalculated: −8.0 LUFS to −14 LUFS
+True-peak ceiling−1 dBTP, or −2 dBTP for masters louder than −14 LUFSSpotify for Artists
+In Spotify's own words
+“We adjust tracks to -14 dB LUFS, according to the ITU 1770 standard.”
+Spotify for Artists, Loudness normalization: support.spotify.com
+Dense masters are not unique to metal. An acoustic analysis of recorded music found that samples from popular genres such as rock or rap generally have a smaller dynamic range than samples from classical genres (Kirchberger & Russo 2016, Trends in Hearing).
 ### What LUFS means and why it matters
 Definition
 LUFS (Loudness Units relative to Full Scale) measures perceived loudness over time, weighted the way human hearing works. Integrated LUFS is the average across a whole track. Streaming platforms use it to play every track at a similar level.
@@ -1106,6 +1122,13 @@ What true peak should a metal master have?
 Spotify recommends keeping true peak below -1 dBTP, and below -2 dBTP if the master is louder than -14 LUFS integrated, because lossy encoding can push peaks higher and cause distortion. For loud metal masters, -1 dBTP is a common ceiling, with lower values used when the codec test shows clipping.
 Should I master differently for Bandcamp?
 Bandcamp does not normalize loudness, so listeners hear your master exactly as delivered and level differences to other releases are audible. Many artists use the same master everywhere. If your streaming master is relatively dynamic, a slightly louder Bandcamp version can make sense.
+### Sources
+Platform values, standards and measurements on this page are based on:
+- Spotify for Artists (retrieved 24 November 2026): Loudness normalization.
+- International Telecommunication Union (2023): Recommendation ITU-R BS.1770-5: Algorithms to measure audio programme loudness and true-peak audio level.
+- European Broadcasting Union (2023): EBU R 128: Loudness normalisation and permitted maximum level of audio signals (version 5.0).
+- Martin Kirchberger and Frank Russo (2016): Dynamic Range Across Music Genres and the Perception of Dynamic Compression in Hearing-Impaired Listeners. Trends in Hearing 20.
+- Polished: metal loudness data, own measurement of 16 releases per genre after ITU-R BS.1770.
 
 ---
 
@@ -1115,7 +1138,23 @@ URL: https://polished.media/de/metal-mastering-lautstaerke/
 Guide · Lautstärke
 ## Wie laut sollte Metal gemastert werden?
 Kurze Antwort: Es gibt keinen einzig richtigen LUFS-Wert für Metal. Streaming-Dienste spielen alles mit etwa -14 LUFS ab (Apple Music etwa -16 LUFS), zusätzliche Lautheit wird also leiser gedreht. Das richtige Ziel ist der lauteste Pegel, den dein Mix erreicht, bevor Blastbeats, Becken und Low End zusammenbrechen.
-Von Tim Borchert, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: 12.11.2026
+Von Tim Borchert, Mastering Engineer, Student der Systematischen Musikwissenschaft und Medienwissenschaft (Universität Hamburg) · Veröffentlicht am 5. Oktober 2026 · Zuletzt aktualisiert: 24.11.2026
+### Metal-Lautheit in Zahlen
+Die am häufigsten gefragten Werte, jeweils mit Quelle. Die Messwerte stammen aus unserer eigenen Analyse veröffentlichter Platten (Methode und alle Tabellen).
+KennzahlWertQuelle
+Wiedergabe-Referenz bei Spotify−14 LUFS (Laut −11, Leise −19)Spotify for Artists
+Messnorm für LUFS und True PeakITU-R BS.1770-5 (November 2023)ITU
+Zielwert im Rundfunk, zum Vergleich−23 LUFSEBU R 128
+Black-Metal-ReleasesMedian −8,0 LUFS (16 Releases)eigene Messung
+Depressive-Black-Metal-Releases (DSBM)Median −12,7 LUFS (16 Releases)eigene Messung
+Doom- und Gothic-ReleasesMedian −7,5 LUFS (16 Releases)eigene Messung
+Modern- und Industrial-Metal-ReleasesMedian −7,0 LUFS (16 Releases)eigene Messung
+So weit dreht Spotify einen mittleren Black-Metal-Master herunteretwa 6 dBberechnet: −8,0 LUFS auf −14 LUFS
+True-Peak-Obergrenze−1 dBTP, bei Mastern lauter als −14 LUFS −2 dBTPSpotify for Artists
+Spotify im Wortlaut (englisches Original)
+“We adjust tracks to -14 dB LUFS, according to the ITU 1770 standard.”
+Spotify for Artists, Loudness normalization: support.spotify.com
+Sinngemäß: Spotify gleicht Tracks nach der Norm ITU 1770 auf −14 LUFS an. Dichte Master sind keine Eigenheit von Metal. Eine akustische Analyse von Musikaufnahmen ergab, dass Ausschnitte aus populären Genres wie Rock oder Rap in der Regel einen kleineren Dynamikumfang haben als Ausschnitte aus klassischen Genres (Kirchberger & Russo 2016, Trends in Hearing).
 ### Was LUFS bedeutet und warum es zählt
 Definition
 LUFS (Loudness Units relative to Full Scale) misst die wahrgenommene Lautheit über die Zeit, gewichtet nach dem menschlichen Gehör. Integrated LUFS ist der Durchschnitt über den ganzen Track. Streaming-Plattformen nutzen diesen Wert, um alle Tracks ähnlich laut abzuspielen.
@@ -1171,6 +1210,13 @@ Welchen True Peak sollte ein Metal-Master haben?
 Spotify empfiehlt einen True Peak unter -1 dBTP und unter -2 dBTP, wenn der Master lauter als -14 LUFS integriert ist, weil verlustbehaftete Kodierung Spitzen anheben und Verzerrungen verursachen kann. Für laute Metal-Master ist -1 dBTP eine übliche Obergrenze, niedrigere Werte kommen zum Einsatz, wenn der Codec-Test Clipping zeigt.
 Sollte ich für Bandcamp anders mastern?
 Bandcamp normalisiert nicht. Hörer hören deinen Master genau so, wie er geliefert wurde, und Pegelunterschiede zu anderen Releases sind hörbar. Viele Künstler nutzen überall denselben Master. Wenn dein Streaming-Master eher dynamisch ist, kann eine etwas lautere Bandcamp-Version sinnvoll sein.
+### Quellen
+Plattformwerte, Normen und Messwerte auf dieser Seite stützen sich auf:
+- Spotify for Artists (abgerufen am 24.11.2026): Loudness normalization.
+- International Telecommunication Union (2023): Recommendation ITU-R BS.1770-5: Algorithms to measure audio programme loudness and true-peak audio level.
+- European Broadcasting Union (2023): EBU R 128: Loudness normalisation and permitted maximum level of audio signals (version 5.0).
+- Martin Kirchberger and Frank Russo (2016): Dynamic Range Across Music Genres and the Perception of Dynamic Compression in Hearing-Impaired Listeners. Trends in Hearing 20.
+- Polished: Lautheitsdaten für Metal, eigene Messung von 16 Releases je Genre nach ITU-R BS.1770.
 
 ---
 
