@@ -1685,7 +1685,7 @@ Tools for bands · Code Chaos Audio
 Many problems a mastering engineer finds start much earlier: a fizzy amp tone, a reverb that collapses in mono, a kick and bass that cancel each other. Tim Borchert, who masters every track at Polished, also builds audio plugins under the label Code Chaos Audio. Here they are with screenshots, real demo audio and plain system requirements. Everything is sold on Gumroad, and most plugins have a free demo.
 See all plugins →
 Free: Kick/Bass Scope
-Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 12 November 2026
+Made by Tim Borchert under the label Code Chaos Audio · Sold on Gumroad · Last updated: 24 November 2026
 ### Where each tool fits
 / 01
 #### Writing and demos
@@ -1779,10 +1779,11 @@ Everything in Essentials plus the two instruments: write, demo and mix a song wi
 - Black Metal Tone Kit €9
 - Black Metal Drum Kit €12
 Buy the bundle on Gumroad · €69
-#### Also for black metal: sample and IR packs
-Not plugins, but from the same workshop and live on Gumroad. Both packs are also included in both bundles above.
-- Black Metal Tone Kit (€9): 19 synthesised cab IRs (48 and 44.1 kHz) plus REAPER FX chains for guitar and bass. Works with NAM and any IR loader. The cabs inside Gravesaw are these IRs.
+#### Also for black metal: sample, IR and MIDI packs
+Not plugins, but from the same workshop and live on Gumroad. The Tone Kit and the Drum Kit are also included in both bundles above; MIDI Grooves 2 is sold on its own.
+- Black Metal Tone Kit (€9): 19 synthesised cab IRs (48 and 44.1 kHz) plus REAPER FX chains for guitar and bass. Works with NAM and any IR loader. The cabs inside Gravesaw are these IRs. Since v1.1 it also has 6 “Heavy Bus” chains for loud mixes, built only from REAPER’s own effects (free update for owners).
 - Black Metal Drum Kit (€12): 47 synthesised drum samples and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM. The drums in the Gravesaw and Rimehall demos come from it.
+- Black Metal MIDI Grooves 2 (€9): 74 humanised drum grooves as MIDI, from blasts and gallops through d-beat and doom to fills, transitions, intros and outros, 60 to 240 BPM. Every groove comes in four mappings: General MIDI, the Black Metal Drum Kit (with SFZ), MT Power Drum Kit 2 and DrumGizmo DRSKit. Plain MIDI files, no login, no licence server.
 ### System requirements at a glance
 PluginPriceWindowsmacOSFree demo
 Gravesaw€19YesApple Silicon only, unsignedYes
@@ -1819,7 +1820,7 @@ Tools für Bands · Code Chaos Audio
 Viele Probleme, die beim Mastering auffallen, entstehen viel früher: ein fizziger Amp-Sound, ein Hall, der in Mono zusammenfällt, Kick und Bass, die sich gegenseitig auslöschen. Tim Borchert, der bei Polished jeden Track mastert, baut unter dem Label Code Chaos Audio auch Audio-Plugins. Hier findest du sie mit Screenshots, echter Audio-Demo und klaren Systemangaben. Verkauft wird alles über Gumroad, und für die meisten Plugins gibt es eine Gratis-Demo.
 Alle Plugins ansehen →
 Gratis: Kick/Bass Scope
-Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 12.11.2026
+Entwickelt von Tim Borchert unter dem Label Code Chaos Audio · Verkauf über Gumroad · Zuletzt aktualisiert: 24.11.2026
 ### Wo welches Tool hingehört
 / 01
 #### Songwriting und Demos
@@ -1913,10 +1914,11 @@ Alles aus Essentials plus die zwei Instrumente: einen Song schreiben, als Demo h
 - Black Metal Tone Kit 9 €
 - Black Metal Drum Kit 12 €
 Bundle auf Gumroad kaufen · 69 €
-#### Außerdem für Black Metal: Sample- und IR-Pakete
-Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich. Beide Pakete stecken auch in beiden Bundles oben.
-- Black Metal Tone Kit (9 €): 19 synthetisierte Cab-IRs (48 und 44,1 kHz) plus REAPER-FX-Ketten für Gitarre und Bass. Funktioniert mit NAM und jedem IR-Loader. Die Cabs in Gravesaw sind genau diese IRs.
+#### Außerdem für Black Metal: Sample-, IR- und MIDI-Pakete
+Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich. Tone Kit und Drum Kit stecken auch in beiden Bundles oben, MIDI Grooves 2 gibt es einzeln.
+- Black Metal Tone Kit (9 €): 19 synthetisierte Cab-IRs (48 und 44,1 kHz) plus REAPER-FX-Ketten für Gitarre und Bass. Funktioniert mit NAM und jedem IR-Loader. Die Cabs in Gravesaw sind genau diese IRs. Seit v1.1 kommen 6 „Heavy Bus“-Ketten für laute Mixe dazu, nur aus REAPERs eigenen Effekten (kostenloses Update für Käufer).
 - Black Metal Drum Kit (12 €): 47 synthetisierte Drum-Samples und 30 MIDI-Grooves für Blastbeats, Galopp und Doom, von 60 bis 230 BPM. Die Drums in den Demos von Gravesaw und Rimehall stammen daraus.
+- Black Metal MIDI Grooves 2 (9 €): 74 humanisierte Drum-Grooves als MIDI, von Blasts und Galopp über D-Beat und Doom bis zu Fills, Übergängen, Intros und Outros, 60 bis 240 BPM. Jeder Groove liegt in vier Belegungen vor: General MIDI, Black Metal Drum Kit (mit SFZ), MT Power Drum Kit 2 und DrumGizmo DRSKit. Reine MIDI-Dateien, ohne Login und ohne Lizenzserver.
 ### Systemanforderungen auf einen Blick
 PluginPreisWindowsmacOSGratis-Demo
 Gravesaw19 €JaNur Apple Silicon, unsigniertJa

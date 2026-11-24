@@ -852,11 +852,16 @@ TOOL_ORDER = ['gravesaw', 'rimehall', 'frostfret', 'hoarfell', 'kick-bass-scope'
 # Packs (not plugins) that are live on Gumroad and fit the black metal pages.
 PACKS = [
     dict(slug='black-metal-tone-kit', name='Black Metal Tone Kit', price=9,
-         en='19 synthesised cab IRs (48 and 44.1 kHz) plus REAPER FX chains for guitar and bass. Works with NAM and any IR loader. The cabs inside Gravesaw are these IRs.',
-         de='19 synthetisierte Cab-IRs (48 und 44,1 kHz) plus REAPER-FX-Ketten für Gitarre und Bass. Funktioniert mit NAM und jedem IR-Loader. Die Cabs in Gravesaw sind genau diese IRs.'),
+         en='19 synthesised cab IRs (48 and 44.1 kHz) plus REAPER FX chains for guitar and bass. Works with NAM and any IR loader. The cabs inside Gravesaw are these IRs. Since v1.1 it also has 6 “Heavy Bus” chains for loud mixes, built only from REAPER’s own effects (free update for owners).',
+         de='19 synthetisierte Cab-IRs (48 und 44,1 kHz) plus REAPER-FX-Ketten für Gitarre und Bass. Funktioniert mit NAM und jedem IR-Loader. Die Cabs in Gravesaw sind genau diese IRs. Seit v1.1 kommen 6 „Heavy Bus“-Ketten für laute Mixe dazu, nur aus REAPERs eigenen Effekten (kostenloses Update für Käufer).'),
     dict(slug='black-metal-drum-kit', name='Black Metal Drum Kit', price=12,
          en='47 synthesised drum samples and 30 MIDI grooves for blast beats, gallop and doom, from 60 to 230 BPM. The drums in the Gravesaw and Rimehall demos come from it.',
          de='47 synthetisierte Drum-Samples und 30 MIDI-Grooves für Blastbeats, Galopp und Doom, von 60 bis 230 BPM. Die Drums in den Demos von Gravesaw und Rimehall stammen daraus.'),
+    # 24.11.2026 (Tim: Metal-Produkte über Polished): facts from codechaos-store/products/black-metal-midi-grooves-2
+    # (product.json + description.html), Gumroad 9 EUR live checked 24.11.2026. Not part of the bundles.
+    dict(slug='black-metal-midi-grooves-2', name='Black Metal MIDI Grooves 2', price=9,
+         en='74 humanised drum grooves as MIDI, from blasts and gallops through d-beat and doom to fills, transitions, intros and outros, 60 to 240 BPM. Every groove comes in four mappings: General MIDI, the Black Metal Drum Kit (with SFZ), MT Power Drum Kit 2 and DrumGizmo DRSKit. Plain MIDI files, no login, no licence server.',
+         de='74 humanisierte Drum-Grooves als MIDI, von Blasts und Galopp über D-Beat und Doom bis zu Fills, Übergängen, Intros und Outros, 60 bis 240 BPM. Jeder Groove liegt in vier Belegungen vor: General MIDI, Black Metal Drum Kit (mit SFZ), MT Power Drum Kit 2 und DrumGizmo DRSKit. Reine MIDI-Dateien, ohne Login und ohne Lizenzserver.'),
 ]
 PACK = {p['slug']: p for p in PACKS}
 
@@ -931,6 +936,16 @@ def bundle_schema(b, lang, path):
             "name": f'Code Chaos {b["name"]}', "description": desc, "url": f'{BASE}{path}#bundles',
             "image": f'{BASE}/assets/tools/{b["slug"]}-cover.jpg', "brand": {"@type": "Brand", "name": "Code Chaos Audio"},
             "offers": bundle_offer(b)}
+
+
+def pack_schema(p, lang, path):
+    """schema.org Product + Offer for a pack on the hub (24.11.2026: Polished posts link /tools/ as the way to buy)."""
+    return {"@context": "https://schema.org", "@type": "Product", "@id": f'{BASE}{path}#{p["slug"]}',
+            "name": p['name'], "description": p[lang], "url": f'{BASE}{path}#tl-packs',
+            "brand": {"@type": "Brand", "name": "Code Chaos Audio"},
+            "offers": {"@type": "Offer", "price": f'{p["price"]}.00', "priceCurrency": "EUR",
+                       "availability": "https://schema.org/InStock", "url": f'{GUMROAD}{p["slug"]}',
+                       "seller": {"@id": CCA["@id"]}}}
 
 
 def bundle_card(b, lang):
@@ -1157,8 +1172,8 @@ HUB = {
                   ('Saturation', 'Crucible saturates bass, drums and buses in three bands with five saturation types per band.'),
                   ('Electronic layers', 'Shardstep adds tempo-synced stutter and glitch fills, Chaos FM generates FM leads, basses and stabs.')],
         grid_h='All <em>plugins</em>',
-        packs_h='Also for black metal: <em>sample and IR packs</em>',
-        packs_p='Not plugins, but from the same workshop and live on Gumroad. Both packs are also included in both bundles above.',
+        packs_h='Also for black metal: <em>sample, IR and MIDI packs</em>',
+        packs_p='Not plugins, but from the same workshop and live on Gumroad. The Tone Kit and the Drum Kit are also included in both bundles above; MIDI Grooves 2 is sold on its own.',
         bundles_h='Black Metal Suite: <em>two bundles</em>',
         bundles_p='The black metal tools are also sold together as the Code Chaos Black Metal Suite, in two sizes. Every plugin inside runs on Windows 10/11 and on Apple Silicon Macs (unsigned, no AU). Buying happens on Gumroad.',
         sys_h='System requirements <em>at a glance</em>',
@@ -1189,8 +1204,8 @@ HUB = {
                   ('Sättigung', 'Crucible sättigt Bass, Drums und Busse in drei Bändern, mit fünf Sättigungstypen pro Band.'),
                   ('Elektronische Layer', 'Shardstep liefert taktsynchrone Stutter- und Glitch-Fills, Chaos FM erzeugt FM-Leads, -Bässe und -Stabs.')],
         grid_h='Alle <em>Plugins</em>',
-        packs_h='Außerdem für Black Metal: <em>Sample- und IR-Pakete</em>',
-        packs_p='Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich. Beide Pakete stecken auch in beiden Bundles oben.',
+        packs_h='Außerdem für Black Metal: <em>Sample-, IR- und MIDI-Pakete</em>',
+        packs_p='Keine Plugins, aber aus derselben Werkstatt und auf Gumroad erhältlich. Tone Kit und Drum Kit stecken auch in beiden Bundles oben, MIDI Grooves 2 gibt es einzeln.',
         bundles_h='Black Metal Suite: <em>zwei Bundles</em>',
         bundles_p='Die Black-Metal-Tools gibt es auch zusammen als Code Chaos Black Metal Suite, in zwei Größen. Jedes enthaltene Plugin läuft unter Windows 10/11 und auf Macs mit Apple Silicon (unsigniert, kein AU). Gekauft wird über Gumroad.',
         sys_h='Systemanforderungen <em>auf einen Blick</em>',
@@ -1337,7 +1352,8 @@ def hub_page(lang):
                "url": f"{BASE}{path}", "name": H['title'], "inLanguage": lang,
                "isPartOf": {"@id": f"{BASE}/#website"}, "mainEntity": {"@id": f"{BASE}{path}#plugins"},
                "primaryImageOfPage": f'{BASE}/assets/tools/gravesaw-cover.jpg', "dateModified": TOOLS_TODAY}
-    schemas = [webpage, breadcrumb_schema(crumbs), itemlist] + [bundle_schema(b, lang, path) for b in BUNDLES] + [faq_schema(H['faqs'])]
+    schemas = ([webpage, breadcrumb_schema(crumbs), itemlist] + [bundle_schema(b, lang, path) for b in BUNDLES]
+               + [pack_schema(p, lang, path) for p in PACKS] + [faq_schema(H['faqs'])])
     og_alt = 'Gravesaw by Code Chaos Audio' if lang == 'en' else 'Gravesaw von Code Chaos Audio'
     return page(path=path, lang=lang, title=H['title'], description=H['description'], og_title=H['og_title'],
                 body=body, schemas=schemas, counterpart={'en': '/tools/', 'de': '/de/tools/'},
