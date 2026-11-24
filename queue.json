@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-22T12:00+01:00",
+ "stand": "2026-11-24T08:00+01:00",
  "posts": [
   {
    "id": "2026-11-23-genre_craft",
@@ -61,6 +61,15 @@
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-29-vm_death_carrion_a2_ab.mp4",
    "thumb_offset": 1000
+  },
+  {
+   "id": "2026-11-30-winterpause",
+   "due": "2026-11-30T10:30+01:00",
+   "caption": "The studio is closed for December. 🕯️\n\nFrom 1 December I'm not taking on new projects. I'm taking the month off and I'm back at the desk in January 2027.\n\nBefore the break there are 10 January slots at early-bird prices, until 31 December:\n\n▸ Single €63 instead of €79\n▸ EP €279 instead of €349\n▸ Album €499 instead of €629\n▸ No payment now. You pay after approval in January\n▸ Waitlist slots get mastered first\n\nReserve one on polished.media (choose \"Waitlist January 2027\" in the form) or send me a DM.\n\nThanks to everyone who sent music this year. See you in 2027.\n\n#mastering #masteringengineer #blackmetal #deathmetal #doommetal #gothicmetal #metalcore #extrememetal #undergroundmetal #metalband #newmusic2027 #studiolife",
+   "image_urls": [
+    "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-30-winterpause-portrait.jpg"
+   ],
+   "video_url": null
   }
  ]
 }
