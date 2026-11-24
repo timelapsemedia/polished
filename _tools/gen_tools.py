@@ -10,7 +10,7 @@
 # <bundle>-card.{webp,jpg} (800x450) and <bundle>-cover.jpg for the bundles.
 
 TOOLS_TODAY = '2026-10-21'
-GUMROAD = 'https://timberwolf688.gumroad.com/l/'
+GUMROAD = 'https://shop.codechaos-official.de/l/'
 CCA = {"@type": "Organization", "@id": f"{BASE}/tools/#code-chaos-audio", "name": "Code Chaos Audio",
        "url": "https://codechaos-official.de/", "founder": PERSON}
 
@@ -768,7 +768,7 @@ TOOLS['hoarfell'] = dict(
         caption='Hoarfell on the drum engine with the Studio Kit preset. The mapping panel lists the General MIDI notes.',
         audio_note='Rendered from MIDI by the plugin code, no external effects. In the full mix the guitars come from Frostfret through its built-in amp, and the choir sits low, as a pad behind the guitars.',
         sections=[
-            ('hf-preprod', 'Drums for demos and <em>pre-production</em>', '''    <p>Hoarfell reads the General MIDI drum map: kick on 36, snare on 38, hats on 42, 44 and 46, toms, two crashes, two rides, bell and china. A groove programmed in any DAW, played on an e-kit or taken from the 30 MIDI grooves of the <a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit?utm_source=polished&amp;utm_medium=tools&amp;utm_campaign=hoarfell&amp;utm_content=en" rel="noopener" data-track="tools-black-metal-drum-kit-hoarfell">Black Metal Drum Kit</a> plays right away.</p>
+            ('hf-preprod', 'Drums for demos and <em>pre-production</em>', '''    <p>Hoarfell reads the General MIDI drum map: kick on 36, snare on 38, hats on 42, 44 and 46, toms, two crashes, two rides, bell and china. A groove programmed in any DAW, played on an e-kit or taken from the 30 MIDI grooves of the <a href="https://shop.codechaos-official.de/l/black-metal-drum-kit?utm_source=polished&amp;utm_medium=tools&amp;utm_campaign=hoarfell&amp;utm_content=en" rel="noopener" data-track="tools-black-metal-drum-kit-hoarfell">Black Metal Drum Kit</a> plays right away.</p>
     <ul>
       <li><strong>One engine per instance.</strong> Drums, bass and atmosphere each get their own track. That keeps the demo mixable and gives you clean stems if you want to send <a href="/stem-mastering/">stems to mastering</a>.</li>
       <li><strong>Close mics, overheads and room</strong> per kit, with each drum placed in the overhead pair. Six kits from studio to lo-fi rehearsal tape.</li>
@@ -812,7 +812,7 @@ TOOLS['hoarfell'] = dict(
         caption='Hoarfell auf der Drum-Engine mit dem Preset Studio Kit. Das Mapping-Feld listet die General-MIDI-Noten.',
         audio_note='Vom Plugin-Code aus MIDI gerendert, keine externen Effekte. Im vollen Mix stammen die Gitarren aus Frostfret mit dessen eingebautem Amp, und der Chor liegt leise als Pad hinter den Gitarren.',
         sections=[
-            ('hf-preprod', 'Drums für Demos und <em>Vorproduktion</em>', '''    <p>Hoarfell liest die General-MIDI-Drum-Belegung: Kick auf 36, Snare auf 38, Hi-Hats auf 42, 44 und 46, Toms, zwei Crashes, zwei Rides, Glocke und China. Ein Groove, in einer beliebigen DAW programmiert, auf einem E-Drum eingespielt oder aus den 30 MIDI-Grooves des <a href="https://timberwolf688.gumroad.com/l/black-metal-drum-kit?utm_source=polished&amp;utm_medium=tools&amp;utm_campaign=hoarfell&amp;utm_content=de" rel="noopener" data-track="tools-black-metal-drum-kit-hoarfell">Black Metal Drum Kit</a>, spielt sofort.</p>
+            ('hf-preprod', 'Drums für Demos und <em>Vorproduktion</em>', '''    <p>Hoarfell liest die General-MIDI-Drum-Belegung: Kick auf 36, Snare auf 38, Hi-Hats auf 42, 44 und 46, Toms, zwei Crashes, zwei Rides, Glocke und China. Ein Groove, in einer beliebigen DAW programmiert, auf einem E-Drum eingespielt oder aus den 30 MIDI-Grooves des <a href="https://shop.codechaos-official.de/l/black-metal-drum-kit?utm_source=polished&amp;utm_medium=tools&amp;utm_campaign=hoarfell&amp;utm_content=de" rel="noopener" data-track="tools-black-metal-drum-kit-hoarfell">Black Metal Drum Kit</a>, spielt sofort.</p>
     <ul>
       <li><strong>Eine Engine pro Instanz.</strong> Drums, Bass und Atmosphäre bekommen je eine eigene Spur. So bleibt das Demo mischbar, und du hast saubere Stems, falls du <a href="/de/stem-mastering/">Stems zum Mastering</a> schicken willst.</li>
       <li><strong>Close-Mics, Overheads und Raum</strong> pro Kit, jede Trommel mit eigenem Platz im Overhead-Paar. Sechs Kits vom Studio bis zum Lo-Fi-Probenmitschnitt.</li>
