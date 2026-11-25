@@ -1423,20 +1423,64 @@ URL: https://polished.media/de/mastering-kosten/
 
 Preise · Kosten · Vergleich
 ## Was kostet Mastering? Preise für Song, EP & Album – Online-Mastering ab 79 €
-Kurze Antwort: Professionelles Mastering kostet in Deutschland meist zwischen 50 und 150 € pro Track. KI-Dienste sind günstiger, renommierte Studios teurer. Bei Polished kostet ein Song 79 € inkl. USt., eine EP 349 € und ein Album 629 €, jeweils mit schriftlichem Audio-Audit und unbegrenzten Revisionen.
+Kurze Antwort: Stereo-Mastering kostet bei 29 Studios und Online-Diensten in Deutschland und Österreich im Median 69 € pro Song; die mittlere Hälfte liegt zwischen 55 € und 85 € (Preisspiegel vom 25.11.2026). KI-Dienste sind günstiger, renommierte Studios teurer. Bei Polished kostet ein Song 79 € inkl. USt., eine EP 349 € und ein Album 629 €, jeweils mit schriftlichem Audio-Audit und unbegrenzten Revisionen.
 Festpreis-Angebot anfragen →
 Preise ansehen
-Von Tim Borchert, Mastering Engineer · Zuletzt aktualisiert: 09.11.2026 · Alle Preise Endpreise inkl. 19 % USt.
+Von Tim Borchert, Mastering Engineer · Zuletzt aktualisiert: 25.11.2026 · Alle Preise Endpreise inkl. 19 % USt.
 ### Mastering-Studio-Preise und Online-Mastering-Preise im Vergleich
 Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:
 AnbieterTypischer Preis pro TrackWas du bekommst
 KI- / Automatik-Masteringwenige Euro oder MonatsaboAlgorithmus wendet Lautheit und EQ an, keine Analyse deines Mixes, keine Rückfragen
 Freelancer-Plattformenetwa 15–60 €Stark schwankende Qualität, oft ohne Spezialisierung auf dein Genre
-Spezialisierte Mastering-Studiosetwa 50–150 €Persönlicher Engineer, Revisionen, Erfahrung mit deinem Genre
+Spezialisierte Mastering-StudiosMedian 69 €, mittlere Hälfte 55 €–85 €Persönlicher Engineer, Revisionen, Erfahrung mit deinem Genre
 Renommierte Studiosetwa 100–300 € und mehrBekannte Namen und Räume, oft Aufpreis für Stems, Vinyl und Express
-Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026. Einzelne Anbieter weichen ab.
+KI, Freelancer und renommierte Studios: Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026. Die Zeile „Spezialisierte Mastering-Studios“ ist seit 25.11.2026 gemessen: siehe Preisspiegel.
 Wie hoch der Mastering-Studio-Preis ausfällt, hängt vor allem von Spezialisierung, enthaltenen Revisionen und Formaten ab. Ein seriöser Mastering-Service nennt den Preis vorab als Festpreis inkl. Umsatzsteuer.
 Der günstigste Weg ist nicht automatisch der billigste: Ein Master, der auf Spotify verzerrt oder neben anderen Releases dünn klingt, kostet dich am Ende mehr als ein sauberer Master.
+### Preisspiegel 2026: 29 Mastering-Anbieter in Zahlen
+Statt grober Schätzungen: Für diese Seite habe ich am 25.11.2026 die öffentlichen Preislisten von 29 Mastering-Studios und Online-Diensten aus Deutschland (21) und Österreich (8) einzeln gelesen. Gezählt ist der Listenpreis für Stereo-Mastering eines Songs, so wie er auf der Seite des Anbieters steht.
+KennzahlWert
+Median, Stereo-Mastering je Song69 €
+Mittlere Hälfte der Anbieter55 € bis 85 €
+Spanne39 € bis 150 €
+Median Stem-Mastering je Song (13 Anbieter mit Festpreis)90 €
+Anbieter, die die Zahl der Revisionen nennen19 von 29
+davon mit begrenzten Revisionen17 von 19 (Median: 1 Revision)
+davon mit unbegrenzten Revisionen2 von 19
+Anbieter, die eine Lieferzeit nennen8 von 29
+Erhebung: Tim Borchert, 25.11.2026. Listenpreise wie angegeben, teils mit, teils ohne Umsatzsteuer; Aktionspreise nicht gezählt. Anbieter ohne eindeutigen Preis je Song sind nicht enthalten.
+Was das für deinen Vergleich heißt: Der Preis allein sagt wenig. Bei 17 von 19 Anbietern, die es offenlegen, ist nach 1 bis 3 Korrekturen Schluss, weitere Runden sind dann nicht im Preis enthalten. Polished liegt mit 79 € je Song im oberen Mittelfeld (17 von 29 Anbietern sind günstiger) und enthält dafür, was im Markt selten ist: unbegrenzte Revisionen und ein schriftliches Audit deines Mixes vor dem Mastering.
+Alle 29 Anbieter mit Quelle anzeigen
+AnbieterLandStereo je SongRevisionen
+Media & MerchDE39 € (ab)1
+Faceline RecordsDE39 €1
+Tonstudio VolkmannDE40 €–
+duophonicDE48 €–
+Takt StudiosDE50 € (ab)1
+Danov Music StudioDE50 € (ab)1-2
+myaudio.proDE50 €3
+Tonstudio Leipzig (Shop, Fabian Günther)DE55 €2
+Audio Mastering ServiceDE56 €–
+mastrng.comDE60 €unbegrenzt
+Vista Vision (Wien)AT60 € (ab)–
+Deine Mutter StudioAT60 €–
+RPM StudioAT60 €–
+Peak-StudiosDE65 €2
+Tonstudio LüneburgDE69 €2
+Frederik GroborschDE70 €unbegrenzt
+SONIC Mastering StudioDE75 €–
+art4real StudioDE80 € (ab)–
+All Audio ProductionsDE80 € (ab)3
+Superton (Wien)AT80 €1
+Hinterhof Records (Wien)AT80 €1
+Mondbasis HamburgDE85 €–
+Silent SoundDE85 €1
+meinhomestudio-servicesDE94 €2
+Film und Ton (punchline studio)DE95 € (ab)2
+bandrecording.atAT100 € (ab)1
+King Records (Wien)AT100 €–
+HEAST! Audio-Produktion (Wien)AT105 €2
+Tonstudio B12 (Nürnberg)DE150 €1
 ### Mastering-Preise bei Polished
 Single · Stereo
 79€
@@ -1501,7 +1545,7 @@ Bei Polished gibt es kein Abo, keine Bearbeitungsgebühr und keine Aufpreise fü
 Festpreis-Angebot anfragen →
 ### Mastering-Kosten: FAQ
 Was kostet professionelles Mastering?
-Professionelles Mastering kostet in Deutschland grob zwischen 50 und 150 € pro Track, bei renommierten Studios auch 200 € und mehr. Automatische KI-Dienste sind deutlich günstiger, liefern aber keine individuelle Analyse. Bei Polished kostet Stereo-Mastering 79 € pro Track inkl. 19 % USt., inklusive schriftlichem Audio-Audit und unbegrenzten Revisionen.
+Stereo-Mastering kostet bei 29 Studios und Online-Diensten in Deutschland und Österreich im Median 69 € pro Song, die mittlere Hälfte liegt zwischen 55 € und 85 €, die Spanne reicht von 39 € bis 150 € (Erhebung vom 25.11.2026). Automatische KI-Dienste sind deutlich günstiger, liefern aber keine individuelle Analyse. Bei Polished kostet Stereo-Mastering 79 € pro Track inkl. 19 % USt., inklusive schriftlichem Audio-Audit und unbegrenzten Revisionen.
 Was kostet Online-Mastering?
 Online-Mastering-Preise reichen von wenigen Euro oder einem Monatsabo bei KI-Diensten über etwa 15–60 € auf Freelancer-Plattformen bis etwa 50–150 € pro Track bei spezialisierten Online-Mastering-Studios. Der Ablauf ist überall ähnlich: Du schickst deinen Mix online, etwa per WeTransfer oder Dropbox, und bekommst den Master per Download-Link zurück. Bei Polished kostet Online-Mastering 79 € pro Track inkl. USt.; das schriftliche Audio-Audit, Exporte für Streaming und Bandcamp und unbegrenzte Revisionen sind im Preis enthalten.
 Was kostet es, einen Song mastern zu lassen?
