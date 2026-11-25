@@ -4,10 +4,94 @@ COST_DE = '/de/mastering-kosten/'
 COST_EN = '/mastering-cost/'
 COST_PAIR = {'en': COST_EN, 'de': COST_DE}
 
+# ---------------------------------------------------------------- Preisspiegel (gemessen, nicht geschätzt)
+# Quelle: _tools/daten/preisspiegel_mastering.json, erhoben 25.11.2026 auf den Anbieterseiten selbst
+# (Rohdaten mit Fundstellen: C:/unternehmen/daten/preisspiegel_mastering_2026-11-25.json). Alle Zahlen auf der
+# Seite werden hier berechnet. Grund: belegte Statistiken und Quellen erhöhen die Sichtbarkeit in KI-Antworten
+# (Aggarwal et al. 2024, KDD, DOI 10.1145/3637528.3671900) und liefern den Referenzwert für den Preisvergleich.
+import statistics as _st
+
+_PS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'daten', 'preisspiegel_mastering.json'),
+                     encoding='utf-8'))
+_PS_EUR = [a for a in _PS['anbieter'] if a.get('sicher') and a.get('waehrung') == 'EUR']
+_PS_P = sorted(float(a['preis_stereo_song']) for a in _PS_EUR)
+_PS_Q = _st.quantiles(_PS_P, n=4, method='inclusive')
+_PS_REV = [a['revisionen_inklusive'] for a in _PS_EUR if a.get('revisionen_inklusive') not in (None, 'unklar')]
+_PS_REV_BEGRENZT = [int(str(r).split('-')[0]) for r in _PS_REV if r != 'unbegrenzt']
+_PS_STEM = sorted(float(a['preis_stem_song']) for a in _PS_EUR if isinstance(a.get('preis_stem_song'), (int, float)))
+_PS_LZ = sum(1 for a in _PS_EUR if a.get('lieferzeit') and str(a['lieferzeit']).lower() not in ('unklar', 'none'))
+
+
+def _eur(v):
+    return f"{v:.0f} €" if float(v).is_integer() else f"{v:.2f} €".replace('.', ',')
+
+
+PS = {
+    'n': len(_PS_P), 'de': sum(a['land'] == 'DE' for a in _PS_EUR), 'at': sum(a['land'] == 'AT' for a in _PS_EUR),
+    'min': _eur(_PS_P[0]), 'q1': _eur(_PS_Q[0]), 'median': _eur(_st.median(_PS_P)), 'q3': _eur(_PS_Q[2]),
+    'max': _eur(_PS_P[-1]), 'unter79': sum(p < 79 for p in _PS_P),
+    'rev_n': len(_PS_REV), 'rev_begrenzt': len(_PS_REV_BEGRENZT), 'rev_median': _st.median(_PS_REV_BEGRENZT),
+    'rev_unbegrenzt': len(_PS_REV) - len(_PS_REV_BEGRENZT),
+    'stem_n': len(_PS_STEM), 'stem_median': _eur(_st.median(_PS_STEM)), 'lz': _PS_LZ,
+    'stand': '25.11.2026',
+}
+_PS_ZEILEN = '\n'.join(
+    f'            <tr><td><a href="{a["url"]}" rel="nofollow noopener" target="_blank">{a["name"]}</a></td>'
+    f'<td>{a["land"]}</td><td>{_eur(float(a["preis_stereo_song"]))}{" (ab)" if a.get("preis_art") == "ab" else ""}</td>'
+    f'<td>{a["revisionen_inklusive"] if a.get("revisionen_inklusive") not in (None, "unklar") else "–"}</td></tr>'
+    for a in sorted(_PS_EUR, key=lambda a: float(a['preis_stereo_song'])))
+PS_SEKTION_DE = f'''<section class="content-section alt" id="preisspiegel" aria-labelledby="cd-preisspiegel">
+  <div class="wrap prose-wrap">
+    <h2 id="cd-preisspiegel">Preisspiegel {PS['stand'][-4:]}: <em>{PS['n']} Mastering-Anbieter in Zahlen</em></h2>
+    <p>Statt grober Schätzungen: Für diese Seite habe ich am {PS['stand']} die öffentlichen Preislisten von {PS['n']} Mastering-Studios und Online-Diensten aus Deutschland ({PS['de']}) und Österreich ({PS['at']}) einzeln gelesen. Gezählt ist der Listenpreis für Stereo-Mastering eines Songs, so wie er auf der Seite des Anbieters steht.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Kennzahl</th><th>Wert</th></tr></thead>
+        <tbody>
+          <tr><td>Median, Stereo-Mastering je Song</td><td><strong>{PS['median']}</strong></td></tr>
+          <tr><td>Mittlere Hälfte der Anbieter</td><td>{PS['q1']} bis {PS['q3']}</td></tr>
+          <tr><td>Spanne</td><td>{PS['min']} bis {PS['max']}</td></tr>
+          <tr><td>Median Stem-Mastering je Song ({PS['stem_n']} Anbieter mit Festpreis)</td><td>{PS['stem_median']}</td></tr>
+          <tr><td>Anbieter, die die Zahl der Revisionen nennen</td><td>{PS['rev_n']} von {PS['n']}</td></tr>
+          <tr><td>davon mit begrenzten Revisionen</td><td>{PS['rev_begrenzt']} von {PS['rev_n']} (Median: {PS['rev_median']:g} Revision)</td></tr>
+          <tr><td>davon mit unbegrenzten Revisionen</td><td>{PS['rev_unbegrenzt']} von {PS['rev_n']}</td></tr>
+          <tr><td>Anbieter, die eine Lieferzeit nennen</td><td>{PS['lz']} von {PS['n']}</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">Erhebung: Tim Borchert, {PS['stand']}. Listenpreise wie angegeben, teils mit, teils ohne Umsatzsteuer; Aktionspreise nicht gezählt. Anbieter ohne eindeutigen Preis je Song sind nicht enthalten.</p>
+    <p><strong>Was das für deinen Vergleich heißt:</strong> Der Preis allein sagt wenig. Bei {PS['rev_begrenzt']} von {PS['rev_n']} Anbietern, die es offenlegen, ist nach {min(_PS_REV_BEGRENZT)} bis {max(_PS_REV_BEGRENZT)} Korrekturen Schluss, weitere Runden sind dann nicht im Preis enthalten. Polished liegt mit 79 € je Song im oberen Mittelfeld ({PS['unter79']} von {PS['n']} Anbietern sind günstiger) und enthält dafür, was im Markt selten ist: unbegrenzte Revisionen und ein schriftliches Audit deines Mixes vor dem Mastering.</p>
+    <details>
+      <summary>Alle {PS['n']} Anbieter mit Quelle anzeigen</summary>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Anbieter</th><th>Land</th><th>Stereo je Song</th><th>Revisionen</th></tr></thead>
+          <tbody>
+{_PS_ZEILEN}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </div>
+</section>'''
+PS_DATASET = {
+    "@context": "https://schema.org", "@type": "Dataset", "@id": f"{BASE}{COST_DE}#preisspiegel",
+    "name": f"Preisspiegel Mastering {PS['stand'][-4:]}: Stereo-Mastering je Song in Deutschland und Österreich",
+    "description": f"Listenpreise für Stereo-Mastering je Song von {PS['n']} Anbietern (DE {PS['de']}, AT {PS['at']}), "
+                   f"erhoben am {PS['stand']}: Median {PS['median']}, mittlere Hälfte {PS['q1']} bis {PS['q3']}, "
+                   f"Spanne {PS['min']} bis {PS['max']}.",
+    "inLanguage": "de", "temporalCoverage": "2026-11-25", "spatialCoverage": ["Deutschland", "Österreich"],
+    "variableMeasured": ["Listenpreis Stereo-Mastering je Song (EUR)", "Listenpreis Stem-Mastering je Song (EUR)",
+                         "enthaltene Revisionen", "genannte Lieferzeit"],
+    "measurementTechnique": "Öffentliche Preislisten der Anbieter einzeln gelesen; nur eindeutige Preise je Song",
+    "creator": {"@type": "Person", "@id": f"{BASE}/#tim-borchert", "name": "Tim Borchert"},
+    "isAccessibleForFree": True,
+}
+
 # ---------------------------------------------------------------- DE
 CD_TITLE = 'Online-Mastering Preise & Kosten: ab 79 € | Polished'
 CD_FAQS = [
-    ('Was kostet professionelles Mastering?', 'Professionelles Mastering kostet in Deutschland grob zwischen 50 und 150 € pro Track, bei renommierten Studios auch 200 € und mehr. Automatische KI-Dienste sind deutlich günstiger, liefern aber keine individuelle Analyse. Bei Polished kostet Stereo-Mastering 79 € pro Track inkl. 19 % USt., inklusive schriftlichem Audio-Audit und unbegrenzten Revisionen.'),
+    ('Was kostet professionelles Mastering?', f'Stereo-Mastering kostet bei {PS["n"]} Studios und Online-Diensten in Deutschland und Österreich im Median {PS["median"]} pro Song, die mittlere Hälfte liegt zwischen {PS["q1"]} und {PS["q3"]}, die Spanne reicht von {PS["min"]} bis {PS["max"]} (Erhebung vom {PS["stand"]}). Automatische KI-Dienste sind deutlich günstiger, liefern aber keine individuelle Analyse. Bei Polished kostet Stereo-Mastering 79 € pro Track inkl. 19 % USt., inklusive schriftlichem Audio-Audit und unbegrenzten Revisionen.'),
     ('Was kostet Online-Mastering?', 'Online-Mastering-Preise reichen von wenigen Euro oder einem Monatsabo bei KI-Diensten über etwa 15–60 € auf Freelancer-Plattformen bis etwa 50–150 € pro Track bei spezialisierten Online-Mastering-Studios. Der Ablauf ist überall ähnlich: Du schickst deinen Mix online, etwa per WeTransfer oder Dropbox, und bekommst den Master per Download-Link zurück. Bei Polished kostet Online-Mastering 79 € pro Track inkl. USt.; das schriftliche Audio-Audit, Exporte für Streaming und Bandcamp und unbegrenzte Revisionen sind im Preis enthalten.'),
     ('Was kostet es, einen Song mastern zu lassen?', 'Für einen einzelnen Song (Stereo-Mastering) zahlst du bei Polished 79 € inkl. USt., mit Stems 129 €. Darin enthalten sind ein schriftliches Audio-Audit, Exporte für Streaming und Bandcamp, Lieferung in 48–72 Stunden und unbegrenzte Revisionen. Wer drei Singles zusammen bucht, zahlt 73 € pro Single.'),
     ('Was kostet Mastering für eine EP oder ein Album?', 'Bei Polished kostet eine EP mit bis zu 5 Tracks 349 € (46 € günstiger als 5 Singles) und ein Album mit bis zu 10 Tracks 629 € (161 € günstiger als 10 Singles). Beide Pakete enthalten ein Audit pro Track und einen Konsistenz-Durchgang, damit das Release wie aus einem Guss klingt.'),
@@ -23,7 +107,7 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
   <div class="wrap">
     <div class="eyebrow">Preise · Kosten · Vergleich</div>
     <h1>Was kostet Mastering? <em>Preise für Song, EP &amp; Album – Online-Mastering ab 79 €</em></h1>
-    <p class="lead"><strong>Kurze Antwort: Professionelles Mastering kostet in Deutschland meist zwischen 50 und 150 € pro Track.</strong> KI-Dienste sind günstiger, renommierte Studios teurer. Bei Polished kostet ein Song 79 € inkl. USt., eine EP 349 € und ein Album 629 €, jeweils mit schriftlichem Audio-Audit und unbegrenzten Revisionen.</p>
+    <p class="lead"><strong>Kurze Antwort: Stereo-Mastering kostet bei {PS['n']} Studios und Online-Diensten in Deutschland und Österreich im Median {PS['median']} pro Song; die mittlere Hälfte liegt zwischen {PS['q1']} und {PS['q3']}</strong> (<a href="#preisspiegel">Preisspiegel vom {PS['stand']}</a>). KI-Dienste sind günstiger, renommierte Studios teurer. Bei Polished kostet ein Song 79 € inkl. USt., eine EP 349 € und ein Album 629 €, jeweils mit schriftlichem Audio-Audit und unbegrenzten Revisionen.</p>
     <div class="cta-row">
       <a href="/de/#kontakt" class="cta-btn" data-track="de-cost-hero">Festpreis-Angebot anfragen →</a>
       <a href="#preise-polished" class="cta-btn outline">Preise ansehen</a>
@@ -31,22 +115,23 @@ cd_body = f'''{breadcrumb_html([('Startseite', f'{BASE}/de/'), ('Mastering Koste
     <p class="meta-line">Von <a href="/de/#tim">Tim Borchert</a>, Mastering Engineer · Zuletzt aktualisiert: %%STAND%% · Alle Preise Endpreise inkl. 19 % USt.</p>
   </div>
 </header>
-{sec('cd-markt', 'Mastering-Studio-Preise und Online-Mastering-Preise <em>im Vergleich</em>', """    <p>Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:</p>
+{sec('cd-markt', 'Mastering-Studio-Preise und Online-Mastering-Preise <em>im Vergleich</em>', f"""    <p>Die Spanne ist groß, weil sehr unterschiedliche Leistungen unter „Mastering“ verkauft werden. Grobe Richtwerte pro Track:</p>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Anbieter</th><th>Typischer Preis pro Track</th><th>Was du bekommst</th></tr></thead>
         <tbody>
           <tr><td>KI- / Automatik-Mastering</td><td>wenige Euro oder Monatsabo</td><td>Algorithmus wendet Lautheit und EQ an, keine Analyse deines Mixes, keine Rückfragen</td></tr>
           <tr><td>Freelancer-Plattformen</td><td>etwa 15–60 €</td><td>Stark schwankende Qualität, oft ohne Spezialisierung auf dein Genre</td></tr>
-          <tr><td>Spezialisierte Mastering-Studios</td><td>etwa 50–150 €</td><td>Persönlicher Engineer, Revisionen, Erfahrung mit deinem Genre</td></tr>
+          <tr><td>Spezialisierte Mastering-Studios</td><td>Median {PS['median']}, mittlere Hälfte {PS['q1']}–{PS['q3']}</td><td>Persönlicher Engineer, Revisionen, Erfahrung mit deinem Genre</td></tr>
           <tr><td>Renommierte Studios</td><td>etwa 100–300 € und mehr</td><td>Bekannte Namen und Räume, oft Aufpreis für Stems, Vinyl und Express</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="table-note">Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026. Einzelne Anbieter weichen ab.</p>
+    <p class="table-note">KI, Freelancer und renommierte Studios: Richtwerte nach öffentlich einsehbaren Preislisten, Stand Oktober 2026. Die Zeile „Spezialisierte Mastering-Studios“ ist seit {PS['stand']} gemessen: siehe <a href="#preisspiegel">Preisspiegel</a>.</p>
     <p>Wie hoch der Mastering-Studio-Preis ausfällt, hängt vor allem von Spezialisierung, enthaltenen Revisionen und Formaten ab. Ein seriöser Mastering-Service nennt den Preis vorab als Festpreis inkl. Umsatzsteuer.</p>
     <p>Der günstigste Weg ist nicht automatisch der billigste: Ein Master, der auf Spotify verzerrt oder neben anderen Releases dünn klingt, kostet dich am Ende mehr als ein sauberer Master.</p>""")}
-<section class="content-section alt" id="preise-polished" aria-labelledby="cd-polished">
+{PS_SEKTION_DE}
+<section class="content-section" id="preise-polished" aria-labelledby="cd-polished">
   <div class="wrap">
     <h2 id="cd-polished">Mastering-Preise <em>bei Polished</em></h2>
 {PRICES_DE}
@@ -125,9 +210,10 @@ cd_schemas = [
      "publisher": BIZ, "mainEntityOfPage": {"@id": f"{BASE}{COST_DE}#webpage"}},
     angebots_schema(COST_DE, 'Online-Mastering für Metal: Preise', 'Online-Mastering mit schriftlichem Audio-Audit und unbegrenzten Revisionen: Song ab 79 €, Stems 129 €, EP 349 €, Album 629 €, Endpreise inkl. 19 % USt.', lang='de'),
     faq_schema(CD_FAQS),
+    PS_DATASET,
 ]
 write(COST_DE, page(path=COST_DE, lang='de', title=CD_TITLE,
-      description='Was kostet Mastering? Meist 50–150 € pro Track im Studio, KI-Dienste weniger. Preise für Song, EP, Album, Stems und Vinyl. Polished: ab 79 € inkl. USt.',
+      description=f'Was kostet Mastering? Median {PS["median"]} pro Song bei {PS["n"]} Anbietern (DE/AT, Preisspiegel 11/2026). Kosten für Song, EP, Album, Stems. Polished ab 79 €.',
       og_title='Was kostet Mastering? — Polished', body=cd_body, schemas=cd_schemas, counterpart=COST_PAIR, typ='article'))
 
 # ---------------------------------------------------------------- EN
