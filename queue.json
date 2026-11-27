@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-26T12:15+01:00",
+ "stand": "2026-11-27T09:15+01:00",
  "posts": [
   {
    "id": "2026-11-27-vm_frostbound_ab",
@@ -27,6 +27,14 @@
    "thumb_offset": 1000
   },
   {
+   "id": "2026-11-30-vm_black_hoarfrost_d1_flip",
+   "due": "2026-11-30T16:30+01:00",
+   "caption": "Your black metal mix: -19 LUFS.\n\nI pulled 160 to 315 Hz up 4.4 dB, because that's where a black metal riff keeps its weight, and I gave the sides 2.6 dB more room so the wall opens up around the vocals.\n\nLevel goes from -18.7 LUFS on the mix to -12.7 on the master. Hear it again on the loop.\n\nIt's Hoarfrost Vigil by Vesper Mortis.\n\nWhat did you hear first, the width or the low mids?\n\n#blackmetal #mastering #metalmastering #mixingmastering #audioengineering",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-11-30-vm_black_hoarfrost_d1_flip.mp4",
+   "thumb_offset": 1000
+  },
+  {
    "id": "2026-11-30-winterpause",
    "due": "2026-11-30T10:30+01:00",
    "caption": "The studio is closed for December. 🕯️\n\nFrom 1 December I'm not taking on new projects. I'm taking the month off and I'm back at the desk in January 2027.\n\nBefore the break there are 10 January slots at early-bird prices, until 31 December:\n\n▸ Single €63 instead of €79\n▸ EP €279 instead of €349\n▸ Album €499 instead of €629\n▸ No payment now. You pay after approval in January\n▸ Waitlist slots get mastered first\n\nReserve one on polished.media (choose \"Waitlist January 2027\" in the form) or send me a DM.\n\nThanks to everyone who sent music this year. See you in 2027.\n\n#mastering #masteringengineer #blackmetal #deathmetal #doommetal #gothicmetal #metalcore #extrememetal #undergroundmetal #metalband #newmusic2027 #studiolife",
@@ -34,6 +42,30 @@
     "https://raw.githubusercontent.com/timelapsemedia/polished/social-assets/img/2026-11-30-winterpause-portrait.jpg"
    ],
    "video_url": null
+  },
+  {
+   "id": "2026-12-01-vm_gothic_velvet_a_d_blindtest",
+   "due": "2026-12-01T10:30+01:00",
+   "caption": "Same level. One is mastered.\n\nNo loudness trick here. I matched both clips to -13.6 LUFS before cutting this, so the only thing left to hear is what the master changed: 10000 to 16000 Hz comes down 3.6 dB and 160 to 315 Hz comes up 2.7 dB.\n\nThe answer shows up at 23 seconds.\n\nIt's Velvet Requiem by Vesper Mortis.\n\nDid you pick A or B before the reveal?\n\n#gothicmetal #mastering #metalmastering #mixingmastering #audioengineering",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-01-vm_gothic_velvet_a_d_blindtest.mp4",
+   "thumb_offset": 1000
+  },
+  {
+   "id": "2026-12-02-vm_death_carrion_b_d_lowmids",
+   "due": "2026-12-02T10:30+01:00",
+   "caption": "160 to 630 Hz, mix vs master.\n\nLow mids only, first. For the first 14 seconds I only let 160 to 630 Hz through, both clips at the same overall level, and the master's got 3.9 dB more down there. That's the weight a thin death metal mix is missing.\n\nThen I bring in the full song: your mix as delivered at -19.6 LUFS, my master at -10.4.\n\nIt's Carrion Liturgy by Vesper Mortis.\n\nWas it easier to hear in the low mids alone or in the full mix?\n\n#deathmetal #mastering #metalmastering #mixingmastering #audioengineering",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-02-vm_death_carrion_b_d_lowmids.mp4",
+   "thumb_offset": 1000
+  },
+  {
+   "id": "2026-12-03-vm_black_frostbound_b_d_seiten",
+   "due": "2026-12-03T10:30+01:00",
+   "caption": "Your black metal mix is too narrow.\n\nOnly the sides, for 22 seconds. That's everything that differs between left and right, and next to the middle the master has 2.8 dB more of it, so the guitars stop sitting on top of the vocals and wrap around them.\n\nThen the full stereo master at -12.5 LUFS.\n\nIt's Frostbound Sepulchre by Vesper Mortis.\n\nDid the sides jump out more on headphones or speakers?\n\n#blackmetal #mastering #metalmastering #mixingmastering #audioengineering",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-03-vm_black_frostbound_b_d_seiten.mp4",
+   "thumb_offset": 1000
   }
  ]
 }
