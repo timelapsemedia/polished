@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-27T09:15+01:00",
+ "stand": "2026-11-27T11:15+01:00",
  "posts": [
   {
    "id": "2026-11-27-vm_frostbound_ab",
@@ -65,6 +65,14 @@
    "caption": "Your black metal mix is too narrow.\n\nOnly the sides, for 22 seconds. That's everything that differs between left and right, and next to the middle the master has 2.8 dB more of it, so the guitars stop sitting on top of the vocals and wrap around them.\n\nThen the full stereo master at -12.5 LUFS.\n\nIt's Frostbound Sepulchre by Vesper Mortis.\n\nDid the sides jump out more on headphones or speakers?\n\n#blackmetal #mastering #metalmastering #mixingmastering #audioengineering",
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-03-vm_black_frostbound_b_d_seiten.mp4",
+   "thumb_offset": 1000
+  },
+  {
+   "id": "2026-12-04-vm_gothic_velvet_b_d_gleichpegel",
+   "due": "2026-12-04T10:30+01:00",
+   "caption": "Both at the same level. Listen.\n\nLouder always wins. So I set both clips to -13.4 LUFS, measured, and whatever you still hear after that is tone, not volume, because in the master 1250 to 2500 Hz comes down 3.5 dB and 2500 to 5000 Hz comes down 3.2 dB.\n\nIf it still sounds better here, it isn't the level.\n\nIt's Velvet Requiem by Vesper Mortis.\n\nDid the master still win at the same level?\n\n#gothicmetal #mastering #metalmastering #mixingmastering #audioengineering",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-04-vm_gothic_velvet_b_d_gleichpegel.mp4",
    "thumb_offset": 1000
   }
  ]
