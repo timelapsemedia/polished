@@ -122,20 +122,27 @@ AUTOR_TEXT = {
                bio='Tim Borchert masters every track at Polished personally. He studies Systematic Musicology and Media Studies '
                    'at the University of Hamburg. Before that he trained for two years as an event technician, mixed a rock band '
                    'live and released his own music on labels in Mexico, India and Turkey.',
-               tools='Under the label Code Chaos Audio he also builds production tools for bands.'),
+               tools='Under the label Code Chaos Audio he also builds production tools for bands.',
+               # typ='auto' (automatic services, e.g. Suno Mastering): never "masters every track personally"
+               auto='Built by', bio_auto='Tim Borchert built and tuned the automatic mastering engine behind this service; '
+                   'the hand-mastering projects at Polished he masters personally. He studies Systematic Musicology and '
+                   'Media Studies at the University of Hamburg.'),
     'de': dict(article='Geschrieben von', produkt='Entwickelt von', home='Gemastert von', link='/de/#tim', mehr='Mehr über Tim',
                stand='Zuletzt aktualisiert', alt='Porträt von Tim Borchert, Mastering Engineer bei Polished',
                bio='Tim Borchert mastert jeden Track bei Polished persönlich. Er studiert Systematische Musikwissenschaft und '
                    'Medienwissenschaft an der Universität Hamburg. Davor hat er zwei Jahre eine Ausbildung zur Fachkraft für '
                    'Veranstaltungstechnik gemacht, eine Rockband live abgemischt und eigene Musik auf Labels in Mexiko, Indien '
                    'und der Türkei veröffentlicht.',
-               tools='Unter dem Label Code Chaos Audio baut er außerdem Produktions-Tools für Bands.'),
+               tools='Unter dem Label Code Chaos Audio baut er außerdem Produktions-Tools für Bands.',
+               auto='Entwickelt von', bio_auto='Tim Borchert hat die automatische Mastering-Engine hinter diesem Dienst '
+                   'gebaut und abgestimmt; die Handmastering-Projekte bei Polished mastert er persönlich. Er studiert '
+                   'Systematische Musikwissenschaft und Medienwissenschaft an der Universität Hamburg.'),
 }
 
 
 def autorbox_html(lang, typ, geaendert):
     a = AUTOR_TEXT[lang]
-    bio = a['bio'] + (' ' + a['tools'] if typ == 'produkt' else '')
+    bio = a['bio_auto'] if typ == 'auto' else a['bio'] + (' ' + a['tools'] if typ == 'produkt' else '')
     return f'''<section class="author-section" aria-label="{a[typ]} Tim Borchert">
   <div class="wrap">
     <aside class="author-box">
@@ -161,7 +168,7 @@ def geo_ergaenzen(path, lang, title, description, body, schemas, typ, og_src):
     veroeffentlicht, geaendert = seitenstand(path, title, description, body)
     body = body.replace('%%STAND%%', f'<time datetime="{geaendert}">{datum_text(geaendert, lang)}</time>')
     body, eintraege = h2_mit_ids(body)
-    if typ in ('article', 'produkt'):
+    if typ in ('article', 'produkt', 'auto'):
         m = re.search(r'</h1>.*?(\n  </div>\n</header>)', body, re.S)
         assert m and len(eintraege) >= 3, f'{path}: hero end or H2s not found for the table of contents'
         body = body[:m.start(1)] + '\n' + toc_html(eintraege, lang) + body[m.start(1):]

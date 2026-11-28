@@ -21,6 +21,16 @@ FONTS = 'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..1
 BIZ = {"@id": f"{BASE}/#business"}
 PERSON = {"@id": f"{BASE}/#tim-borchert"}
 
+# Suno Mastering (gen_suno.py): live mode (plans, prices, start link, nav tab) only from 1 Jan 2027 AND after
+# _tools/suno_status.json says live=true. Missing/broken status file -> announcement + waitlist (fail-closed).
+import datetime as _dt
+try:
+    with open(os.path.join(ROOT, '_tools', 'suno_status.json'), encoding='utf-8') as _f:
+        SUNO_STATUS = json.load(_f)
+except (OSError, ValueError):
+    SUNO_STATUS = {}
+SUNO_LIVE = _dt.date.today() >= _dt.date(2027, 1, 1) and SUNO_STATUS.get('live') is True
+
 # GEO building blocks (TOC, author box, last-updated date, Article schema, data tables); used by page(typ=...)
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_geo.py'), encoding='utf-8').read())
 # Measured loudness data (genre_index.json, Markdown sources in _tools/daten/; Grok #72)
@@ -94,13 +104,13 @@ def nav(lang='en', current='', counterpart=None):
     if lang == 'de':
         links = [('/de/#audit', 'Audit'), ('/de/#genres', 'Genres'), ('/de/#preise', 'Preise'),
                  ('/de/mastering-kosten/', 'Kosten-Vergleich'), ('/de/metal-mastering-lautstaerke/', 'Lautstärke-Guide'),
-                 ('/de/tools/', 'Tools')]
+                 ('/de/tools/', 'Tools')] + ([('/de/suno-mastering/', 'Suno')] if SUNO_LIVE else [])
         cta = ('/de/#kontakt', 'Audit anfragen →', 'Anfragen →')
         toggle = 'Menü öffnen'
     else:
         links = [('/#audit', 'Audit'), ('/#genres', 'Genres'), ('/#packages', 'Packages'),
                  ('/mastering-cost/', 'Cost Guide'), ('/metal-mastering-loudness/', 'Loudness Guide'),
-                 ('/tools/', 'Tools')]
+                 ('/tools/', 'Tools')] + ([('/suno-mastering/', 'Suno')] if SUNO_LIVE else [])
         cta = ('/#contact', 'Request Audit →', 'Audit →')
         toggle = 'Toggle menu'
     lis = []
@@ -150,6 +160,7 @@ def footer(lang='en'):
           <li><a href="/de/mastering-kosten/">Mastering-Kosten</a></li>
           <li><a href="/de/stem-mastering/">Stem-Mastering</a></li>
           <li><a href="/de/mastering-fuer-labels/">Mastering für Labels</a></li>
+          <li><a href="/de/suno-mastering/">Suno-Mastering{'' if SUNO_LIVE else ' (ab 2027)'}</a></li>
           <li><a href="/de/metal-mastering-lautstaerke/">Lautstärke-Guide</a></li>
           <li><a href="/de/tools/">Tools für Bands</a></li>
           <li><a href="/de/#kontakt">Kontakt</a></li>
@@ -192,6 +203,7 @@ def footer(lang='en'):
           <li><a href="/mastering-cost/">Mastering Cost Guide</a></li>
           <li><a href="/stem-mastering/">Stem Mastering Guide</a></li>
           <li><a href="/mastering-for-labels/">Mastering for Labels</a></li>
+          <li><a href="/suno-mastering/">Suno Mastering{'' if SUNO_LIVE else ' (2027)'}</a></li>
           <li><a href="/metal-mastering-loudness/">Loudness Guide</a></li>
           <li><a href="/tools/">Tools for Bands</a></li>
           <li><a href="/#engineer">About Tim</a></li>
@@ -618,6 +630,7 @@ exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_de.py'),
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_cost.py'), encoding='utf-8').read())
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_stem.py'), encoding='utf-8').read())
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_label.py'), encoding='utf-8').read())
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen_suno.py'), encoding='utf-8').read())
 
 # ---------------------------------------------------------------- LOUDNESS GUIDE
 LG_PATH = '/metal-mastering-loudness/'
