@@ -512,3 +512,13 @@ table caption { text-align: left; padding: 14px 16px; font-family: var(--mono); 
   color: var(--text-muted);
   letter-spacing: 0.05em;
 }
+
+/* === Training / credential card (Suno Mastering, KI-Campus statement of achievement; 28 Nov 2026) === */
+.cred { margin: 28px 0 0; padding: 22px 24px; background: var(--bg-card); border: 1px solid var(--border-strong); border-left: 3px solid var(--accent); border-radius: 4px; max-width: 100%; }
+.cred .cred-kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
+.cred .cred-titel { font-weight: 700; color: var(--text); margin: 0 0 10px; }
+.cred .cred-meta { font-size: 14px; color: var(--text-dim); }
+.cred-figure { margin: 16px 0 0; }
+.cred-figure a { display: inline-block; line-height: 0; border: 1px solid var(--border-strong); }
+.cred-figure img { width: 240px; max-width: 100%; height: auto; }
+.cred-figure figcaption { font-family: var(--mono); font-size: 12px; letter-spacing: 1px; color: var(--text-dim); margin-top: 8px; }

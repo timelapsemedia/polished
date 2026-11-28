@@ -320,4 +320,20 @@
     <lastmod>2026-11-11</lastmod>
   </url>
 
+  <url>
+    <loc>https://polished.media/suno-mastering/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/suno-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/suno-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/suno-mastering/"/>
+  </url>
+
+  <url>
+    <loc>https://polished.media/de/suno-mastering/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://polished.media/suno-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://polished.media/de/suno-mastering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://polished.media/suno-mastering/"/>
+  </url>
+
 </urlset>

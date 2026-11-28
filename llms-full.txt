@@ -3459,3 +3459,151 @@ Right of withdrawal: You have the right to withdraw from this contract within fo
 Effects of withdrawal: If you withdraw, we will reimburse all payments received from you without undue delay and no later than fourteen days from the day we receive your notice, using the same means of payment you used, unless expressly agreed otherwise; you will not incur any fees for this reimbursement. If you requested that the services begin during the withdrawal period, you must pay us an amount proportionate to the services already provided up to the time you inform us of your withdrawal, compared with the full scope of services under the contract.
 Expiry of the right of withdrawal: For service contracts, the right of withdrawal expires when we have fully performed the service, provided we only began performance after you gave your express consent and at the same time acknowledged that you lose your right of withdrawal once we have fully performed the contract.
 Last updated: October 2026
+
+---
+
+## Suno Mastering: automatic mastering for AI tracks | Polished
+URL: https://polished.media/suno-mastering/
+
+Suno Mastering · from January 2027
+## Suno Mastering: your AI track, measured against real releases
+Suno Mastering is an automatic mastering subscription for songs made with Suno, Udio and other AI music tools. Every master is measured against released records of your genre, comes with a PDF report, and it's only delivered if it passes the quality checks. It starts in January 2027. Until then, you can join the waitlist.
+Join the waitlist →
+What it does
+Built by Tim Borchert, mastering engineer · Last updated: 28 November 2026
+### How Suno Mastering works
+Here's how it'll work from January 2027:
+- Your file: a WAV, AIFF or FLAC export of your song (44.1–96 kHz). You confirm that your plan on the AI tool allows commercial use.
+- Your genre: you pick the profile closest to your song. Each profile is the measured spread of released records: tonal balance, loudness, dynamics, stereo width and harshness.
+- The master: clipped peaks rebuilt, rumble removed, tonal balance moved into the genre range (only what lies outside it), low end centred, level set by dynamics with a true-peak ceiling of -1 dBTP.
+- Quality checks: every master is measured again for true peak, clipping, dynamics, tonal balance, harshness and mono compatibility. A master that fails a check isn't delivered.
+- Delivery: WAV at 16 bit / 44.1 kHz (the format distributors ask for), MP3 and a PDF report with the numbers before and after.
+### Genre profiles: metal, dark and electronic
+We measured the profiles from released records, with the same measurement we run on your file:
+- Black Metal (atmospheric / post)
+- Depressive / raw Black Metal
+- Melodic Death Metal
+- Brutal Death / Grind
+- Doom / Gothic Metal
+- Modern / Industrial Metal, NDH, Nu Metal
+- Psytrance
+- Hitech / Psycore / Darkpsy
+- Dubstep / Bass Music
+- Hardcore / Hardstyle
+Pop, hip-hop and singer-songwriter songs don't have a profile yet. We'd rather tell you that than guess.
+### Join the waitlist
+Leave your email and we'll send you one message when Suno Mastering opens in January 2027. No payment, no obligation, no newsletter.
+### AI music in 2026: the numbers
+Deezer receives almost 75,000 fully AI-generated tracks a day, about 44% of all daily uploads (Deezer press release, 20 April 2026). In June 2026 the share passed 50% at its peak. Yet AI tracks are only between 1 and 3% of all streams on Deezer, and in 2025 up to 85% of the streams of fully AI-generated tracks were fraudulent. Deezer tags these tracks and removes them from algorithmic recommendations.
+Deezer figureValue
+Fully AI-generated uploads per dayalmost 75,000 (July 2026: nearly 90,000)
+Share of daily uploadsabout 44% (June 2026 peak: over 50%)
+Share of all streamsbetween 1 and 3%
+Fraudulent streams of fully AI tracks (2025)up to 85%
+Algorithmic recommendationsAI-tagged tracks removed
+Source: Deezer newsroom, 20 April 2026, figures updated to July 2026.
+What this means for your song: mastering doesn't change how a platform classifies it, and we never try to hide where a track comes from. What a master can change is how your song holds up next to everything else in a playlist: level, harshness, low end and stereo image.
+### What Suno Mastering doesn't do
+- It doesn't listen. It measures and follows rules from real releases; the taste is yours.
+- It doesn't fix the song itself: a buried vocal, smeared cymbals or a muddy arrangement stay the way they are. The report names these problems, so you can regenerate or edit those parts.
+- It doesn't hide AI origin, and it won't change how Deezer, Spotify or anyone else detects or labels your track.
+- No stems, no vinyl master, no album matching and no reference track of your own.
+### Three ways to get mastered at Polished
+Suno MasteringPolished AutoPolished by Tim
+Forsongs from Suno, Udio and other AI toolsyour band's own mixreleases that need decisions by ear
+Who does the workautomatic, measured against genre releasesautomatic, measured against genre releasesTim, mastering engineer
+Delivery16-bit WAV + MP3 + PDF report24-bit master + streaming version + PDF reportall formats, written plan, revisions
+StartsJanuary 2027January 2027now
+Polished by Tim: the hand-mastering packages
+### Who builds it
+Suno Mastering runs on the same engine as Polished Auto. Tim Borchert built and tuned it: mastering engineer for metal and gothic at Polished, student of Systematic Musicology and Media Studies at the University of Hamburg.
+Training
+AI fundamentals · KI-Campus / Heinrich Heine University Düsseldorf
+In November 2026 Tim finished the online course “KI für Alle 1: Einführung in die Künstliche Intelligenz” (AI for Everyone 1: Introduction to Artificial Intelligence) with a statement of achievement. 45 hours of machine learning basics, data preparation and analysis, Python, and the ethical and legal side of AI.
+Statement of achievement · 45 h · November 2026 · course page
+View certificate · verifiable via KI-Campus
+### Suno Mastering FAQ
+What is Suno mastering?
+Suno mastering is the final step for a song made with Suno or another AI music tool before release: level, tonal balance, low end, stereo image and peaks are brought in line with released records of the genre. Suno Mastering at Polished does this automatically and measures every master against real releases.
+Does mastering make my AI track pass as human-made?
+No. Mastering changes level and tone, not where a song comes from. Deezer tags fully AI-generated tracks and removes them from algorithmic recommendations, and Suno Mastering doesn't try to get around that.
+Which genres work best?
+Metal, gothic and dark music, psytrance, hitech and other electronic styles, because we measured the genre profiles from released records in those genres. Pop, hip-hop and singer-songwriter songs don't have a profile yet.
+Do I need the rights to my Suno song?
+Yes. You confirm that your plan on the AI tool allows commercial use of the song. Free plans of AI music tools are often limited to personal use, so check your tool's terms.
+When does Suno Mastering start?
+In January 2027, together with Polished Auto. If you're on the waitlist, you'll get one message when it opens.
+
+---
+
+## Suno-Mastering: automatisches Mastering für KI-Songs | Polished
+URL: https://polished.media/de/suno-mastering/
+
+Suno-Mastering · ab Januar 2027
+## Suno-Mastering: dein KI-Song, gemessen an echten Veröffentlichungen
+Suno-Mastering ist ein automatisches Mastering-Abo für Songs aus Suno, Udio und anderen KI-Musikwerkzeugen. Jeder Master wird an veröffentlichten Platten deines Genres gemessen, kommt mit PDF-Bericht und wird nur geliefert, wenn er die Qualitätsprüfung besteht. Los geht es im Januar 2027. Bis dahin kannst du dich auf die Warteliste setzen.
+Auf die Warteliste →
+So funktioniert es
+Entwickelt von Tim Borchert, Mastering Engineer · Zuletzt aktualisiert: 28.11.2026
+### So funktioniert Suno-Mastering
+So wird es ab Januar 2027 laufen:
+- Deine Datei: ein WAV-, AIFF- oder FLAC-Export deines Songs (44,1–96 kHz). Du bestätigst, dass dein Tarif beim KI-Werkzeug die kommerzielle Nutzung erlaubt.
+- Dein Genre: Du wählst das passende Profil. Jedes Profil ist die gemessene Bandbreite veröffentlichter Platten: Klangbalance, Lautheit, Dynamik, Stereobreite und Härte.
+- Der Master: geclippte Spitzen rekonstruiert, Rumpeln entfernt, Klangbalance in den Genrebereich gebracht (nur was außerhalb liegt), Tiefbass zentriert, Pegel nach Dynamik mit True-Peak-Grenze bei -1 dBTP.
+- Qualitätsprüfung: Jeder Master wird erneut gemessen: True Peak, Clipping, Dynamik, Klangbalance, Härte und Mono-Kompatibilität. Fällt er durch, wird er nicht geliefert.
+- Lieferung: WAV mit 16 Bit / 44,1 kHz (das Format, das Vertriebe verlangen), MP3 und ein PDF-Bericht mit den Werten vorher und nachher.
+### Genreprofile: Metal, Dark und Elektronik
+Die Profile sind an veröffentlichten Platten gemessen, mit derselben Messung wie deine Datei:
+- Black Metal (atmospheric / post)
+- Depressive / raw Black Metal
+- Melodic Death Metal
+- Brutal Death / Grind
+- Doom / Gothic Metal
+- Modern / Industrial Metal, NDH, Nu Metal
+- Psytrance
+- Hitech / Psycore / Darkpsy
+- Dubstep / Bass Music
+- Hardcore / Hardstyle
+Für Pop, Hip-Hop oder Singer-Songwriter gibt es noch kein Profil. Das sagen wir lieber offen, als zu raten.
+### Auf die Warteliste
+Trag deine E-Mail ein, dann bekommst du eine Nachricht, sobald Suno-Mastering im Januar 2027 startet. Keine Zahlung, keine Verpflichtung, kein Newsletter.
+### KI-Musik 2026: die Zahlen
+Deezer bekommt fast 75.000 vollständig KI-generierte Tracks am Tag, rund 44 % aller täglichen Uploads (Deezer-Pressemitteilung vom 20.04.2026). Im Juni 2026 lag der Anteil in der Spitze über 50 %. Trotzdem machen KI-Tracks nur zwischen 1 und 3 % aller Streams auf Deezer aus, und 2025 waren bis zu 85 % der Streams vollständig KI-generierter Tracks Betrug. Deezer kennzeichnet diese Tracks und nimmt sie aus den algorithmischen Empfehlungen.
+Kennzahl DeezerWert
+Vollständig KI-generierte Uploads pro Tagfast 75.000 (Juli 2026: fast 90.000)
+Anteil an den täglichen Uploadsrund 44 % (Spitze Juni 2026: über 50 %)
+Anteil an allen Streamszwischen 1 und 3 %
+Betrügerische Streams vollständiger KI-Tracks (2025)bis zu 85 %
+Algorithmische EmpfehlungenKI-gekennzeichnete Tracks entfernt
+Quelle: Deezer Newsroom, 20.04.2026, Zahlen aktualisiert bis Juli 2026.
+Was das für deinen Song heißt: Mastering ändert nicht, wie eine Plattform ihn einordnet, und Suno-Mastering versucht nie zu verschleiern, woher ein Track kommt. Ein Master kann aber ändern, wie der Song neben allem anderen in einer Playlist besteht: Pegel, Härte, Tiefbass und Stereobild.
+### Was Suno-Mastering nicht macht
+- Es hört nicht zu. Es misst und folgt Regeln aus echten Veröffentlichungen; der Geschmack bleibt bei dir.
+- Es repariert nicht den Song selbst: Eine versteckte Stimme, verwaschene Becken oder ein matschiges Arrangement bleiben, wie sie sind. Der Bericht nennt solche Probleme, damit du Teile neu erzeugen oder bearbeiten kannst.
+- Es verschleiert keine KI-Herkunft und ändert nicht, wie Deezer, Spotify oder andere den Track erkennen oder kennzeichnen.
+- Keine Stems, kein Vinyl-Master, kein Album-Angleich, kein eigener Referenztrack.
+### Drei Wege zum Master bei Polished
+Suno-MasteringPolished AutoPolished by Tim
+FürSongs aus Suno, Udio und anderen KI-Werkzeugenden eigenen Mix deiner BandVeröffentlichungen, die Entscheidungen nach Gehör brauchen
+Wer arbeitetautomatisch, gemessen an Genre-Veröffentlichungenautomatisch, gemessen an Genre-VeröffentlichungenTim, Mastering Engineer
+Lieferung16-Bit-WAV + MP3 + PDF-Bericht24-Bit-Master + Streaming-Version + PDF-Berichtalle Formate, schriftlicher Plan, Revisionen
+StartJanuar 2027Januar 2027jetzt
+Polished by Tim: die Pakete für Handmastering
+### Wer dahintersteht
+Suno-Mastering läuft auf derselben Engine wie Polished Auto. Gebaut und abgestimmt hat sie Tim Borchert, Mastering Engineer für Metal und Gothic bei Polished und Student der Systematischen Musikwissenschaft und Medienwissenschaft an der Universität Hamburg.
+Weiterbildung
+KI-Grundlagen · KI-Campus / Heinrich-Heine-Universität Düsseldorf
+Im November 2026 hat Tim den Onlinekurs „KI für Alle 1: Einführung in die Künstliche Intelligenz“ mit Leistungsnachweis abgeschlossen. 45 Stunden: Grundlagen des maschinellen Lernens, Datenaufbereitung und -analyse, Python sowie ethische und rechtliche Fragen rund um KI.
+Leistungsnachweis · 45 Std. · November 2026 · Kursseite
+Zertifikat ansehen · über KI-Campus überprüfbar
+### Suno-Mastering: FAQ
+Was ist Suno-Mastering?
+Suno-Mastering ist der letzte Schritt für einen Song aus Suno oder einem anderen KI-Musikwerkzeug vor der Veröffentlichung: Pegel, Klangbalance, Tiefbass, Stereobild und Spitzen werden an veröffentlichte Platten des Genres angepasst. Suno-Mastering bei Polished macht das automatisch und misst jeden Master an echten Veröffentlichungen.
+Klingt mein KI-Track nach dem Mastering wie von Menschen gemacht?
+Nein. Mastering ändert Pegel und Klang, nicht die Herkunft eines Songs. Deezer kennzeichnet vollständig KI-generierte Tracks und nimmt sie aus den algorithmischen Empfehlungen; Suno-Mastering versucht nicht, das zu umgehen.
+Welche Genres passen am besten?
+Metal, Gothic und düstere Musik, Psytrance, Hitech und andere elektronische Stile, weil die Genreprofile an veröffentlichten Platten dieser Genres gemessen sind. Für Pop, Hip-Hop und Singer-Songwriter gibt es noch kein Profil.
+Brauche ich die Rechte an meinem Suno-Song?
+Ja. Du bestätigst, dass dein Tarif beim KI-Werkzeug die kommerzielle Nutzung des Songs erlaubt. Gratis-Tarife von KI-Musikwerkzeugen sind oft nur für die private Nutzung freigegeben; prüf die Bedingungen deines Werkzeugs.
+Wann startet Suno-Mastering?
+Im Januar 2027, zusammen mit Polished Auto. Wer auf der Warteliste steht, bekommt beim Start eine Nachricht.

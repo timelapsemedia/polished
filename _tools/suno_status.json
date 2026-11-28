@@ -1,0 +1,11 @@
+{
+  "_info": "Suno Mastering (gen_suno.py). live=false: page shows announcement + waitlist only (no prices, no plans, no sign-up link). Live mode needs BOTH: build date >= 2027-01-01 AND live=true here. Set live=true only when every item in 'voraussetzungen' is done (see _tools/SUNO-OFFEN.md). Angebots-Sperre Dezember 2026: C:/kunden-kreislauf/angebots_sperre.py.",
+  "live": false,
+  "app_url": "/auto/app/?plan={plan}",
+  "voraussetzungen": [
+    "Polished Auto live on polished.media (/auto/ exists, branch polished-auto-2027 pushed)",
+    "Plans suno_starter and suno_pro in C:/polished-auto/server/config.py PLANS and as Lemon Squeezy variants",
+    "Suno delivery format in the engine: 16-bit/44.1 kHz WAV + MP3 + PDF report, tested on real Suno exports per genre profile",
+    "Provider details filled in (no {{ANBIETER_NAME}} left), terms of Polished Auto cover the Suno plans"
+  ]
+}
