@@ -1,6 +1,6 @@
 {
  "marke": "polished",
- "stand": "2026-11-27T12:15+01:00",
+ "stand": "2026-11-28T10:15+01:00",
  "posts": [
   {
    "id": "2026-11-28-vm_gothic_velvet_b_ab",
@@ -44,12 +44,33 @@
    "thumb_offset": 1000
   },
   {
+   "id": "2026-12-02-frostfall-01",
+   "due": "2026-12-02T19:00+01:00",
+   "caption": "Nobody in Frostvik is allowed to open this cellar. Liv did it anyway. ❄️\nHer grandfather never forbade her anything. Only this one tape. Part 2 drops tomorrow.\nThe sounds from FROSTFALL: link in bio.\n\nNiemand in Frostvik darf diesen Keller öffnen. Liv hat es trotzdem getan.\nIhr Großvater hat ihr nie etwas verboten. Nur dieses eine Band. Teil 2 kommt morgen.\nDie Sounds aus FROSTFALL: Link in Bio.\n\nImage created with AI / Bild mit KI erstellt.\n\n#blackmetal #horrorstory #frostfall",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-02-frostfall-01.mp4"
+  },
+  {
    "id": "2026-12-02-vm_death_carrion_b_d_lowmids",
    "due": "2026-12-02T10:30+01:00",
    "caption": "160 to 630 Hz, mix vs master.\n\nLow mids only, first. For the first 14 seconds I only let 160 to 630 Hz through, both clips at the same overall level, and the master's got 3.9 dB more down there. That's the weight a thin death metal mix is missing.\n\nThen I bring in the full song: your mix as delivered at -19.6 LUFS, my master at -10.4.\n\nIt's Carrion Liturgy by Vesper Mortis.\n\nWas it easier to hear in the low mids alone or in the full mix?\n\n#deathmetal #mastering #metalmastering #mixingmastering #audioengineering",
    "image_urls": [],
    "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-02-vm_death_carrion_b_d_lowmids.mp4",
    "thumb_offset": 1000
+  },
+  {
+   "id": "2026-12-03-frostfall-02",
+   "due": "2026-12-03T14:30+01:00",
+   "caption": "Someone is playing guitar in the cellar. Liv holds the only key. 🎸❄️\nThe sounds from FROSTFALL: link in bio.\n\nJemand spielt im Keller Gitarre. Liv hat den einzigen Schlüssel.\nDie Sounds aus FROSTFALL: Link in Bio.\n\nImage created with AI / Bild mit KI erstellt.\n\n#blackmetal #horrorstory #frostfall",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-03-frostfall-02.mp4"
+  },
+  {
+   "id": "2026-12-03-frostfall-03",
+   "due": "2026-12-03T19:00+01:00",
+   "caption": "At 3:12 the church starts to rumble. There has been no drum kit in there since 1979. 🥁❄️\nThe sounds from FROSTFALL: link in bio.\n\nUm 3:12 fängt die Kirche an zu dröhnen. Obwohl es dort seit 1979 kein Schlagzeug mehr gibt.\nDie Sounds aus FROSTFALL: Link in Bio.\n\nImage created with AI / Bild mit KI erstellt.\n\n#blackmetal #horrorstory #frostfall",
+   "image_urls": [],
+   "video_url": "https://timelapsemedia.github.io/polished-social/reels/2026-12-03-frostfall-03.mp4"
   },
   {
    "id": "2026-12-03-vm_black_frostbound_b_d_seiten",
